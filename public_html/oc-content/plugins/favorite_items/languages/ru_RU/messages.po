@@ -1,0 +1,370 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Favorite Items Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 12:11+0100\n"
+"PO-Revision-Date: 2020-02-21 03:05+0300\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/configure.php:3 admin/configure.php:26 index.php:214 index.php:223
+#: index.php:252
+msgid "Configure"
+msgstr "Настройка"
+
+#: admin/configure.php:16
+msgid "Settings were successfully saved"
+msgstr "Настройки были успешно сохранены"
+
+#: admin/configure.php:39
+msgid "List Limit"
+msgstr "Предел списка"
+
+#: admin/configure.php:41 admin/configure.php:49
+msgid "items"
+msgstr "объявлений"
+
+#: admin/configure.php:43 admin/configure.php:51
+msgid ""
+"Set how many items can be added (favorited) into one user list. Default: 24"
+msgstr ""
+"Установите, сколько элементов можно добавить (добавить в избранное) в один "
+"список пользователей. По умолчанию: 24"
+
+#: admin/configure.php:47
+msgid "Listings per Page"
+msgstr "Списки на странице"
+
+#: admin/configure.php:56
+msgid "Quick Messages"
+msgstr "Быстрые сообщения"
+
+#: admin/configure.php:59
+msgid "Enable plugin quick messages in top right corner."
+msgstr "Включить плагин быстрых сообщений в правом верхнем углу."
+
+#: admin/configure.php:68
+msgid "This is demo site"
+msgstr "Это демонстрационный сайт"
+
+#: admin/configure.php:68 admin/configure.php:70 ajax.php:94 functions.php:83
+msgid "Save"
+msgstr "В избранное"
+
+#: admin/configure.php:80
+msgid "Plugin Setup"
+msgstr "Настройка плагина"
+
+#: admin/configure.php:85
+msgid ""
+"All themes bought at OsclassPoint.com has already plugin pre-integrated, "
+"however for themes from other authors modifications may be required."
+msgstr ""
+"Все темы, купленные на OsclassPoint.com, уже имеют встроенный плагин, однако "
+"для тем других авторов могут потребоваться модификации."
+
+#: admin/configure.php:87
+msgid "Make favorite button"
+msgstr "Сделать любимую кнопку"
+
+#: admin/configure.php:88
+msgid ""
+"Code must be entered inside item-loop.php or inside while(osc_has_items()) "
+"{ ... } loop:"
+msgstr ""
+"Код должен быть введен внутри item-loop.php или внутри(osc_has_items()) "
+"{ ... } loop:"
+
+#: admin/configure.php:93
+msgid "Show items in current list"
+msgstr "Показать элементы в текущем списке"
+
+#: admin/configure.php:94
+msgid ""
+"Show listings that are in currently selected user's favorite list. Code can "
+"be placed anywhere:"
+msgstr ""
+"Показать списки, которые находятся в списке избранного пользователя. Код "
+"можно разместить где угодно:"
+
+#: admin/configure.php:99
+msgid "Block with most favorited listings"
+msgstr "Блок с наиболее любимыми списками"
+
+#: admin/configure.php:100
+msgid ""
+"Show list of most favorited listings on your site. Code can be placed "
+"anywhere:"
+msgstr ""
+"Показать список наиболее популярных списков на вашем сайте. Код можно "
+"разместить где угодно:"
+
+#: ajax.php:33
+msgid "Favorite List"
+msgstr "Список избранного"
+
+#: ajax.php:43
+msgid "Offer in watch list"
+msgstr "Предложение в списке наблюдения"
+
+#: ajax.php:45 ajax.php:70 functions.php:73
+msgid "Saved"
+msgstr "Сохранено"
+
+#: ajax.php:48 ajax.php:74 functions.php:29
+msgid "Favorited"
+msgstr "Избранные"
+
+#: ajax.php:51 ajax.php:71 ajax.php:75 ajax.php:95 ajax.php:99
+msgid "Listing"
+msgstr "Списоки"
+
+#: ajax.php:51 ajax.php:75
+msgid "has been marked as your favorite"
+msgstr "отмечен как ваш избранный"
+
+#: ajax.php:67
+msgid "Job offer watched"
+msgstr "Просмотрено предложение работы"
+
+#: ajax.php:68 ajax.php:92
+msgid "Job offer"
+msgstr "Предложение работы"
+
+#: ajax.php:68
+msgid "has been added to watch list"
+msgstr "был добавлен в список просмотра"
+
+#: ajax.php:71
+msgid "has been saved"
+msgstr "был сохранен в избранном"
+
+#: ajax.php:80
+msgid ""
+"Your favorite list already contains maximum allowed listings. You can have "
+"maximum"
+msgstr ""
+"Ваш любимый список уже содержит максимально допустимые списки. Вы можете "
+"иметь максимум"
+
+#: ajax.php:80 user/user_menu_lists.php:121
+msgid "listing"
+msgstr "список"
+
+#: ajax.php:80 user/user_menu_lists.php:121
+msgid "listings"
+msgstr "списоки"
+
+#: ajax.php:80
+msgid "in each favorite list."
+msgstr "в каждом списке избранных."
+
+#: ajax.php:91 functions.php:80
+msgid "Watch job offer"
+msgstr "Смотреть предложение о работе"
+
+#: ajax.php:92
+msgid "is not watched anymore"
+msgstr "больше не смотрят"
+
+#: ajax.php:95
+msgid "is not saved anymore"
+msgstr "больше не сохраняется"
+
+#: ajax.php:98 functions.php:32
+msgid "Make favorite"
+msgstr "Сделать избранным"
+
+#: ajax.php:99
+msgid "is not your favorite anymore"
+msgstr "больше не твой избранный"
+
+#: ajax.php:152
+msgid "Listing has been removed from your favorite list"
+msgstr "Список был удален из вашего списка избранного"
+
+#: functions.php:69
+msgid "Watched job offer"
+msgstr "Просмотренное предложение о работе"
+
+#: functions.php:191
+msgid "Check with seller"
+msgstr "Уточнить у продавца"
+
+#: functions.php:193
+msgid "Free"
+msgstr "Бесплатно"
+
+#: index.php:171 user/list_items.php:5 user/user_menu_items.php:5
+msgid "You do not have any favorite listings"
+msgstr "У вас нет избранных списков"
+
+#: index.php:183
+msgid "Favorite"
+msgstr "Избранное"
+
+#: index.php:186
+msgid "Watched offers"
+msgstr "Просмотренные предложения"
+
+#: index.php:186
+msgid "Favorite items"
+msgstr "Избранные объявления"
+
+#: index.php:238
+msgid "Report Bug"
+msgstr "Сообщить об ошибке"
+
+#: index.php:239
+msgid "Support Forums"
+msgstr "Форумы поддержки"
+
+#: index.php:240
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: user/list_items.php:2
+msgid "Favorited listings"
+msgstr "Избранные объявления"
+
+#: user/list_items.php:37 user/user_menu_items.php:37
+msgid "Remove from list"
+msgstr "Удалить из списка"
+
+#: user/most_favorited_items.php:4
+msgid "Most favorited listings"
+msgstr "Самые популярные"
+
+#: user/most_favorited_items.php:7
+msgid "There are any favorite listings"
+msgstr "Есть избранные списки"
+
+#: user/user_menu_items.php:2
+msgid "Favorited listings in list"
+msgstr "Избраное объявления в списке"
+
+#: user/user_menu_lists.php:12
+msgid "List name cannot be empty. Please enter name."
+msgstr "Название списка не может быть пустым. Пожалуйста, введите название."
+
+#: user/user_menu_lists.php:20
+msgid "List has been updated"
+msgstr "Список был обновлен"
+
+#: user/user_menu_lists.php:26
+msgid ""
+"New list has been created and set as active, because you do not have any "
+"active favorite list"
+msgstr ""
+"Новый список был создан и установлен как активный, потому что у вас нет "
+"активного списка избранного"
+
+#: user/user_menu_lists.php:29
+msgid "New list has been created"
+msgstr "Новый список создан"
+
+#: user/user_menu_lists.php:56
+msgid "Favorite list"
+msgstr "Список избранного"
+
+#: user/user_menu_lists.php:56
+msgid "has been successfully removed"
+msgstr "был успешно удален"
+
+#: user/user_menu_lists.php:67
+msgid "List"
+msgstr "Список"
+
+#: user/user_menu_lists.php:67
+msgid "has been set to your current favorite list"
+msgstr "был установлен в ваш текущий список избранного"
+
+#: user/user_menu_lists.php:74
+msgid "Add new favorite lists"
+msgstr "Добавить новые списки избранного"
+
+#: user/user_menu_lists.php:82
+msgid "Enter name of new favorite list"
+msgstr "Введите название нового списка избранного"
+
+#: user/user_menu_lists.php:86
+msgid "set as active"
+msgstr "установить как активный"
+
+#: user/user_menu_lists.php:91
+msgid "notify me"
+msgstr "уведомить меня"
+
+#: user/user_menu_lists.php:94
+msgid "Submit"
+msgstr "Разместить"
+
+#: user/user_menu_lists.php:99
+msgid "Your favorite lists"
+msgstr "Ваши избранные списки"
+
+#: user/user_menu_lists.php:105
+msgid "You did not created any favorite list"
+msgstr "Вы не создали ни одного списка избранного"
+
+#: user/user_menu_lists.php:108
+msgid "List Name"
+msgstr "Имя списка"
+
+#: user/user_menu_lists.php:109
+msgid "# Items"
+msgstr "# Объявления"
+
+#: user/user_menu_lists.php:110
+msgid "Current"
+msgstr "Текущий"
+
+#: user/user_menu_lists.php:111
+msgid "Notify"
+msgstr "Поставить в известность"
+
+#: user/user_menu_lists.php:112
+msgid "Remove"
+msgstr "Удалить"
+
+#: user/user_menu_lists.php:120
+msgid "edit"
+msgstr "редактировать"
+
+#: user/user_menu_lists.php:124
+msgid "Are you sure you want to continue? This action cannot be undone."
+msgstr "Вы уверены что хотите продолжить? Это действие не может быть отменено."
+
+#: user/user_menu_lists.php:130
+msgid ""
+"Every user can have just 1 favorite list active/current. It only means, that "
+"if you add item to favorite list, it is added to active one. You can set "
+"favorite list to be active if you are going to work with it (add/remove "
+"items from it)."
+msgstr ""
+"Каждый пользователь может иметь только один список избранного / активный. "
+"Это означает только то, что если вы добавляете элемент в список избранных, "
+"он добавляется в активный. Вы можете установить список избранных, чтобы быть "
+"активным, если вы собираетесь работать с ним (добавлять / удалять элементы "
+"из него)."
+
+#: user/user_menu_lists.php:131
+msgid ""
+"If notifications are marked, you will be notified by email in case: Price on "
+"listing you has favorited has changed or Listing you favorited has been "
+"removed. It does not matter if favorite list is current/active or not."
+msgstr ""
+"Если уведомления помечены, вы будете уведомлены по электронной почте в "
+"случае, если: Цена в списке, который вы добавили в избранное, изменилась, "
+"или список, который вы добавили в избранное, был удален. Неважно, текущий "
+"список / активный или нет."

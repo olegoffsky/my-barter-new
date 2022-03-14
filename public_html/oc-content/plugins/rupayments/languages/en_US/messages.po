@@ -1,0 +1,3970 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Payments\n"
+"POT-Creation-Date: 2017-12-24 23:04+0300\n"
+"PO-Revision-Date: 2017-12-24 23:04+0300\n"
+"Last-Translator: Dis <disruptive555@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ModelRUpayments.php:1783 ModelRUpayments.php:1788 ModelRUpayments.php:1798
+#: ModelRUpayments.php:1803 ModelRUpayments.php:1808 ModelRUpayments.php:1813
+#: ModelRUpayments.php:1818 ModelRUpayments.php:1824 ModelRUpayments.php:1832
+#: ModelRUpayments.php:1844 ModelRUpayments.php:1848 ModelRUpayments.php:1857
+#: ModelRUpayments.php:1862 ModelRUpayments.php:1867 ModelRUpayments.php:1871
+#: ModelRUpayments.php:1876 ModelRUpayments.php:1882 ModelRUpayments.php:1890
+#: ModelRUpayments.php:2486 ModelRUpayments.php:2491 ModelRUpayments.php:2501
+#: ModelRUpayments.php:2506 ModelRUpayments.php:2511 ModelRUpayments.php:2516
+#: ModelRUpayments.php:2521 ModelRUpayments.php:2527 ModelRUpayments.php:2539
+#: ModelRUpayments.php:2543 ModelRUpayments.php:2552 ModelRUpayments.php:2557
+#: ModelRUpayments.php:2562 ModelRUpayments.php:2566 ModelRUpayments.php:2571
+#: ModelRUpayments.php:2576
+#, php-format
+msgid "duration %d days"
+msgstr ""
+
+#: ModelRUpayments.php:1905 ModelRUpayments.php:2365
+msgid "Publish item"
+msgstr ""
+
+#: ModelRUpayments.php:1908 ModelRUpayments.php:2368
+msgid "Publish and Mark as Premium"
+msgstr ""
+
+#: ModelRUpayments.php:1911
+msgid "Publish and Highlight"
+msgstr ""
+
+#: ModelRUpayments.php:1914 ModelRUpayments.php:2374
+msgid "Publish and activate Show Image"
+msgstr ""
+
+#: ModelRUpayments.php:1917 ModelRUpayments.php:2377
+msgid "Publish, Mark as Premium and activate Show Image"
+msgstr ""
+
+#: ModelRUpayments.php:1920 ModelRUpayments.php:2380
+msgid "Publish, Highlight item and activate Show Image"
+msgstr ""
+
+#: ModelRUpayments.php:1923 ModelRUpayments.php:2383
+msgid "Publish, Mark as Premium, Highlight item and activate Show Image"
+msgstr ""
+
+#: ModelRUpayments.php:1926 ModelRUpayments.php:2386 user/payments.php:183
+msgid "Publish and apply: Pack 3-in-1"
+msgstr ""
+
+#: ModelRUpayments.php:1929 ModelRUpayments.php:2389 user/payments.php:200
+msgid "Publish, activate Show Image and apply: Pack 3-in-1"
+msgstr ""
+
+#: ModelRUpayments.php:1932 ModelRUpayments.php:2392
+msgid "Publish and Highlight and mark as Premium"
+msgstr ""
+
+#: ModelRUpayments.php:1935 ModelRUpayments.php:1975 ModelRUpayments.php:2395
+#: ModelRUpayments.php:2429 admin/ads_settings.php:81 admin/conf.php:187
+#: admin/old_files/conf.php:186
+msgid "Move to Top"
+msgstr ""
+
+#: ModelRUpayments.php:1938 ModelRUpayments.php:1978
+#: payments/freekassa/status.php:139 payments/interkassa/notification.php:140
+#: payments/payeer/status.php:196 payments/robokassa/result.php:113
+#: payments/walletone/result.php:141 payments/yandex/notification.php:143
+#: payments/yandex/return.php:145
+msgid "Renew item"
+msgstr ""
+
+#: ModelRUpayments.php:1945
+msgid "Ad is published"
+msgstr ""
+
+#: ModelRUpayments.php:1948 ModelRUpayments.php:2402
+msgid "Mark as Premium"
+msgstr ""
+
+#: ModelRUpayments.php:1951 admin/ads_settings.php:100 admin/conf.php:203
+#: admin/old_files/conf.php:202
+msgid "Highlight"
+msgstr ""
+
+#: ModelRUpayments.php:1954 ModelRUpayments.php:2408
+msgid "Activate Show Image"
+msgstr ""
+
+#: ModelRUpayments.php:1957 ModelRUpayments.php:2411
+msgid "Mark as Premium and Activate Show Image"
+msgstr ""
+
+#: ModelRUpayments.php:1960 ModelRUpayments.php:2414
+msgid "Highlight item and Activate Show Image"
+msgstr ""
+
+#: ModelRUpayments.php:1963 ModelRUpayments.php:2417
+msgid "Mark as Premium, Highlight item and activate Show Image"
+msgstr ""
+
+#: ModelRUpayments.php:1966 ModelRUpayments.php:2420
+#: payments/freekassa/status.php:128 payments/interkassa/notification.php:129
+#: payments/payeer/status.php:185 payments/robokassa/result.php:102
+#: payments/walletone/result.php:130 payments/yandex/notification.php:132
+#: payments/yandex/return.php:134 user/item_edit.php:53 user/item_edit.php:54
+#: user/payments.php:177
+msgid "Apply: Pack 3-in-1"
+msgstr ""
+
+#: ModelRUpayments.php:1969 ModelRUpayments.php:2423
+#: payments/freekassa/status.php:129 payments/interkassa/notification.php:130
+#: payments/payeer/status.php:186 payments/robokassa/result.php:103
+#: payments/walletone/result.php:131 payments/yandex/notification.php:133
+#: payments/yandex/return.php:135 user/payments.php:194
+msgid "Activate Show Image and apply: Pack 3-in-1"
+msgstr ""
+
+#: ModelRUpayments.php:1972 ModelRUpayments.php:2426
+msgid "Highlight and mark as Premium"
+msgstr ""
+
+#: ModelRUpayments.php:2371
+msgid "Publish and Highlight item"
+msgstr ""
+
+#: ModelRUpayments.php:2405
+msgid "Highlight item"
+msgstr ""
+
+#: ModelRUpayments.php:3058
+msgid "Images already uploaded"
+msgstr ""
+
+#: ModelRUpayments.php:3064 ModelRUpayments.php:3071 ModelRUpayments.php:3216
+#: admin/user_groups.php:49 admin/user_packs.php:48
+#: examples/bender/item.php:163 examples/bender/loop-single-premium.php:48
+#: examples/bender/loop-single.php:48
+msgid "Delete"
+msgstr ""
+
+#: ModelRUpayments.php:3098
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr ""
+
+#: ModelRUpayments.php:3194
+msgid ""
+"Too many items ({netItems}) would be uploaded. Item limit is {itemLimit}."
+msgstr ""
+
+#: ModelRUpayments.php:3195
+msgid ""
+"The files are being uploaded, if you leave now the upload will be cancelled."
+msgstr ""
+
+#: ModelRUpayments.php:3196
+msgid "{file} has an invalid extension. Valid extension(s): {extensions}."
+msgstr ""
+
+#: ModelRUpayments.php:3197
+msgid "{file} is too large, maximum file size is {sizeLimit}."
+msgstr ""
+
+#: ModelRUpayments.php:3198
+msgid "{file} is empty, please select files again without it."
+msgstr ""
+
+#: ModelRUpayments.php:3211
+msgid "Click or Drop for upload images"
+msgstr ""
+
+#: ModelRUpayments.php:3212
+msgid "Processing..."
+msgstr ""
+
+#: ModelRUpayments.php:3213
+msgid "Retry"
+msgstr ""
+
+#: ModelRUpayments.php:3214
+msgid "Cancel"
+msgstr ""
+
+#: ModelRUpayments.php:3215
+msgid "Upload failed"
+msgstr ""
+
+#: ModelRUpayments.php:3217
+msgid "Deleting..."
+msgstr ""
+
+#: ModelRUpayments.php:3218
+#, php-format
+msgid "{percent}% of {total_size}"
+msgstr ""
+
+#: ModelRUpayments.php:3355 ModelRUpayments.php:3415 admin/banners.php:16
+msgid "Rejected"
+msgstr ""
+
+#: ModelRUpayments.php:3359 ModelRUpayments.php:3419
+msgid "Active"
+msgstr ""
+
+#: ModelRUpayments.php:3363 ModelRUpayments.php:3423
+msgid "Pending Payment"
+msgstr ""
+
+#: ModelRUpayments.php:3367 ModelRUpayments.php:3427
+msgid "No Funding"
+msgstr ""
+
+#: ModelRUpayments.php:3371 ModelRUpayments.php:3431
+msgid "Moderation"
+msgstr ""
+
+#: ModelRUpayments.php:4274 ModelRUpayments.php:4452 ModelRUpayments.php:4464
+#: ModelRUpayments.php:4473
+msgid "Returned to Buyer"
+msgstr ""
+
+#: ModelRUpayments.php:4278 ModelRUpayments.php:4367 ModelRUpayments.php:4375
+#: ModelRUpayments.php:4384
+msgid "Credited to Seller"
+msgstr ""
+
+#: ModelRUpayments.php:4283
+msgid "Withdrawn to Buyer"
+msgstr ""
+
+#: ModelRUpayments.php:4286
+msgid "Withdrawn to Seller"
+msgstr ""
+
+#: ModelRUpayments.php:4292
+msgid "Ordered Withdrawal to Buyer"
+msgstr ""
+
+#: ModelRUpayments.php:4295
+msgid "Ordered Withdrawal to Seller"
+msgstr ""
+
+#: ModelRUpayments.php:4301 ModelRUpayments.php:4390
+msgid "Returned to Seller"
+msgstr ""
+
+#: ModelRUpayments.php:4305 ModelRUpayments.php:4394 ModelRUpayments.php:4482
+msgid "Money Holded"
+msgstr ""
+
+#: ModelRUpayments.php:4311 ModelRUpayments.php:4400 ModelRUpayments.php:4488
+msgid "Сanceled by Seller"
+msgstr ""
+
+#: ModelRUpayments.php:4315 ModelRUpayments.php:4404 ModelRUpayments.php:4492
+msgid "Deal Success"
+msgstr ""
+
+#: ModelRUpayments.php:4319 ModelRUpayments.php:4408 ModelRUpayments.php:4496
+msgid "Awaiting Shipment"
+msgstr ""
+
+#: ModelRUpayments.php:4323 ModelRUpayments.php:4412 ModelRUpayments.php:4500
+msgid "Сanceled by Admin"
+msgstr ""
+
+#: ModelRUpayments.php:4327 ModelRUpayments.php:4416 ModelRUpayments.php:4504
+msgid "Accepted by Admin"
+msgstr ""
+
+#: ModelRUpayments.php:4331 ModelRUpayments.php:4420 ModelRUpayments.php:4508
+msgid "In processing"
+msgstr ""
+
+#: ModelRUpayments.php:4363
+msgid "Money Returned"
+msgstr ""
+
+#: ModelRUpayments.php:4372 ModelRUpayments.php:4461 admin/ebuy.php:82
+msgid "Withdrawn"
+msgstr ""
+
+#: ModelRUpayments.php:4381 ModelRUpayments.php:4470
+msgid "Ordered Withdrawal"
+msgstr ""
+
+#: ModelRUpayments.php:4456
+msgid "Money Credited"
+msgstr ""
+
+#: ModelRUpayments.php:4478
+msgid "Returned"
+msgstr ""
+
+#: admin/ads_category_prices.php:18 admin/ads_publishing_policy.php:17
+#: admin/ads_region_prices.php:17 admin/ads_settings.php:30
+#: admin/banner_settings.php:10 admin/conf.php:127 admin/conf_policy.php:22
+#: admin/conf_prices.php:27 admin/ebuy.php:37 admin/old_files/conf.php:127
+#: admin/old_files/conf_policy.php:22 admin/old_files/conf_prices.php:27
+#: admin/payments.php:73 admin/user_bonuses.php:36 admin/user_groups.php:10
+#: admin/user_packs.php:10
+msgid "Congratulations, the plugin is now configured"
+msgstr ""
+
+#: admin/ads_category_prices.php:83 admin/ads_publishing_policy.php:82
+#: admin/ads_publishing_policy.php:95 admin/conf_policy.php:89
+#: admin/conf_prices.php:88 admin/old_files/conf_policy.php:89
+#: admin/old_files/conf_prices.php:88
+msgid "Category Name"
+msgstr ""
+
+#: admin/ads_category_prices.php:84 admin/ads_region_prices.php:37
+#: admin/conf_prices.php:89 admin/old_files/conf_prices.php:89
+#, php-format
+msgid "Publish (%s)"
+msgstr ""
+
+#: admin/ads_category_prices.php:85 admin/ads_region_prices.php:38
+#: admin/conf_prices.php:90 admin/old_files/conf_prices.php:90
+#, php-format
+msgid "Renew (%s)"
+msgstr ""
+
+#: admin/ads_category_prices.php:86 admin/ads_region_prices.php:39
+#, php-format
+msgid "Image (%s)"
+msgstr ""
+
+#: admin/ads_category_prices.php:87 admin/ads_region_prices.php:40
+#: admin/conf_prices.php:91 admin/old_files/conf_prices.php:91
+#, php-format
+msgid "Premium (%s)"
+msgstr ""
+
+#: admin/ads_category_prices.php:88 admin/ads_region_prices.php:41
+#, php-format
+msgid "Move to top (%s)"
+msgstr ""
+
+#: admin/ads_category_prices.php:89 admin/ads_region_prices.php:42
+#: admin/conf_prices.php:93 admin/old_files/conf_prices.php:93
+#, php-format
+msgid "Highlighting (%s)"
+msgstr ""
+
+#: admin/ads_category_prices.php:90 admin/ads_region_prices.php:43
+#, php-format
+msgid "Pack 3-in-1 (%s)"
+msgstr ""
+
+#: admin/ads_category_prices.php:96 admin/ads_publishing_policy.php:108
+#: admin/ads_region_prices.php:180 admin/ads_settings.php:347
+#: admin/banner_settings.php:57 admin/conf.php:881 admin/old_files/conf.php:880
+#: admin/payments.php:708 admin/user_bonuses.php:116 admin/user_groups.php:85
+#: admin/user_packs.php:82
+msgid "Save changes"
+msgstr ""
+
+#: admin/ads_category_prices.php:101 admin/ads_publishing_policy.php:122
+#: admin/conf_policy.php:112
+msgid ""
+"If you have too many categories and when saving data, not all data is saved "
+"- you need to increase <span class=\"htaccess-function\">\"max_input_vars\"</"
+"span> in PHP settings. And maybe:"
+msgstr ""
+
+#: admin/ads_category_prices.php:102 admin/ads_publishing_policy.php:123
+#: admin/ads_region_prices.php:189 admin/conf_policy.php:113
+msgid "<span class=\"htaccess-function\">suhosin.get.max_vars</span>"
+msgstr ""
+
+#: admin/ads_category_prices.php:103 admin/ads_publishing_policy.php:124
+#: admin/ads_region_prices.php:190 admin/conf_policy.php:114
+msgid "<span class=\"htaccess-function\">suhosin.post.max_vars</span>"
+msgstr ""
+
+#: admin/ads_category_prices.php:104 admin/ads_publishing_policy.php:125
+#: admin/ads_region_prices.php:191 admin/conf_policy.php:115
+msgid "<span class=\"htaccess-function\">suhosin.request.max_vars</span>"
+msgstr ""
+
+#: admin/ads_category_prices.php:105
+msgid ""
+"<strong>For Example:</strong> if you have 1000 categories, you need set - "
+"<span class=\"htaccess-function\">max_input_vars 7000</span>"
+msgstr ""
+
+#: admin/ads_category_prices.php:106 admin/ads_publishing_policy.php:127
+msgid "<strong>7 input_vars for each category.</strong>"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:69
+msgid "Default"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:83 admin/ads_publishing_policy.php:96
+msgid "Quantity of free ads"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:84 admin/ads_publishing_policy.php:97
+msgid "Free Unlimited"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:84 admin/ads_publishing_policy.php:97
+msgid "Turn on the <strong>Publish fee</strong> to enable this feature"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:113
+msgid "<strong>Important!!!</strong>"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:114
+msgid "If you have enabled option - \"Item-post Form\""
+msgstr ""
+
+#: admin/ads_publishing_policy.php:115 admin/conf_policy.php:100
+#: admin/old_files/conf_policy.php:100
+msgid ""
+"For unregistered users Publish Policy work only \"All adds without Publish "
+"fee\" or \"Choose number of ads without Publish fee\" = 0"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:116 admin/conf_policy.php:102
+#: admin/old_files/conf_policy.php:102
+msgid ""
+"If you set the value \"Choose number of ads without Publish fee\" = 1,2,3 "
+"etc. An unregistered user will not see in the item-post page that the "
+"publishing item must be paid"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:117 admin/conf_policy.php:104
+#: admin/old_files/conf_policy.php:104
+msgid ""
+"But if he chooses premium or highlights: He will see that he must pay on the "
+"next page"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:118 admin/conf_policy.php:106
+#: admin/old_files/conf_policy.php:106
+msgid "If he chooses No,thanks: He will only find out about this from a e-mail"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:119 admin/conf_policy.php:108
+#: admin/old_files/conf_policy.php:108
+msgid ""
+"The best solution. All users must register on your site or you should use "
+"\"After publish\" option and do not use the \"Item-post Form\" option"
+msgstr ""
+
+#: admin/ads_publishing_policy.php:126
+msgid ""
+"<strong>For Example:</strong> if you have 1000 categories you need setup - "
+"<span class=\"htaccess-function\">max_input_vars 7000</span>"
+msgstr ""
+
+#: admin/ads_region_prices.php:36
+msgid "Region Name"
+msgstr ""
+
+#: admin/ads_region_prices.php:184 admin/banners.php:80 admin/ebuy.php:90
+#: admin/logs.php:58 user/banners.php:72 user/ebuy_deals.php:94
+#: user/ebuy_deals.php:131
+msgid "No data to display"
+msgstr ""
+
+#: admin/ads_region_prices.php:187
+msgid ""
+"If you have many cities. To configure this option, you may need a lot of "
+"server resources. Be careful."
+msgstr ""
+
+#: admin/ads_region_prices.php:188
+msgid ""
+"If you have too many cities and when saving data, not all data is saved - "
+"you need to increase <span class=\"htaccess-function\">\"max_input_vars\"</"
+"span> in PHP settings. And maybe:"
+msgstr ""
+
+#: admin/ads_region_prices.php:192
+msgid ""
+"<strong>For Example:</strong> if you have 1000 cities you need setup - <span "
+"class=\"htaccess-function\">max_input_vars 7000</span>"
+msgstr ""
+
+#: admin/ads_region_prices.php:193
+msgid "<strong>7 input_vars for each city.</strong>"
+msgstr ""
+
+#: admin/ads_settings.php:48
+msgid "Service"
+msgstr ""
+
+#: admin/ads_settings.php:49
+#, php-format
+msgid "Cost (%s)"
+msgstr ""
+
+#: admin/ads_settings.php:50
+msgid "Duration (days)"
+msgstr ""
+
+#: admin/ads_settings.php:51
+msgid "Option"
+msgstr ""
+
+#: admin/ads_settings.php:52 admin/banner_settings.php:33 admin/banners.php:52
+#: user/banners.php:49
+msgid "Status"
+msgstr ""
+
+#: admin/ads_settings.php:59 admin/conf.php:169 admin/old_files/conf.php:168
+msgid "Premium ads"
+msgstr ""
+
+#: admin/ads_settings.php:59 admin/conf.php:173 admin/old_files/conf.php:172
+msgid "Allow premium ads"
+msgstr ""
+
+#: admin/ads_settings.php:81 admin/conf.php:191 admin/old_files/conf.php:190
+msgid "Allow move to top"
+msgstr ""
+
+#: admin/ads_settings.php:100 admin/conf.php:208 admin/old_files/conf.php:207
+msgid "Allow highlighting"
+msgstr ""
+
+#: admin/ads_settings.php:125
+msgid "Pack 3-in-1"
+msgstr ""
+
+#: admin/ads_settings.php:125
+msgid ""
+"Enable purchase of services package (Premium + Highlighting + Move to Top)"
+msgstr ""
+
+#: admin/ads_settings.php:147 admin/conf.php:242 admin/old_files/conf.php:241
+msgid "Publish fee"
+msgstr ""
+
+#: admin/ads_settings.php:147 admin/conf.php:246 admin/old_files/conf.php:245
+msgid "Pay per post ads"
+msgstr ""
+
+#: admin/ads_settings.php:147 admin/ads_settings.php:316
+#: admin/ads_settings.php:327 admin/conf.php:250 admin/conf.php:296
+#: admin/conf.php:309 admin/old_files/conf.php:249 admin/old_files/conf.php:295
+#: admin/old_files/conf.php:308
+msgid "Logout from oc-admin to test this function."
+msgstr ""
+
+#: admin/ads_settings.php:166 admin/conf.php:258 admin/old_files/conf.php:257
+msgid "Renew fee"
+msgstr ""
+
+#: admin/ads_settings.php:166 admin/conf.php:262 admin/old_files/conf.php:261
+msgid "Pay renew expiration item"
+msgstr ""
+
+#: admin/ads_settings.php:185 admin/help.php:476
+msgid "Pay per Show Image"
+msgstr ""
+
+#: admin/ads_settings.php:185
+msgid "When enabled, users must pay to show images on their ads"
+msgstr ""
+
+#: admin/ads_settings.php:206 admin/conf.php:341 admin/old_files/conf.php:340
+msgid "Default currency"
+msgstr ""
+
+#: admin/ads_settings.php:206
+msgid ""
+"IMPORTANT! Only 2checkout work with all currencies. <br /> Payumoney work "
+"only with INR. Braintree and Fortumo setup currency in your merchant "
+"account. For other payment system - see in official sites."
+msgstr ""
+
+#: admin/ads_settings.php:305 admin/conf.php:273 admin/old_files/conf.php:272
+msgid "After publish"
+msgstr ""
+
+#: admin/ads_settings.php:305 admin/conf.php:277 admin/old_files/conf.php:276
+msgid "Allow after publish"
+msgstr ""
+
+#: admin/ads_settings.php:305
+msgid ""
+"This option offers to user after the item publication -  paid services. <br /"
+"> Work Only if Item-post Form Disabled. Logout from oc-admin to test this "
+"function."
+msgstr ""
+
+#: admin/ads_settings.php:316 admin/conf.php:285 admin/old_files/conf.php:284
+msgid "Item-post Form"
+msgstr ""
+
+#: admin/ads_settings.php:316 admin/conf.php:295 admin/old_files/conf.php:294
+msgid ""
+"This option offers to user in the item publication step -  paid services."
+msgstr ""
+
+#: admin/ads_settings.php:327 admin/conf.php:298 admin/old_files/conf.php:297
+msgid "Item Form"
+msgstr ""
+
+#: admin/ads_settings.php:327 admin/conf.php:308 admin/old_files/conf.php:307
+msgid "This option offers to user in the item page -  paid services."
+msgstr ""
+
+#: admin/ads_settings.php:338 admin/conf.php:311 admin/old_files/conf.php:310
+msgid "Days (send e-mail) before payment deadline"
+msgstr ""
+
+#: admin/banner_settings.php:28 admin/banners.php:46 admin/log.php:32
+#: admin/logs.php:19 admin/old_files/log.php:32 admin/payments.php:638
+#: admin/user_groups.php:42 admin/user_packs.php:42
+msgid "ID"
+msgstr ""
+
+#: admin/banner_settings.php:29 admin/banner_settings.php:41
+msgid "Banner Title"
+msgstr ""
+
+#: admin/banner_settings.php:30
+msgid "Code"
+msgstr ""
+
+#: admin/banner_settings.php:30
+msgid ""
+"To enable the ability to buy the publication of banners, put this line of "
+"code anywhere in your template!"
+msgstr ""
+
+#: admin/banner_settings.php:31
+#, php-format
+msgid "Views Fee (%s)"
+msgstr ""
+
+#: admin/banner_settings.php:32
+#, php-format
+msgid "Clicks Fee (%s)"
+msgstr ""
+
+#: admin/banner_settings.php:43
+msgid "Views Fee"
+msgstr ""
+
+#: admin/banner_settings.php:44
+msgid "Clicks Fee"
+msgstr ""
+
+#: admin/banner_settings.php:61
+msgid "You can add the banner code to the any places on the site."
+msgstr ""
+
+#: admin/banner_settings.php:62
+msgid "Users of the site will be able to buy a place and upload their banner."
+msgstr ""
+
+#: admin/banner_settings.php:63
+msgid "First the user upload his banner."
+msgstr ""
+
+#: admin/banner_settings.php:64
+msgid "After that, the banner will be waiting moderation from you in Banners."
+msgstr ""
+
+#: admin/banner_settings.php:65
+msgid ""
+"After your approval, the user will be able to prepay views or clicks of the "
+"banner."
+msgstr ""
+
+#: admin/banner_settings.php:66
+msgid ""
+"After the prepayment amount has been used up, the banner will not be "
+"displayed."
+msgstr ""
+
+#: admin/banner_settings.php:67
+msgid ""
+"The full statistics of views and clicks the user can see in the personal "
+"account on the site."
+msgstr ""
+
+#: admin/banner_settings.php:68
+msgid "You, too, can see all the statistics in the menu Banners."
+msgstr ""
+
+#: admin/banners.php:11
+msgid "Accepted"
+msgstr ""
+
+#: admin/banners.php:21
+msgid "Deleted"
+msgstr ""
+
+#: admin/banners.php:29
+msgid "Congratulations, the banner "
+msgstr ""
+
+#: admin/banners.php:30
+msgid "Error: The Banner can't be "
+msgstr ""
+
+#: admin/banners.php:47 user/banners.php:44
+msgid "Banner"
+msgstr ""
+
+#: admin/banners.php:48 user/banners.php:45
+msgid "Views"
+msgstr ""
+
+#: admin/banners.php:49 user/banners.php:46
+msgid "Clicks"
+msgstr ""
+
+#: admin/banners.php:50 user/banners.php:47
+msgid "Spent"
+msgstr ""
+
+#: admin/banners.php:51 user/banner_publish.php:54 user/banners.php:48
+msgid "Budget"
+msgstr ""
+
+#: admin/banners.php:53 admin/ebuy.php:64 user/banners.php:50
+#: user/ebuy_deals.php:71 user/ebuy_deals.php:107
+msgid "Action"
+msgstr ""
+
+#: admin/banners.php:60 admin/banners.php:61 admin/user_groups.php:59
+#: admin/user_groups.php:72 admin/user_groups.php:98 user/banners.php:56
+#: user/banners.php:57
+msgid "Fee"
+msgstr ""
+
+#: admin/banners.php:70
+msgid "Accept Banner"
+msgstr ""
+
+#: admin/banners.php:71
+msgid "Reject Banner"
+msgstr ""
+
+#: admin/banners.php:72
+msgid "Delete Banner"
+msgstr ""
+
+#: admin/banners.php:107 user/banners.php:77
+msgid "Are you sure you want to delete this banner?"
+msgstr ""
+
+#: admin/bonus.php:17 admin/old_files/bonus.php:17 admin/user_bonuses.php:8
+#, php-format
+msgid "Add bonus to user (%s)"
+msgstr ""
+
+#: admin/bonus.php:30 admin/old_files/bonus.php:30 admin/user_bonuses.php:21
+msgid "Congratulations, the Bonus is now added"
+msgstr ""
+
+#: admin/bonus.php:35 admin/bonus.php:50 admin/old_files/bonus.php:35
+#: admin/old_files/bonus.php:50 admin/user_bonuses.php:49
+#: admin/user_bonuses.php:148
+msgid "Add Bonus"
+msgstr ""
+
+#: admin/bonus.php:44 admin/old_files/bonus.php:44 admin/user_bonuses.php:130
+msgid "User e-mail"
+msgstr ""
+
+#: admin/bonus.php:55 admin/old_files/bonus.php:55
+msgid "Add"
+msgstr ""
+
+#: admin/conf.php:148 admin/conf.php:159 admin/old_files/conf.php:148
+#: admin/old_files/conf.php:158
+msgid "Ultimate Payments settings"
+msgstr ""
+
+#: admin/conf.php:149 admin/conf_prices.php:77 admin/old_files/conf.php:149
+#: admin/old_files/conf_prices.php:77
+msgid "Category prices"
+msgstr ""
+
+#: admin/conf.php:150 admin/conf_policy.php:78 admin/old_files/conf.php:150
+#: admin/old_files/conf_policy.php:78
+msgid "Publishing policy"
+msgstr ""
+
+#: admin/conf.php:151 admin/log.php:22 admin/old_files/conf.php:151
+#: admin/old_files/log.php:22
+msgid "Ultimate Payments log"
+msgstr ""
+
+#: admin/conf.php:152 admin/old_files/conf.php:152
+msgid "Add bonus"
+msgstr ""
+
+#: admin/conf.php:153 admin/old_files/conf.php:153 admin/old_files/help.php:3
+#: admin/top_menu.php:65
+msgid "Help"
+msgstr ""
+
+#: admin/conf.php:179 admin/old_files/conf.php:178
+msgid "Default premium cost"
+msgstr ""
+
+#: admin/conf.php:183 admin/old_files/conf.php:182
+msgid "Premium days"
+msgstr ""
+
+#: admin/conf.php:197 admin/old_files/conf.php:196
+msgid "Default move to top"
+msgstr ""
+
+#: admin/conf.php:214 admin/old_files/conf.php:213
+msgid "Default highlighting"
+msgstr ""
+
+#: admin/conf.php:220 admin/old_files/conf.php:219
+msgid "Highlighting days"
+msgstr ""
+
+#: admin/conf.php:226 admin/old_files/conf.php:225
+msgid "Highlight color"
+msgstr ""
+
+#: admin/conf.php:233 admin/old_files/conf.php:232
+msgid "Discount for premium and highlighting both"
+msgstr ""
+
+#: admin/conf.php:238 admin/old_files/conf.php:237
+msgid "Leave blank - if you don't want to use discount."
+msgstr ""
+
+#: admin/conf.php:253 admin/old_files/conf.php:252
+msgid "Default publish cost"
+msgstr ""
+
+#: admin/conf.php:268 admin/old_files/conf.php:267
+msgid "Default renew cost"
+msgstr ""
+
+#: admin/conf.php:281 admin/old_files/conf.php:280
+msgid "This option offers to user after the item publication -  paid services."
+msgstr ""
+
+#: admin/conf.php:282 admin/old_files/conf.php:281
+msgid ""
+"Work Only if Item-post Form Disabled. Logout from oc-admin to test this "
+"function."
+msgstr ""
+
+#: admin/conf.php:289 admin/conf.php:302 admin/old_files/conf.php:288
+#: admin/old_files/conf.php:301
+msgid "Enable"
+msgstr ""
+
+#: admin/conf.php:317 admin/old_files/conf.php:316 admin/user_bonuses.php:63
+msgid "Bonus for new user"
+msgstr ""
+
+#: admin/conf.php:321 admin/old_files/conf.php:320
+msgid "Enable bonus"
+msgstr ""
+
+#: admin/conf.php:328 admin/old_files/conf.php:327 admin/user_bonuses.php:74
+msgid "Bonus value"
+msgstr ""
+
+#: admin/conf.php:333 admin/old_files/conf.php:332
+msgid "Currency"
+msgstr ""
+
+#: admin/conf.php:335 admin/old_files/conf.php:334
+msgid "IMPORTANT! Only 2checkout work with all currencies."
+msgstr ""
+
+#: admin/conf.php:337 admin/old_files/conf.php:336
+msgid ""
+"Payumoney work only with INR. Braintree and Fortumo setup currency in your "
+"merchant account. For other payment system - see in official sites."
+msgstr ""
+
+#: admin/conf.php:437 admin/log.php:85 admin/old_files/conf.php:436
+#: admin/old_files/log.php:85 index.php:229 index.php:384
+msgid "Wallet"
+msgstr ""
+
+#: admin/conf.php:440 admin/old_files/conf.php:439
+msgid ""
+"You could specify up to 3 'packs' that users can buy, so they don't need to "
+"pay each time they publish an ad. The credit from the pack will be stored "
+"for later uses in Wallet."
+msgstr ""
+
+#: admin/conf.php:445 admin/old_files/conf.php:444
+msgid "Specify at least one Price to add wallet in user account menu."
+msgstr ""
+
+#: admin/conf.php:449 admin/conf.php:453 admin/conf.php:457
+#: admin/old_files/conf.php:448 admin/old_files/conf.php:452
+#: admin/old_files/conf.php:456
+#, php-format
+msgid "Price of pack #%d"
+msgstr ""
+
+#: admin/conf.php:460 admin/old_files/conf.php:459
+msgid "Payments"
+msgstr ""
+
+#: admin/conf.php:462 admin/old_files/conf.php:461
+msgid "Paypal settings"
+msgstr ""
+
+#: admin/conf.php:462 admin/conf.php:507 admin/conf.php:559 admin/conf.php:601
+#: admin/conf.php:634 admin/conf.php:667 admin/conf.php:712 admin/conf.php:778
+#: admin/conf.php:841 admin/old_files/conf.php:461 admin/old_files/conf.php:506
+#: admin/old_files/conf.php:558 admin/old_files/conf.php:600
+#: admin/old_files/conf.php:633 admin/old_files/conf.php:666
+#: admin/old_files/conf.php:711 admin/old_files/conf.php:777
+#: admin/old_files/conf.php:840
+msgid "Show options"
+msgstr ""
+
+#: admin/conf.php:464 admin/old_files/conf.php:463 admin/payments.php:197
+msgid "Paypal enable"
+msgstr ""
+
+#: admin/conf.php:466 admin/old_files/conf.php:465 admin/payments.php:208
+msgid "Paypal API username"
+msgstr ""
+
+#: admin/conf.php:470 admin/old_files/conf.php:469 admin/payments.php:217
+msgid "Paypal API password"
+msgstr ""
+
+#: admin/conf.php:474 admin/old_files/conf.php:473 admin/payments.php:226
+msgid "Paypal API signature"
+msgstr ""
+
+#: admin/conf.php:478 admin/old_files/conf.php:477 admin/payments.php:235
+msgid "Paypal email"
+msgstr ""
+
+#: admin/conf.php:482 admin/old_files/conf.php:481 admin/payments.php:244
+msgid "Standard Paypal"
+msgstr ""
+
+#: admin/conf.php:487 admin/old_files/conf.php:486 admin/payments.php:244
+msgid ""
+"Use \"Standard Paypal\" if \"Digital Goods\" is not available in your country"
+msgstr ""
+
+#: admin/conf.php:493 admin/old_files/conf.php:492 admin/payments.php:255
+msgid "Paypal sandbox"
+msgstr ""
+
+#: admin/conf.php:498 admin/old_files/conf.php:497 admin/payments.php:255
+msgid "Use Paypal sandbox to test everything is right before going live"
+msgstr ""
+
+#: admin/conf.php:507 admin/old_files/conf.php:506
+msgid "2Checkout settings"
+msgstr ""
+
+#: admin/conf.php:509 admin/old_files/conf.php:508 admin/payments.php:270
+msgid "2checkout enable"
+msgstr ""
+
+#: admin/conf.php:511 admin/old_files/conf.php:510 admin/payments.php:281
+msgid "2Checkout account number"
+msgstr ""
+
+#: admin/conf.php:517 admin/old_files/conf.php:516 admin/payments.php:290
+msgid "2Checkout secret word"
+msgstr ""
+
+#: admin/conf.php:523 admin/help.php:127 admin/old_files/conf.php:522
+#: admin/old_files/help.php:122 admin/payments.php:299
+msgid "Language 2CO page"
+msgstr ""
+
+#: admin/conf.php:545 admin/old_files/conf.php:544 admin/payments.php:324
+msgid "2Checkout Sandbox"
+msgstr ""
+
+#: admin/conf.php:550 admin/old_files/conf.php:549 admin/payments.php:324
+msgid "Use rupayments sandbox to test everything is right before going live"
+msgstr ""
+
+#: admin/conf.php:559 admin/old_files/conf.php:558
+msgid "Braintree settings"
+msgstr ""
+
+#: admin/conf.php:561 admin/old_files/conf.php:560
+msgid "Braintree enable"
+msgstr ""
+
+#: admin/conf.php:564 admin/old_files/conf.php:563
+msgid "Braintree merchant id"
+msgstr ""
+
+#: admin/conf.php:568 admin/old_files/conf.php:567
+msgid "Braintree public key"
+msgstr ""
+
+#: admin/conf.php:572 admin/old_files/conf.php:571
+msgid "Braintree private key"
+msgstr ""
+
+#: admin/conf.php:576 admin/conf.php:613 admin/conf.php:646 admin/conf.php:687
+#: admin/conf.php:765 admin/conf.php:822 admin/old_files/conf.php:575
+#: admin/old_files/conf.php:612 admin/old_files/conf.php:645
+#: admin/old_files/conf.php:686 admin/old_files/conf.php:764
+#: admin/old_files/conf.php:821 admin/payments.php:484 admin/payments.php:561
+msgid "Enable Sandbox"
+msgstr ""
+
+#: admin/conf.php:581 admin/conf.php:618 admin/conf.php:651 admin/conf.php:692
+#: admin/conf.php:827 admin/old_files/conf.php:580 admin/old_files/conf.php:617
+#: admin/old_files/conf.php:650 admin/old_files/conf.php:691
+#: admin/old_files/conf.php:826 admin/payments.php:484 admin/payments.php:561
+msgid "Enable sandbox for development testing"
+msgstr ""
+
+#: admin/conf.php:587 admin/old_files/conf.php:586
+msgid "Braintree merchant id for test"
+msgstr ""
+
+#: admin/conf.php:591 admin/old_files/conf.php:590
+msgid "Braintree public key for test"
+msgstr ""
+
+#: admin/conf.php:595 admin/old_files/conf.php:594
+msgid "Braintree private key for test"
+msgstr ""
+
+#: admin/conf.php:601 admin/old_files/conf.php:600
+msgid "Stripe settings"
+msgstr ""
+
+#: admin/conf.php:603 admin/old_files/conf.php:602
+msgid "Stripe enable"
+msgstr ""
+
+#: admin/conf.php:605 admin/old_files/conf.php:604
+msgid "Stripe secret key"
+msgstr ""
+
+#: admin/conf.php:609 admin/old_files/conf.php:608
+msgid "Stripe public key"
+msgstr ""
+
+#: admin/conf.php:624 admin/old_files/conf.php:623
+msgid "Stripe secret key for test"
+msgstr ""
+
+#: admin/conf.php:628 admin/old_files/conf.php:627
+msgid "Stripe public key for test"
+msgstr ""
+
+#: admin/conf.php:634 admin/old_files/conf.php:633
+msgid "Payumoney settings"
+msgstr ""
+
+#: admin/conf.php:636 admin/old_files/conf.php:635
+msgid "Payumoney enable"
+msgstr ""
+
+#: admin/conf.php:638 admin/old_files/conf.php:637
+msgid "PayUMoney Key"
+msgstr ""
+
+#: admin/conf.php:642 admin/old_files/conf.php:641
+msgid "PayUMoney Salt"
+msgstr ""
+
+#: admin/conf.php:657 admin/old_files/conf.php:656
+msgid "PayUMoney Key for test"
+msgstr ""
+
+#: admin/conf.php:661 admin/old_files/conf.php:660
+msgid "PayUMoney Salt for test"
+msgstr ""
+
+#: admin/conf.php:667 admin/old_files/conf.php:666
+msgid "Skrill settings"
+msgstr ""
+
+#: admin/conf.php:669 admin/old_files/conf.php:668
+msgid "Skrill enable"
+msgstr ""
+
+#: admin/conf.php:671 admin/old_files/conf.php:670
+msgid "Skrill account e-mail"
+msgstr ""
+
+#: admin/conf.php:675 admin/old_files/conf.php:674
+msgid "Skrill merchant id"
+msgstr ""
+
+#: admin/conf.php:679 admin/old_files/conf.php:678
+msgid "Skrill secret word"
+msgstr ""
+
+#: admin/conf.php:683 admin/old_files/conf.php:682
+msgid "Skrill recipient description (short)"
+msgstr ""
+
+#: admin/conf.php:698 admin/old_files/conf.php:697
+msgid "Skrill test account e-mail"
+msgstr ""
+
+#: admin/conf.php:702 admin/old_files/conf.php:701
+msgid "Skrill test merchant id"
+msgstr ""
+
+#: admin/conf.php:706 admin/old_files/conf.php:705
+msgid "Skrill test secret word"
+msgstr ""
+
+#: admin/conf.php:712 admin/old_files/conf.php:711
+msgid "Payulatam settings"
+msgstr ""
+
+#: admin/conf.php:714 admin/old_files/conf.php:713
+msgid "Payulatam enable"
+msgstr ""
+
+#: admin/conf.php:716 admin/old_files/conf.php:715
+msgid "Remember! Payulatam required Tax and taxReturnBase."
+msgstr ""
+
+#: admin/conf.php:719 admin/old_files/conf.php:718
+msgid ""
+"tax! This is the transaction VAT. If VAT zero is sent the system, 19% will "
+"be applied automatically. It can contain two decimals. Eg 19000.00. In the "
+"where you do not charge VAT, it should should be set as 0."
+msgstr ""
+
+#: admin/conf.php:722 admin/old_files/conf.php:721
+msgid ""
+"taxReturnBase! This is the base value upon which VAT is calculated. If you "
+"do not charge VAT, it should be sent as 0."
+msgstr ""
+
+#: admin/conf.php:725 admin/old_files/conf.php:724
+msgid "tax:"
+msgstr ""
+
+#: admin/conf.php:731 admin/old_files/conf.php:730
+msgid "taxReturnBase:"
+msgstr ""
+
+#: admin/conf.php:737 admin/old_files/conf.php:736
+msgid "merchantId:"
+msgstr ""
+
+#: admin/conf.php:743 admin/old_files/conf.php:742
+msgid "accountId:"
+msgstr ""
+
+#: admin/conf.php:749 admin/old_files/conf.php:748
+msgid "apikey:"
+msgstr ""
+
+#: admin/conf.php:755 admin/old_files/conf.php:754
+msgid "Language Payulatam"
+msgstr ""
+
+#: admin/conf.php:773 admin/old_files/conf.php:772
+msgid "For testing Apikey, accountid ,merchantId you can get here:"
+msgstr ""
+
+#: admin/conf.php:778 admin/old_files/conf.php:777
+msgid "Fortumo settings"
+msgstr ""
+
+#: admin/conf.php:780 admin/old_files/conf.php:779
+msgid "fortumo enable"
+msgstr ""
+
+#: admin/conf.php:782 admin/old_files/conf.php:781
+msgid ""
+"Remember! Fortumo work only in Wallet. Specify at least one Price of pack "
+"before use, to enable Wallet in user menu."
+msgstr ""
+
+#: admin/conf.php:785 admin/old_files/conf.php:784
+msgid "Price(or prices) for SMS you specify in your Fortumo merchant account."
+msgstr ""
+
+#: admin/conf.php:788 admin/old_files/conf.php:787 admin/payments.php:543
+msgid "Service ID"
+msgstr ""
+
+#: admin/conf.php:794 admin/old_files/conf.php:793 admin/payments.php:552
+msgid "Secret:"
+msgstr ""
+
+#: admin/conf.php:800 admin/old_files/conf.php:799
+msgid "Language Fortumo"
+msgstr ""
+
+#: admin/conf.php:841 admin/old_files/conf.php:840
+msgid "Blockchain (bitcoin) settings"
+msgstr ""
+
+#: admin/conf.php:843 admin/old_files/conf.php:842
+msgid "blockchain enable"
+msgstr ""
+
+#: admin/conf.php:851 admin/old_files/conf.php:850 admin/payments.php:587
+msgid "xpub:"
+msgstr ""
+
+#: admin/conf.php:857 admin/old_files/conf.php:856 admin/payments.php:596
+msgid "api_key:"
+msgstr ""
+
+#: admin/conf.php:863 admin/old_files/conf.php:862 admin/payments.php:605
+msgid "secret:"
+msgstr ""
+
+#: admin/conf.php:869 admin/old_files/conf.php:868 admin/payments.php:614
+msgid "Count blocks:"
+msgstr ""
+
+#: admin/conf_policy.php:49 admin/old_files/conf_policy.php:49
+msgid "All ads without Publish fee"
+msgstr ""
+
+#: admin/conf_policy.php:63 admin/old_files/conf_policy.php:63
+msgid "Choose number of ads without Publish fee"
+msgstr ""
+
+#: admin/conf_policy.php:90 admin/old_files/conf_policy.php:90
+msgid "Policy"
+msgstr ""
+
+#: admin/conf_policy.php:94 admin/conf_prices.php:98
+#: admin/old_files/conf_policy.php:94 admin/old_files/conf_prices.php:98
+msgid "Update"
+msgstr ""
+
+#: admin/conf_policy.php:98 admin/old_files/conf_policy.php:98
+msgid "Important!If you have enabled option - \"Item-post Form\""
+msgstr ""
+
+#: admin/conf_policy.php:116
+msgid ""
+"<strong>For Example:</strong> if you have 1000 categories you need setup - "
+"<span class=\"htaccess-function\">max_input_vars 6000</span>"
+msgstr ""
+
+#: admin/conf_prices.php:92 admin/old_files/conf_prices.php:92
+#, php-format
+msgid "Move to top(%s)"
+msgstr ""
+
+#: admin/conf_prices.php:94 admin/old_files/conf_prices.php:94
+#, php-format
+msgid "Discount for Premium with Highlighting (%s)"
+msgstr ""
+
+#: admin/conf_prices.php:101 admin/old_files/conf_prices.php:101
+msgid ""
+"If you have too many categories and when saving data, not all data is saved "
+"- you need to increase \"max_input_vars\" in PHP settings. And maybe:"
+msgstr ""
+
+#: admin/conf_prices.php:102 admin/old_files/conf_prices.php:102
+msgid "suhosin.get.max_vars"
+msgstr ""
+
+#: admin/conf_prices.php:103 admin/old_files/conf_prices.php:103
+msgid "suhosin.post.max_vars"
+msgstr ""
+
+#: admin/conf_prices.php:104 admin/old_files/conf_prices.php:104
+msgid "suhosin.request.max_vars"
+msgstr ""
+
+#: admin/conf_prices.php:105 admin/old_files/conf_prices.php:105
+msgid "too(if you have such directives)"
+msgstr ""
+
+#: admin/conf_prices.php:106 admin/old_files/conf_prices.php:106
+msgid ""
+"For Example: if you have 1000 categories you need setup - max_input_vars 6000"
+msgstr ""
+
+#: admin/ebuy.php:18 user/ebuy_deals.php:31
+msgid "Congratulations! Deal Status successfully changed."
+msgstr ""
+
+#: admin/ebuy.php:21 admin/ebuy.php:25 user/ebuy_deals.php:34
+#: user/ebuy_deals.php:38
+msgid "Error: You can't change the Deal Status!"
+msgstr ""
+
+#: admin/ebuy.php:48 admin/top_menu.php:53
+msgid "eBuy"
+msgstr ""
+
+#: admin/ebuy.php:49 admin/left_menu.php:9 admin/left_menu.php:40
+msgid "Settings"
+msgstr ""
+
+#: admin/ebuy.php:58 user/ebuy_deals.php:66 user/ebuy_deals.php:102
+msgid "Item"
+msgstr ""
+
+#: admin/ebuy.php:59 user/ebuy_deals.php:67
+msgid "Seller"
+msgstr ""
+
+#: admin/ebuy.php:60 user/ebuy_deals.php:103
+msgid "Buyer"
+msgstr ""
+
+#: admin/ebuy.php:61 user/ebuy_deals.php:68 user/ebuy_deals.php:104
+#: user/pack.php:49
+msgid "Price"
+msgstr ""
+
+#: admin/ebuy.php:62 user/ebuy_deals.php:69 user/ebuy_deals.php:105
+msgid "Payment Status"
+msgstr ""
+
+#: admin/ebuy.php:63 user/ebuy_deals.php:70 user/ebuy_deals.php:106
+msgid "Deal Status"
+msgstr ""
+
+#: admin/ebuy.php:80 user/ebuy_deals.php:83
+msgid "Accept Deal"
+msgstr ""
+
+#: admin/ebuy.php:81 user/ebuy_deals.php:120
+msgid "Cancel Deal"
+msgstr ""
+
+#: admin/ebuy.php:93
+msgid "This option allows users to sell products directly on your website."
+msgstr ""
+
+#: admin/ebuy.php:94
+msgid "All payments for goods will be received by you."
+msgstr ""
+
+#: admin/ebuy.php:95
+msgid "On this page there will be information on each sale."
+msgstr ""
+
+#: admin/ebuy.php:96
+msgid ""
+"The seller and buyer will also be able to see this information in their "
+"personal account."
+msgstr ""
+
+#: admin/ebuy.php:111
+msgid "eBuy Status"
+msgstr ""
+
+#: admin/ebuy.php:111
+msgid "Allow users to sell in ads via the site"
+msgstr ""
+
+#: admin/ebuy.php:122
+msgid "Save Changes"
+msgstr ""
+
+#: admin/ebuy.php:144
+msgid "Are you sure you want to Accept Deal?"
+msgstr ""
+
+#: admin/ebuy.php:150
+msgid "Are you sure you want to Cancel Deal?"
+msgstr ""
+
+#: admin/ebuy.php:156
+msgid ""
+"Are you sure you want to change the status of the Deal to \"Money Withdrawn"
+"\"?"
+msgstr ""
+
+#: admin/help.php:7 admin/old_files/help.php:4 admin/payments.php:96
+msgid "Paypal"
+msgstr ""
+
+#: admin/help.php:10 admin/old_files/help.php:7
+msgid "API or Standard Payments?"
+msgstr ""
+
+#: admin/help.php:12
+msgid ""
+"API PayPal give you more control over the Paypal process, it's required for "
+"digital goods & micropayments (Note: Not all countries are allowed to have "
+"digital goods & micropayments processes). On the other side standard Paypal "
+"are simple, less customizable but works everywhere"
+msgstr ""
+
+#: admin/help.php:14
+msgid ""
+"Microppaypals offers a reduction on the fee to pay Paypal for orders under "
+"4$ (or equivalent), around 5cents + 5% while standard Paypal have a fee "
+"around 30cents + 5%. Due the nature of OSClass is recommended to use "
+"micropayments, but we're aware that they're not available worldwide. Please "
+"check with Paypal the avalaibility of the service in your area"
+msgstr ""
+
+#: admin/help.php:17 admin/old_files/help.php:14
+msgid "Setting up your Paypal account for Standard Payments"
+msgstr ""
+
+#: admin/help.php:19 admin/old_files/help.php:16
+msgid "Write your PayPal email and check the \"Use Standard Payment\" option"
+msgstr ""
+
+#: admin/help.php:22 admin/old_files/help.php:19
+msgid "Setting up your Paypal account for micropaymets/API"
+msgstr ""
+
+#: admin/help.php:24 admin/old_files/help.php:21
+msgid ""
+"Before being able to use Paypal plugin, you need to set up some "
+"configuration at your Paypal account"
+msgstr ""
+
+#: admin/help.php:26 admin/old_files/help.php:23
+msgid ""
+"Your Paypal account has to be set as Business or Premier, you could change "
+"that at Your Profile, under My Settings"
+msgstr ""
+
+#: admin/help.php:28
+#, php-format
+msgid ""
+"You need to sign in up for micropayments/digital good <a href=\"%s\">from "
+"here</a>"
+msgstr ""
+
+#: admin/help.php:30 admin/old_files/help.php:27
+msgid ""
+"You need Paypal API credentials (before entering here your API credentials, "
+"MODIFY index.php file of this plugin and change the value of "
+"PAYPAL_CRYPT_KEY variable to make your API more secure)"
+msgstr ""
+
+#: admin/help.php:32 admin/old_files/help.php:29
+msgid "You need to tell Paypal where is your IPN file"
+msgstr ""
+
+#: admin/help.php:34 admin/old_files/help.php:31
+msgid "Setting up your IPN"
+msgstr ""
+
+#: admin/help.php:36 admin/old_files/help.php:33
+msgid "Click Profile on the My Account tab"
+msgstr ""
+
+#: admin/help.php:38 admin/old_files/help.php:35
+msgid ""
+"Click Instant Payment Notification Preferences in the Selling Preferences "
+"column"
+msgstr ""
+
+#: admin/help.php:40 admin/old_files/help.php:37
+msgid ""
+"Click Choose IPN Settings to specify your listener?s URL and activate the "
+"listener (usually is http://www.yourdomain.com/oc-content/plugins/rupayments/"
+"payments/paypal/paypal/notify_url.php)"
+msgstr ""
+
+#: admin/help.php:42 admin/old_files/help.php:39
+msgid "How to obtain API credentials"
+msgstr ""
+
+#: admin/help.php:44 admin/old_files/help.php:41
+msgid ""
+"In order to use the Paypal plugin you will need Paypal API credentials, you "
+"could obtain them for free following theses steps"
+msgstr ""
+
+#: admin/help.php:46 admin/old_files/help.php:43
+msgid ""
+"Verify your account status. Go to your PayPal Profile under My Settings and "
+"verify that your Account Type is Premier or Business, or upgrade your account"
+msgstr ""
+
+#: admin/help.php:48 admin/old_files/help.php:45
+msgid ""
+"Verify your API settings. Click on My Selling Tools. Click Selling Online "
+"and verify your API access. Click Update to view or set up your API "
+"signature and credentials"
+msgstr ""
+
+#: admin/help.php:50 admin/old_files/help.php:47
+msgid "Test plugin with Paypal Sandbox"
+msgstr ""
+
+#: admin/help.php:52 admin/old_files/help.php:49
+msgid ""
+"Register at https://developer.paypal.com/. Go to Dashboard and Create two "
+"accounts"
+msgstr ""
+
+#: admin/help.php:54 admin/old_files/help.php:51
+msgid ""
+"Add a Business account. E-mail of this account (or API data) insert in "
+"plugin settings. E-mail use to test plugin with Standard Paypal. API data "
+"use to test with Express Checkout"
+msgstr ""
+
+#: admin/help.php:56 admin/old_files/help.php:53
+msgid ""
+"Add a Personal account. With paypal e-mail of Personal account you can pay "
+"Premium, Move to top and other plugin options from you site"
+msgstr ""
+
+#: admin/help.php:58 admin/old_files/help.php:55
+msgid ""
+"Important options in Sandbox Business account !!! In Business Account "
+"details - Payment Review option - set OFF. Negative Testing - set OFF"
+msgstr ""
+
+#: admin/help.php:60 admin/old_files/help.php:57
+msgid "Check in the plugin \"Paypal sandbox\" option. Now you can test plugin!"
+msgstr ""
+
+#: admin/help.php:66 admin/old_files/help.php:60 admin/payments.php:166
+msgid "2Checkout"
+msgstr ""
+
+#: admin/help.php:69 admin/old_files/help.php:64
+msgid "Test plugin with 2Checkout Sandbox"
+msgstr ""
+
+#: admin/help.php:71 admin/old_files/help.php:66
+msgid ""
+"1.Register at https://sandbox.2checkout.com/sandbox. Go to Account - Site "
+"Managment"
+msgstr ""
+
+#: admin/help.php:73 admin/old_files/help.php:68
+msgid "2.Site Settings. Demo Setting select ON"
+msgstr ""
+
+#: admin/help.php:75 admin/old_files/help.php:70
+msgid ""
+"3.Checkout Options. Pricing Currency - select you currency. Refund Policy - "
+"select No refund(or other)"
+msgstr ""
+
+#: admin/help.php:77 admin/old_files/help.php:72
+msgid "4.Privacy Policy - select 2Checkout privacy policy(or other)"
+msgstr ""
+
+#: admin/help.php:79 admin/help.php:87 admin/old_files/help.php:74
+#: admin/old_files/help.php:82
+msgid "See image:"
+msgstr ""
+
+#: admin/help.php:83 admin/old_files/help.php:78
+msgid "5.Direct Return - select Direct Return(Our URL)"
+msgstr ""
+
+#: admin/help.php:85 admin/old_files/help.php:80
+msgid "6.Approved URL - insert link"
+msgstr ""
+
+#: admin/help.php:91 admin/old_files/help.php:86
+msgid "7.Save Changes"
+msgstr ""
+
+#: admin/help.php:93 admin/old_files/help.php:88
+msgid "8.Go to you site admin panel. Plugins - 2Chekout options"
+msgstr ""
+
+#: admin/help.php:95 admin/old_files/help.php:90
+msgid ""
+"9.2Checkout settings field 2Checkout account number - insert Account Number "
+"from 2Checkout Sandbox"
+msgstr ""
+
+#: admin/help.php:97 admin/help.php:103 admin/old_files/help.php:92
+#: admin/old_files/help.php:98
+msgid "Were this number?:"
+msgstr ""
+
+#: admin/help.php:101 admin/old_files/help.php:96
+msgid ""
+"10.2Checkout settings field 2Checkout secret word - insert Secret Word from "
+"2Checkout Sandbox"
+msgstr ""
+
+#: admin/help.php:107 admin/old_files/help.php:102
+msgid "11.Save changes in you site. And test plugin!:"
+msgstr ""
+
+#: admin/help.php:112 admin/old_files/help.php:107
+msgid "2Checkout real account"
+msgstr ""
+
+#: admin/help.php:114 admin/old_files/help.php:109
+msgid "1.Register at https://www.2checkout.com. Go to Account - Site Managment"
+msgstr ""
+
+#: admin/help.php:116 admin/old_files/help.php:111
+msgid "2.Site Settings. Demo Setting - select Parameter"
+msgstr ""
+
+#: admin/help.php:118 admin/old_files/help.php:113
+msgid "3.Set all options. Direct Return - select Direct Return(Our URL)"
+msgstr ""
+
+#: admin/help.php:120 admin/old_files/help.php:115
+msgid "4.Approved URL also"
+msgstr ""
+
+#: admin/help.php:122 admin/old_files/help.php:117
+msgid ""
+"5.Insert Account Number and Secret Word from 2Checkout to plugin fields."
+msgstr ""
+
+#: admin/help.php:124 admin/old_files/help.php:119
+msgid "6.Disable - 2Checkout sandbox. Save changes."
+msgstr ""
+
+#: admin/help.php:129 admin/old_files/help.php:124
+msgid "This option allow you select in what language buyer see 2Checkout site "
+msgstr ""
+
+#: admin/help.php:136 admin/payments.php:106
+msgid "Yandex"
+msgstr ""
+
+#: admin/help.php:140 admin/help.php:168 admin/help.php:303
+msgid "Login or register in"
+msgstr ""
+
+#: admin/help.php:143
+msgid ""
+"Зайдите в Настройки - Всё остальное - Сбор Денег - Уведомления - Настроить ."
+msgstr ""
+
+#: admin/help.php:146
+msgid "HTTP-уведомления. Вставьте адрес:"
+msgstr ""
+
+#: admin/help.php:149
+msgid ""
+"Поставьте галочку - Отправлять уведомления и сохраните настройки. Далее "
+"нажмите показать секрет. Вставьте данный набор символов в поле плагина "
+"Секретное слово Яндекс"
+msgstr ""
+
+#: admin/help.php:152
+msgid ""
+"Вставьте номер Вашего кошелька в поле плагина Номер вашего кошелька и "
+"сохраните."
+msgstr ""
+
+#: admin/help.php:155
+msgid ""
+"Тестовой среды ЯндексДеньги не имеют. Поэтому для тестов можно только "
+"сделать реальные платежи."
+msgstr ""
+
+#: admin/help.php:158
+msgid ""
+"Важно! При оплате с мобильных телефонов - Яндекс не присылает уведомлений на "
+"сайт. Поэтому если Вы включите эту опцию, обрабатывать платежи придётся "
+"вручную."
+msgstr ""
+
+#: admin/help.php:164
+msgid "Interkassa"
+msgstr ""
+
+#: admin/help.php:171
+msgid "Зайдите в Настройки - Мои Кассы - Создайте кассу ."
+msgstr ""
+
+#: admin/help.php:174 admin/help.php:309
+msgid "В настройках кассы:"
+msgstr ""
+
+#: admin/help.php:177
+msgid "Настройки платежей. Проверять уникальность платежей - вкл.. "
+msgstr ""
+
+#: admin/help.php:180
+msgid "Платёжные системы - выберите нужные. "
+msgstr ""
+
+#: admin/help.php:183
+msgid ""
+"Интерфейс. Все URL взаимодействия: Тип запроса - POST и разрешить "
+"переопределять в запросе"
+msgstr ""
+
+#: admin/help.php:186
+msgid ""
+"Безопасность. Цифровая подпись: MD5. Проверять подпись в форме запроса "
+"платежа - не включать."
+msgstr ""
+
+#: admin/help.php:189
+msgid ""
+"Секретный ключ( или тестовый секретный ключ) из кабинета Интеркассы вставьте "
+"в поле плагина(Интеркасса параметры - Интеркасса секретный ключ)."
+msgstr ""
+
+#: admin/help.php:192
+msgid ""
+"В поле Интеркасса id кассы  вставьте ID Ваше кассы ( раздел Мои Кассы - ID "
+"виден под названием кассы)"
+msgstr ""
+
+#: admin/help.php:195
+msgid "Если Вы хотите протестировать взаимодействие с Интеркассой:"
+msgstr ""
+
+#: admin/help.php:198
+msgid "1. Используйте тестовый секретный ключ в настройках плагина."
+msgstr ""
+
+#: admin/help.php:201
+msgid "2. А в кабинете Интеркассы - включите Тестовую платежную систему."
+msgstr ""
+
+#: admin/help.php:204
+msgid ""
+"3. Никаких дополнительных настроек для тестовых платежей не требуется. В "
+"настройках плагина используйте стандартную валюту RUB или UAH, и оплачиваете "
+"заказ."
+msgstr ""
+
+#: admin/help.php:207
+msgid ""
+"4. Просто при оплате на Интеркассе выберите тестовый способо оплаты. И не "
+"забудьте выключить его после тестирования!"
+msgstr ""
+
+#: admin/help.php:213 admin/payments.php:126
+msgid "Robokassa"
+msgstr ""
+
+#: admin/help.php:216 admin/help.php:234 admin/help.php:275
+msgid "Tips For Administrators"
+msgstr ""
+
+#: admin/help.php:218
+msgid "Metod - POST. Signature - MD5"
+msgstr ""
+
+#: admin/help.php:231 admin/payments.php:146
+msgid "Payeer"
+msgstr ""
+
+#: admin/help.php:236
+msgid "Register at  https://payeer.com/ru/account/  and add new merchant"
+msgstr ""
+
+#: admin/help.php:247 admin/help.php:330
+msgid "Paste in plugin settings ID and secret key from this merchant"
+msgstr ""
+
+#: admin/help.php:250
+msgid "Add Merchant URL . By default - https://payeer.com/merchant/"
+msgstr ""
+
+#: admin/help.php:254 admin/payments.php:655
+msgid "IP - filter"
+msgstr ""
+
+#: admin/help.php:256
+msgid ""
+"You can specify the list of all trusted ip addresses of servers, separated "
+"by commas."
+msgstr ""
+
+#: admin/help.php:258
+msgid ""
+"You can also specify a mask instead of the ip address. If the field is "
+"empty, checking for trusted ip addresses not performed."
+msgstr ""
+
+#: admin/help.php:260
+msgid "For example"
+msgstr ""
+
+#: admin/help.php:264 admin/help.php:267
+msgid "Or"
+msgstr ""
+
+#: admin/help.php:268
+msgid "all available IP addresses"
+msgstr ""
+
+#: admin/help.php:273 admin/payments.php:136
+msgid "Walletone"
+msgstr ""
+
+#: admin/help.php:277
+msgid ""
+"1.Вам необходимо заргестрировать акканут в кассе Walletone - https://www."
+"walletone.com/merchant/"
+msgstr ""
+
+#: admin/help.php:280
+msgid "2. Создайте новый проект. Заполните все требуемые данные."
+msgstr ""
+
+#: admin/help.php:283
+msgid "3. Настройки проекта:."
+msgstr ""
+
+#: admin/help.php:286
+msgid "Metod ECP - POST. Signature - MD5"
+msgstr ""
+
+#: admin/help.php:291
+msgid ""
+"Сгенерируйте ключ. Внесите ключ и ID кассы ( правый-верхний угол в аккануте, "
+"номер под названием кассы) в настройки плагина."
+msgstr ""
+
+#: admin/help.php:294
+msgid ""
+"4. Важно! В настроках плагина все цены должны быть с разделителем . (точка). "
+"После точки обязательно должно быть две цифры."
+msgstr ""
+
+#: admin/help.php:299 admin/payments.php:156
+msgid "Free-kassa"
+msgstr ""
+
+#: admin/help.php:306
+msgid "Зайдите в Мои Кассы - Добавьте кассу ."
+msgstr ""
+
+#: admin/help.php:312
+msgid "Все методы отсылки, оповещения выберите - POST "
+msgstr ""
+
+#: admin/help.php:315
+msgid "создайте - Секретное слово и Секретное слово 2 не одинаковыми "
+msgstr ""
+
+#: admin/help.php:318
+msgid "Режим интеграции выберите - Нет"
+msgstr ""
+
+#: admin/help.php:336 admin/old_files/help.php:180
+msgid "Blockchain"
+msgstr ""
+
+#: admin/help.php:339 admin/old_files/help.php:183
+msgid "Register wallet in  https://blockchain.info "
+msgstr ""
+
+#: admin/help.php:340 admin/old_files/help.php:184
+msgid "Get API KEY https://api.blockchain.info/v2/apikey/request/ "
+msgstr ""
+
+#: admin/help.php:341 admin/old_files/help.php:185
+msgid "secret: - think up any password and past"
+msgstr ""
+
+#: admin/help.php:342 admin/old_files/help.php:186
+msgid "xpub: - copy from you Blockchain wallet and past"
+msgstr ""
+
+#: admin/help.php:343 admin/old_files/help.php:187
+msgid ""
+"Count blocks: - you can set value 1-25. This affects the speed of validation "
+"of payments. The most used by user - 5 block."
+msgstr ""
+
+#: admin/help.php:344 admin/old_files/help.php:188
+msgid ""
+"If you use 5 blocks - after five notification from Blockchain - payment will "
+"be accepted by plugin."
+msgstr ""
+
+#: admin/help.php:346 admin/old_files/help.php:190
+msgid ""
+"Your default currency may be a USD or other currency! Plugin convert "
+"currencies to BTC with Blockchain api"
+msgstr ""
+
+#: admin/help.php:349 admin/old_files/help.php:193
+msgid ""
+"Of course you can use BTC currency only. But other payment systems not work "
+"with BTC."
+msgstr ""
+
+#: admin/help.php:355 admin/old_files/help.php:198 admin/payments.php:176
+msgid "Fortumo"
+msgstr ""
+
+#: admin/help.php:358 admin/old_files/help.php:201
+msgid "Fortumo setup"
+msgstr ""
+
+#: admin/help.php:359 admin/old_files/help.php:202
+msgid "Register - https://fortumo.com/ "
+msgstr ""
+
+#: admin/help.php:361 admin/old_files/help.php:204
+msgid "Create new service. Select service type: Cross-Platform Mobile Payments"
+msgstr ""
+
+#: admin/help.php:365 admin/old_files/help.php:208
+msgid "Step1. Select Country (or countries). I am select for example Italy:"
+msgstr ""
+
+#: admin/help.php:369 admin/old_files/help.php:212
+msgid ""
+"Is Your Service, Game or App Related To…?:Adult or Erotic Content,Lotteries "
+"or Gambling,Donations. Select Yes or No."
+msgstr ""
+
+#: admin/help.php:373 admin/old_files/help.php:216
+msgid ""
+"Setup price. Here are possible options. If you select Single item - you can "
+"specify only one price."
+msgstr ""
+
+#: admin/help.php:375 admin/old_files/help.php:218
+msgid ""
+"Or you can select Virtual credits. And user can choose the price at which he "
+"wants to Fund wallet on your website. As in my example:"
+msgstr ""
+
+#: admin/help.php:379 admin/old_files/help.php:222
+msgid ""
+"Step2. Add info about you site and service. And paste - To which URL will "
+"your payment requests be forwarded to?:"
+msgstr ""
+
+#: admin/help.php:383 admin/old_files/help.php:226
+msgid "And paste - Where to redirect the user after completing the payment?:"
+msgstr ""
+
+#: admin/help.php:389 admin/old_files/help.php:232
+msgid "Write Additional information about Your service."
+msgstr ""
+
+#: admin/help.php:391 admin/old_files/help.php:234
+msgid "Step3. Agree to follow all general rules. Confirm."
+msgstr ""
+
+#: admin/help.php:393 admin/old_files/help.php:236
+msgid "Service ready to test."
+msgstr ""
+
+#: admin/help.php:397 admin/old_files/help.php:240
+msgid ""
+"ServiceID and Secret past in plugin. Check - Enable Sandbox in plugin "
+"Fortumo settings. Test!"
+msgstr ""
+
+#: admin/help.php:399 admin/old_files/help.php:242
+msgid "After testing. Check Go live in Fortumo site and get real SMS payments."
+msgstr ""
+
+#: admin/help.php:401 admin/old_files/help.php:244
+msgid ""
+"IMPORTANT!!! Fortumo enabled only in user account Wallet. The user can add "
+"funds to wallet on you site. And then pay for premium services from Wallet."
+msgstr ""
+
+#: admin/help.php:410 admin/old_files/help.php:250
+msgid "Highlighting"
+msgstr ""
+
+#: admin/help.php:413 admin/old_files/help.php:253
+msgid "Setting highlighting"
+msgstr ""
+
+#: admin/help.php:415 admin/old_files/help.php:255
+msgid ""
+"Need small modifictions of theme files. Need add two HTML \"id\" tag with "
+"PHP code in search files."
+msgstr ""
+
+#: admin/help.php:418
+msgid "Open these 2 files in your template:"
+msgstr ""
+
+#: admin/help.php:421 admin/help.php:484
+msgid "In default theme Bender and in some other themes, files named:"
+msgstr ""
+
+#: admin/help.php:424 admin/help.php:487
+msgid "In Modern theme and in some other themes, files named:"
+msgstr ""
+
+#: admin/help.php:427
+msgid "First \"id\" ( or \"class\") for premium items"
+msgstr ""
+
+#: admin/help.php:435
+msgid "Second \"id\" ( or \"class\") for items"
+msgstr ""
+
+#: admin/help.php:443 admin/old_files/help.php:261
+msgid ""
+"In Highlighted ads will be shown - id = \"colorized\", normal - id = \"normal"
+"\". Items with id = \"colorized\" will have a Highlighted color background"
+msgstr ""
+
+#: admin/help.php:446 admin/old_files/help.php:263
+msgid "Example, for the Bender theme:"
+msgstr ""
+
+#: admin/help.php:449 admin/old_files/help.php:265
+msgid "File loop-single.php - 2-line :"
+msgstr ""
+
+#: admin/help.php:459 admin/old_files/help.php:269
+msgid "File loop-single-premium.php :"
+msgstr ""
+
+#: admin/help.php:469 admin/old_files/help.php:273
+msgid ""
+"Modified files for Modern and Bender(for examples) in /oc-content/plugins/"
+"rupayments/examples."
+msgstr ""
+
+#: admin/help.php:481
+msgid "Open these 3 files in your template:"
+msgstr ""
+
+#: admin/help.php:491
+msgid "In the <strong>item.php</strong> file find line of code:"
+msgstr ""
+
+#: admin/help.php:499 admin/help.php:517 admin/help.php:535
+msgid "And Replace with:"
+msgstr ""
+
+#: admin/help.php:509
+msgid ""
+"In the <strong>loop-single.php( or search_list.php and search_gallery.php)</"
+"strong> file find line of code:"
+msgstr ""
+
+#: admin/help.php:527
+msgid ""
+"In the <strong>loop-single-premium.php(if such a file is in the theme)</"
+"strong> file find line of code:"
+msgstr ""
+
+#: admin/help.php:545
+msgid ""
+"Modified files for Modern and Bender (for examples) in <strong>/oc-content/"
+"plugins/rupayments/examples</strong>."
+msgstr ""
+
+#: admin/help.php:552
+msgid "How to add button \"Buy Item\" on the site"
+msgstr ""
+
+#: admin/help.php:555
+msgid "It's simple, just open file in your template:"
+msgstr ""
+
+#: admin/help.php:559
+msgid "And add the one line of code:"
+msgstr ""
+
+#: admin/help.php:569
+msgid ""
+"Modified files for Bender (for examples) in <strong>/oc-content/plugins/"
+"rupayments/examples</strong>."
+msgstr ""
+
+#: admin/help.php:575 admin/old_files/help.php:276
+msgid "Important information!!!"
+msgstr ""
+
+#: admin/help.php:579 admin/old_files/help.php:280
+msgid ""
+"If you test the plugin and publish listings from Front-end, you must logout "
+"from  oc-admin. Otherwise you will not see \"After publish\" option or "
+"\"Publish fee\" option."
+msgstr ""
+
+#: admin/help.php:583 admin/old_files/help.php:284
+msgid ""
+"If you logged in oc-admin you can see buttons for Admin in Front-end item "
+"page and make item Premium, Move to TOP, Highlight without Payment."
+msgstr ""
+
+#: admin/help.php:587 admin/old_files/help.php:288
+msgid ""
+"If you logged as user, you can see buttons for User in Front-end item page "
+"and Pay item Premium, Move to TOP, Highlight ."
+msgstr ""
+
+#: admin/help.php:591
+msgid ""
+"Enable Cron. We recommend you to use  hourly Crontab on the hosting or "
+"server. More: https://osclass.pro/dokumentaciya/cron/ .  "
+msgstr ""
+
+#: admin/help.php:595
+msgid ""
+"Osclass cron is a psevdo cron. And it not work fine. This is only if you not "
+"have another choice.  "
+msgstr ""
+
+#: admin/help.php:599
+msgid ""
+"Simle command for CRON -  wget domain.com/index.php?page=cron . Use it "
+"hourly."
+msgstr ""
+
+#: admin/help.php:603
+msgid ""
+"After each plugin update first Disable and then Enable plugin to take effect "
+"changes.  "
+msgstr ""
+
+#: admin/left_menu.php:13
+msgid "Category Prices"
+msgstr ""
+
+#: admin/left_menu.php:17
+msgid "Cities Prices"
+msgstr ""
+
+#: admin/left_menu.php:21
+msgid "Publishing Policy"
+msgstr ""
+
+#: admin/left_menu.php:26
+msgid "Packs"
+msgstr ""
+
+#: admin/left_menu.php:30
+msgid "User Groups"
+msgstr ""
+
+#: admin/left_menu.php:34 admin/user_bonuses.php:48
+msgid "Bonuses"
+msgstr ""
+
+#: admin/left_menu.php:44 admin/top_menu.php:47 index.php:215
+#: user/banners.php:38
+msgid "Banners"
+msgstr ""
+
+#: admin/log.php:33 admin/logs.php:20 admin/old_files/log.php:33
+msgid "Description"
+msgstr ""
+
+#: admin/log.php:34 admin/logs.php:21 admin/old_files/log.php:34
+msgid "Date"
+msgstr ""
+
+#: admin/log.php:35 admin/logs.php:22 admin/old_files/log.php:35
+#: admin/user_packs.php:58 admin/user_packs.php:70 admin/user_packs.php:97
+msgid "Amount"
+msgstr ""
+
+#: admin/log.php:36 admin/logs.php:23 admin/old_files/log.php:36
+msgid "Email"
+msgstr ""
+
+#: admin/log.php:37 admin/logs.php:24 admin/old_files/log.php:37
+msgid "UserID"
+msgstr ""
+
+#: admin/log.php:38 admin/logs.php:25 admin/old_files/log.php:38
+msgid "ItemID"
+msgstr ""
+
+#: admin/log.php:39 admin/logs.php:26 admin/old_files/log.php:39
+msgid "Source"
+msgstr ""
+
+#: admin/log.php:40 admin/old_files/log.php:40
+msgid "Product type"
+msgstr ""
+
+#: admin/log.php:69 admin/logs.php:37 admin/old_files/log.php:69
+msgid "Unregistered user"
+msgstr ""
+
+#: admin/log.php:73 admin/old_files/log.php:73
+msgid "Premium Ads"
+msgstr ""
+
+#: admin/log.php:74 admin/old_files/log.php:74
+msgid "Publish & Premium Ads"
+msgstr ""
+
+#: admin/log.php:75 admin/old_files/log.php:75 user/banner_publish.php:66
+msgid "Publish"
+msgstr ""
+
+#: admin/log.php:76 admin/old_files/log.php:76
+msgid "Highlighted"
+msgstr ""
+
+#: admin/log.php:77 admin/old_files/log.php:77
+msgid "Publish & Highlighted"
+msgstr ""
+
+#: admin/log.php:78 admin/old_files/log.php:78
+msgid "Premium and Highlighted"
+msgstr ""
+
+#: admin/log.php:79 admin/old_files/log.php:79
+msgid "Publish, Highlighted & Premium Ads"
+msgstr ""
+
+#: admin/log.php:80 admin/old_files/log.php:80
+msgid "TOP"
+msgstr ""
+
+#: admin/log.php:81 admin/old_files/log.php:81
+msgid "Renew"
+msgstr ""
+
+#: admin/log.php:82 admin/old_files/log.php:82 index.php:327
+msgid "Pack 1"
+msgstr ""
+
+#: admin/log.php:83 admin/old_files/log.php:83 index.php:328
+msgid "Pack 2"
+msgstr ""
+
+#: admin/log.php:84 admin/old_files/log.php:84 index.php:329
+msgid "Pack 3"
+msgstr ""
+
+#: admin/old_files/help.php:4 admin/old_files/help.php:60
+#: admin/old_files/help.php:127 admin/old_files/help.php:134
+#: admin/old_files/help.php:144 admin/old_files/help.php:160
+#: admin/old_files/help.php:170 admin/old_files/help.php:180
+#: admin/old_files/help.php:198 admin/old_files/help.php:250
+#: admin/old_files/help.php:276
+msgid "Show"
+msgstr ""
+
+#: admin/old_files/help.php:9
+msgid ""
+"API PayPal give you more control over the Paypal process, it's required for "
+"digital goods & micropayments (Note: Not all countries are allowed to have "
+"digital goods & micropayments processes). On the other side standard Paypal "
+"are simple, less customizable but works everywhere."
+msgstr ""
+
+#: admin/old_files/help.php:11
+msgid ""
+"Microppaypals offers a reduction on the fee to pay Paypal for orders under "
+"4$ (or equivalent), around 5cents + 5% while standard Paypal have a fee "
+"around 30cents + 5%. Due the nature of OSClass is recommended to use "
+"micropayments, but we're aware that they're not available worldwide. Please "
+"check with Paypal the avalaibility of the service in your area."
+msgstr ""
+
+#: admin/old_files/help.php:25
+#, php-format
+msgid ""
+"You need to sign in up for micropayments/digital good <a href=\"%s\">from "
+"here</a>."
+msgstr ""
+
+#: admin/old_files/help.php:127
+msgid "Stripe"
+msgstr ""
+
+#: admin/old_files/help.php:130 admin/old_files/help.php:137
+msgid "You need to register on the site"
+msgstr ""
+
+#: admin/old_files/help.php:131 admin/old_files/help.php:139
+msgid "And then configure the plugin"
+msgstr ""
+
+#: admin/old_files/help.php:134
+msgid "Braintree"
+msgstr ""
+
+#: admin/old_files/help.php:140
+msgid ""
+"Braintree only works with a single currency which is set in you Braintree "
+"account! "
+msgstr ""
+
+#: admin/old_files/help.php:144
+msgid "Payulatam"
+msgstr ""
+
+#: admin/old_files/help.php:147
+msgid ""
+"Payulatam Webcheckout( Payumoney for Latin America) only works with a "
+"currencies:"
+msgstr ""
+
+#: admin/old_files/help.php:156
+msgid "For work with real payments, sign in:"
+msgstr ""
+
+#: admin/old_files/help.php:157
+msgid "For testing in Sandbox read:"
+msgstr ""
+
+#: admin/old_files/help.php:160
+msgid "Payumoney"
+msgstr ""
+
+#: admin/old_files/help.php:163
+msgid "For real sign in"
+msgstr ""
+
+#: admin/old_files/help.php:164
+msgid "For test account sign in"
+msgstr ""
+
+#: admin/old_files/help.php:166
+msgid "Payumoney only works with a INR currency! "
+msgstr ""
+
+#: admin/old_files/help.php:170
+msgid "Scrill"
+msgstr ""
+
+#: admin/old_files/help.php:173
+msgid "For real payments sign in"
+msgstr ""
+
+#: admin/old_files/help.php:174
+msgid ""
+"For test Enable Sandbox and leave empty all fields in plugin settings for "
+"Scrill. Test credit card number you can get from table 2.3."
+msgstr ""
+
+#: admin/old_files/help.php:257
+msgid ""
+"First \"id\" for premium items id=\"&lt;?php "
+"if(function_exists('rupayments_premium_get_class_color')){echo "
+"rupayments_premium_get_class_color(osc_premium_id());}?&gt;\" ."
+msgstr ""
+
+#: admin/old_files/help.php:259
+msgid ""
+"Second \"id\" for items id=\"&lt;?php "
+"if(function_exists('rupayments_get_class_color')){echo "
+"rupayments_get_class_color(osc_item_id());}?&gt;\""
+msgstr ""
+
+#: admin/old_files/help.php:267
+msgid ""
+"&lt;li class = \"listing-card &lt;?php echo $class; if(osc_item_is_premium())"
+"{echo'premium';}?&gt;\" id=\"&lt;?php "
+"if(function_exists('rupayments_get_class_color')){echo "
+"rupayments_get_class_color(osc_item_id());}?&gt;\"&gt;"
+msgstr ""
+
+#: admin/old_files/help.php:271
+msgid ""
+"&lt;li class = \"listing-card &lt;?php echo $class; if(osc_item_is_premium())"
+"{echo'premium';}?&gt;\" id=\"&lt;?php "
+"if(function_exists('rupayments_premium_get_class_color')){echo "
+"rupayments_premium_get_class_color(osc_premium_id());}?&gt;\"&gt;"
+msgstr ""
+
+#: admin/old_files/help.php:292
+msgid ""
+"Enable Cron. We recommend you to use  hourly Crontab on the hosting or "
+"server. More: https://doc.osclass.org/Cron .  "
+msgstr ""
+
+#: admin/payments.php:116
+msgid "Inetarkassa"
+msgstr ""
+
+#: admin/payments.php:186
+msgid "Blockchain (bitcoin)"
+msgstr ""
+
+#: admin/payments.php:340
+msgid "Yandex enable"
+msgstr ""
+
+#: admin/payments.php:351
+msgid "Yandex merchant/account id"
+msgstr ""
+
+#: admin/payments.php:360
+msgid "Yandex secret word"
+msgstr ""
+
+#: admin/payments.php:369
+msgid "Choose Payment method: Accept card"
+msgstr ""
+
+#: admin/payments.php:375
+msgid "Bank card"
+msgstr ""
+
+#: admin/payments.php:383
+msgid "Choose Payment method: Yandex.Money Wallet"
+msgstr ""
+
+#: admin/payments.php:389
+msgid "Yandex.Money Wallet"
+msgstr ""
+
+#: admin/payments.php:396
+msgid "Choose Payment method: Mobile phone"
+msgstr ""
+
+#: admin/payments.php:402
+msgid "Mobile phone"
+msgstr ""
+
+#: admin/payments.php:414
+msgid "Interkassa enable"
+msgstr ""
+
+#: admin/payments.php:425
+msgid "Interkassa kassa id"
+msgstr ""
+
+#: admin/payments.php:434
+msgid "Interkassa secret key"
+msgstr ""
+
+#: admin/payments.php:447
+msgid "Robokassa enable"
+msgstr ""
+
+#: admin/payments.php:458
+msgid "ID shop"
+msgstr ""
+
+#: admin/payments.php:467
+msgid "Password1"
+msgstr ""
+
+#: admin/payments.php:476
+msgid "Password2"
+msgstr ""
+
+#: admin/payments.php:500
+msgid "Walletone enable"
+msgstr ""
+
+#: admin/payments.php:510
+msgid "Kassa ID:"
+msgstr ""
+
+#: admin/payments.php:519
+msgid "Key:"
+msgstr ""
+
+#: admin/payments.php:532
+msgid "Fortumo enable"
+msgstr ""
+
+#: admin/payments.php:532
+msgid ""
+"Remember! Fortumo work only in Wallet. Specify at least one Price of pack "
+"before use, to enable Wallet in user menu. <br /> Price(or prices) for SMS "
+"you specify in your Fortumo merchant account."
+msgstr ""
+
+#: admin/payments.php:576
+msgid "Blockchain enable"
+msgstr ""
+
+#: admin/payments.php:626
+msgid "Payeer enable"
+msgstr ""
+
+#: admin/payments.php:647
+msgid "Secret key"
+msgstr ""
+
+#: admin/payments.php:668
+msgid "Free-kassa enable"
+msgstr ""
+
+#: admin/payments.php:679
+msgid "Free-kassa shop id"
+msgstr ""
+
+#: admin/payments.php:688
+msgid "Free-kassa secret key"
+msgstr ""
+
+#: admin/payments.php:696
+msgid "Free-kassa secret key 2"
+msgstr ""
+
+#: admin/top_menu.php:13
+msgid "osclass-pro.com"
+msgstr ""
+
+#: admin/top_menu.php:16
+msgid "Follow us"
+msgstr ""
+
+#: admin/top_menu.php:18
+msgid "osclassprocom"
+msgstr ""
+
+#: admin/top_menu.php:19
+msgid "osclass_pro_com"
+msgstr ""
+
+#: admin/top_menu.php:29
+msgid "Gateways"
+msgstr ""
+
+#: admin/top_menu.php:35
+msgid "Ads"
+msgstr ""
+
+#: admin/top_menu.php:41
+msgid "Users"
+msgstr ""
+
+#: admin/top_menu.php:59
+msgid "Logs"
+msgstr ""
+
+#: admin/user_bonuses.php:83
+msgid "Periodic accrual of bonuses"
+msgstr ""
+
+#: admin/user_bonuses.php:94
+msgid "Period bonus amount"
+msgstr ""
+
+#: admin/user_bonuses.php:103 admin/user_groups.php:48 admin/user_groups.php:61
+#: admin/user_groups.php:74 admin/user_groups.php:98
+msgid "Period"
+msgstr ""
+
+#: admin/user_bonuses.php:107
+msgid "Week"
+msgstr ""
+
+#: admin/user_bonuses.php:108
+msgid "Month"
+msgstr ""
+
+#: admin/user_bonuses.php:109
+msgid "Quarter"
+msgstr ""
+
+#: admin/user_bonuses.php:139 admin/user_packs.php:59 admin/user_packs.php:71
+#: admin/user_packs.php:97
+msgid "Bonus"
+msgstr ""
+
+#: admin/user_groups.php:22
+msgid "Congratulations, the group deleted successfully"
+msgstr ""
+
+#: admin/user_groups.php:24
+msgid "The group could not be deleted"
+msgstr ""
+
+#: admin/user_groups.php:43 admin/user_groups.php:56 admin/user_groups.php:69
+#: admin/user_groups.php:98
+msgid "Group Name"
+msgstr ""
+
+#: admin/user_groups.php:44 admin/user_groups.php:57 admin/user_groups.php:70
+#: admin/user_groups.php:98
+msgid "Group Description"
+msgstr ""
+
+#: admin/user_groups.php:45 admin/user_packs.php:45
+msgid "Color"
+msgstr ""
+
+#: admin/user_groups.php:46
+#, php-format
+msgid "Fee (%s)"
+msgstr ""
+
+#: admin/user_groups.php:47
+msgid "Discount (%)"
+msgstr ""
+
+#: admin/user_groups.php:60 admin/user_groups.php:73 admin/user_groups.php:98
+msgid "Discount"
+msgstr ""
+
+#: admin/user_groups.php:62
+msgid "Remove User Group"
+msgstr ""
+
+#: admin/user_groups.php:75 admin/user_packs.php:72
+msgid "You can\\'t delete the item!"
+msgstr ""
+
+#: admin/user_groups.php:81
+msgid "Add New Group"
+msgstr ""
+
+#: admin/user_groups.php:89
+msgid ""
+"Membership in the group allows users to receive a discount on the purchase "
+"of services."
+msgstr ""
+
+#: admin/user_groups.php:113
+msgid "Are you sure you want to delete this user group?"
+msgstr ""
+
+#: admin/user_packs.php:22
+msgid "Congratulations, the pack deleted successfully"
+msgstr ""
+
+#: admin/user_packs.php:24
+msgid "The pack could not be deleted"
+msgstr ""
+
+#: admin/user_packs.php:43 admin/user_packs.php:55 admin/user_packs.php:67
+#: admin/user_packs.php:97
+msgid "Pack Name"
+msgstr ""
+
+#: admin/user_packs.php:44 admin/user_packs.php:56 admin/user_packs.php:68
+#: admin/user_packs.php:97
+msgid "Pack Description"
+msgstr ""
+
+#: admin/user_packs.php:46
+#, php-format
+msgid "Amount (%s)"
+msgstr ""
+
+#: admin/user_packs.php:47
+#, php-format
+msgid "Bonus (%s)"
+msgstr ""
+
+#: admin/user_packs.php:60
+msgid "Remove Pack"
+msgstr ""
+
+#: admin/user_packs.php:78
+msgid "Add New Pack"
+msgstr ""
+
+#: admin/user_packs.php:86
+msgid "Packs allow the user to replenish the wallet balance in site."
+msgstr ""
+
+#: admin/user_packs.php:87
+msgid "Wallet  is available in the user personal acount."
+msgstr ""
+
+#: admin/user_packs.php:88
+msgid "Then the user from this balance can pay for services on the site."
+msgstr ""
+
+#: admin/user_packs.php:112
+msgid "Are you sure you want to delete this pack?"
+msgstr ""
+
+#: ajax.php:84 user/itemform.php:115
+msgid "No,thanks"
+msgstr ""
+
+#: examples/bender/item.php:59
+#, php-format
+msgid "<strong class=\"publish\">Published date</strong>: %1$s"
+msgstr ""
+
+#: examples/bender/item.php:62
+#, php-format
+msgid "<strong class=\"update\">Modified date:</strong> %1$s"
+msgstr ""
+
+#: examples/bender/item.php:66
+msgid "Location"
+msgstr ""
+
+#: examples/bender/item.php:73 examples/bender/loop-single-premium.php:46
+#: examples/bender/loop-single.php:46
+msgid "Edit item"
+msgstr ""
+
+#: examples/bender/item.php:84 examples/bender/item.php:89
+msgid "Image"
+msgstr ""
+
+#: examples/bender/item.php:118
+msgid "Contact seller"
+msgstr ""
+
+#: examples/bender/item.php:122
+msgid "Share"
+msgstr ""
+
+#: examples/bender/item.php:129
+msgid "Useful information"
+msgstr ""
+
+#: examples/bender/item.php:131
+msgid "Avoid scams by acting locally or paying with PayPal"
+msgstr ""
+
+#: examples/bender/item.php:132
+msgid ""
+"Never pay with Western Union, Moneygram or other anonymous payment services"
+msgstr ""
+
+#: examples/bender/item.php:133
+msgid ""
+"Don't buy or sell outside of your country. Don't accept cashier cheques from "
+"outside your country"
+msgstr ""
+
+#: examples/bender/item.php:134
+msgid ""
+"This site is never involved in any transaction, and does not handle "
+"payments, shipping, guarantee transactions, provide escrow services, or "
+"offer \"buyer protection\" or \"seller certification\""
+msgstr ""
+
+#: examples/bender/item.php:141
+msgid "Related listings"
+msgstr ""
+
+#: examples/bender/item.php:152
+msgid "Comments"
+msgstr ""
+
+#: examples/bender/item.php:159
+msgid "by"
+msgstr ""
+
+#: examples/bender/item.php:163
+msgid "Delete your comment"
+msgstr ""
+
+#: examples/bender/item.php:175
+msgid "Leave your comment (spam and offensive messages will be removed)"
+msgstr ""
+
+#: examples/bender/item.php:189
+msgid "Your name"
+msgstr ""
+
+#: examples/bender/item.php:195
+msgid "Your e-mail"
+msgstr ""
+
+#: examples/bender/item.php:202
+msgid "Title"
+msgstr ""
+
+#: examples/bender/item.php:208
+msgid "Comment"
+msgstr ""
+
+#: examples/bender/item.php:214
+msgid "Send"
+msgstr ""
+
+#: examples/bender/loop-single-premium.php:48
+#: examples/bender/loop-single.php:48
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr ""
+
+#: examples/bender/loop-single-premium.php:51
+#: examples/bender/loop-single.php:51
+msgid "Activate"
+msgstr ""
+
+#: examples/modern/search_gallery.php:41 examples/modern/search_list.php:41
+msgid "Sponsored ad"
+msgstr ""
+
+#: functions.php:108
+msgid "Pay with credit"
+msgstr ""
+
+#: index.php:70
+msgid "Russian Ultimate Payments"
+msgstr ""
+
+#: index.php:219 user/ebuy_deals.php:50
+msgid "Deals"
+msgstr ""
+
+#: index.php:223 user/membership.php:26
+msgid "Membership"
+msgstr ""
+
+#: index.php:226
+msgid "Premium services"
+msgstr ""
+
+#: index.php:368
+#, php-format
+msgid "Credit packs. Your current credit is %s %s"
+msgstr ""
+
+#: index.php:371 user/pack.php:30
+msgid "Your wallet is empty. Buy some credits."
+msgstr ""
+
+#: index.php:376
+msgid "Filling up processed correctly"
+msgstr ""
+
+#: index.php:377
+msgid ""
+"Filling up did not processed (there were some errors), please try again "
+"later or contact the administrators"
+msgstr ""
+
+#: index.php:385
+msgid "Fill up the Wallet"
+msgstr ""
+
+#: index.php:388
+msgid "Empty"
+msgstr ""
+
+#: index.php:401
+#, php-format
+msgid "Credit pack #%d"
+msgstr ""
+
+#: index.php:429 user/emailpayment.php:33 user/itemform.php:18
+msgid "Services for you item:"
+msgstr ""
+
+#: index.php:432 user/after.php:23 user/itemform.php:21 user/menu.php:37
+#: user/payperpublish.php:30
+msgid "PACK 3-in-1"
+msgstr ""
+
+#: index.php:432 user/after.php:23 user/itemform.php:21 user/menu.php:37
+#: user/payperpublish.php:30
+msgid "100x views!"
+msgstr ""
+
+#: index.php:433 user/after.php:24 user/itemform.php:22 user/menu.php:38
+#: user/payperpublish.php:31
+msgid ""
+"Attract as many visitors as possible to your ad. This option includes: "
+"Premium status, highlighting the ad and automatically moving your ad in the "
+"top every day! The duration of the option in days:"
+msgstr ""
+
+#: index.php:436 user/after.php:27 user/emailpayment.php:34
+#: user/itemform.php:25 user/menu.php:41 user/payperpublish.php:34
+msgid "PREMIUM"
+msgstr ""
+
+#: index.php:436 user/after.php:27 user/emailpayment.php:34
+#: user/itemform.php:25 user/menu.php:41 user/payperpublish.php:34
+msgid "20x views!"
+msgstr ""
+
+#: index.php:437 user/after.php:28 user/emailpayment.php:35
+#: user/itemform.php:26 user/menu.php:42 user/payperpublish.php:35
+msgid ""
+"Premium status is when the ads are highlighted and shown on top of free ads "
+"in . This promotes more rapid sales. The duration of the option in days:"
+msgstr ""
+"Item shown on top of free items. Item get much more views and this promotes "
+"more rapid sale. The duration of the option in days:"
+
+#: index.php:438 user/after.php:29 user/emailpayment.php:36
+#: user/itemform.php:27 user/menu.php:43 user/payperpublish.php:36
+msgid "HIGHLIGHT"
+msgstr ""
+
+#: index.php:438 user/after.php:29 user/emailpayment.php:36
+#: user/itemform.php:27 user/menu.php:43 user/payperpublish.php:36
+msgid "5x views!"
+msgstr ""
+
+#: index.php:439 user/after.php:30 user/emailpayment.php:37
+#: user/itemform.php:28 user/menu.php:44 user/payperpublish.php:37
+msgid ""
+"This option allows to attract the visitors attention on you ads. Background "
+"of your ad becomes highlighted. The duration of the option in days:"
+msgstr ""
+
+#: index.php:440 user/after.php:31 user/emailpayment.php:38 user/menu.php:45
+#: user/payperpublish.php:38
+msgid "MOVE TO TOP"
+msgstr ""
+
+#: index.php:440 user/after.php:31 user/emailpayment.php:38 user/menu.php:45
+#: user/payperpublish.php:38
+msgid "3x views!"
+msgstr ""
+
+#: index.php:441 user/after.php:32 user/emailpayment.php:39 user/menu.php:46
+#: user/payperpublish.php:39
+msgid ""
+"This function moves you ad once on the top of the you category and the main "
+"page too."
+msgstr ""
+
+#: index.php:444 user/after.php:35 user/itemform.php:31 user/menu.php:49
+#: user/payperpublish.php:41
+msgid "SHOW IMAGE"
+msgstr ""
+
+#: index.php:445 user/after.php:36 user/itemform.php:32 user/menu.php:50
+#: user/payperpublish.php:42
+msgid "This option allows you to show uploaded images in your ads"
+msgstr ""
+
+#: index.php:543 payments/yandex/Yandex.php:73 user/menu.php:198
+msgid "Select and Pay"
+msgstr ""
+
+#: index.php:565 user/item_edit.php:24 user/item_edit.php:25
+msgid "Published"
+msgstr ""
+
+#: index.php:569 user/item_edit.php:29 user/item_edit.php:30
+msgid "Marked as Premium"
+msgstr ""
+
+#: index.php:576 user/item_edit.php:37 user/item_edit.php:38
+msgid "Marked as Highlighted"
+msgstr ""
+
+#: index.php:583 user/item_edit.php:61 user/item_edit.php:62
+msgid "Moved to TOP"
+msgstr ""
+
+#: index.php:587 user/item_edit.php:66 user/item_edit.php:67
+msgid "Renewed"
+msgstr ""
+
+#: index.php:591 user/item_edit.php:71
+msgid "Marked as Premium and Highlighted"
+msgstr ""
+
+#: index.php:636
+msgid "Admin options:"
+msgstr ""
+
+#: index.php:649 index.php:831 user/menu.php:23
+msgid "Valid"
+msgstr ""
+
+#: index.php:650 index.php:832 user/emailpayment.php:22 user/menu.php:24
+msgid "Expired"
+msgstr ""
+
+#: index.php:651 index.php:833 user/emailpayment.php:23 user/menu.php:25
+msgid "Before Expiration"
+msgstr ""
+
+#: index.php:652 index.php:834 user/emailpayment.php:24 user/membership.php:58
+#: user/menu.php:26
+msgid "days"
+msgstr ""
+
+#: index.php:653 index.php:835 user/emailpayment.php:25 user/menu.php:27
+msgid "hours"
+msgstr ""
+
+#: index.php:654 index.php:836 user/emailpayment.php:26 user/menu.php:28
+msgid "minutes"
+msgstr ""
+
+#: index.php:702 index.php:914
+msgid "Apply as admin"
+msgstr ""
+
+#: index.php:818
+msgid "Admin Ultimate Payments options:"
+msgstr ""
+
+#: payments/2chekout/return.php:40 payments/blockchain/result.php:84
+#: payments/fortumo/result.php:62 payments/freekassa/status.php:59
+#: payments/interkassa/notification.php:60 payments/payeer/status.php:119
+#: payments/paypal/paypal/Paypal.php:187 payments/paypal/paypal/Paypal.php:320
+#: payments/robokassa/result.php:39 payments/walletone/result.php:67
+#: payments/yandex/notification.php:63 payments/yandex/return.php:65
+msgid " + Bonus: "
+msgstr ""
+
+#: payments/2chekout/return.php:61 payments/blockchain/result.php:104
+#: payments/fortumo/result.php:75
+#, php-format
+msgid "Publish, Premium and Highlight fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:62 payments/blockchain/result.php:105
+#: payments/fortumo/result.php:76
+#, php-format
+msgid "Premium and Highlight fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:67 payments/blockchain/result.php:110
+#: payments/fortumo/result.php:81 payments/fortumo/result.php:105
+#: payments/fortumo/result.php:111
+#, php-format
+msgid "Publish and Show Image fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:68 payments/blockchain/result.php:111
+#: payments/fortumo/result.php:82
+#, php-format
+msgid "Show Image fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:73 payments/blockchain/result.php:116
+#: payments/fortumo/result.php:87
+#, php-format
+msgid "Publish, Make Item Premium and Show Image fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:74 payments/blockchain/result.php:117
+#: payments/fortumo/result.php:88
+#, php-format
+msgid "Make Item Premium and Show Image fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:79 payments/blockchain/result.php:122
+#: payments/fortumo/result.php:93
+#, php-format
+msgid "Publish, Make Item Highlighted and Show Image fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:80 payments/blockchain/result.php:123
+#: payments/fortumo/result.php:94
+#, php-format
+msgid "Make Item Highlighted and Show Image fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:85 payments/blockchain/result.php:128
+#: payments/fortumo/result.php:99
+#, php-format
+msgid ""
+"Publish, Make Item Premium, Make Item Highlighted and Show Image fee for "
+"item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:86 payments/blockchain/result.php:129
+#: payments/fortumo/result.php:100
+#, php-format
+msgid ""
+"Make Item Premium, Make Item Highlighted and Show Image fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:91 payments/blockchain/result.php:134
+#, php-format
+msgid "Publish and Apply: Pack 3-in-1 fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:92 payments/blockchain/result.php:135
+#: payments/fortumo/result.php:106
+#, php-format
+msgid "Apply: Pack 3-in-1 fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:97 payments/blockchain/result.php:140
+#, php-format
+msgid "Publish, Activate Show Image and apply: Pack 3-in-1 fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:98 payments/blockchain/result.php:141
+#: payments/fortumo/result.php:112
+#, php-format
+msgid "Activate Show Image and apply: Pack 3-in-1 fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:103 payments/blockchain/result.php:146
+#, php-format
+msgid "Payment of banner public fee (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:108 payments/blockchain/result.php:151
+#, php-format
+msgid "Payment of Item Purchase:  %s"
+msgstr ""
+
+#: payments/2chekout/return.php:113 payments/blockchain/result.php:156
+#: payments/fortumo/result.php:117
+msgid "Credit <strong>"
+msgstr ""
+
+#: payments/2chekout/return.php:119 payments/blockchain/result.php:162
+#: payments/fortumo/result.php:123 user/membership.php:79
+#: user/membership.php:85 user/membership.php:91 user/membership.php:97
+#: user/membership.php:102 user/membership.php:107 user/membership.php:112
+#: user/membership.php:117 user/membership.php:123 user/membership.php:128
+#: user/membership.php:136 user/wallet.php:28
+#, php-format
+msgid "Payment of membership fee: %s"
+msgstr ""
+
+#: payments/2chekout/return.php:124 payments/blockchain/result.php:167
+#: payments/fortumo/result.php:128
+#, php-format
+msgid "Publish fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:129 payments/blockchain/result.php:172
+#: payments/fortumo/result.php:133
+#, php-format
+msgid "Publish and Highlight fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:130 payments/blockchain/result.php:173
+#: payments/fortumo/result.php:134
+#, php-format
+msgid "Highlight fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:135 payments/blockchain/result.php:178
+#: payments/fortumo/result.php:139
+#, php-format
+msgid "Move to Top fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:140 payments/blockchain/result.php:183
+#: payments/fortumo/result.php:144
+#, php-format
+msgid "Renew fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:145 payments/blockchain/result.php:188
+#: payments/fortumo/result.php:149
+#, php-format
+msgid "Publish and Premium fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:146 payments/blockchain/result.php:189
+#: payments/fortumo/result.php:150
+#, php-format
+msgid "Premium fee for item (%s)"
+msgstr ""
+
+#: payments/2chekout/return.php:178 payments/2chekout/return.php:193
+#: payments/2chekout/return.php:205 payments/2chekout/return.php:221
+#: payments/2chekout/return.php:237 payments/2chekout/return.php:245
+#: payments/2chekout/return.php:253 payments/2chekout/return.php:271
+#: payments/2chekout/return.php:286 payments/2chekout/return.php:302
+#: payments/2chekout/return.php:318 payments/2chekout/return.php:336
+#: payments/2chekout/return.php:353 payments/2chekout/return.php:370
+#: payments/2chekout/return.php:379 payments/2chekout/return.php:388
+#: payments/blockchain/result.php:213 payments/blockchain/result.php:228
+#: payments/blockchain/result.php:240 payments/blockchain/result.php:255
+#: payments/blockchain/result.php:271 payments/blockchain/result.php:279
+#: payments/blockchain/result.php:287 payments/blockchain/result.php:304
+#: payments/blockchain/result.php:318 payments/blockchain/result.php:334
+#: payments/blockchain/result.php:350 payments/blockchain/result.php:368
+#: payments/blockchain/result.php:385 payments/blockchain/result.php:402
+#: payments/blockchain/result.php:411 payments/blockchain/result.php:420
+#: payments/fortumo/result.php:169 payments/fortumo/result.php:177
+#: payments/interkassa/success.php:25 payments/payeer/success.php:39
+#: payments/paypal/paypal/return.php:25 payments/paypal/paypal/return.php:159
+#: payments/paypal/paypal/return.php:168 payments/paypal/paypal/return.php:172
+#: payments/paypal/paypal/return.php:177 payments/paypal/paypal/return.php:182
+#: payments/paypal/paypal/return.php:187 payments/paypal/paypal/return.php:193
+#: payments/paypal/paypal/return.php:198 payments/paypal/paypal/return.php:202
+#: payments/paypal/paypal/return.php:206 payments/paypal/paypal/return.php:210
+#: payments/robokassa/success.php:25 payments/walletone/success.php:6
+#: payments/walletone/success.php:9 payments/yandex/return.php:242
+#: user/wallet.php:187
+msgid "Payment processed correctly"
+msgstr ""
+
+#: payments/2chekout/return.php:393 payments/blockchain/result.php:425
+#: payments/fortumo/result.php:182 payments/walletone/fail.php:5
+msgid ""
+"There was a problem processing your Payment. Please contact the "
+"administrators"
+msgstr ""
+
+#: payments/blockchain/create.php:53
+msgid "Send Bitcoins to "
+msgstr ""
+
+#: payments/blockchain/create.php:54
+msgid " Price "
+msgstr ""
+
+#: payments/blockchain/create.php:55
+msgid "Proof of payment made after "
+msgstr ""
+
+#: payments/blockchain/create.php:55
+msgid " blocks (notifications) from Blockchain API "
+msgstr ""
+
+#: payments/blockchain/create.php:56
+msgid "It may take some time"
+msgstr ""
+
+#: payments/blockchain/create.php:58
+msgid "Click here to go in Wallet"
+msgstr ""
+
+#: payments/blockchain/create.php:59
+msgid "Click here to go in User Menu"
+msgstr ""
+
+#: payments/fortumo/return.php:20
+msgid ""
+"Welcome back!If the payment completed - Your wallet is already funded. If "
+"the payment is not completed- Try again later."
+msgstr ""
+
+#: payments/freekassa/fail.php:9 payments/interkassa/fail.php:21
+#: payments/payeer/fail.php:9
+msgid ""
+"You cancel the payment process or there was an error. If the error continue, "
+"please contact the administrator"
+msgstr ""
+
+#: payments/freekassa/status.php:24 payments/payeer/status.php:61
+#: payments/payeer/success.php:23
+msgid " - do not match the digital signature"
+msgstr ""
+
+#: payments/freekassa/status.php:85 payments/interkassa/notification.php:86
+#: payments/payeer/status.php:142 payments/robokassa/result.php:59
+#: payments/walletone/result.php:87 payments/yandex/notification.php:89
+#: payments/yandex/return.php:91 user/payments.php:81
+msgid "Publish and Make Item Premium"
+msgstr ""
+
+#: payments/freekassa/status.php:89 payments/interkassa/notification.php:90
+#: payments/payeer/status.php:146 payments/robokassa/result.php:63
+#: payments/walletone/result.php:91 payments/yandex/notification.php:93
+#: payments/yandex/return.php:95 user/payments.php:98
+msgid "Publish and Make Item Highlighted"
+msgstr ""
+
+#: payments/freekassa/status.php:93 payments/interkassa/notification.php:94
+#: payments/payeer/status.php:150 payments/robokassa/result.php:67
+#: payments/walletone/result.php:95 payments/yandex/notification.php:97
+#: payments/yandex/return.php:99 user/payments.php:115
+msgid "Publish and Show Image"
+msgstr ""
+
+#: payments/freekassa/status.php:97 payments/interkassa/notification.php:98
+#: payments/payeer/status.php:154 payments/robokassa/result.php:71
+#: payments/walletone/result.php:99 payments/yandex/notification.php:101
+#: payments/yandex/return.php:103 user/payments.php:132
+msgid "Publish, Make Item Premium and Show Image"
+msgstr ""
+
+#: payments/freekassa/status.php:101 payments/interkassa/notification.php:102
+#: payments/payeer/status.php:158 payments/robokassa/result.php:75
+#: payments/walletone/result.php:103 payments/yandex/notification.php:105
+#: payments/yandex/return.php:107 user/payments.php:149
+msgid "Publish, Make Item Highlighted and Show Image"
+msgstr ""
+
+#: payments/freekassa/status.php:105 payments/interkassa/notification.php:106
+#: payments/payeer/status.php:162 payments/robokassa/result.php:79
+#: payments/walletone/result.php:107 payments/yandex/notification.php:109
+#: payments/yandex/return.php:111 user/payments.php:166
+msgid "Publish, Make Item Premium, Make Item Highlighted and Show Image"
+msgstr ""
+
+#: payments/freekassa/status.php:109 payments/interkassa/notification.php:110
+#: payments/payeer/status.php:166 payments/robokassa/result.php:83
+#: payments/walletone/result.php:111 payments/yandex/notification.php:113
+#: payments/yandex/return.php:115
+msgid "Publish and Apply: Pack 3-in-1"
+msgstr ""
+
+#: payments/freekassa/status.php:113 payments/interkassa/notification.php:114
+#: payments/payeer/status.php:170 payments/robokassa/result.php:87
+#: payments/walletone/result.php:115 payments/yandex/notification.php:117
+#: payments/yandex/return.php:119
+msgid "Publish, Activate Show Image and apply: Pack 3-in-1"
+msgstr ""
+
+#: payments/freekassa/status.php:117 payments/interkassa/notification.php:118
+#: payments/payeer/status.php:174 payments/robokassa/result.php:91
+#: payments/walletone/result.php:119 payments/yandex/notification.php:121
+#: payments/yandex/return.php:123 user/payments.php:217
+msgid "Publish and Make Item Highlighted and Premium"
+msgstr ""
+
+#: payments/freekassa/status.php:122 payments/interkassa/notification.php:123
+#: payments/payeer/status.php:179 payments/robokassa/result.php:96
+#: payments/walletone/result.php:124 payments/yandex/notification.php:126
+#: payments/yandex/return.php:128 user/payments.php:75
+msgid "Make Item Premium"
+msgstr ""
+
+#: payments/freekassa/status.php:123 payments/interkassa/notification.php:124
+#: payments/payeer/status.php:180 payments/robokassa/result.php:97
+#: payments/walletone/result.php:125 payments/yandex/notification.php:127
+#: payments/yandex/return.php:129 user/payments.php:92
+msgid "Make Item Highlighted"
+msgstr ""
+
+#: payments/freekassa/status.php:124 payments/interkassa/notification.php:125
+#: payments/payeer/status.php:181 payments/robokassa/result.php:98
+#: payments/walletone/result.php:126 payments/yandex/notification.php:128
+#: payments/yandex/return.php:130 user/payments.php:109
+msgid "Show Image"
+msgstr ""
+
+#: payments/freekassa/status.php:125 payments/interkassa/notification.php:126
+#: payments/payeer/status.php:182 payments/robokassa/result.php:99
+#: payments/walletone/result.php:127 payments/yandex/notification.php:129
+#: payments/yandex/return.php:131 user/payments.php:126
+msgid "Make Item Premium and Show Image"
+msgstr ""
+
+#: payments/freekassa/status.php:126 payments/interkassa/notification.php:127
+#: payments/payeer/status.php:183 payments/robokassa/result.php:100
+#: payments/walletone/result.php:128 payments/yandex/notification.php:130
+#: payments/yandex/return.php:132 user/payments.php:143
+msgid "Make Item Highlighted and Show Image"
+msgstr ""
+
+#: payments/freekassa/status.php:127 payments/interkassa/notification.php:128
+#: payments/payeer/status.php:184 payments/robokassa/result.php:101
+#: payments/walletone/result.php:129 payments/yandex/notification.php:131
+#: payments/yandex/return.php:133 user/payments.php:160
+msgid "Make Item Premium, Make Item Highlighted and Show Image"
+msgstr ""
+
+#: payments/freekassa/status.php:130 payments/interkassa/notification.php:131
+#: payments/payeer/status.php:187 payments/robokassa/result.php:104
+#: payments/walletone/result.php:132 payments/yandex/notification.php:134
+#: payments/yandex/return.php:136 user/payments.php:212
+msgid "Make Item Highlighted and Premium"
+msgstr ""
+
+#: payments/freekassa/status.php:133 payments/interkassa/notification.php:134
+#: payments/payeer/status.php:190 payments/robokassa/result.php:107
+#: payments/walletone/result.php:135 payments/yandex/notification.php:137
+#: payments/yandex/return.php:139 user/payments.php:67
+msgid "Publish Item"
+msgstr ""
+
+#: payments/freekassa/status.php:135 payments/interkassa/notification.php:136
+#: payments/payeer/status.php:192 payments/robokassa/result.php:109
+#: payments/walletone/result.php:137 payments/yandex/notification.php:139
+#: payments/yandex/return.php:141
+msgid "Payment of membership fee: "
+msgstr ""
+
+#: payments/freekassa/status.php:136 payments/interkassa/notification.php:137
+#: payments/payeer/status.php:193 payments/robokassa/result.php:110
+#: payments/walletone/result.php:138 payments/yandex/notification.php:140
+#: payments/yandex/return.php:142
+msgid "Payment of banner public fee: "
+msgstr ""
+
+#: payments/freekassa/status.php:137 payments/interkassa/notification.php:138
+#: payments/payeer/status.php:194 payments/robokassa/result.php:111
+#: payments/walletone/result.php:139 payments/yandex/notification.php:141
+#: payments/yandex/return.php:143 user/ebuy_purchase.php:69
+#: user/ebuy_purchase.php:74 user/ebuy_purchase.php:79
+#: user/ebuy_purchase.php:84 user/ebuy_purchase.php:89
+#: user/ebuy_purchase.php:94 user/ebuy_purchase.php:99
+#: user/ebuy_purchase.php:104
+msgid "Payment of Item Purchase: "
+msgstr ""
+
+#: payments/freekassa/status.php:138 payments/interkassa/notification.php:139
+#: payments/payeer/status.php:195 payments/robokassa/result.php:112
+#: payments/walletone/result.php:140 payments/yandex/notification.php:142
+#: payments/yandex/return.php:144
+msgid "Move to TOP"
+msgstr ""
+
+#: payments/freekassa/success.php:3 payments/payeer/success.php:93
+msgid ""
+"We are processing your Payment, if we did not finish in a few seconds, "
+"please contact us"
+msgstr ""
+
+#: payments/interkassa/pending.php:16
+msgid "Your payment processing did not finished,  please wait"
+msgstr ""
+
+#: payments/interkassa/success.php:17 payments/interkassa/success.php:134
+msgid "Time of session of your Interkassa has expired, please try again"
+msgstr ""
+
+#: payments/interkassa/success.php:80
+msgid ""
+"We are processing your Skrill, if we did not finish in a few seconds, please "
+"contact us"
+msgstr ""
+
+#: payments/payeer/status.php:15
+msgid " - undefined order id"
+msgstr ""
+
+#: payments/payeer/status.php:53
+msgid " - the ip address of the server is not trusted"
+msgstr ""
+
+#: payments/payeer/status.php:54
+msgid "   trusted ip: "
+msgstr ""
+
+#: payments/payeer/status.php:55
+msgid "   the ip of the current server: "
+msgstr ""
+
+#: payments/payeer/status.php:77
+msgid " - wrong amount"
+msgstr ""
+
+#: payments/payeer/status.php:83
+msgid " - wrong currency"
+msgstr ""
+
+#: payments/payeer/status.php:288
+msgid " - the payment status is not success"
+msgstr ""
+
+#: payments/payeer/success.php:35 payments/payeer/success.php:144
+msgid "Time of session of your Payeer has expired, please try again"
+msgstr ""
+
+#: payments/paypal/paypal/cancel.php:26 payments/paypal/paypal/cancel.php:32
+msgid ""
+"You cancel the ppaypal process or there was an error. If the error continue, "
+"please contact the administrator"
+msgstr ""
+
+#: payments/paypal/paypal/cancel.php:32
+msgid "If you do not want to continue the process"
+msgstr ""
+
+#: payments/paypal/paypal/cancel.php:32
+msgid "click here"
+msgstr ""
+
+#: payments/paypal/paypal/return.php:75 payments/paypal/paypal/return.php:215
+#: payments/paypal/paypal/return.php:227 payments/paypal/paypal/return.php:230
+msgid ""
+"We are processing your Paypal, if we did not finish in a few seconds, please "
+"contact us"
+msgstr ""
+
+#: payments/paypal/paypal/return.php:168 payments/paypal/paypal/return.php:172
+#: payments/paypal/paypal/return.php:177 payments/paypal/paypal/return.php:182
+#: payments/paypal/paypal/return.php:187 payments/paypal/paypal/return.php:193
+#: payments/paypal/paypal/return.php:198 payments/paypal/paypal/return.php:202
+#: payments/paypal/paypal/return.php:206 payments/paypal/paypal/return.php:210
+#: payments/paypal/paypal/return.php:227
+msgid "Click here to continue"
+msgstr ""
+
+#: payments/yandex/Yandex.php:40
+msgid "Payment of premium services"
+msgstr ""
+
+#: payments/yandex/Yandex.php:49
+msgid "Яндекс.Деньги"
+msgstr ""
+
+#: payments/yandex/Yandex.php:56
+msgid "by Bank card"
+msgstr ""
+
+#: payments/yandex/Yandex.php:60
+msgid "by Wallet"
+msgstr ""
+
+#: payments/yandex/Yandex.php:64
+msgid "By Mobile"
+msgstr ""
+
+#: payments/yandex/return.php:22 payments/yandex/return.php:350
+msgid "Time of session of your Yandex has expired, please try again"
+msgstr ""
+
+#: payments/yandex/return.php:300
+msgid ""
+"Your Yandex processing did not finished,  please contact with Yandex.Money "
+"administration"
+msgstr ""
+
+#: user/after.php:19 user/emailpayment.php:75
+msgid "You can also improve your ad with additional options"
+msgstr ""
+
+#: user/after.php:53 user/payperpublish.php:26
+msgid "You can Publish item with additional options:"
+msgstr ""
+
+#: user/after.php:153
+msgid "Choose and continue >>"
+msgstr ""
+
+#: user/after.php:159
+msgid "No, Thanks"
+msgstr ""
+
+#: user/banner_pay.php:25 user/ebuy_purchase.php:26 user/pack.php:25
+#: user/payments.php:54
+#, php-format
+msgid "Your current credit is %s %s"
+msgstr ""
+
+#: user/banner_pay.php:29 user/ebuy_purchase.php:30 user/payments.php:58
+msgid "Your wallet is empty."
+msgstr ""
+
+#: user/banner_pay.php:39
+msgid "Error: You can't pay for the banner!"
+msgstr ""
+
+#: user/banner_pay.php:46
+msgid "Pay for Banner Public"
+msgstr ""
+
+#: user/banner_pay.php:50 user/ebuy_purchase.php:51
+msgid "Payment amount"
+msgstr ""
+
+#: user/banner_pay.php:56 user/banner_pay.php:62 user/banner_pay.php:68
+#: user/banner_pay.php:74 user/banner_pay.php:79 user/banner_pay.php:84
+#: user/banner_pay.php:89 user/banner_pay.php:94 user/banner_pay.php:99
+#: user/banner_pay.php:104 user/wallet.php:48
+#, php-format
+msgid "Payment of banner public fee: %s"
+msgstr ""
+
+#: user/banner_publish.php:21
+msgid ""
+"Congratulations! The request to publish the banner has been successfully "
+"sent! <br /> After checking by the moderator, you can pay for the placement "
+"of the banner and then it will be shown on the site."
+msgstr ""
+
+#: user/banner_publish.php:32
+msgid "Publish a banner"
+msgstr ""
+
+#: user/banner_publish.php:35
+msgid "Banner Fee"
+msgstr ""
+
+#: user/banner_publish.php:37
+msgid "1x View Fee"
+msgstr ""
+
+#: user/banner_publish.php:38
+msgid "1x Click Fee"
+msgstr ""
+
+#: user/banner_publish.php:47
+msgid "Link"
+msgstr ""
+
+#: user/banner_publish.php:47
+msgid "Full link to your site with HTTP or HTPPS, like http://demo.com"
+msgstr ""
+
+#: user/banner_publish.php:54
+msgid "Enter only a number, for example 250"
+msgstr ""
+
+#: user/banners.php:23
+msgid "Congratulations! Banner successfully deleted."
+msgstr ""
+
+#: user/banners.php:26
+msgid "Error: You can't delete the banner!"
+msgstr ""
+
+#: user/banners.php:63
+msgid "Pay Now"
+msgstr ""
+
+#: user/banners.php:65
+msgid "Remove Banner"
+msgstr ""
+
+#: user/ebuy_deals.php:56
+msgid "Buy List"
+msgstr ""
+
+#: user/ebuy_deals.php:57
+msgid "Sell List"
+msgstr ""
+
+#: user/ebuy_deals.php:85 user/ebuy_deals.php:122
+msgid "Order Withdrawal"
+msgstr ""
+
+#: user/ebuy_deals.php:119
+msgid "Item shipped"
+msgstr ""
+
+#: user/ebuy_deals.php:139
+msgid ""
+"Are you sure you want to Accept the Deal? The money will be Credited to the "
+"Seller!"
+msgstr ""
+
+#: user/ebuy_deals.php:145
+msgid ""
+"Are you sure you want to change the status of the Deal to \"Item Shipped\"? "
+"While the Buyer doesn\\'t confirm receipt of the item, you can\\'t change "
+"the status of the Deal!"
+msgstr ""
+
+#: user/ebuy_deals.php:151
+msgid ""
+"Are you sure you want to Cancel the Deal? The money will be Returned to the "
+"Buyer!"
+msgstr ""
+
+#: user/ebuy_purchase.php:47
+msgid "Pay for Item Purchase"
+msgstr ""
+
+#: user/ebuy_purchase.php:57 user/ebuy_purchase.php:63
+#: user/ebuy_purchase.php:69 user/ebuy_purchase.php:99 user/wallet.php:71
+#, php-format
+msgid "Payment of Item Purchase: %s"
+msgstr ""
+
+#: user/ebuybtn.php:20 user/ebuybtn.php:22
+msgid "Buy Item"
+msgstr ""
+
+#: user/ebuybtn.php:22
+msgid "This is Your Item. You can't Buy it!"
+msgstr ""
+
+#: user/ebuyform.php:11
+msgid "Enable Sale"
+msgstr ""
+
+#: user/ebuyform.php:12
+msgid ""
+"You can sale direct in our website. We will receive all payments, and then "
+"transfer to you."
+msgstr ""
+
+#: user/ebuyform.php:16
+msgid "Enable online sales..."
+msgstr ""
+
+#: user/ebuyform.php:17
+msgid "Yes"
+msgstr ""
+
+#: user/ebuyform.php:18
+msgid "No"
+msgstr ""
+
+#: user/emailpayment.php:20
+msgid "Premium is valid else"
+msgstr ""
+
+#: user/emailpayment.php:21
+msgid "Highlited is valid else"
+msgstr ""
+
+#: user/emailpayment.php:30 user/payperpublish.php:59
+msgid ""
+"In order to make visible your ad to other users, it's required to pay a fee"
+msgstr ""
+
+#: user/emailpayment.php:31
+#, php-format
+msgid "The current Publish fee for this category is: %.2f %s"
+msgstr ""
+
+#: user/emailpayment.php:150 user/payperpublish.php:172
+msgid "Choose and continue"
+msgstr ""
+
+#: user/item_edit.php:45 user/item_edit.php:46
+msgid "Activated Show Image"
+msgstr ""
+
+#: user/membership.php:31
+msgid "Your Membership Plan:"
+msgstr ""
+
+#: user/membership.php:33
+msgid "Date Expired:"
+msgstr ""
+
+#: user/membership.php:35
+msgid "Basic"
+msgstr ""
+
+#: user/membership.php:41
+msgid "Select membership plan"
+msgstr ""
+
+#: user/membership.php:56
+msgid "Services discount:"
+msgstr ""
+
+#: user/membership.php:58
+msgid "Duration:"
+msgstr ""
+
+#: user/membership.php:62
+msgid "Extend Membership"
+msgstr ""
+
+#: user/membership.php:62 user/membership.php:148
+msgid "Select Plan"
+msgstr ""
+
+#: user/membership.php:64
+msgid "Plan Disabled"
+msgstr ""
+
+#: user/membership.php:72
+msgid "Select a Payment Method"
+msgstr ""
+
+#: user/membership.php:133 user/pack.php:102
+msgid "SMS"
+msgstr ""
+
+#: user/membership.php:149
+msgid "Plan Selected"
+msgstr ""
+
+#: user/menu.php:33
+msgid "Premium services for you items:"
+msgstr ""
+
+#: user/menu.php:56
+msgid "You don't have any listing yet"
+msgstr ""
+
+#: user/pack.php:56
+#, php-format
+msgid "Credit for %s %s at %s"
+msgstr ""
+
+#: user/pack.php:61 user/pack.php:92 user/pack.php:105
+#, php-format
+msgid "Credit for %s%s at %s"
+msgstr ""
+
+#: user/pack.php:61 user/pack.php:92 user/pack.php:105
+#, php-format
+msgid "Add funds: %s"
+msgstr ""
+
+#: user/pack.php:66 user/pack.php:71 user/pack.php:76 user/pack.php:81
+#: user/pack.php:86 user/pack.php:97
+#, php-format
+msgid "Credit for: %s"
+msgstr ""
+
+#: user/payment.php:68
+msgid "Payment of the order with"
+msgstr ""
+
+#: user/payment.php:69
+msgid "Your order"
+msgstr ""
+
+#: user/payment.php:70
+msgid "Price of the order"
+msgstr ""
+
+#: user/payments.php:68
+#, php-format
+msgid "Publish fee for item %d"
+msgstr ""
+
+#: user/payments.php:76
+#, php-format
+msgid "Premium fee for item %d"
+msgstr ""
+
+#: user/payments.php:82
+#, php-format
+msgid "Publish and Premium fee for item %d"
+msgstr ""
+
+#: user/payments.php:93
+#, php-format
+msgid "Highlighted fee for item %d"
+msgstr ""
+
+#: user/payments.php:99
+#, php-format
+msgid "Publish and Highlighted fee for item %d"
+msgstr ""
+
+#: user/payments.php:110
+#, php-format
+msgid "Show Image fee for item %d"
+msgstr ""
+
+#: user/payments.php:116
+#, php-format
+msgid "Publish and Show Image fee for item %d"
+msgstr ""
+
+#: user/payments.php:127
+#, php-format
+msgid "Make Item Premium and Show Image fee for item %d"
+msgstr ""
+
+#: user/payments.php:133
+#, php-format
+msgid "Publish, Make Item Premium and Show Image fee for item %d"
+msgstr ""
+
+#: user/payments.php:144
+#, php-format
+msgid "Make Item Highlighted and Show Image fee for item %d"
+msgstr ""
+
+#: user/payments.php:150
+#, php-format
+msgid "Publish, Make Item Highlighted and Show Image fee for item %d"
+msgstr ""
+
+#: user/payments.php:161
+#, php-format
+msgid "Make Item Premium, Make Item Highlighted and Show Image fee for item %d"
+msgstr ""
+
+#: user/payments.php:167
+#, php-format
+msgid ""
+"Publish, Make Item Premium, Make Item Highlighted and Show Image fee for "
+"item %d"
+msgstr ""
+
+#: user/payments.php:178
+#, php-format
+msgid "Apply: Pack 3-in-1 fee for item %d"
+msgstr ""
+
+#: user/payments.php:184
+#, php-format
+msgid "Publish and apply: Pack 3-in-1 fee for item %d"
+msgstr ""
+
+#: user/payments.php:195
+#, php-format
+msgid "Activate Show Image and apply: Pack 3-in-1 fee for item %d"
+msgstr ""
+
+#: user/payments.php:201
+#, php-format
+msgid "Publish, activate Show Image and apply: Pack 3-in-1 fee for item %d"
+msgstr ""
+
+#: user/payments.php:213
+#, php-format
+msgid "Premium and Highlighted fee for item %d"
+msgstr ""
+
+#: user/payments.php:218
+#, php-format
+msgid "Publish, Premium and Highlighted fee for item %d"
+msgstr ""
+
+#: user/payments.php:225
+msgid "Move Item to TOP"
+msgstr ""
+
+#: user/payments.php:226
+#, php-format
+msgid "Move to TOP fee for item %d"
+msgstr ""
+
+#: user/payments.php:231
+msgid "Renew Item"
+msgstr ""
+
+#: user/payments.php:232
+#, php-format
+msgid "Renew fee for item %d"
+msgstr ""
+
+#: user/payments.php:237
+msgid "Back"
+msgstr ""
+
+#: user/payments.php:255
+msgid "Your choice is:"
+msgstr ""
+
+#: user/payments.php:256
+msgid "Price:"
+msgstr ""
+
+#: user/payments.php:272
+msgid "You can pay with:"
+msgstr ""
+
+#: user/payments.php:283 user/payments.php:288
+msgid "Add funds"
+msgstr ""
+
+#: user/payperpublish.php:60
+#, php-format
+msgid "The current fee for this category is: %.2f %s"
+msgstr ""
+
+#: user/payperpublish.php:61
+msgid "Durations in prices is for additional options."
+msgstr ""
+
+#: user/payperpublish.php:189 user/payperpublish.php:198
+#: user/payperpublish.php:207 user/payperpublish.php:216
+msgid "There was an error"
+msgstr ""
+
+#: user/payperpublish.php:191 user/payperpublish.php:218
+msgid "There's no need to pay the publish fee"
+msgstr ""
+
+#: user/payperpublish.php:200
+msgid "The publish fee is already paid"
+msgstr ""
+
+#: user/payperpublish.php:209
+msgid "The item doesn not exists"
+msgstr ""
+
+#: user/wallet.php:190
+msgid ""
+"There were some errors, please try again later or contact the administrators"
+msgstr ""

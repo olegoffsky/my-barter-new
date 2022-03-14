@@ -1,0 +1,2380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Beta Osclass Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-31 07:22+0200\n"
+"PO-Revision-Date: 2021-04-24 03:25+0300\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_m\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SearchPath-0: languages/en_US\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: 404.php:16
+msgid "404"
+msgstr ""
+
+#: 404.php:17
+msgid "OOPS! Page Not Found!"
+msgstr "OOPS! Страница не найдена!"
+
+#: 404.php:18
+msgid "Either something get wrong or the page doesn't exist anymore."
+msgstr "Либо что-то не так, либо страница больше не существует."
+
+#: 404.php:20
+msgid "Take me home"
+msgstr "На главную"
+
+#: admin/banner.php:6 admin/banner.php:32 admin/functions.php:19
+#: functions.php:2082
+msgid "Advertisement"
+msgstr "Рекламное объявление"
+
+#: admin/banner.php:22 admin/category.php:94 admin/configure.php:52
+#: admin/header.php:45 admin/plugins.php:20
+msgid "Settings were successfully saved"
+msgstr "Настройки успешно сохранены"
+
+#: admin/banner.php:39
+msgid "Enable Theme Banners"
+msgstr "Включить баннеры"
+
+#: admin/banner.php:42
+msgid "When enabled, bellow banners will be shown in front page."
+msgstr ""
+"Когда эта опция включена, на первой странице будут отображаться баннеры ниже."
+
+#: admin/banner.php:48
+msgid "Will be shown"
+msgstr "Будет показано"
+
+#: admin/banner.php:57 admin/category.php:140 admin/configure.php:369
+#: admin/plugins.php:72
+msgid "Save"
+msgstr "Сохранить"
+
+#: admin/category.php:6 admin/category.php:104 admin/header.php:6
+#: functions.php:349 functions.php:1177 item-post.php:93 item-post.php:109
+#: item-post.php:116 item-post.php:127 search.php:115 search.php:119
+msgid "Category"
+msgstr "Категория"
+
+#: admin/category.php:35
+msgid "Font Awesome icon successfully saved for category <strong>#"
+msgstr "Иконка Font Awesome успешно сохранена для категории <strong>#"
+
+#: admin/category.php:42
+msgid "Color successfully saved for category <strong>#"
+msgstr "Цвет успешно сохранен для категории <strong>#"
+
+#: admin/category.php:54
+msgid "extension not allowed, only allowed extension is .png!"
+msgstr "расширение не разрешено, разрешено только расширение .png!"
+
+#: admin/category.php:59
+msgid "Small image #"
+msgstr "Маленькое изображение #"
+
+#: admin/category.php:59 admin/category.php:82
+msgid " uploaded successfully."
+msgstr " успешно загружен."
+
+#: admin/category.php:62
+msgid "There was error when uploading small image #"
+msgstr ""
+"При загрузке небольшого изображения произошла ошибка\n"
+"Pri zagruzke nebol'shogo izobrazheniy #"
+
+#: admin/category.php:77
+msgid "extension not allowed, only allowed extension for large images is .jpg!"
+msgstr ""
+"расширение не разрешено, разрешено только расширение для больших "
+"изображений .jpg!"
+
+#: admin/category.php:82
+msgid "Large image #"
+msgstr "Большое изображение #"
+
+#: admin/category.php:85
+msgid "There was error when uploading large image #"
+msgstr "При загрузке большого изображения произошла ошибка #"
+
+#: admin/category.php:111
+msgid "Category Icons Type"
+msgstr "Тип иконки категории"
+
+#: admin/category.php:114
+msgid ""
+"Check to ON if you want to use Font-Awesome icons instead of Small images "
+"for categories."
+msgstr ""
+"Установите флажок «ВКЛ», если вы хотите использовать Font-Awesome значки "
+"вместо небольших изображений для категорий."
+
+#: admin/category.php:119
+msgid "Setup category icons"
+msgstr "Установить значки категорий"
+
+#: admin/category.php:123 item.php:206
+msgid "ID"
+msgstr ""
+
+#: admin/category.php:124 item-send-friend.php:108 item-send-friend.php:173
+#: item-send-friend.php:230 user-profile.php:42 user-register.php:93
+msgid "Name"
+msgstr "Имя"
+
+#: admin/category.php:125
+msgid "Has small image"
+msgstr "Имеет маленькое изображение"
+
+#: admin/category.php:126
+msgid "Small image (50x50px - png)"
+msgstr "Маленькое изображение (50x50px - png)"
+
+#: admin/category.php:127
+msgid "Has large image"
+msgstr "Имеет большое изображение"
+
+#: admin/category.php:128
+msgid "Large image (720x90px - jpg)"
+msgstr "Большое изображение (720x90px - jpg)"
+
+#: admin/category.php:129
+msgid "Font-Awesome icon"
+msgstr "Font-Awesome icon"
+
+#: admin/category.php:130 admin/functions.php:137
+msgid "Color"
+msgstr "Цвет"
+
+#: admin/configure.php:6 admin/configure.php:67 admin/functions.php:18
+#: admin/functions.php:24 functions.php:2081
+msgid "Configure"
+msgstr "Конфигурация"
+
+#: admin/configure.php:74
+msgid "Theme color"
+msgstr "Цвет темы"
+
+#: admin/configure.php:80
+msgid ""
+"Enter color in HEX format or select color with picker. Theme will use this "
+"color for buttons, borders, ... Example: #f29c12"
+msgstr ""
+"Введите цвет в формате HEX или выберите цвет с помощью палитры. Тема будет "
+"использовать этот цвет для кнопок, границ, ... Пример: # f29c12"
+
+#: admin/configure.php:84 admin/configure.php:85
+msgid "Site Phone Number"
+msgstr "Номер телефона сайта"
+
+#: admin/configure.php:87
+msgid "Leave blank to disable, will be shown in footer"
+msgstr ""
+"Оставьте пустым, чтобы отключить, будет отображаться в нижнем колонтитуле"
+
+#: admin/configure.php:92 admin/configure.php:93
+msgid "Website Name"
+msgstr "Название сайта"
+
+#: admin/configure.php:95
+msgid ""
+"Enter shortcut or short name of your website that will be used in footer"
+msgstr ""
+"Введите ярлык или краткое название вашего сайта, который будет "
+"использоваться в нижнем колонтитуле"
+
+#: admin/configure.php:100
+msgid "Lazy Load"
+msgstr "Ленивая нагрузка"
+
+#: admin/configure.php:103
+msgid ""
+"Enable to deffer images loading. Images will be loaded when get into "
+"viewable area. This may rapidly improve seo rating of your site."
+msgstr ""
+"Включите, чтобы отложить загрузку изображений. Изображения будут загружены "
+"при попадании в видимую область. Это может быстро улучшить SEO рейтинг "
+"вашего сайта."
+
+#: admin/configure.php:107
+msgid "Location Box Content"
+msgstr "Содержимое окна местоположения"
+
+#: admin/configure.php:109 main.php:156 main.php:158
+msgid "Regions"
+msgstr "Регион"
+
+#: admin/configure.php:110 main.php:162 main.php:164
+msgid "Cities"
+msgstr "Город"
+
+#: admin/configure.php:113
+msgid ""
+"Select default content for location box. For cities only first 200 values "
+"will be included in list. Valid only for \"small\" location box."
+msgstr ""
+"Выберите содержимое по умолчанию для поля местоположения. Для городов только "
+"первые 200 значений будут включены в список. Действительно только для "
+"«маленького» окна местоположения."
+
+#: admin/configure.php:120
+msgid "Home page settings"
+msgstr "Настройки домашней страницы"
+
+#: admin/configure.php:124
+msgid "Home Page Layout"
+msgstr "Макет домашней страницы"
+
+#: admin/configure.php:126
+msgid "Tabbed view"
+msgstr "Вид с вкладками"
+
+#: admin/configure.php:127
+msgid "Horizontal view"
+msgstr "Горизонтальный вид"
+
+#: admin/configure.php:130
+msgid ""
+"Select what layout you want to use for home page. Tabbed view will create "
+"tabs and only 1 box is shown at same time. Horizontal view will show all "
+"boxes at once (latest, premiums, favorite, ...)."
+msgstr ""
+"Выберите, какой макет вы хотите использовать для домашней страницы. "
+"Представление с вкладками создаст вкладки, и одновременно отображается "
+"только 1 поле. Горизонтальный вид покажет все коробки сразу (последние, "
+"премии, любимые, ...)."
+
+#: admin/configure.php:136
+msgid "Show Premiums Block on Home"
+msgstr "Показать блок премий на главной"
+
+#: admin/configure.php:139
+msgid "Show premium listings block on home page."
+msgstr "Показать блок премиум списков на главной странице."
+
+#: admin/configure.php:143
+msgid "Show Favorite Items on Home"
+msgstr "Показать любимые предметы на главной"
+
+#: admin/configure.php:146
+msgid ""
+"Show premium listings block on home page. Favorite items plugin must be "
+"installed."
+msgstr ""
+"Показать блок премиум списков на главной странице. Плагин любимых предметов "
+"должен быть установлен."
+
+#: admin/configure.php:150
+msgid "Show Blog Widget on Home"
+msgstr "Показать блог виджет на главной"
+
+#: admin/configure.php:153
+msgid "Show blog articles widget on home page. Blog plugin must be installed"
+msgstr ""
+"Показать виджет статей блога на главной странице. Блог плагин должен быть "
+"установлен"
+
+#: admin/configure.php:157
+msgid "Show Companies on Home"
+msgstr "Показать компании на главной"
+
+#: admin/configure.php:160
+msgid ""
+"Show companies block on home page. Business profile plugin must be installed"
+msgstr ""
+"Показать блок компаний на главной странице. Плагин бизнес-профиля должен "
+"быть установлен"
+
+#: admin/configure.php:164
+msgid "Number of Companies on Home"
+msgstr "Количество компаний на главной"
+
+#: admin/configure.php:167
+msgid "How many companies will be shown on home page."
+msgstr "Сколько компаний будет показано на домашней странице."
+
+#: admin/configure.php:171
+msgid "Show Promote Block on Home"
+msgstr "Показать блок продвижения на главной"
+
+#: admin/configure.php:174
+msgid "Show promote block on home page (Want to sell quickly?)"
+msgstr "Показать блок продвижения на главной странице (Хотите быстро продать?)"
+
+#: admin/configure.php:178
+msgid "Show Stats Block on Home"
+msgstr "Показать блок статистики на главной"
+
+#: admin/configure.php:181
+msgid "Show stats block on home page (We are best thanks to you!)"
+msgstr ""
+"Показать блок статистики на главной странице (Мы лучшие благодаря вам!)"
+
+#: admin/configure.php:185
+msgid "Number of Premiums on Home"
+msgstr "Количество премиум на главной"
+
+#: admin/configure.php:188
+msgid "How many premium listings will be shown on home page."
+msgstr "Сколько премиум объявлений будет показано на главной странице."
+
+#: admin/configure.php:192
+msgid "Show Latest Items in Random Order"
+msgstr "Показать последние товары в случайном порядке"
+
+#: admin/configure.php:195
+msgid ""
+"Enable to show latest items in ranodm order each time page is refreshed."
+msgstr ""
+"Включить отображение последних элементов в случайном порядке при каждом "
+"обновлении страницы."
+
+#: admin/configure.php:199
+msgid "Latest Items Picture Only"
+msgstr "Только последние изображения"
+
+#: admin/configure.php:202
+msgid ""
+"Enable to show in latest section on home page only listings those has at "
+"least 1 picture."
+msgstr ""
+"Включите, чтобы показывать в последнем разделе на главной странице только те "
+"объявления, в которых есть хотя бы 1 изображение."
+
+#: admin/configure.php:206
+msgid "Latest Premium Items"
+msgstr "Последние Премиум объявления"
+
+#: admin/configure.php:209
+msgid ""
+"Enable to show in latest section on home page only listings those are "
+"premium."
+msgstr ""
+"Включите, чтобы показывать в последнем разделе на главной странице только "
+"премиум объявленеия."
+
+#: admin/configure.php:213
+msgid "Category for Latest Items"
+msgstr "Категория для последних объявлений"
+
+#: admin/configure.php:215 functions.php:1228 inc.category.php:72
+msgid "All categories"
+msgstr "Все категории"
+
+#: admin/configure.php:222
+msgid ""
+"Select category that will be used to feed listings into latest items section "
+"on home page."
+msgstr ""
+"Выберите категорию, которая будет использоваться для подачи объявлений в "
+"раздел последних товаров на главной странице."
+
+#: admin/configure.php:229
+msgid "Search page settings"
+msgstr "Настройки страницы поиска"
+
+#: admin/configure.php:232
+msgid "Default View on Search Page"
+msgstr "Вид по умолчанию на странице поиска"
+
+#: admin/configure.php:234
+msgid "Gallery view"
+msgstr "В Виде галереи"
+
+#: admin/configure.php:235 search.php:320
+msgid "List view"
+msgstr "В Виде списока"
+
+#: admin/configure.php:240
+msgid "Show Premiums Block on Search"
+msgstr "Показать блок премий на странице поиска"
+
+#: admin/configure.php:243
+msgid "Show Premium Listings block on Search Page."
+msgstr "Показать блок «Премиум» на странице поиска."
+
+#: admin/configure.php:247
+msgid "Number of Premiums on Search"
+msgstr "Количество премиум по поиску"
+
+#: admin/configure.php:250
+msgid "How many premium listings will be shown on Search page."
+msgstr "Сколько премиум объявлений будет показано на странице поиска."
+
+#: admin/configure.php:254
+msgid "Currency in Search Box"
+msgstr "Валюта в окне поиска"
+
+#: admin/configure.php:261
+msgid ""
+"Select currency symbol that will be used on search page for min & max price "
+"fields."
+msgstr ""
+"Выберите символ валюты, который будет использоваться на странице поиска для "
+"полей минимальной и максимальной цены."
+
+#: admin/configure.php:265
+msgid "Live Search using Ajax"
+msgstr "Легкий поиск с использованием Ajax"
+
+#: admin/configure.php:268
+msgid "Enable live realtime search without reloading of search page."
+msgstr ""
+"Включить живой поиск в реальном времени без перезагрузки страницы поиска."
+
+#: admin/configure.php:274
+msgid "Publish listing settings"
+msgstr "Настройки публикации объявлений"
+
+#: admin/configure.php:277
+msgid "Category box on Publish page"
+msgstr "Поле категории на странице публикации"
+
+#: admin/configure.php:279
+msgid "Fancy box"
+msgstr "Необычная коробка"
+
+#: admin/configure.php:280
+msgid "Cascading drop-downs"
+msgstr "Каскадные выпадающие списки"
+
+#: admin/configure.php:281
+msgid "One select box"
+msgstr "Одна коробка выбора"
+
+#: admin/configure.php:282
+msgid "Interactive select box"
+msgstr "Интерактивная коробка выбора"
+
+#: admin/configure.php:285
+msgid ""
+"Select what type of category selection (box) will be used on publish/edit "
+"page."
+msgstr ""
+"Выберите, какой тип выбора категории (поле) будет использоваться на странице "
+"публикации / редактирования."
+
+#: admin/configure.php:289
+msgid "Required Fields on Publish"
+msgstr "Обязательные поля для публикации"
+
+#: admin/configure.php:293
+msgid "None"
+msgstr "Ничего"
+
+#: admin/configure.php:294 inc.search.php:41 item-post.php:150 item.php:138
+#: search.php:89 user-profile.php:81 user-profile.php:84
+msgid "Location"
+msgstr "Город"
+
+#: admin/configure.php:295 functions.php:355 user-alerts.php:132
+msgid "Country"
+msgstr "Страна"
+
+#: admin/configure.php:296 functions.php:358 user-alerts.php:154
+msgid "Region"
+msgstr "Регион"
+
+#: admin/configure.php:297 functions.php:361 user-alerts.php:176
+msgid "City"
+msgstr "Город"
+
+#: admin/configure.php:298
+msgid "Contact Name"
+msgstr "Контактное лицо"
+
+#: admin/configure.php:299 functions.php:1100 item-send-friend.php:183
+msgid "Phone"
+msgstr "Телефон"
+
+#: admin/configure.php:302
+msgid ""
+"If you select Location as required, it means that one of following fields "
+"must be filled: Country, Region or City"
+msgstr ""
+"Если вы выберете Местоположение как требуется, это означает, что должно быть "
+"заполнено одно из следующих полей: Страна, Регион или Город"
+
+#: admin/configure.php:306
+msgid "Extra Fields exclude Categories"
+msgstr "Дополнительные поля исключают категории"
+
+#: admin/configure.php:313
+msgid ""
+"Select categories where you do not want to show Transaction and Condition on "
+"listing publish/edit page"
+msgstr ""
+"Выберите категории, в которых вы не хотите показывать транзакцию и условие "
+"на странице публикации / редактирования"
+
+#: admin/configure.php:319
+msgid "Other settings"
+msgstr "Другие настройки"
+
+#: admin/configure.php:322
+msgid "Footer Link"
+msgstr "Footer Ссылка"
+
+#: admin/configure.php:325
+msgid "Link to OsclassPoint will be shown in footer to support our project."
+msgstr ""
+"Ссылка на OsclassPoint будет показана в Footer для поддержки нашего проекта."
+
+#: admin/configure.php:329
+msgid "Use Default Logo"
+msgstr "Использовать логотип по умолчанию"
+
+#: admin/configure.php:332
+msgid "If you did not upload any logo yet, osclass default logo will be used."
+msgstr ""
+"Если вы еще не загрузили какой-либо логотип, будет использован логотип по "
+"умолчанию."
+
+#: admin/configure.php:336
+msgid "Form submit without reload (Ajax)"
+msgstr "Форма отправки без перезагрузки (Ajax)"
+
+#: admin/configure.php:339
+msgid ""
+"Contact seller, Add new comment & Send to friend forms will be submitted "
+"without page reload."
+msgstr ""
+"Связаться с продавцом, добавить новый комментарий и отправить другу формы "
+"будут отправлены без перезагрузки страницы."
+
+#: admin/configure.php:344
+msgid "Improve Location Pick"
+msgstr "Улучшить выбор местоположения"
+
+#: admin/configure.php:347
+msgid ""
+"When user enter term into location picker (like city), there are results for "
+"this query and user does not select anything, theme will pick first entry "
+"when form is submitted. Works on home & search page."
+msgstr ""
+"Когда пользователь вводит термин в средство выбора местоположения (например, "
+"город), для этого запроса есть результаты, и пользователь ничего не "
+"выбирает, тема выберет первую запись при отправке формы. Работает на "
+"домашней странице и странице поиска."
+
+#: admin/configure.php:352
+msgid "Enable Listing Preview"
+msgstr "Включить предварительный просмотроюъявления"
+
+#: admin/configure.php:355
+msgid ""
+"When enabled, preview button is added into items list and visitor can "
+"preview listing without opening it in window."
+msgstr ""
+"Когда эта опция включена, кнопка предварительного просмотра добавляется в "
+"список, и посетитель может просмотреть объявление, не открывая его в окне."
+
+#: admin/configure.php:359
+msgid "Number of Items on Public Profile"
+msgstr "Количество объявлений в публичном профиле"
+
+#: admin/configure.php:362
+msgid ""
+"How many listings will be shown on user public profile. Keep in mind that "
+"pagination is not available on public profile."
+msgstr ""
+"Сколько объявлений будет показано в публичном профиле пользователя. Имейте в "
+"виду, что нумерация страниц недоступна в общедоступном профиле."
+
+#: admin/functions.php:20 functions.php:2083
+msgid "Category Icons"
+msgstr "Значки категорий"
+
+#: admin/functions.php:21
+msgid "Header Logo"
+msgstr "Логотип заголовка"
+
+#: admin/functions.php:22 admin/plugins.php:6 functions.php:2085
+msgid "Plugins"
+msgstr "Плагины"
+
+#: admin/functions.php:51
+msgid "Report Bug"
+msgstr "Сообщить об ошибке"
+
+#: admin/functions.php:52
+msgid "Support Forums"
+msgstr "Форума поддержки"
+
+#: admin/functions.php:53
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: admin/functions.php:101
+msgid "Add small image"
+msgstr "Добавить маленькое изображение"
+
+#: admin/functions.php:109
+msgid "Add large image"
+msgstr "Add large image"
+
+#: admin/functions.php:110
+msgid "Add / remove icon"
+msgstr "Добавить / удалить значок"
+
+#: admin/functions.php:127 admin/functions.php:129
+msgid "Add / remove color"
+msgstr "Добавить / удалить цвет"
+
+#: admin/header.php:21
+msgid "The logo image has been uploaded correctly"
+msgstr "Изображение логотипа было загружено правильно"
+
+#: admin/header.php:23 admin/header.php:26
+msgid "An error has occurred, please try again"
+msgstr "Произошла ошибка, пожалуйста, попробуйте еще раз"
+
+#: admin/header.php:34
+msgid "The logo image has been removed"
+msgstr "Изображение логотипа было удалено"
+
+#: admin/header.php:36
+msgid "Image not found"
+msgstr "Изображение не найдено"
+
+#: admin/header.php:55
+msgid "Logo preview"
+msgstr "Предварительный просмотр логотипа"
+
+#: admin/header.php:66 item.php:283
+msgid "Remove"
+msgstr "Удалить"
+
+#: admin/header.php:73
+msgid "No logo has been uploaded yet"
+msgstr "Логотип еще не загружен"
+
+#: admin/header.php:83
+msgid "Logo upload"
+msgstr "Загрузка логотипа"
+
+#: admin/header.php:90
+msgid ""
+"When new logo is uploaded, do not forget to clean your browser cache (CTRL + "
+"R or CTRL + F5)"
+msgstr ""
+"При загрузке нового логотипа не забудьте очистить кеш браузера (CTRL + R или "
+"CTRL + F5)"
+
+#: admin/header.php:91
+msgid "The preferred size of the logo is 200x50px."
+msgstr "Предпочтительный размер логотипа составляет 200x50 пикселей."
+
+#: admin/header.php:92
+msgid "Following formats are allowed: png, gif, jpg"
+msgstr "Допустимы следующие форматы: png, gif, jpg"
+
+#: admin/header.php:95
+msgid "Uploading another logo will overwrite the current logo."
+msgstr "Загрузка другого логотипа перезапишет текущий логотип."
+
+#: admin/header.php:103
+msgid "Upload"
+msgstr "Загрузить"
+
+#: admin/header.php:110
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr ""
+"Папка с изображениями <strong>%s</strong> недоступно для записи на вашем "
+"сервере"
+
+#: admin/header.php:111
+msgid "OSClass can't upload the logo image from the administration panel."
+msgstr ""
+"OSClass не может загрузить изображение логотипа из панели администрирования."
+
+#: admin/header.php:112
+msgid "Please make the aforementioned image folder writable."
+msgstr ""
+"Пожалуйста, сделайте вышеупомянутую папку изображений доступной для записи."
+
+#: admin/header.php:118
+msgid ""
+"To make a directory writable under UNIX execute this command from the shell:"
+msgstr ""
+"Чтобы сделать каталог доступным для записи в UNIX, выполните эту команду из "
+"оболочки:"
+
+#: admin/plugins.php:28
+msgid "Plugins for this theme"
+msgstr "Плагины для этой темы"
+
+#: admin/plugins.php:29
+msgid ""
+"We have modified for you many plugins to fit theme design that will work "
+"without need of any modifications"
+msgstr ""
+"Мы модифицировали для вас множество плагинов, чтобы они соответствовали "
+"дизайну тем, которые будут работать без каких-либо изменений"
+
+#: admin/plugins.php:30
+msgid ""
+"Plugins are not delivered in theme package, must be downloaded separately"
+msgstr "Плагины не поставляются в пакете темы, должны быть загружены отдельно"
+
+#: admin/plugins.php:31
+msgid "Download plugins"
+msgstr "Скачать плагины"
+
+#: admin/plugins.php:32
+msgid ""
+"upload and extract downloaded file <strong>beta-plugins.zip</strong> into "
+"folder <strong>oc-content/plugins/</strong> on your hosting"
+msgstr ""
+"загрузить и извлечь загруженный файл <strong>beta-plugins.zip</strong>в "
+"папку <strong>oc-content/plugins/</strong>на вашем хостинге"
+
+#: admin/plugins.php:33
+msgid "go to <strong>oc-admin > Plugins</strong> and install plugins you like"
+msgstr ""
+"перейти к <strong>oc-admin > Plugins</strong> и установите плагины, которые "
+"вам нравятся"
+
+#: admin/plugins.php:40
+msgid "Plugin settings"
+msgstr "Настройки плагина"
+
+#: admin/plugins.php:47
+msgid "Enable Scroll to Top"
+msgstr "Включить прокрутку вверх"
+
+#: admin/plugins.php:50
+msgid "When enabled, button that enables scroll to top will be added."
+msgstr ""
+"При включении будет добавлена кнопка, которая позволяет прокрутить вверх."
+
+#: admin/plugins.php:54
+msgid "Enable Related Listings"
+msgstr "Включить связанные объявления"
+
+#: admin/plugins.php:57
+msgid "When enabled, related listings will be shown at listing page."
+msgstr ""
+"Когда включено, связанные объявления будут отображаться на странице списка."
+
+#: admin/plugins.php:61
+msgid "Number of Related Items"
+msgstr "Количество связанных объявлений"
+
+#: admin/plugins.php:64
+msgid "Enter how many related listings will be shown on item page."
+msgstr ""
+"Введите, сколько связанных объявлений будет показано на странице товара."
+
+#: alert-form.php:4 contact.php:44
+msgid "Email"
+msgstr ""
+
+#: alert-form.php:10
+msgid "Please enter your email address!"
+msgstr "Пожалуйста, введите свой адрес электронной почты!"
+
+#: alert-form.php:26
+msgid "You have successfully subscribed to alert!"
+msgstr "Вы успешно подписались на оповещение!"
+
+#: alert-form.php:29
+msgid ""
+"There was error during subscription process - incorrect email address format!"
+msgstr ""
+"Во время подписки произошла ошибка - неверный формат адреса электронной "
+"почты!"
+
+#: alert-form.php:32
+msgid "You have already subscribed to this search!"
+msgstr "Вы уже подписались на этот поиск!"
+
+#: alert-form.php:55 alert-form.php:62
+msgid "Subscribe to this search"
+msgstr "Подписаться на этот поиск"
+
+#: alert-form.php:56 alert-form.php:63 alert-form.php:68
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: contact.php:29 header.php:33
+msgid "Contact us"
+msgstr "Контакты"
+
+#: contact.php:39 item-send-friend.php:51
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: contact.php:50
+msgid "Subject"
+msgstr "Тема"
+
+#: contact.php:53 item-send-friend.php:68 item-send-friend.php:124
+#: item-send-friend.php:188 item-send-friend.php:246
+msgid "Message"
+msgstr "Сообщение"
+
+#: contact.php:61
+msgid "Choose a file"
+msgstr "Выберите файл"
+
+#: contact.php:62 head.php:26
+msgid "No file selected"
+msgstr "Файл не выбран"
+
+#: contact.php:72
+msgid "Send"
+msgstr "Отправить"
+
+#: footer.php:5 header.php:16
+msgid "Post an ad"
+msgstr "Подать объявление"
+
+#: footer.php:17
+msgid "All rights reserved"
+msgstr "Все права защищены"
+
+#: footer.php:29
+msgid "Country flag"
+msgstr "Флаг страны"
+
+#: footer.php:37
+msgid "Navigation"
+msgstr "Навигация"
+
+#: footer.php:40 footer.php:141 header.php:119
+msgid "Home"
+msgstr "Главная"
+
+#: footer.php:41 footer.php:142 header.php:89 inc.search.php:58 search.php:77
+#: search.php:277
+msgid "Search"
+msgstr "Поиск"
+
+#: footer.php:42 footer.php:157
+msgid "Contact"
+msgstr "Контакты"
+
+#: footer.php:43
+msgid "My Account"
+msgstr "Мой аккаунт"
+
+#: footer.php:44 footer.php:144
+msgid "Add a new listing"
+msgstr "Новое объявление"
+
+#: footer.php:52 main.php:150 main.php:152 search.php:174 user-alerts.php:198
+msgid "Categories"
+msgstr "Категории"
+
+#: footer.php:67
+msgid "Locations"
+msgstr "Местоположение"
+
+#: footer.php:82
+msgid "Information"
+msgstr "Информация"
+
+#: footer.php:115
+msgid "Share us on Facebook"
+msgstr "Поделитесь на Facebook"
+
+#: footer.php:116
+msgid "Share us on Pinterest"
+msgstr "Поделитесь на Pinterest"
+
+#: footer.php:117
+msgid "your"
+msgstr "вашы"
+
+#: footer.php:117
+msgid "classifieds"
+msgstr "объявления"
+
+#: footer.php:117
+msgid "Tweet us"
+msgstr ""
+
+#: footer.php:131
+msgid ""
+"You have enabled DEBUG MODE, autocomplete for locations and items will not "
+"work! Disable it in your config.php."
+msgstr ""
+"Вы включили режим отладки, автозаполнение для локаций и предметов не будет "
+"работать! Отключите его в вашем config.php."
+
+#: footer.php:147 header.php:32 user-register.php:51
+msgid "Log in"
+msgstr "Войти"
+
+#: footer.php:148
+msgid "Register a new account"
+msgstr "Зарегистрироватся"
+
+#: footer.php:151 functions.php:937 functions.php:963 user-items.php:26
+msgid "My listings"
+msgstr "Мои объявления"
+
+#: footer.php:152 functions.php:943 user-profile.php:34
+msgid "My profile"
+msgstr "Мой профиль"
+
+#: footer.php:153 user-alerts.php:26
+msgid "My alerts"
+msgstr "Мои оповещения"
+
+#: footer.php:160 header.php:21
+msgid "Log out"
+msgstr "Выйти"
+
+#: footer.php:167
+msgid "Select country first to get list of regions"
+msgstr "Сначала выберите страну, чтобы получить список регионов"
+
+#: footer.php:168
+msgid "Select region first to get list of regions"
+msgstr "Сначала выберите регион"
+
+#: footer.php:169
+msgid "Select main category first to get list of subcategories"
+msgstr "Сначала выберите основную категорию"
+
+#: footer.php:321
+msgid "more cities, specify your location"
+msgstr "укажите ваше местоположение"
+
+#: footer.php:333
+msgid "No country match to your criteria"
+msgstr "Ни одна страна не соответствует вашим критериям"
+
+#: footer.php:338
+msgid "No region match to your criteria"
+msgstr "Ни один регион не соответствует вашим критериям"
+
+#: footer.php:343
+msgid "No city match to your criteria"
+msgstr "Ни один город не соответствует вашим критериям"
+
+#: footer.php:349
+msgid "No location match to your criteria"
+msgstr "Нет местоположения в базе"
+
+#: footer.php:359
+msgid "Enter at least"
+msgstr "Введите хотя бы"
+
+#: footer.php:359
+msgid "more letter(s)"
+msgstr "больше букв"
+
+#: functions.php:69 functions.php:73 functions.php:76
+msgid "Chat unavailable"
+msgstr "Чат недоступен"
+
+#: functions.php:70
+msgid "User is not registered"
+msgstr "Пользователь не зарегистрирован"
+
+#: functions.php:74
+msgid "It is your listing"
+msgstr "Это ваше объявление"
+
+#: functions.php:77
+msgid "User has blocked you"
+msgstr "Пользователь заблокировал вас"
+
+#: functions.php:79
+msgid "Chat unavailable (offline)"
+msgstr "Чат недоступен (не в сети)"
+
+#: functions.php:82
+msgid "Start chat (online)"
+msgstr "Начать чат (онлайн)"
+
+#: functions.php:188
+msgid "You may also like ..."
+msgstr "Вам также может понравиться ..."
+
+#: functions.php:331
+msgid "Yes"
+msgstr "Да"
+
+#: functions.php:331
+msgid "No"
+msgstr "Нет"
+
+#: functions.php:340 functions.php:1090 functions.php:1328 functions.php:1582
+#: item-post.php:265 item.php:201 search.php:245
+msgid "Transaction"
+msgstr "Сделка"
+
+#: functions.php:343 functions.php:1095 functions.php:1384 functions.php:1610
+#: item-post.php:270 search.php:233
+msgid "Condition"
+msgstr "Состояние"
+
+#: functions.php:346
+msgid "User"
+msgstr "Пользователь"
+
+#: functions.php:352 functions.php:1512 functions.php:1554
+msgid "Age"
+msgstr "Возраст"
+
+#: functions.php:364
+msgid "Picture"
+msgstr "Изображение"
+
+#: functions.php:367 search.php:217
+msgid "Min"
+msgstr "Мин"
+
+#: functions.php:370 search.php:222
+msgid "Max"
+msgstr "Макс"
+
+#: functions.php:373 search.php:80
+msgid "Keyword"
+msgstr "Ключевое слово"
+
+#: functions.php:386 functions.php:391 functions.php:398 functions.php:406
+#: functions.php:1182 functions.php:1285
+msgid "All"
+msgstr "Все"
+
+#: functions.php:387
+msgid "New"
+msgstr "Новое"
+
+#: functions.php:388
+msgid "Used"
+msgstr "Б/.у"
+
+#: functions.php:392
+msgid "Sell"
+msgstr "Продам"
+
+#: functions.php:393
+msgid "Buy"
+msgstr "Куплю"
+
+#: functions.php:394
+msgid "Rent"
+msgstr "Аренда"
+
+#: functions.php:395
+msgid "Exchange"
+msgstr "Обмен"
+
+#: functions.php:399
+msgid "Yesterday"
+msgstr "Вчера"
+
+#: functions.php:400
+msgid "Last week"
+msgstr "Неделю назад"
+
+#: functions.php:401
+msgid "Last 2 weeks"
+msgstr "За последние 2 недели"
+
+#: functions.php:402
+msgid "Last month"
+msgstr "Прошлый месяц"
+
+#: functions.php:403
+msgid "Last year"
+msgstr "Прошлый год"
+
+#: functions.php:407 functions.php:1287 functions.php:1299 search.php:313
+msgid "Personal"
+msgstr "Частное лицо"
+
+#: functions.php:408 functions.php:1288 functions.php:1300 search.php:314
+msgid "Company"
+msgstr "Компания"
+
+#: functions.php:436
+msgid "region"
+msgstr "бласть, край"
+
+#: functions.php:436
+msgid "city"
+msgstr "город"
+
+#: functions.php:462
+#, php-format
+msgid "... and %d more %s, enter your %s name to refine results"
+msgstr ""
+"... а также %d далее %s, введите ваше %s имя, чтобы уточнить результаты"
+
+#: functions.php:721
+msgid "minute ago"
+msgstr "минуту назад"
+
+#: functions.php:723
+#, php-format
+msgid "%d minutes ago"
+msgstr "%d минут назад"
+
+#: functions.php:725
+#, php-format
+msgid "%d hour ago"
+msgstr "%d час назад"
+
+#: functions.php:727
+#, php-format
+msgid "%d hours ago"
+msgstr "%d часов назад"
+
+#: functions.php:729
+#, php-format
+msgid "%d day ago"
+msgstr "%d день назад"
+
+#: functions.php:731
+#, php-format
+msgid "%d days ago"
+msgstr "%d дней назад"
+
+#: functions.php:733
+#, php-format
+msgid "%d week ago"
+msgstr "%d неделю назад"
+
+#: functions.php:735
+#, php-format
+msgid "%d weeks ago"
+msgstr "%d недели назад"
+
+#: functions.php:737
+#, php-format
+msgid "%d month ago"
+msgstr "%d месяц назад"
+
+#: functions.php:739
+#, php-format
+msgid "%d months ago"
+msgstr "%d месяцев назад"
+
+#: functions.php:741
+#, php-format
+msgid "%d year ago"
+msgstr "%d год назад"
+
+#: functions.php:743
+#, php-format
+msgid "%d years ago"
+msgstr "%d лет назад"
+
+#: functions.php:761
+#, php-format
+msgid "%d+ days"
+msgstr "%d+ дней"
+
+#: functions.php:763
+#, php-format
+msgid "%d+ week"
+msgstr "%d+ неделю"
+
+#: functions.php:765
+#, php-format
+msgid "%d+ weeks"
+msgstr "%d+ недели"
+
+#: functions.php:767
+#, php-format
+msgid "%d+ month"
+msgstr "%d+ месяц"
+
+#: functions.php:769
+#, php-format
+msgid "%d+ months"
+msgstr "%d+ месяца"
+
+#: functions.php:771
+#, php-format
+msgid "%d+ year"
+msgstr "%d+ год"
+
+#: functions.php:773
+#, php-format
+msgid "%d+ years"
+msgstr "%d+ лет"
+
+#: functions.php:838
+msgid "Select category"
+msgstr "Выберите категорию"
+
+#: functions.php:838
+msgid "Back"
+msgstr "Назад"
+
+#: functions.php:942
+msgid "Alerts"
+msgstr "Оповещения"
+
+#: functions.php:944
+msgid "Public profile"
+msgstr "Общедоступный профиль"
+
+#: functions.php:945
+msgid "Logout"
+msgstr "Выйти"
+
+#: functions.php:954
+#, php-format
+msgid "Hi %s!"
+msgstr "Привет %s!"
+
+#: functions.php:957
+msgid "Update"
+msgstr "Обновить"
+
+#: functions.php:988 header.php:24
+msgid "My account"
+msgstr "Мой аккаунт"
+
+#: functions.php:1105
+msgid "Item Sold"
+msgstr "Завершено"
+
+#: functions.php:1179
+msgid "Choose one category"
+msgstr "Выберите одну категорию"
+
+#: functions.php:1276
+msgid "Seller type"
+msgstr "Тип пользователя"
+
+#: functions.php:1284
+msgid "Choose seller type"
+msgstr "Выберите тип пользователя"
+
+#: functions.php:1298
+msgid "All sellers"
+msgstr "Все пользователи"
+
+#: functions.php:1338
+msgid "Choose transaction type"
+msgstr "Выберите тип транзакции"
+
+#: functions.php:1394
+msgid "Choose condition of item"
+msgstr "Выберите состояние"
+
+#: functions.php:1453
+msgid "Currency"
+msgstr "Валюта"
+
+#: functions.php:1475 functions.php:1487 functions.php:1496
+msgid "Enter price"
+msgstr "Введите цену"
+
+#: functions.php:1478 functions.php:1497 functions.php:2058 functions.php:2073
+#: item-post.php:254
+msgid "Free"
+msgstr "Бесплатно"
+
+#: functions.php:1481 functions.php:1498 functions.php:2057 functions.php:2072
+#: item-post.php:255
+msgid "Check with seller"
+msgstr "Уточнить у продавца"
+
+#: functions.php:1494
+msgid "Choose price type"
+msgstr "Выберите тип цены"
+
+#: functions.php:1522
+msgid "Choose period"
+msgstr "Выберите период"
+
+#: functions.php:1796 functions.php:1802 functions.php:1810
+msgid "in"
+msgstr "в"
+
+#: functions.php:1818
+msgid "Location not entered"
+msgstr "Место не введено"
+
+#: functions.php:2079
+msgid "Theme Setting"
+msgstr "Настройка темы"
+
+#: functions.php:2080
+msgid "Theme Settings"
+msgstr "Настройки темы"
+
+#: functions.php:2084
+msgid "Logo"
+msgstr "Логотип"
+
+#: functions.php:2542
+msgid "You can define your own banner code from theme settings"
+msgstr "Вы можете определить свой собственный код баннера из настроек темы"
+
+#: functions.php:2551
+msgid "Advertisement space"
+msgstr "Рекламное место"
+
+#: functions.php:2565
+msgid "Top of home page"
+msgstr "Начало домашней страницы"
+
+#: functions.php:2566
+msgid "Bottom of home page"
+msgstr "Нижняя часть домашней страницы"
+
+#: functions.php:2567
+msgid "Bottom of search sidebar"
+msgstr "Нижняя часть боковой панели поиска"
+
+#: functions.php:2568
+msgid "Top of search page"
+msgstr "Начало страницы поиска"
+
+#: functions.php:2569
+msgid "Bottom of search page"
+msgstr "Середина боковой панели"
+
+#: functions.php:2570
+msgid "Between listings"
+msgstr "Между списками"
+
+#: functions.php:2571
+msgid "Top of item page"
+msgstr "Начало страницы товара"
+
+#: functions.php:2572
+msgid "Bottom of item page"
+msgstr "Нижняя часть страницы товара"
+
+#: functions.php:2573
+msgid "Middle of item sidebar"
+msgstr "Середина боковой панели"
+
+#: functions.php:2574
+msgid "Bottom of item sidebar"
+msgstr "Нижняя часть боковой панели"
+
+#: functions.php:2575
+msgid "Under item description"
+msgstr "Под описанием товара"
+
+#: functions.php:2576
+msgid "Public profile sidebar"
+msgstr "Публичная панель профиля"
+
+#: functions.php:2577
+msgid "Public profile under items"
+msgstr "Публичный профиль под объявлениями"
+
+#: head.php:27
+msgid "Choose File"
+msgstr "Выберите файл"
+
+#: head.php:42
+msgid "Parent category cannot be selected"
+msgstr "Родительская категория не может быть выбрана"
+
+#: header.php:27
+msgid "Hi"
+msgstr "Привет"
+
+#: header.php:31
+msgid "Register"
+msgstr "Регистрация"
+
+#: header.php:40
+msgid "Blog"
+msgstr "Блог"
+
+#: header.php:44
+msgid "Companies"
+msgstr "Компании"
+
+#: header.php:48
+msgid "Forums"
+msgstr "Форум"
+
+#: header.php:52
+msgid "Messages"
+msgstr "Сообщения"
+
+#: header.php:88 inc.search.php:25 search.php:83
+msgid "What are you looking for?"
+msgstr "Ищу"
+
+#: inc.category.php:34
+msgid "Browse categories"
+msgstr "Категории"
+
+#: inc.category.php:54
+#, php-format
+msgid "%s listings"
+msgstr "%s объявления"
+
+#: inc.search.php:10
+msgid "Search, Sell & Buy"
+msgstr "Поиск, продажа и покупка"
+
+#: inc.search.php:11
+msgid "Best classifieds"
+msgstr "Лучшие объявления"
+
+#: inc.search.php:11
+msgid "for you"
+msgstr "для вас"
+
+#: inc.search.php:12
+msgid ""
+"We are no. 1 online classifieds platform, our is all about you. Our aim is "
+"to empower every person in the country to independently connect with buyers "
+"and sellers online. "
+msgstr ""
+"1 онлайн-сайт объявлений России Do-Mos. Наша цель - дать возможность каждому "
+"человеку независимо общаться с покупателями и продавцами онлайн. "
+
+#: inc.search.php:68
+msgid "����� �������� � �������� ��� �������� � �����"
+msgstr "����� ���������, �������� ���������"
+
+#: item-post.php:77
+msgid "Publish a new listing"
+msgstr "Опубликовать новыое объявление"
+
+#: item-post.php:77
+msgid "Edit listing"
+msgstr "Изменить объявление"
+
+#: item-post.php:102 item-post.php:110 item-post.php:117
+msgid "Select a category"
+msgstr "Выбрать категорию"
+
+#: item-post.php:124
+msgid "Select best-matching category"
+msgstr "Выберите наиболее подходящую категорию"
+
+#: item-post.php:137 item-post.php:167 search.php:129
+msgid "Continue"
+msgstr "Продолжить"
+
+#: item-post.php:154
+msgid "Where is your item located?"
+msgstr "Где находится ваш товар?"
+
+#: item-post.php:157 search.php:94
+msgid "City/Region"
+msgstr "Город / Регион"
+
+#: item-post.php:178 user-profile.php:98
+msgid "City Area"
+msgstr "Район"
+
+#: item-post.php:183
+msgid "Address"
+msgstr "Адрес"
+
+#: item-post.php:188 user-profile.php:108
+msgid "ZIP"
+msgstr "Индекс"
+
+#: item-post.php:198 user-profile.php:70
+msgid "About you"
+msgstr "О вас"
+
+#: item-post.php:203
+msgid "Make email visible"
+msgstr "Сделать электронную почту видимой"
+
+#: item-post.php:211
+msgid "Your Name"
+msgstr "Ваше имя"
+
+#: item-post.php:216 user-register.php:97
+msgid "Mobile Phone"
+msgstr "Телефон"
+
+#: item-post.php:221 item-send-friend.php:113 item-send-friend.php:178
+#: item-send-friend.php:235 user-profile.php:53 user-register.php:37
+#: user-register.php:96 user-register.php:146
+msgid "E-mail"
+msgstr ""
+
+#: item-post.php:228
+msgid "You can update your data in"
+msgstr "Вы можете обновить свои данные в разделе"
+
+#: item-post.php:228
+msgid "Your Profile"
+msgstr "Мой профиль"
+
+#: item-post.php:228
+msgid "section"
+msgstr "!"
+
+#: item-post.php:230
+msgid "Not registered yet?"
+msgstr "Еще не зарегистрированы?"
+
+#: item-post.php:230
+msgid "Sign-up"
+msgstr "Зарегистрироваться"
+
+#: item-post.php:230
+msgid "and publish listings faster"
+msgstr "и публиковать объявление быстро"
+
+#: item-post.php:237 item-post.php:385 search.php:213
+msgid "Price"
+msgstr "Цена"
+
+#: item-post.php:250
+msgid "or"
+msgstr "или"
+
+#: item-post.php:254
+msgid "Item is offered for free"
+msgstr "Предлагаю бесплатно"
+
+#: item-post.php:254
+msgid "Item for free"
+msgstr "Бесплатно"
+
+#: item-post.php:255
+msgid "Based on agreement with seller"
+msgstr "По договоренности"
+
+#: item-post.php:255
+msgid "Deal"
+msgstr "Договорная"
+
+#: item-post.php:279 item.php:213
+msgid "Description"
+msgstr "Описание"
+
+#: item-post.php:299
+msgid "Photos"
+msgstr "Фото"
+
+#: item-post.php:303
+#, php-format
+msgid "You can upload up to %d pictures per listing"
+msgstr "Вы можете загрузить до %d фотографий"
+
+#: item-post.php:319
+msgid "Listing details & attributes"
+msgstr "Подробное описание объявления"
+
+#: item-post.php:343
+msgid "Publish item"
+msgstr "Опубликовать"
+
+#: item-post.php:343 user-profile.php:125
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: item-post.php:468
+msgid "Please enter a value with a valid extension."
+msgstr "Пожалуйста, введите значение с допустимым расширением."
+
+#: item-post.php:589
+msgid "Title: this field is required."
+msgstr "Заголовок: это поле обязательно для заполнения."
+
+#: item-post.php:590
+msgid "Title: enter at least 5 characters."
+msgstr "Название: введите не менее 5 символов."
+
+#: item-post.php:594
+msgid "Description: this field is required."
+msgstr "Описание: это поле обязательно для заполнения."
+
+#: item-post.php:595
+msgid "Description: enter at least 10 characters."
+msgstr "Описание: введите не менее 10 символов."
+
+#: item-post.php:600
+msgid "Location: select country, region or city."
+msgstr "Расположение: выберите регион или город."
+
+#: item-post.php:601
+msgid "Location: enter at least 3 characters to get list."
+msgstr "Расположение: введите не менее 3 символов, чтобы получить список."
+
+#: item-post.php:607
+msgid "Location: select country from location field."
+msgstr "Местоположение: выберите страну из поля местоположения."
+
+#: item-post.php:613
+msgid "Location: select region from location field."
+msgstr "Местоположение: выберите регион из поля местоположения."
+
+#: item-post.php:619
+msgid "Location: select city from location field."
+msgstr "Местоположение: выберите город."
+
+#: item-post.php:625
+msgid "Pictures: you need to upload pictures."
+msgstr "Фото: вам нужно загрузить фотографии."
+
+#: item-post.php:626
+msgid "Pictures: upload at least."
+msgstr "Фотографии: Вам нужно загрузить хотя бы"
+
+#: item-post.php:626
+msgid "picture(s)."
+msgstr "фото"
+
+#: item-post.php:630
+msgid "Category: this field is required."
+msgstr "Категория: это поле обязательно для заполнения."
+
+#: item-post.php:633
+msgid "Photo: must be png,gif,jpg,jpeg."
+msgstr "Фото: должно быть PNG, GIF, JPG, JPEG."
+
+#: item-post.php:638
+msgid "Phone: this field is required."
+msgstr "Телефон: это поле обязательно для заполнения."
+
+#: item-post.php:639
+msgid "Phone: enter at least 6 characters."
+msgstr "Телефон: введите не менее 6 символов."
+
+#: item-post.php:645
+msgid "Your Name: this field is required."
+msgstr "Ваше имя: это поле обязательно для заполнения."
+
+#: item-post.php:646
+msgid "Your Name: enter at least 3 characters."
+msgstr "Ваше имя: введите не менее 3 символов."
+
+#: item-post.php:651
+msgid "Email: this field is required."
+msgstr "Email: это поле обязательно для заполнения."
+
+#: item-post.php:652
+msgid "Email: invalid format of email address."
+msgstr "Email: неверный формат адреса электронной почты."
+
+#: item-send-friend.php:34
+msgid "Send to friend"
+msgstr "Отправить другу"
+
+#: item-send-friend.php:54
+msgid "Your e-mail address"
+msgstr "Ваш электронный адрес"
+
+#: item-send-friend.php:60
+msgid "Your friend's name"
+msgstr "Имя вашего друга"
+
+#: item-send-friend.php:63
+msgid "Your friend's e-mail address"
+msgstr "Адрес электронной почты вашего друга"
+
+#: item-send-friend.php:74 item-send-friend.php:194 item-send-friend.php:252
+msgid "Send message"
+msgstr "Отправить сообщение"
+
+#: item-send-friend.php:96 item.php:443
+msgid "Add a new comment"
+msgstr "Добавить новый комментарий"
+
+#: item-send-friend.php:119
+msgid "Title"
+msgstr "Заголовок"
+
+#: item-send-friend.php:130
+msgid "Submit comment"
+msgstr "Отправить комментарий"
+
+#: item-send-friend.php:150 item-send-friend.php:217
+msgid "Contact seller"
+msgstr "Связаться с продавцом"
+
+#: item-send-friend.php:159
+msgid "This listing expired, you cannot contact seller."
+msgstr ""
+"У это объявления истек срок размещения, вы не можете связаться с продавцом."
+
+#: item-send-friend.php:163
+msgid "It is your own listing, you cannot contact yourself."
+msgstr "Это ваше собственное объявление, вы не можете связаться с самим собой."
+
+#: item-send-friend.php:167
+msgid ""
+"You must log in or register a new account in order to contact the advertiser."
+msgstr ""
+"Вы должны войти или зарегистрироваться, чтобы связаться с рекламодателем."
+
+#: item-send-friend.php:226
+msgid "This is your own profile!"
+msgstr "Это ваш собственный профиль!"
+
+#: item-send-friend.php:241
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: item.php:40 user-public-profile.php:15
+msgid "No phone number"
+msgstr "Нет номера телефона"
+
+#: item.php:61 user-public-profile.php:24
+#, php-format
+msgid "Posting for %s"
+msgstr "На сайте %s"
+
+#: item.php:64 user-public-profile.php:27
+msgid "Registered user"
+msgstr "Зарегистрированный пользователь"
+
+#: item.php:66 user-public-profile.php:29
+msgid "Unregistered user"
+msgstr "Незарегистрированный пользователь"
+
+#: item.php:107 user-items.php:56
+msgid "Premium"
+msgstr "Премиум"
+
+#: item.php:114
+msgid "Unkown location"
+msgstr "Неизвестное место"
+
+#: item.php:123
+msgid "This listing is expired!"
+msgstr "У этого объявления истек срок размещения!"
+
+#: item.php:129
+msgid "Seller has marked this listing as <strong>SOLD</strong>"
+msgstr "Продавец отметил это объявление как <strong>ПРОДАНО</strong>"
+
+#: item.php:129
+msgid "Seller has marked this listing as <strong>RESERVED</strong>"
+msgstr "Продавец отметил это объявление как <strong>ЗАРЕЗЕРВИРОВАНО</strong>"
+
+#: item.php:137
+msgid "Images"
+msgstr "Изображения"
+
+#: item.php:164
+msgid "Image"
+msgstr "Изображение"
+
+#: item.php:174
+msgid "Seller has not uploaded any pictures"
+msgstr "Продавец не загрузил ни одной фотографии"
+
+#: item.php:187
+msgid "Get directions"
+msgstr "Проложить маршрут"
+
+#: item.php:197
+msgid "Item condition"
+msgstr "Состояние товара"
+
+#: item.php:205 loop-single-premium.php:50 loop-single.php:50 user-items.php:42
+msgid "hit"
+msgstr "просмотр"
+
+#: item.php:205 loop-single-premium.php:50 loop-single.php:50 user-items.php:42
+msgid "hits"
+msgstr "просмотров"
+
+#: item.php:231
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: item.php:255
+msgid "view all details"
+msgstr "просмотреть все детали"
+
+#: item.php:279
+msgid "Manage item"
+msgstr "Управление объявлением"
+
+#: item.php:282 user-items.php:95
+msgid "Edit"
+msgstr "Редактировать"
+
+#: item.php:283 user-items.php:93
+msgid ""
+"Are you sure you want to delete this listing? This action cannot be undone."
+msgstr ""
+"Вы уверены, что хотите удалить это объявление? Это действие не может быть "
+"отменено."
+
+#: item.php:286 user-items.php:98
+msgid "Validate"
+msgstr "Подтвердить"
+
+#: item.php:303 user-public-profile.php:61
+msgid "Professional seller"
+msgstr "Профессиональный продавец"
+
+#: item.php:327
+msgid "view profile"
+msgstr "просмотреть профиль"
+
+#: item.php:338 user-public-profile.php:96
+msgid "Click to show number"
+msgstr "Нажмите, чтобы показать номер"
+
+#: item.php:346
+msgid "Click to show email"
+msgstr "Нажмите, чтобы показать email"
+
+#: item.php:353 user-public-profile.php:102
+msgid "Message seller"
+msgstr "Сообщение продавцу"
+
+#: item.php:363
+msgid "Browse all seller's ads"
+msgstr "Все объявления продавца"
+
+#: item.php:367
+msgid "Make offer"
+msgstr "Сделать предложение"
+
+#: item.php:370
+msgid "Print listing"
+msgstr "Распечатать"
+
+#: item.php:377
+msgid "Download in PDF"
+msgstr "Скачать в PDF"
+
+#: item.php:385
+msgid "Recommend"
+msgstr "Рекомендовать"
+
+#: item.php:390 user-public-profile.php:120
+msgid "Share on Facebook"
+msgstr "Поделиться в Facebook"
+
+#: item.php:391 user-public-profile.php:121
+msgid "Share on Twitter"
+msgstr "Поделиться в Twitter"
+
+#: item.php:392 user-public-profile.php:122
+msgid "Share on Pinterest"
+msgstr "Поделиться в Pinterest"
+
+#: item.php:404
+msgid "Comments"
+msgstr "Комментарии"
+
+#: item.php:419
+msgid "Comment"
+msgstr "Комментарий"
+
+#: item.php:419
+msgid "by"
+msgstr "от"
+
+#: item.php:419
+msgid "Anonymous"
+msgstr "Анонимно"
+
+#: item.php:426
+msgid "Delete your comment"
+msgstr "Удалить свой комментарий"
+
+#: item.php:427 user-items.php:93
+msgid "Delete"
+msgstr "Удалить"
+
+#: item.php:437
+msgid "No comments has been added yet"
+msgstr "Пока не было добавлено ни одного комментария"
+
+#: item.php:472
+#, php-format
+msgid "Call %s"
+msgstr "Вызов %s"
+
+#: item.php:473
+msgid "Send SMS"
+msgstr "Отправить смс"
+
+#: item.php:474
+msgid "Copied to clipboard!"
+msgstr "Скопировано в буфер обмена!"
+
+#: item.php:474
+msgid "Copy number"
+msgstr "Копировать номер"
+
+#: item.php:490 user-public-profile.php:165
+msgid "Click to call"
+msgstr "Нажмите, чтобы позвонить"
+
+#: item.php:503
+msgid "Click to send mail"
+msgstr "Нажмите, чтобы отправить почту"
+
+#: loop-single-premium.php:7 loop-single.php:7
+msgid "sold"
+msgstr "продано"
+
+#: loop-single-premium.php:11 loop-single.php:11
+msgid "reserved"
+msgstr "зарезервированный"
+
+#: loop-single-premium.php:15 loop-single.php:15
+msgid "premium"
+msgstr "премиум"
+
+#: loop-single-premium.php:31 loop-single.php:31
+msgid "Preview"
+msgstr "Предварительный просмотр"
+
+#: loop-single.php:54
+msgid "Unknown location"
+msgstr "Неизвестное место"
+
+#: main.php:22
+msgid "Featured listings"
+msgstr "Премиум объявления"
+
+#: main.php:36
+msgid "No premium listing yet"
+msgstr "Нет Премиум объявлений"
+
+#: main.php:66
+msgid "Want to sell quickly?"
+msgstr "Хотите быстро продать?"
+
+#: main.php:67
+msgid ""
+"Publish a listing, promote ad to make it more attractive and get more hits "
+"and sell item much faster"
+msgstr ""
+"Опубликуйте объявление, продвигайте товар, рекламу, чтобы сделать ее более "
+"привлекательной, получить больше просмотьров и продавать товары намного "
+"быстрее"
+
+#: main.php:71
+msgid "Publish an ad"
+msgstr "Опубликовать объявление"
+
+#: main.php:72
+msgid "Add a listing"
+msgstr "Добавить объявление"
+
+#: main.php:73
+msgid "It takes just 1 minute!"
+msgstr "Это займет всего 1 минуту!"
+
+#: main.php:77
+msgid "Promote listing"
+msgstr "Продвинуть объявление"
+
+#: main.php:78
+msgid "Promote it"
+msgstr "Продвиньте объявление"
+
+#: main.php:79
+msgid "To make it more attractive"
+msgstr "Чтобы сделать его более привлекательным"
+
+#: main.php:84
+msgid "Listing sold"
+msgstr "Объявление продано"
+
+#: main.php:85 user-items.php:122
+msgid "Sold"
+msgstr "Сделка"
+
+#: main.php:86
+msgid "Premium item sells 5x faster"
+msgstr "Премиум товар продается в 50 раз быстрее"
+
+#: main.php:105
+msgid "Lately added on our classifieds"
+msgstr "Все объявления"
+
+#: main.php:124
+msgid "No latest listing yet"
+msgstr "Нет последних объявлений"
+
+#: main.php:139
+msgid "We are best thanks to you!"
+msgstr "Сайт объявлений Do-Mos вся Россия!"
+
+#: main.php:140
+msgid "Our classifieds are constantly spreading into world, stats says it all"
+msgstr "1 сайт объявлений России"
+
+#: main.php:144
+msgid "Active listings"
+msgstr "Активные объявления"
+
+#: main.php:146
+msgid "Active ads"
+msgstr "Активные объявления"
+
+#: main.php:168
+msgid "Users registred"
+msgstr "Новые пользователи"
+
+#: main.php:170
+msgid "Users registered"
+msgstr "Новые пользователи"
+
+#: main.php:215
+msgid "Most favorited listings by users"
+msgstr "Самые популярные объявления пользователей"
+
+#: main.php:229
+msgid "No listing favorited yet"
+msgstr "Объявление не добавлено в избранное"
+
+#: main.php:252
+msgid "Latest articles on our blog"
+msgstr "Последние статьи в нашем блоге"
+
+#: main.php:267
+msgid "Our partners"
+msgstr "Компании"
+
+#: maintenance.php:24
+msgid "Maintenance"
+msgstr "Обслуживание"
+
+#: maintenance.php:25
+msgid "OOOPS! We are sorry, page is undergoing maintenance."
+msgstr "OOOPS! К сожалению, страница находится на обслуживании."
+
+#: maintenance.php:26
+msgid "Please come back in few minutes. Thank you."
+msgstr "Пожалуйста, вернитесь через несколько минут. Спасибо."
+
+#: search.php:104
+msgid "Ok"
+msgstr "Ok"
+
+#: search.php:256
+msgid "Period"
+msgstr "Период"
+
+#: search.php:266
+msgid "Additional parameters"
+msgstr "Дополнительные параметры"
+
+#: search.php:291
+#, php-format
+msgid "Showing %s - %s of %s results"
+msgstr "Показано %s - %s из %s результатов"
+
+#: search.php:293
+msgid "No listings found"
+msgstr "Не найдено ни одного объявления"
+
+#: search.php:312
+msgid "All listings"
+msgstr "Все объявления"
+
+#: search.php:321
+msgid "Grid view"
+msgstr "Вид сетки"
+
+#: search.php:373
+msgid "Only items with picture"
+msgstr "Только объявления с изображением"
+
+#: search.php:374
+msgid "With picture"
+msgstr "С изображением"
+
+#: search.php:411
+msgid "Remove all"
+msgstr "Удалить все"
+
+#: search.php:418
+msgid "We could not find any results for your search..."
+msgstr "Мы не смогли найти никаких результатов для вашего поиска ..."
+
+#: search.php:421
+msgid "Following tips might help you to get better results"
+msgstr "Следующие советы могут помочь вам получить лучшие результаты"
+
+#: search.php:422
+msgid "Use more general keywords"
+msgstr "Используйте более общие ключевые слова"
+
+#: search.php:423
+msgid "Check spelling of position"
+msgstr "Проверьте правильность написания позиции"
+
+#: search.php:424
+msgid "Reduce filters, use less of them"
+msgstr "Уменьшите фильтры, используйте их меньше"
+
+#: search.php:425
+msgid "Reset filter"
+msgstr "Сбросить фильтр"
+
+#: search_gallery.php:12
+msgid "Top offer"
+msgstr "Топ предложение"
+
+#: user-alerts.php:15 user-custom.php:15 user-items.php:15 user-profile.php:20
+msgid "Menu"
+msgstr "Меню"
+
+#: user-alerts.php:109
+msgid "Alert"
+msgstr "Предупреждение"
+
+#: user-alerts.php:110
+msgid "item found"
+msgstr "найденные результаты"
+
+#: user-alerts.php:110
+msgid "items found"
+msgstr "результаты найдены"
+
+#: user-alerts.php:112
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Это действие не может быть отменено. Вы уверены что хотите продолжить?"
+
+#: user-alerts.php:112
+msgid "Unsubscribe"
+msgstr "Отказаться от подписки"
+
+#: user-alerts.php:117
+msgid "Pattern"
+msgstr "Шаблон"
+
+#: user-alerts.php:122
+msgid "Min. price"
+msgstr "Мин. цена"
+
+#: user-alerts.php:127
+msgid "Max. price"
+msgstr "Макс. цена"
+
+#: user-alerts.php:223
+msgid ""
+"Note that not all conditions are listed, only base alert conditions are "
+"shown."
+msgstr ""
+"Обратите внимание, что перечислены не все условия, показаны только базовые "
+"условия."
+
+#: user-alerts.php:232
+msgid "No listings match to alert criteria."
+msgstr "Нет объявлений, соответствующих критериям."
+
+#: user-alerts.php:240
+msgid "You have no active alerts"
+msgstr "У вас нет активных оповещений"
+
+#: user-forgot_password.php:12
+msgid "Reset"
+msgstr "Сброс"
+
+#: user-forgot_password.php:12
+msgid "password"
+msgstr "пароль"
+
+#: user-forgot_password.php:23 user-profile.php:179
+msgid "New password"
+msgstr "Новый пароль"
+
+#: user-forgot_password.php:27
+msgid "Repeat password"
+msgstr "Повторите пароль"
+
+#: user-forgot_password.php:31
+msgid "Submit"
+msgstr "Разместить"
+
+#: user-items.php:46
+msgid "Inactive"
+msgstr "Неактивный"
+
+#: user-items.php:48
+msgid "Expired"
+msgstr "Истек"
+
+#: user-items.php:56
+msgid "This listing is premium"
+msgstr "Это объявление Премиум"
+
+#: user-items.php:79
+msgid "Location missing"
+msgstr "Местоположение отсутствует"
+
+#: user-items.php:87
+#, php-format
+msgid "Published on %s"
+msgstr "Опубликовано в %s"
+
+#: user-items.php:89
+msgid "Never expire"
+msgstr "Никогда не истекает"
+
+#: user-items.php:89
+msgid "Expire on"
+msgstr "Истекает"
+
+#: user-items.php:122
+msgid "Not sold"
+msgstr "Не продан"
+
+#: user-items.php:123
+msgid "Not reserved"
+msgstr "Не защищены"
+
+#: user-items.php:123
+msgid "Reserve"
+msgstr "Резерв"
+
+#: user-items.php:129
+msgid "Republish"
+msgstr "Опубликовать повторно"
+
+#: user-items.php:137
+msgid "You have no listings yet"
+msgstr "У вас еще нет объявлений"
+
+#: user-profile.php:46
+msgid "Update avatar"
+msgstr "Обновить аватар"
+
+#: user-profile.php:60
+msgid "Mobile phone"
+msgstr "Телефон"
+
+#: user-profile.php:65
+msgid "Land Phone"
+msgstr "Домашний  телефон"
+
+#: user-profile.php:103
+msgid "Street"
+msgstr "Улица"
+
+#: user-profile.php:113
+msgid "User type"
+msgstr "Тип пользователя"
+
+#: user-profile.php:118
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: user-profile.php:134 user-profile.php:154 user-profile.php:156
+msgid "Change email"
+msgstr "Изменить e-mail"
+
+#: user-profile.php:143
+msgid "Current e-mail"
+msgstr "Текущий e-mail"
+
+#: user-profile.php:148
+msgid "New e-mail"
+msgstr "Новый e-mail"
+
+#: user-profile.php:154 user-profile.php:191
+msgid "You cannot do this on demo site"
+msgstr "Вы не можете сделать это на демонстрационном сайте"
+
+#: user-profile.php:165 user-profile.php:191 user-profile.php:193
+msgid "Change password"
+msgstr "Измени пароль"
+
+#: user-profile.php:174
+msgid "Current password"
+msgstr "Текущий пароль"
+
+#: user-profile.php:184
+msgid "Repeat new password"
+msgstr "Повторите новый пароль"
+
+#: user-profile.php:201
+msgid ""
+"Are you sure you want to delete your account? This action cannot be undone"
+msgstr ""
+"Вы уверены, что хотите удалить свой аккаунт? Это действие не может быть "
+"отменено"
+
+#: user-profile.php:201
+msgid "Delete account"
+msgstr "Удалить аккаунт"
+
+#: user-public-profile.php:85
+msgid "view all ads"
+msgstr "просмотреть все объявления"
+
+#: user-public-profile.php:133
+msgid "Latest items of seller"
+msgstr "Последние объявления продавца"
+
+#: user-public-profile.php:147
+msgid "This seller has no active listings"
+msgstr "У этого продавца нет активных объявлений"
+
+#: user-register.php:19
+msgid "Back to home page"
+msgstr "Вернуться на главную страницу"
+
+#: user-register.php:27 user-register.php:126 user-register.php:158
+msgid "Login"
+msgstr "Логин"
+
+#: user-register.php:38 user-register.php:94
+msgid "Password"
+msgstr "Пароль"
+
+#: user-register.php:43
+msgid "Remember me"
+msgstr "Запомни меня"
+
+#: user-register.php:55
+msgid "Social login"
+msgstr "Вход через соц сеть"
+
+#: user-register.php:58 user-register.php:112
+msgid "Connect with Facebook"
+msgstr "Вход через Facebook"
+
+#: user-register.php:62 user-register.php:116
+msgid "Connect with Google"
+msgstr "Вход через Google"
+
+#: user-register.php:72 user-register.php:83 user-register.php:159
+msgid "Sign up"
+msgstr "Регистрация"
+
+#: user-register.php:73 user-register.php:127 user-register.php:137
+msgid "Forgot password"
+msgstr "Забыл пароль"
+
+#: user-register.php:95
+msgid "Re-type password"
+msgstr "Повторите пароль"
+
+#: user-register.php:104
+msgid "Create account"
+msgstr "Регистрация"
+
+#: user-register.php:109
+msgid "Social signup"
+msgstr "Регистрация через соц сети"
+
+#: user-register.php:151
+msgid "Send a new password"
+msgstr "Отправить новый пароль"
