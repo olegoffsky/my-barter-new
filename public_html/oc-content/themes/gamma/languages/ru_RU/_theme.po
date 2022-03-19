@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Beta Osclass Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-31 07:22+0200\n"
-"PO-Revision-Date: 2019-11-12 19:52+0300\n"
+"PO-Revision-Date: 2021-04-24 03:25+0300\n"
 "Last-Translator: Miso <miso546@azet.sk>\n"
 "Language-Team: MB Themes <info@mb-themes.com>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_m\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-SearchPath-0: languages/en_US\n"
 "X-Poedit-SearchPath-1: .\n"
 
@@ -810,7 +810,7 @@ msgstr "Подписаться"
 
 #: contact.php:29 header.php:33
 msgid "Contact us"
-msgstr "Связаться с нами"
+msgstr "Контакты"
 
 #: contact.php:39 item-send-friend.php:51
 msgid "Your name"
@@ -872,7 +872,7 @@ msgstr "Мой аккаунт"
 
 #: footer.php:44 footer.php:144
 msgid "Add a new listing"
-msgstr "Добавить новое объявление"
+msgstr "Новое объявление"
 
 #: footer.php:52 main.php:150 main.php:152 search.php:174 user-alerts.php:198
 msgid "Categories"
@@ -968,7 +968,7 @@ msgstr "Ни один город не соответствует вашим кр
 
 #: footer.php:349
 msgid "No location match to your criteria"
-msgstr "Нет местоположения, соответствующего вашим критериям"
+msgstr "Нет местоположения в базе"
 
 #: footer.php:359
 msgid "Enter at least"
@@ -1330,19 +1330,19 @@ msgstr "Рекламное место"
 
 #: functions.php:2565
 msgid "Top of home page"
-msgstr ""
+msgstr "Начало домашней страницы"
 
 #: functions.php:2566
 msgid "Bottom of home page"
-msgstr ""
+msgstr "Нижняя часть домашней страницы"
 
 #: functions.php:2567
 msgid "Bottom of search sidebar"
-msgstr ""
+msgstr "Нижняя часть боковой панели поиска"
 
 #: functions.php:2568
 msgid "Top of search page"
-msgstr ""
+msgstr "Начало страницы поиска"
 
 #: functions.php:2569
 msgid "Bottom of search page"
@@ -1350,7 +1350,7 @@ msgstr "Середина боковой панели"
 
 #: functions.php:2570
 msgid "Between listings"
-msgstr ""
+msgstr "Между списками"
 
 #: functions.php:2571
 msgid "Top of item page"
@@ -1362,7 +1362,7 @@ msgstr "Нижняя часть страницы товара"
 
 #: functions.php:2573
 msgid "Middle of item sidebar"
-msgstr "Середина боковой панели "
+msgstr "Середина боковой панели"
 
 #: functions.php:2574
 msgid "Bottom of item sidebar"
@@ -1374,7 +1374,7 @@ msgstr "Под описанием товара"
 
 #: functions.php:2576
 msgid "Public profile sidebar"
-msgstr ""
+msgstr "Публичная панель профиля"
 
 #: functions.php:2577
 msgid "Public profile under items"
@@ -1414,11 +1414,11 @@ msgstr "Сообщения"
 
 #: header.php:88 inc.search.php:25 search.php:83
 msgid "What are you looking for?"
-msgstr "Что ищете?"
+msgstr "Ищу"
 
 #: inc.category.php:34
 msgid "Browse categories"
-msgstr "Просмотр категорий"
+msgstr "Категории"
 
 #: inc.category.php:54
 #, php-format
@@ -1443,8 +1443,12 @@ msgid ""
 "to empower every person in the country to independently connect with buyers "
 "and sellers online. "
 msgstr ""
-"1 онлайн-сайт объявлений, все для вас. Наша цель - дать возможность каждому "
-"человеку в стране независимо общаться с покупателями и продавцами онлайн. "
+"1 онлайн-сайт объявлений России Do-Mos. Наша цель - дать возможность каждому "
+"человеку независимо общаться с покупателями и продавцами онлайн. "
+
+#: inc.search.php:68
+msgid "����� �������� � �������� ��� �������� � �����"
+msgstr "����� ���������, �������� ���������"
 
 #: item-post.php:77
 msgid "Publish a new listing"
@@ -1500,7 +1504,7 @@ msgstr "Ваше имя"
 
 #: item-post.php:216 user-register.php:97
 msgid "Mobile Phone"
-msgstr "Мобильный телефон"
+msgstr "Телефон"
 
 #: item-post.php:221 item-send-friend.php:113 item-send-friend.php:178
 #: item-send-friend.php:235 user-profile.php:53 user-register.php:37
@@ -1510,15 +1514,15 @@ msgstr ""
 
 #: item-post.php:228
 msgid "You can update your data in"
-msgstr "Вы можете обновить свои данные в"
+msgstr "Вы можете обновить свои данные в разделе"
 
 #: item-post.php:228
 msgid "Your Profile"
-msgstr "Ваш профиль"
+msgstr "Мой профиль"
 
 #: item-post.php:228
 msgid "section"
-msgstr "раздел"
+msgstr "!"
 
 #: item-post.php:230
 msgid "Not registered yet?"
@@ -1619,7 +1623,7 @@ msgstr "Местоположение: выберите регион из пол�
 
 #: item-post.php:619
 msgid "Location: select city from location field."
-msgstr "Местоположение: выберите город из поля местоположения."
+msgstr "Местоположение: выберите город."
 
 #: item-post.php:625
 msgid "Pictures: you need to upload pictures."
@@ -1627,11 +1631,11 @@ msgstr "Фото: вам нужно загрузить фотографии."
 
 #: item-post.php:626
 msgid "Pictures: upload at least."
-msgstr "Фотографии: загрузить по крайней мере 1."
+msgstr "Фотографии: Вам нужно загрузить хотя бы"
 
 #: item-post.php:626
 msgid "picture(s)."
-msgstr "фотографию(й)."
+msgstr "фото"
 
 #: item-post.php:630
 msgid "Category: this field is required."
@@ -1659,7 +1663,7 @@ msgstr "Ваше имя: введите не менее 3 символов."
 
 #: item-post.php:651
 msgid "Email: this field is required."
-msgstr "Email: this field is required."
+msgstr "Email: это поле обязательно для заполнения."
 
 #: item-post.php:652
 msgid "Email: invalid format of email address."
@@ -1731,7 +1735,7 @@ msgstr "Нет номера телефона"
 #: item.php:61 user-public-profile.php:24
 #, php-format
 msgid "Posting for %s"
-msgstr "на сайте %s"
+msgstr "На сайте %s"
 
 #: item.php:64 user-public-profile.php:27
 msgid "Registered user"
@@ -1787,7 +1791,7 @@ msgstr "просмотр"
 
 #: item.php:205 loop-single-premium.php:50 loop-single.php:50 user-items.php:42
 msgid "hits"
-msgstr "просмотра"
+msgstr "просмотров"
 
 #: item.php:231
 msgid "Attributes"
@@ -1878,7 +1882,7 @@ msgstr "Комментарий"
 
 #: item.php:419
 msgid "by"
-msgstr ""
+msgstr "от"
 
 #: item.php:419
 msgid "Anonymous"
@@ -2000,7 +2004,7 @@ msgstr "Премиум товар продается в 50 раз быстрее
 
 #: main.php:105
 msgid "Lately added on our classifieds"
-msgstr "Свежие объявления"
+msgstr "Все объявления"
 
 #: main.php:124
 msgid "No latest listing yet"
@@ -2008,11 +2012,11 @@ msgstr "Нет последних объявлений"
 
 #: main.php:139
 msgid "We are best thanks to you!"
-msgstr "Мы лучшие благодаря вам!"
+msgstr "Сайт объявлений Do-Mos вся Россия!"
 
 #: main.php:140
 msgid "Our classifieds are constantly spreading into world, stats says it all"
-msgstr "1 онлайн-платформа объявлений"
+msgstr "1 сайт объявлений России"
 
 #: main.php:144
 msgid "Active listings"
@@ -2044,7 +2048,7 @@ msgstr "Последние статьи в нашем блоге"
 
 #: main.php:267
 msgid "Our partners"
-msgstr "Наши партнеры"
+msgstr "Компании"
 
 #: maintenance.php:24
 msgid "Maintenance"
@@ -2137,11 +2141,11 @@ msgstr "Предупреждение"
 
 #: user-alerts.php:110
 msgid "item found"
-msgstr "Найденные результаты"
+msgstr "найденные результаты"
 
 #: user-alerts.php:110
 msgid "items found"
-msgstr "Результаты найдены"
+msgstr "результаты найдены"
 
 #: user-alerts.php:112
 msgid "This action can't be undone. Are you sure you want to continue?"
@@ -2254,7 +2258,7 @@ msgstr "Обновить аватар"
 
 #: user-profile.php:60
 msgid "Mobile phone"
-msgstr "Мобильный телефон"
+msgstr "Телефон"
 
 #: user-profile.php:65
 msgid "Land Phone"

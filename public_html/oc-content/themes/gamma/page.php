@@ -16,10 +16,11 @@
           <div class="bottom"><?php _e('Do you have more questions?', 'gamma'); ?> <a href="<?php echo osc_contact_url(); ?>"><?php _e('Contact us', 'gamma'); ?></a></div>
         </div>
 
+      <!--
         <div class="right">
 
           <h3><?php _e('Other articles', 'stela'); ?></h3>
-          <?php 
+          <?php
             $current_id = osc_static_page_id();
             $i = 0;
 
@@ -31,10 +32,12 @@
             <?php if($i < 10 && $current_id <> osc_static_page_id()) { ?>
               <a href="<?php echo osc_static_page_url(); ?>"><?php echo osc_static_page_title(); ?></a>
             <?php } ?>
- 
+
             <?php $i++; ?>
           <?php } ?>
         </div>
+      -->
+
       </div>
     </div>
     <?php osc_current_web_theme_path('footer.php') ; ?>

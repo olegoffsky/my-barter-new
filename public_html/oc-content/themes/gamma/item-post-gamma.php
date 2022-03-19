@@ -5,16 +5,8 @@
   <?php osc_current_web_theme_path('head.php') ; ?>
   <meta name="robots" content="noindex, nofollow" />
   <meta name="googlebot" content="noindex, nofollow" />
+
   <?php if(osc_images_enabled_at_items()) { ItemForm::photos_javascript(); } ?>
-  <script type="text/javascript" src="/oc-content/plugins/image_required/js/validate.js"></script>
-  <script type="text/javascript" src="/oc-includes/osclass/assets/js/jquery.validate.min.js"></script>
-  <script type="text/javascript" src="/oc-includes/osclass/assets/js/jquery.rotate.min.js"></script>
-  <script type="text/javascript" src="/oc-content/themes/gamma/js/fancybox/jquery.fancybox.pack.js" async defer"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
-  <script type="text/javascript" src="/oc-includes/osclass/assets/js/date.js" async defer"></script>
-  <script type="text/javascript" src="/oc-includes/osclass/assets/js/tabber-minimized.js"></script>
-  <script type="text/javascript" src="/oc-includes/osclass/assets/js/fineuploader/jquery.fineuploader.min.js"></script>
-  <script type="text/javascript" src="https://use.fontawesome.com/af830f475b.js" async defer></script>
 </head>
 
 <?php
@@ -98,7 +90,7 @@
 
 
       <fieldset class="s1">
-        <div class="in"><h2><?php _e('Category', 'gamma'); ?></h2></div>
+        <h2><?php _e('Category', 'gamma'); ?></h2>
 
         <div class="in">
           <!-- CATEGORY -->
@@ -153,27 +145,65 @@
         </div>
       </fieldset>
 
-      <fieldset class="s3">
+
+      <fieldset class="s2">
+        <h2><?php _e('Location', 'gamma'); ?></h2>
+
         <div class="in">
-          <h2><?php _e('About you', 'gamma'); ?>
+          <div id="location-picker" class="loc-picker picker-v2 ctr-<?php echo (gam_count_countries() == 1 ? 'one' : 'more'); ?>">
+            <label for="term2"><span><?php _e('Where is your item located?', 'gamma'); ?></span><span class="req">*</span></label>
+
+            <div class="mini-box">
+              <input type="text" id="term2" class="term2" placeholder="<?php _e('City/Region', 'gamma'); ?>" value="<?php echo gam_get_term('', $prepare['i_country'], $prepare['i_region'], $prepare['i_city']); ?>" autocomplete="off" readonly/>
+              <i class="fa fa-angle-down"></i>
+            </div>
+
+            <div class="shower-wrap">
+              <div class="shower" id="shower">
+                <?php echo gam_locbox_short($prepare['i_country'], $prepare['i_region'], $prepare['i_city']); ?>
+                <a href="#" class="btn btn-primary mbBg loc-confirm isMobile"><i class="fa fa-check"></i></a>
+
+                <div class="button-wrap isTablet isDesktop">
+                  <a href="#" class="btn btn-primary mbBg loc-confirm"><?php _e('Continue', 'gamma'); ?></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="loader"></div>
+          </div>
+
+
+          <div class="loc-more">
+            <div class="row city-area">
+              <label for="address"><?php _e('City Area', 'gamma'); ?></label>
+              <div class="input-box"><?php ItemForm::city_area_text($prepare); ?></div>
+            </div>
+
+            <div class="row address">
+              <label for="address"><?php _e('Address', 'gamma'); ?></label>
+              <div class="input-box"><?php ItemForm::address_text($prepare); ?></div>
+            </div>
+
+            <div class="row zip">
+              <label for="address"><?php _e('ZIP', 'gamma'); ?></label>
+              <div class="input-box"><?php ItemForm::zip_text($prepare); ?></div>
+            </div>
+
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="s3">
+        <h2>
+          <?php _e('About you', 'gamma'); ?>
 
           <div class="mail-show">
             <div class="input-box-check">
               <?php ItemForm::show_email_checkbox() ; ?>
-              <label for="showEmail" class="label-mail-show"><?php _e('Показывать Email', 'gamma'); ?></label>
+              <label for="showEmail" class="label-mail-show"><?php _e('Make email visible', 'gamma'); ?></label>
             </div>
           </div>
-
-          <?php if(method_exists('ItemForm', 'show_phone_checkbox')) { ?>
-            <div class="mail-show">
-              <div class="input-box-check">
-              <?php ItemForm::show_phone_checkbox() ; ?>
-              <label for="showPhone" class="label-mail-show"><?php _e('Показывать номер телефона ', 'gamma'); ?></label>
-              </div>
-            </div>
-          <?php } ?>
-          </h2>
-        </div>
+        </h2>
 
         <div class="in">
           <div class="seller<?php if(osc_is_web_user_logged_in() ) { ?> logged<?php } ?>">
@@ -186,12 +216,12 @@
               <label for="phone"><?php _e('Mobile Phone', 'gamma'); ?><?php if(strpos($required_fields, 'phone') !== false) { ?><span class="req">*</span><?php } ?></label>
               <div class="input-box"><input type="tel" id="sPhone" name="sPhone" value="<?php echo $prepare['s_phone']; ?>" /></div>
             </div>
+
             <div class="row user-email">
               <label for="contactEmail"><span><?php _e('E-mail', 'gamma'); ?></span><span class="req">*</span></label>
               <div class="input-box"><?php ItemForm::contact_email_text($prepare); ?></div>
             </div>
           </div>
-
 
           <div class="row user-link">
             <?php if(osc_is_web_user_logged_in()) { ?>
@@ -204,11 +234,12 @@
 
 
       <fieldset class="s4">
-        <div class="in"><h2><?php _e('Price', 'gamma'); ?></h2></div>
 
         <div class="in">
           <!-- PRICE -->
           <?php if(osc_price_enabled_at_items()) { ?>
+            <label for="price"><?php _e('Price', 'gamma'); ?></label>
+
             <div class="price-wrap">
               <div class="inside">
                 <div class="enter<?php if($price_type == 'FREE' || $price_type == 'CHECK') { ?> disable<?php } ?>">
@@ -249,7 +280,7 @@
         <h2><?php _e('Description', 'gamma'); ?></h2>
 
         <div class="in">
-
+          <?php echo gam_locale_post_links(); ?>
 
           <!-- TITLE & DESCRIPTION -->
           <div class="title-desc-box">
@@ -262,62 +293,15 @@
         </div>
       </fieldset>
 
-      <fieldset class="s2">
-        <div class="in">
-          <h2><?php _e('Location', 'gamma'); ?></h2>
-        </div>
 
-        <div class="in">
-          <?php if(function_exists('radius_map_publish')) { echo radius_map_publish(); } ?>
-            <label for="term">
-              <?php if(strpos($required_fields, 'location') !== false || strpos($required_fields, 'country') !== false || strpos($required_fields, 'region') !== false || strpos($required_fields, 'city') !== false) { ?>
-              <?php } ?>
-            </label>
-        </div>
 
-         <div class="in"> <!--<i>Начните вводить адрес, а затем выберите из списка<span class="req">*</span></i>-->
-            <div id="location-picker" class="loc-picker-v2 ctr-<?php echo (gam_count_countries() == 1 ? 'one' : 'more'); ?>">
-              <input type="text" name="term" id="term" class="term2" id="input-result" placeholder="<?php _e('City/Region', 'gamma'); ?>" value="<?php echo gam_get_term('', $prepare['i_country'], $prepare['i_region'], $prepare['i_city']); ?>" autocomplete="off" readonly/>
-
-              <div class="shower-wrap">
-                <div class="shower" id="shower">
-                  <?php echo gam_locbox_short($prepare['i_country'], $prepare['i_region'], $prepare['i_city']); ?>
-                  <a href="#" class="btn btn-primary mbBg loc-confirm isMobile"><i class="fa fa-check"></i></a>
-
-                  <div class="button-wrap isTablet isDesktop">
-                    <a href="#" class="btn btn-primary mbBg loc-confirm"><?php _e('Continue', 'gamma'); ?></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="loader"></div>
-            </div>
-
-          <div class="loc-more">
-            <div class="row city-area">
-              <label for="address"><?php _e('City Area', 'gamma'); ?></label>
-              <div class="input-box"><?php ItemForm::city_area_text($prepare); ?></div>
-            </div>
-
-            <div class="row address">
-              <label for="address"><?php _e('Address', 'gamma'); ?></label>
-              <div class="input-box"><?php ItemForm::address_text($prepare); ?></div>
-            </div>
-
-            <div class="row zip">
-              <label for="address"><?php _e('ZIP', 'gamma'); ?></label>
-              <div class="input-box"><?php ItemForm::zip_text($prepare); ?></div>
-            </div>
-
-          </div>
-        </div>
-      </fieldset>
 
       <fieldset class="photos">
-        <div class="in"><h2><?php _e('Photos', 'gamma'); ?></h2></div>
 
         <div class="box photos photoshow drag_drop in">
           <div id="photos">
+            <label><?php _e('Photos', 'gamma'); ?></label>
+
             <div class="sub-label"><?php echo sprintf(__('You can upload up to %d pictures per listing', 'gamma'), osc_max_images_per_item()); ?></div>
 
             <?php
@@ -352,7 +336,7 @@
         <div class="inside">
           <div class="box">
             <div class="row">
-              <?php osc_run_hook('invisible_recaptcha'); ?>
+              <?php gam_show_recaptcha(); ?>
             </div>
           </div>
 

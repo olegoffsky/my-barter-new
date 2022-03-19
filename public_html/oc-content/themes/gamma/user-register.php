@@ -25,7 +25,7 @@
     <div id="login" class="box" <?php if($type <> 'login') { ?>style="display:none;"<?php } ?> data-type="login">
       <div class="wrap">
         <h1><?php _e('Login', 'gamma'); ?></h1>
-
+        <?php osc_run_hook('usl_auth_buttons'); ?>
         <div class="user_forms login">
           <div class="inner">
 
@@ -87,8 +87,10 @@
 
         <h1><?php _e('Sign up', 'gamma'); ?></h1>
 
+        <?php osc_run_hook('usl_auth_buttons'); ?>
+
         <div class="user_forms register">
-          <div class="inner"> 
+          <div class="inner">
 
             <?php if(function_exists('fl_call_after_install') || function_exists('gc_login_button')) { ?>
               <div class="social">
@@ -107,8 +109,9 @@
                 <?php } ?>
               </div>
             <?php } ?>
-         
+
             <form name="register" id="register" action="<?php echo osc_base_url(true); ?>" method="post" >
+              <?php osc_run_hook('invisible_recaptcha'); ?>
               <input type="hidden" name="page" value="register" />
               <input type="hidden" name="action" value="register_post" />
               <fieldset>
@@ -147,13 +150,13 @@
         <h1><?php _e('Forgot password', 'gamma'); ?></h1>
 
         <div class="user_forms recover">
-          <div class="inner">          
+          <div class="inner">
             <form action="<?php echo osc_base_url(true) ; ?>" method="post" >
               <input type="hidden" name="page" value="login" />
               <input type="hidden" name="action" value="recover_post" />
 
               <fieldset>
-                <label for="email"><?php _e('E-mail', 'gamma') ; ?></label> 
+                <label for="email"><?php _e('E-mail', 'gamma') ; ?></label>
                 <span class="input-box"><?php UserForm::email_text(); ?></span>
 
                 <?php gam_show_recaptcha('recover_password'); ?>
