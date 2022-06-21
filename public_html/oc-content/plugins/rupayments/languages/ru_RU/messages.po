@@ -1,8 +1,7 @@
-msgid ""
-msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-04 01:12+0300\n"
-"PO-Revision-Date: 2022-03-15 00:17+0300\n"
+
+"Project-Id-Version: ModelRUpayments\n"
+"POT-Creation-Date: 2022-04-25 18:00+0300\n"
+"PO-Revision-Date: 2022-04-25 18:03+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -16,302 +15,304 @@ msgstr ""
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: ModelRUpayments.php:1794 ModelRUpayments.php:1799 ModelRUpayments.php:1809
-#: ModelRUpayments.php:1814 ModelRUpayments.php:1819 ModelRUpayments.php:1824
-#: ModelRUpayments.php:1829 ModelRUpayments.php:1835 ModelRUpayments.php:1843
-#: ModelRUpayments.php:1855 ModelRUpayments.php:1859 ModelRUpayments.php:1868
-#: ModelRUpayments.php:1873 ModelRUpayments.php:1878 ModelRUpayments.php:1882
-#: ModelRUpayments.php:1887 ModelRUpayments.php:1893 ModelRUpayments.php:1901
-#: ModelRUpayments.php:2497 ModelRUpayments.php:2502 ModelRUpayments.php:2512
-#: ModelRUpayments.php:2517 ModelRUpayments.php:2522 ModelRUpayments.php:2527
-#: ModelRUpayments.php:2532 ModelRUpayments.php:2538 ModelRUpayments.php:2550
-#: ModelRUpayments.php:2554 ModelRUpayments.php:2563 ModelRUpayments.php:2568
-#: ModelRUpayments.php:2573 ModelRUpayments.php:2577 ModelRUpayments.php:2582
-#: ModelRUpayments.php:2587
+#: ModelRUpayments.php:1790 ModelRUpayments.php:1795 ModelRUpayments.php:1805
+#: ModelRUpayments.php:1810 ModelRUpayments.php:1815 ModelRUpayments.php:1820
+#: ModelRUpayments.php:1825 ModelRUpayments.php:1831 ModelRUpayments.php:1839
+#: ModelRUpayments.php:1851 ModelRUpayments.php:1855 ModelRUpayments.php:1864
+#: ModelRUpayments.php:1869 ModelRUpayments.php:1874 ModelRUpayments.php:1878
+#: ModelRUpayments.php:1883 ModelRUpayments.php:1889 ModelRUpayments.php:1897
+#: ModelRUpayments.php:2493 ModelRUpayments.php:2498 ModelRUpayments.php:2508
+#: ModelRUpayments.php:2513 ModelRUpayments.php:2518 ModelRUpayments.php:2523
+#: ModelRUpayments.php:2528 ModelRUpayments.php:2534 ModelRUpayments.php:2546
+#: ModelRUpayments.php:2550 ModelRUpayments.php:2559 ModelRUpayments.php:2564
+#: ModelRUpayments.php:2569 ModelRUpayments.php:2573 ModelRUpayments.php:2578
+#: ModelRUpayments.php:2583
 #, php-format
 msgid "duration %d days"
 msgstr "Продолжительность: %d дней"
 
-#: ModelRUpayments.php:1916 ModelRUpayments.php:2376
+#: ModelRUpayments.php:1912 ModelRUpayments.php:2372
 msgid "Publish item"
 msgstr "Опубликовать объявление"
 
-#: ModelRUpayments.php:1919 ModelRUpayments.php:2379
+#: ModelRUpayments.php:1915 ModelRUpayments.php:2375
 msgid "Publish and Mark as Premium"
 msgstr "Оплата Публикации и Премиум"
 
-#: ModelRUpayments.php:1922
+#: ModelRUpayments.php:1918
 msgid "Publish and Highlight"
 msgstr "Публиковать и выделить цветом"
 
-#: ModelRUpayments.php:1925 ModelRUpayments.php:2385
+#: ModelRUpayments.php:1921 ModelRUpayments.php:2381
 msgid "Publish and activate Show Image"
 msgstr "Публиковать и активировать показ изображений"
 
-#: ModelRUpayments.php:1928 ModelRUpayments.php:2388
+#: ModelRUpayments.php:1924 ModelRUpayments.php:2384
 msgid "Publish, Mark as Premium and activate Show Image"
 msgstr "Опубликовать, пометить как Премиум  и активировать показ изображений"
 
-#: ModelRUpayments.php:1931 ModelRUpayments.php:2391
+#: ModelRUpayments.php:1927 ModelRUpayments.php:2387
 msgid "Publish, Highlight item and activate Show Image"
 msgstr "Опубликовать, выделить цветом и активировать показ изображений"
 
-#: ModelRUpayments.php:1934 ModelRUpayments.php:2394
+#: ModelRUpayments.php:1930 ModelRUpayments.php:2390
 msgid "Publish, Mark as Premium, Highlight item and activate Show Image"
 msgstr ""
 "Опубликовать, пометить как Премиум, выделить цветом  и активировать показ "
 "изображений"
 
-#: ModelRUpayments.php:1937 ModelRUpayments.php:2397 user/payments.php:183
+#: ModelRUpayments.php:1933 ModelRUpayments.php:2393 user/payments.php:186
 msgid "Publish and apply: Pack 3-in-1"
 msgstr "Публиковать и применить: Пакет 3-в-1"
 
-#: ModelRUpayments.php:1940 ModelRUpayments.php:2400 user/payments.php:200
+#: ModelRUpayments.php:1936 ModelRUpayments.php:2396 user/payments.php:203
 msgid "Publish, activate Show Image and apply: Pack 3-in-1"
 msgstr "Публиковать, активировать показ изображений и применить: Пакет 3-в-1"
 
-#: ModelRUpayments.php:1943 ModelRUpayments.php:2403
+#: ModelRUpayments.php:1939 ModelRUpayments.php:2399
 msgid "Publish and Highlight and mark as Premium"
 msgstr "Опубликовать и Выделить и пометить как Премиум"
 
-#: ModelRUpayments.php:1946 ModelRUpayments.php:1986 ModelRUpayments.php:2406
-#: ModelRUpayments.php:2440 admin/ads_settings.php:81 admin/conf.php:187
+#: ModelRUpayments.php:1942 ModelRUpayments.php:1982 ModelRUpayments.php:2402
+#: ModelRUpayments.php:2436 admin/ads_settings.php:81 admin/conf.php:187
 #: admin/old_files/conf.php:186
 msgid "Move to Top"
 msgstr "Поднятие в топ"
 
-#: ModelRUpayments.php:1949 ModelRUpayments.php:1989
+#: ModelRUpayments.php:1945 ModelRUpayments.php:1985
 #: payments/freekassa/status.php:139 payments/interkassa/notification.php:140
-#: payments/payeer/status.php:197 payments/robokassa/result.php:113
-#: payments/walletone/result.php:141 payments/webmoney/notification.php:134
-#: payments/yandex/notification.php:143 payments/yandex/return.php:145
+#: payments/liqpay/return.php:267 payments/payeer/status.php:197
+#: payments/robokassa/result.php:113 payments/walletone/result.php:141
+#: payments/webmoney/notification.php:134 payments/yandex/notification.php:143
+#: payments/yandex/return.php:145
 msgid "Renew item"
 msgstr "Продлить объявление"
 
-#: ModelRUpayments.php:1956
+#: ModelRUpayments.php:1952
 msgid "Ad is published"
 msgstr "Объявление Опубликовано"
 
-#: ModelRUpayments.php:1959 ModelRUpayments.php:2413
+#: ModelRUpayments.php:1955 ModelRUpayments.php:2409
 msgid "Mark as Premium"
 msgstr "Пометить как премиум"
 
-#: ModelRUpayments.php:1962 admin/ads_settings.php:100 admin/conf.php:203
+#: ModelRUpayments.php:1958 admin/ads_settings.php:100 admin/conf.php:203
 #: admin/old_files/conf.php:202
 msgid "Highlight"
 msgstr "Выделить цветом"
 
-#: ModelRUpayments.php:1965 ModelRUpayments.php:2419
+#: ModelRUpayments.php:1961 ModelRUpayments.php:2415
 msgid "Activate Show Image"
 msgstr "Активировать Показ изображений"
 
-#: ModelRUpayments.php:1968 ModelRUpayments.php:2422
+#: ModelRUpayments.php:1964 ModelRUpayments.php:2418
 msgid "Mark as Premium and Activate Show Image"
 msgstr "Пометить как Премиум  и активировать показ изображений"
 
-#: ModelRUpayments.php:1971 ModelRUpayments.php:2425
+#: ModelRUpayments.php:1967 ModelRUpayments.php:2421
 msgid "Highlight item and Activate Show Image"
 msgstr "Выделить цветом и активировать показ изображений"
 
-#: ModelRUpayments.php:1974 ModelRUpayments.php:2428
+#: ModelRUpayments.php:1970 ModelRUpayments.php:2424
 msgid "Mark as Premium, Highlight item and activate Show Image"
 msgstr ""
 "Пометить как Премиум, выделить цветом  и активировать показ изображений"
 
-#: ModelRUpayments.php:1977 ModelRUpayments.php:2431
+#: ModelRUpayments.php:1973 ModelRUpayments.php:2427
 #: payments/freekassa/status.php:128 payments/interkassa/notification.php:129
-#: payments/payeer/status.php:186 payments/robokassa/result.php:102
-#: payments/walletone/result.php:130 payments/webmoney/notification.php:123
-#: payments/yandex/notification.php:132 payments/yandex/return.php:134
-#: user/item_edit.php:53 user/item_edit.php:54 user/payments.php:177
+#: payments/liqpay/return.php:245 payments/payeer/status.php:186
+#: payments/robokassa/result.php:102 payments/walletone/result.php:130
+#: payments/webmoney/notification.php:123 payments/yandex/notification.php:132
+#: payments/yandex/return.php:134 user/item_edit.php:53 user/item_edit.php:54
+#: user/payments.php:180
 msgid "Apply: Pack 3-in-1"
 msgstr " Применить: Пакет 3-в-1"
 
-#: ModelRUpayments.php:1980 ModelRUpayments.php:2434
+#: ModelRUpayments.php:1976 ModelRUpayments.php:2430
 #: payments/freekassa/status.php:129 payments/interkassa/notification.php:130
-#: payments/payeer/status.php:187 payments/robokassa/result.php:103
-#: payments/walletone/result.php:131 payments/webmoney/notification.php:124
-#: payments/yandex/notification.php:133 payments/yandex/return.php:135
-#: user/payments.php:194
+#: payments/liqpay/return.php:247 payments/payeer/status.php:187
+#: payments/robokassa/result.php:103 payments/walletone/result.php:131
+#: payments/webmoney/notification.php:124 payments/yandex/notification.php:133
+#: payments/yandex/return.php:135 user/payments.php:197
 msgid "Activate Show Image and apply: Pack 3-in-1"
 msgstr "Активировать показ изображений и применить: Пакет 3-в-1"
 
-#: ModelRUpayments.php:1983 ModelRUpayments.php:2437
+#: ModelRUpayments.php:1979 ModelRUpayments.php:2433
 msgid "Highlight and mark as Premium"
 msgstr "Выделите и пометить как Премиум"
 
-#: ModelRUpayments.php:2382
+#: ModelRUpayments.php:2378
 msgid "Publish and Highlight item"
 msgstr "Публиковать и выделить цветом"
 
-#: ModelRUpayments.php:2416
+#: ModelRUpayments.php:2412
 msgid "Highlight item"
 msgstr "Выделить цветом"
 
-#: ModelRUpayments.php:3069
+#: ModelRUpayments.php:3065
 msgid "Images already uploaded"
 msgstr "Изображения уже загружены"
 
-#: ModelRUpayments.php:3075 ModelRUpayments.php:3082 ModelRUpayments.php:3227
+#: ModelRUpayments.php:3071 ModelRUpayments.php:3078 ModelRUpayments.php:3223
 #: admin/user_groups.php:49 admin/user_packs.php:48
 #: examples/bender/item.php:163 examples/bender/loop-single-premium.php:48
 #: examples/bender/loop-single.php:48
 msgid "Delete"
 msgstr "Удалить"
 
-#: ModelRUpayments.php:3109
+#: ModelRUpayments.php:3105
 msgid "This action can't be undone. Are you sure you want to continue?"
 msgstr "Это действие нельзя отменить. Хотите продолжить?"
 
-#: ModelRUpayments.php:3205
+#: ModelRUpayments.php:3201
 msgid ""
 "Too many items ({netItems}) would be uploaded. Item limit is {itemLimit}."
 msgstr ""
 "Будет загружено слишком много элементов ({netItems}). Предел количества "
 "товаров {itemLimit}."
 
-#: ModelRUpayments.php:3206
+#: ModelRUpayments.php:3202
 msgid ""
 "The files are being uploaded, if you leave now the upload will be cancelled."
 msgstr "Файлы загружаются, если вы уходите, загрузка будет отменена."
 
-#: ModelRUpayments.php:3207
+#: ModelRUpayments.php:3203
 msgid "{file} has an invalid extension. Valid extension(s): {extensions}."
 msgstr ""
 "{file} имеет недопустимое расширение. Допустимые расширения: {extensions}."
 
-#: ModelRUpayments.php:3208
+#: ModelRUpayments.php:3204
 msgid "{file} is too large, maximum file size is {sizeLimit}."
 msgstr "{file} слишком большой, максимальный размер файла {sizeLimit}."
 
-#: ModelRUpayments.php:3209
+#: ModelRUpayments.php:3205
 msgid "{file} is empty, please select files again without it."
 msgstr "{file} пуст, пожалуйста, выберите файлы снова без него."
 
-#: ModelRUpayments.php:3222
+#: ModelRUpayments.php:3218
 msgid "Click or Drop for upload images"
 msgstr "Нажмите и отпустите для загрузки изображений"
 
-#: ModelRUpayments.php:3223
+#: ModelRUpayments.php:3219
 msgid "Processing..."
 msgstr "Обработка..."
 
-#: ModelRUpayments.php:3224
+#: ModelRUpayments.php:3220
 msgid "Retry"
 msgstr "Повторить"
 
-#: ModelRUpayments.php:3225
+#: ModelRUpayments.php:3221
 msgid "Cancel"
 msgstr "Отмена"
 
-#: ModelRUpayments.php:3226
+#: ModelRUpayments.php:3222
 msgid "Upload failed"
 msgstr "Сбой при загрузке"
 
-#: ModelRUpayments.php:3228
+#: ModelRUpayments.php:3224
 msgid "Deleting..."
 msgstr "Удаление..."
 
-#: ModelRUpayments.php:3229
+#: ModelRUpayments.php:3225
 #, php-format
 msgid "{percent}% of {total_size}"
 msgstr "{percent}% of {total_size}"
 
-#: ModelRUpayments.php:3366 ModelRUpayments.php:3426 admin/banners.php:16
+#: ModelRUpayments.php:3362 ModelRUpayments.php:3422 admin/banners.php:16
 msgid "Rejected"
 msgstr "Отклонено"
 
-#: ModelRUpayments.php:3370 ModelRUpayments.php:3430
+#: ModelRUpayments.php:3366 ModelRUpayments.php:3426
 msgid "Active"
 msgstr "Активно"
 
-#: ModelRUpayments.php:3374 ModelRUpayments.php:3434
+#: ModelRUpayments.php:3370 ModelRUpayments.php:3430
 msgid "Pending Payment"
 msgstr "Ожидаем платеж"
 
-#: ModelRUpayments.php:3378 ModelRUpayments.php:3438
+#: ModelRUpayments.php:3374 ModelRUpayments.php:3434
 msgid "No Funding"
 msgstr "Нет средств"
 
-#: ModelRUpayments.php:3382 ModelRUpayments.php:3442
+#: ModelRUpayments.php:3378 ModelRUpayments.php:3438
 msgid "Moderation"
 msgstr "На модерации"
 
-#: ModelRUpayments.php:4285 ModelRUpayments.php:4463 ModelRUpayments.php:4475
-#: ModelRUpayments.php:4484
+#: ModelRUpayments.php:4281 ModelRUpayments.php:4459 ModelRUpayments.php:4471
+#: ModelRUpayments.php:4480
 msgid "Returned to Buyer"
 msgstr "Возвращено покупателю"
 
-#: ModelRUpayments.php:4289 ModelRUpayments.php:4378 ModelRUpayments.php:4386
-#: ModelRUpayments.php:4395
+#: ModelRUpayments.php:4285 ModelRUpayments.php:4374 ModelRUpayments.php:4382
+#: ModelRUpayments.php:4391
 msgid "Credited to Seller"
 msgstr "Зачислено продавцу"
 
-#: ModelRUpayments.php:4294
+#: ModelRUpayments.php:4290
 msgid "Withdrawn to Buyer"
 msgstr "Выведены покупателю"
 
-#: ModelRUpayments.php:4297
+#: ModelRUpayments.php:4293
 msgid "Withdrawn to Seller"
 msgstr "Выведены к продавцу"
 
-#: ModelRUpayments.php:4303
+#: ModelRUpayments.php:4299
 msgid "Ordered Withdrawal to Buyer"
 msgstr "Вывод средств для покупателя"
 
-#: ModelRUpayments.php:4306
+#: ModelRUpayments.php:4302
 msgid "Ordered Withdrawal to Seller"
 msgstr "Вывод средств для продавца"
 
-#: ModelRUpayments.php:4312 ModelRUpayments.php:4401
+#: ModelRUpayments.php:4308 ModelRUpayments.php:4397
 msgid "Returned to Seller"
 msgstr "Возвращено продавцу"
 
-#: ModelRUpayments.php:4316 ModelRUpayments.php:4405 ModelRUpayments.php:4493
+#: ModelRUpayments.php:4312 ModelRUpayments.php:4401 ModelRUpayments.php:4489
 msgid "Money Holded"
 msgstr "Оплата поступила"
 
-#: ModelRUpayments.php:4322 ModelRUpayments.php:4411 ModelRUpayments.php:4499
+#: ModelRUpayments.php:4318 ModelRUpayments.php:4407 ModelRUpayments.php:4495
 msgid "Сanceled by Seller"
 msgstr "Отклонено продавцом"
 
-#: ModelRUpayments.php:4326 ModelRUpayments.php:4415 ModelRUpayments.php:4503
+#: ModelRUpayments.php:4322 ModelRUpayments.php:4411 ModelRUpayments.php:4499
 msgid "Deal Success"
 msgstr "Успешная сделка"
 
-#: ModelRUpayments.php:4330 ModelRUpayments.php:4419 ModelRUpayments.php:4507
+#: ModelRUpayments.php:4326 ModelRUpayments.php:4415 ModelRUpayments.php:4503
 msgid "Awaiting Shipment"
 msgstr "Отправлено"
 
-#: ModelRUpayments.php:4334 ModelRUpayments.php:4423 ModelRUpayments.php:4511
+#: ModelRUpayments.php:4330 ModelRUpayments.php:4419 ModelRUpayments.php:4507
 msgid "Сanceled by Admin"
 msgstr "Отклонено администратором"
 
-#: ModelRUpayments.php:4338 ModelRUpayments.php:4427 ModelRUpayments.php:4515
+#: ModelRUpayments.php:4334 ModelRUpayments.php:4423 ModelRUpayments.php:4511
 msgid "Accepted by Admin"
 msgstr "Принято  администратором"
 
-#: ModelRUpayments.php:4342 ModelRUpayments.php:4431 ModelRUpayments.php:4519
+#: ModelRUpayments.php:4338 ModelRUpayments.php:4427 ModelRUpayments.php:4515
 msgid "In processing"
 msgstr "В обработке"
 
-#: ModelRUpayments.php:4374
+#: ModelRUpayments.php:4370
 msgid "Money Returned"
 msgstr "Деньги возвращены"
 
-#: ModelRUpayments.php:4383 ModelRUpayments.php:4472 admin/ebuy.php:82
+#: ModelRUpayments.php:4379 ModelRUpayments.php:4468 admin/ebuy.php:82
 msgid "Withdrawn"
 msgstr "Аннулировано"
 
-#: ModelRUpayments.php:4392 ModelRUpayments.php:4481
+#: ModelRUpayments.php:4388 ModelRUpayments.php:4477
 msgid "Ordered Withdrawal"
 msgstr "Статус заказа"
 
-#: ModelRUpayments.php:4467
+#: ModelRUpayments.php:4463
 msgid "Money Credited"
 msgstr "Деньги зачисляются"
 
-#: ModelRUpayments.php:4489
+#: ModelRUpayments.php:4485
 msgid "Returned"
 msgstr "Возвращено"
 
@@ -320,66 +321,66 @@ msgstr "Возвращено"
 #: admin/banner_settings.php:10 admin/conf.php:127 admin/conf_policy.php:22
 #: admin/conf_prices.php:27 admin/ebuy.php:37 admin/old_files/conf.php:127
 #: admin/old_files/conf_policy.php:22 admin/old_files/conf_prices.php:27
-#: admin/payments.php:78 admin/user_bonuses.php:36 admin/user_groups.php:10
+#: admin/payments.php:86 admin/user_bonuses.php:36 admin/user_groups.php:10
 #: admin/user_packs.php:10
 msgid "Congratulations, the plugin is now configured"
 msgstr "Настройки плагина обновлены"
 
-#: admin/ads_category_prices.php:83 admin/ads_publishing_policy.php:82
-#: admin/ads_publishing_policy.php:95 admin/conf_policy.php:89
+#: admin/ads_category_prices.php:105 admin/ads_publishing_policy.php:101
+#: admin/ads_publishing_policy.php:114 admin/conf_policy.php:89
 #: admin/conf_prices.php:88 admin/old_files/conf_policy.php:89
 #: admin/old_files/conf_prices.php:88
 msgid "Category Name"
 msgstr "Категория"
 
-#: admin/ads_category_prices.php:84 admin/ads_region_prices.php:37
+#: admin/ads_category_prices.php:106 admin/ads_region_prices.php:37
 #: admin/conf_prices.php:89 admin/old_files/conf_prices.php:89
 #, php-format
 msgid "Publish (%s)"
 msgstr "Публикация (%s)"
 
-#: admin/ads_category_prices.php:85 admin/ads_region_prices.php:38
+#: admin/ads_category_prices.php:107 admin/ads_region_prices.php:38
 #: admin/conf_prices.php:90 admin/old_files/conf_prices.php:90
 #, php-format
 msgid "Renew (%s)"
 msgstr "Продление (%s)"
 
-#: admin/ads_category_prices.php:86 admin/ads_region_prices.php:39
+#: admin/ads_category_prices.php:108 admin/ads_region_prices.php:39
 #, php-format
 msgid "Image (%s)"
 msgstr "Изображение (%s)"
 
-#: admin/ads_category_prices.php:87 admin/ads_region_prices.php:40
+#: admin/ads_category_prices.php:109 admin/ads_region_prices.php:40
 #: admin/conf_prices.php:91 admin/old_files/conf_prices.php:91
 #, php-format
 msgid "Premium (%s)"
 msgstr "Премиум (%s)"
 
-#: admin/ads_category_prices.php:88 admin/ads_region_prices.php:41
+#: admin/ads_category_prices.php:110 admin/ads_region_prices.php:41
 #, php-format
 msgid "Move to top (%s)"
 msgstr "Поднять на верх (%s)"
 
-#: admin/ads_category_prices.php:89 admin/ads_region_prices.php:42
+#: admin/ads_category_prices.php:111 admin/ads_region_prices.php:42
 #: admin/conf_prices.php:93 admin/old_files/conf_prices.php:93
 #, php-format
 msgid "Highlighting (%s)"
 msgstr "Выделение цветом  (%s)"
 
-#: admin/ads_category_prices.php:90 admin/ads_region_prices.php:43
+#: admin/ads_category_prices.php:112 admin/ads_region_prices.php:43
 #, php-format
 msgid "Pack 3-in-1 (%s)"
 msgstr "Пакет 3-в-1 (%s)"
 
-#: admin/ads_category_prices.php:96 admin/ads_publishing_policy.php:108
+#: admin/ads_category_prices.php:118 admin/ads_publishing_policy.php:127
 #: admin/ads_region_prices.php:180 admin/ads_settings.php:347
 #: admin/banner_settings.php:57 admin/conf.php:881 admin/old_files/conf.php:880
-#: admin/payments.php:756 admin/user_bonuses.php:116 admin/user_groups.php:85
+#: admin/payments.php:835 admin/user_bonuses.php:116 admin/user_groups.php:85
 #: admin/user_packs.php:82
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
-#: admin/ads_category_prices.php:101 admin/ads_publishing_policy.php:122
+#: admin/ads_category_prices.php:123 admin/ads_publishing_policy.php:141
 #: admin/conf_policy.php:112
 msgid ""
 "If you have too many categories and when saving data, not all data is saved "
@@ -390,22 +391,22 @@ msgstr ""
 "сохраняются- вам нужно увеличить «max_input_vars» в настройках PHP. И "
 "возможно:"
 
-#: admin/ads_category_prices.php:102 admin/ads_publishing_policy.php:123
+#: admin/ads_category_prices.php:124 admin/ads_publishing_policy.php:142
 #: admin/ads_region_prices.php:189 admin/conf_policy.php:113
 msgid "<span class=\"htaccess-function\">suhosin.get.max_vars</span>"
 msgstr ""
 
-#: admin/ads_category_prices.php:103 admin/ads_publishing_policy.php:124
+#: admin/ads_category_prices.php:125 admin/ads_publishing_policy.php:143
 #: admin/ads_region_prices.php:190 admin/conf_policy.php:114
 msgid "<span class=\"htaccess-function\">suhosin.post.max_vars</span>"
 msgstr ""
 
-#: admin/ads_category_prices.php:104 admin/ads_publishing_policy.php:125
+#: admin/ads_category_prices.php:126 admin/ads_publishing_policy.php:144
 #: admin/ads_region_prices.php:191 admin/conf_policy.php:115
 msgid "<span class=\"htaccess-function\">suhosin.request.max_vars</span>"
 msgstr ""
 
-#: admin/ads_category_prices.php:105
+#: admin/ads_category_prices.php:127
 msgid ""
 "<strong>For Example:</strong> if you have 1000 categories, you need set - "
 "<span class=\"htaccess-function\">max_input_vars 7000</span>"
@@ -413,35 +414,35 @@ msgstr ""
 "<strong>К примеру:</strong> если у вас есть 1000 категорий, вам нужно "
 "установить - <span class=\"htaccess-function\">max_input_vars 7000</span>"
 
-#: admin/ads_category_prices.php:106 admin/ads_publishing_policy.php:127
+#: admin/ads_category_prices.php:128 admin/ads_publishing_policy.php:146
 msgid "<strong>7 input_vars for each category.</strong>"
 msgstr "<strong>7 input_vars для каждой категории.</strong>"
 
-#: admin/ads_publishing_policy.php:69
+#: admin/ads_publishing_policy.php:88
 msgid "Default"
 msgstr "По умолчанию"
 
-#: admin/ads_publishing_policy.php:83 admin/ads_publishing_policy.php:96
+#: admin/ads_publishing_policy.php:102 admin/ads_publishing_policy.php:115
 msgid "Quantity of free ads"
 msgstr "Количество бесплатных объявлений"
 
-#: admin/ads_publishing_policy.php:84 admin/ads_publishing_policy.php:97
+#: admin/ads_publishing_policy.php:103 admin/ads_publishing_policy.php:116
 msgid "Free Unlimited"
 msgstr "Бесплатно"
 
-#: admin/ads_publishing_policy.php:84 admin/ads_publishing_policy.php:97
+#: admin/ads_publishing_policy.php:103 admin/ads_publishing_policy.php:116
 msgid "Turn on the <strong>Publish fee</strong> to enable this feature"
 msgstr "Включите <strong>Оплата публикации</strong> для включения этой функции"
 
-#: admin/ads_publishing_policy.php:113
+#: admin/ads_publishing_policy.php:132
 msgid "<strong>Important!!!</strong>"
 msgstr "<strong>Важно!!!</strong>"
 
-#: admin/ads_publishing_policy.php:114
+#: admin/ads_publishing_policy.php:133
 msgid "If you have enabled option - \"Item-post Form\""
 msgstr "Если вы включили опцию - Форма на странице публикации"
 
-#: admin/ads_publishing_policy.php:115 admin/conf_policy.php:100
+#: admin/ads_publishing_policy.php:134 admin/conf_policy.php:100
 #: admin/old_files/conf_policy.php:100
 msgid ""
 "For unregistered users Publish Policy work only \"All adds without Publish "
@@ -451,7 +452,7 @@ msgstr ""
 "платы за публикацию или Выберите количество объявлений без платы за "
 "публикацию=0"
 
-#: admin/ads_publishing_policy.php:116 admin/conf_policy.php:102
+#: admin/ads_publishing_policy.php:135 admin/conf_policy.php:102
 #: admin/old_files/conf_policy.php:102
 msgid ""
 "If you set the value \"Choose number of ads without Publish fee\" = 1,2,3 "
@@ -462,7 +463,7 @@ msgstr ""
 "платы» = 1,2,3 и т.д. Незарегистрированный пользователь не увидит на "
 "странице публикации, что объявление должно быть оплачено."
 
-#: admin/ads_publishing_policy.php:117 admin/conf_policy.php:104
+#: admin/ads_publishing_policy.php:136 admin/conf_policy.php:104
 #: admin/old_files/conf_policy.php:104
 msgid ""
 "But if he chooses premium or highlights: He will see that he must pay on the "
@@ -472,14 +473,14 @@ msgstr ""
 "увидит информации о необходимости заплатить за публикацию на следующей "
 "странице"
 
-#: admin/ads_publishing_policy.php:118 admin/conf_policy.php:106
+#: admin/ads_publishing_policy.php:137 admin/conf_policy.php:106
 #: admin/old_files/conf_policy.php:106
 msgid "If he chooses No,thanks: He will only find out about this from a e-mail"
 msgstr ""
 "Если пользователь выберет: Нет, спасибо. То получит только e-mail, в котором "
 "будет информация о платной публикации"
 
-#: admin/ads_publishing_policy.php:119 admin/conf_policy.php:108
+#: admin/ads_publishing_policy.php:138 admin/conf_policy.php:108
 #: admin/old_files/conf_policy.php:108
 msgid ""
 "The best solution. All users must register on your site or you should use "
@@ -489,7 +490,7 @@ msgstr ""
 "или вы должны использовать опцию «После публикации» и не использовать форму "
 "на странице публикации"
 
-#: admin/ads_publishing_policy.php:126
+#: admin/ads_publishing_policy.php:145
 msgid ""
 "<strong>For Example:</strong> if you have 1000 categories you need setup - "
 "<span class=\"htaccess-function\">max_input_vars 7000</span>"
@@ -609,7 +610,7 @@ msgstr "Цена проделения"
 msgid "Pay renew expiration item"
 msgstr "Платное продлить срок действия объявления"
 
-#: admin/ads_settings.php:185 admin/help.php:521
+#: admin/ads_settings.php:185 admin/help.php:536
 msgid "Pay per Show Image"
 msgstr "Оплата за показ изображений"
 
@@ -673,7 +674,7 @@ msgid "Days (send e-mail) before payment deadline"
 msgstr "Дней (отправка e-mail) до срока окончания действия услуг"
 
 #: admin/banner_settings.php:28 admin/banners.php:46 admin/log.php:32
-#: admin/logs.php:19 admin/old_files/log.php:32 admin/payments.php:653
+#: admin/logs.php:19 admin/old_files/log.php:32 admin/payments.php:732
 #: admin/user_groups.php:42 admin/user_packs.php:42
 msgid "ID"
 msgstr "ID"
@@ -958,7 +959,7 @@ msgstr ""
 "сайтах."
 
 #: admin/conf.php:437 admin/log.php:85 admin/old_files/conf.php:436
-#: admin/old_files/log.php:85 index.php:230 index.php:385
+#: admin/old_files/log.php:85 index.php:226 index.php:383
 msgid "Wallet"
 msgstr "Кошелёк"
 
@@ -1003,42 +1004,42 @@ msgstr "Настройки PayPal"
 msgid "Show options"
 msgstr "Показать настройки"
 
-#: admin/conf.php:464 admin/old_files/conf.php:463 admin/payments.php:212
+#: admin/conf.php:464 admin/old_files/conf.php:463 admin/payments.php:230
 msgid "Paypal enable"
 msgstr "PayPal включить"
 
-#: admin/conf.php:466 admin/old_files/conf.php:465 admin/payments.php:223
+#: admin/conf.php:466 admin/old_files/conf.php:465 admin/payments.php:241
 msgid "Paypal API username"
 msgstr ""
 
-#: admin/conf.php:470 admin/old_files/conf.php:469 admin/payments.php:232
+#: admin/conf.php:470 admin/old_files/conf.php:469 admin/payments.php:250
 msgid "Paypal API password"
 msgstr ""
 
-#: admin/conf.php:474 admin/old_files/conf.php:473 admin/payments.php:241
+#: admin/conf.php:474 admin/old_files/conf.php:473 admin/payments.php:259
 msgid "Paypal API signature"
 msgstr ""
 
-#: admin/conf.php:478 admin/old_files/conf.php:477 admin/payments.php:250
+#: admin/conf.php:478 admin/old_files/conf.php:477 admin/payments.php:268
 msgid "Paypal email"
 msgstr "Email для PayPal"
 
-#: admin/conf.php:482 admin/old_files/conf.php:481 admin/payments.php:259
+#: admin/conf.php:482 admin/old_files/conf.php:481 admin/payments.php:277
 msgid "Standard Paypal"
 msgstr "Стандартный Paypal"
 
-#: admin/conf.php:487 admin/old_files/conf.php:486 admin/payments.php:259
+#: admin/conf.php:487 admin/old_files/conf.php:486 admin/payments.php:277
 msgid ""
 "Use \"Standard Paypal\" if \"Digital Goods\" is not available in your country"
 msgstr ""
 "Использовать \"Standard Paypal\" если \"Digital Goods\" не доступны для "
 "Вашей страны"
 
-#: admin/conf.php:493 admin/old_files/conf.php:492 admin/payments.php:270
+#: admin/conf.php:493 admin/old_files/conf.php:492 admin/payments.php:288
 msgid "Paypal sandbox"
 msgstr "Песочница PayPal"
 
-#: admin/conf.php:498 admin/old_files/conf.php:497 admin/payments.php:270
+#: admin/conf.php:498 admin/old_files/conf.php:497 admin/payments.php:288
 msgid "Use Paypal sandbox to test everything is right before going live"
 msgstr "Используйте  Paypal sandbox для тестов"
 
@@ -1046,28 +1047,28 @@ msgstr "Используйте  Paypal sandbox для тестов"
 msgid "2Checkout settings"
 msgstr "2Checkout настройка"
 
-#: admin/conf.php:509 admin/old_files/conf.php:508 admin/payments.php:285
+#: admin/conf.php:509 admin/old_files/conf.php:508 admin/payments.php:303
 msgid "2checkout enable"
 msgstr "2checkout включить"
 
-#: admin/conf.php:511 admin/old_files/conf.php:510 admin/payments.php:296
+#: admin/conf.php:511 admin/old_files/conf.php:510 admin/payments.php:314
 msgid "2Checkout account number"
 msgstr "2Checkout номер аккаунта"
 
-#: admin/conf.php:517 admin/old_files/conf.php:516 admin/payments.php:305
+#: admin/conf.php:517 admin/old_files/conf.php:516 admin/payments.php:323
 msgid "2Checkout secret word"
 msgstr "2Checkout секретное слово"
 
 #: admin/conf.php:523 admin/help.php:127 admin/old_files/conf.php:522
-#: admin/old_files/help.php:122 admin/payments.php:314
+#: admin/old_files/help.php:122 admin/payments.php:332
 msgid "Language 2CO page"
 msgstr "Язык 2CO страница"
 
-#: admin/conf.php:545 admin/old_files/conf.php:544 admin/payments.php:339
+#: admin/conf.php:545 admin/old_files/conf.php:544 admin/payments.php:357
 msgid "2Checkout Sandbox"
 msgstr "2Checkout Песочница"
 
-#: admin/conf.php:550 admin/old_files/conf.php:549 admin/payments.php:339
+#: admin/conf.php:550 admin/old_files/conf.php:549 admin/payments.php:357
 msgid "Use rupayments sandbox to test everything is right before going live"
 msgstr "Использовать Sandbox для тестирования"
 
@@ -1095,14 +1096,16 @@ msgstr "Личный ключ Braintree"
 #: admin/conf.php:765 admin/conf.php:822 admin/old_files/conf.php:575
 #: admin/old_files/conf.php:612 admin/old_files/conf.php:645
 #: admin/old_files/conf.php:686 admin/old_files/conf.php:764
-#: admin/old_files/conf.php:821 admin/payments.php:499 admin/payments.php:576
+#: admin/old_files/conf.php:821 admin/payments.php:517 admin/payments.php:578
+#: admin/payments.php:655
 msgid "Enable Sandbox"
 msgstr "Включить Sandbox"
 
 #: admin/conf.php:581 admin/conf.php:618 admin/conf.php:651 admin/conf.php:692
 #: admin/conf.php:827 admin/old_files/conf.php:580 admin/old_files/conf.php:617
 #: admin/old_files/conf.php:650 admin/old_files/conf.php:691
-#: admin/old_files/conf.php:826 admin/payments.php:499 admin/payments.php:576
+#: admin/old_files/conf.php:826 admin/payments.php:517 admin/payments.php:578
+#: admin/payments.php:655
 msgid "Enable sandbox for development testing"
 msgstr "Включить тестовый режим"
 
@@ -1277,11 +1280,11 @@ msgstr ""
 msgid "Price(or prices) for SMS you specify in your Fortumo merchant account."
 msgstr "Цена (или цены) для SMS, указанного в торговом аккаунте Fortumo."
 
-#: admin/conf.php:788 admin/old_files/conf.php:787 admin/payments.php:558
+#: admin/conf.php:788 admin/old_files/conf.php:787 admin/payments.php:637
 msgid "Service ID"
 msgstr "Сервис ID"
 
-#: admin/conf.php:794 admin/old_files/conf.php:793 admin/payments.php:567
+#: admin/conf.php:794 admin/old_files/conf.php:793 admin/payments.php:646
 msgid "Secret:"
 msgstr "Секрет:"
 
@@ -1297,19 +1300,19 @@ msgstr "Настройки блокировки биткойн"
 msgid "blockchain enable"
 msgstr "блокировка включить"
 
-#: admin/conf.php:851 admin/old_files/conf.php:850 admin/payments.php:602
+#: admin/conf.php:851 admin/old_files/conf.php:850 admin/payments.php:681
 msgid "xpub:"
 msgstr "xpub:"
 
-#: admin/conf.php:857 admin/old_files/conf.php:856 admin/payments.php:611
+#: admin/conf.php:857 admin/old_files/conf.php:856 admin/payments.php:690
 msgid "api_key:"
 msgstr "api_key:"
 
-#: admin/conf.php:863 admin/old_files/conf.php:862 admin/payments.php:620
+#: admin/conf.php:863 admin/old_files/conf.php:862 admin/payments.php:699
 msgid "secret:"
 msgstr "секрет:"
 
-#: admin/conf.php:869 admin/old_files/conf.php:868 admin/payments.php:629
+#: admin/conf.php:869 admin/old_files/conf.php:868 admin/payments.php:708
 msgid "Count blocks:"
 msgstr "Количество блоков:"
 
@@ -1482,7 +1485,7 @@ msgid ""
 "\"?"
 msgstr "Вы уверены, что хотите изменить состояние"
 
-#: admin/help.php:7 admin/old_files/help.php:4 admin/payments.php:101
+#: admin/help.php:7 admin/old_files/help.php:4 admin/payments.php:159
 msgid "Paypal"
 msgstr "Paypal"
 
@@ -1660,7 +1663,7 @@ msgstr ""
 "Включите в плагине «Песочница PayPal» - ON . Теперь Вы можете тестировать "
 "плагин!"
 
-#: admin/help.php:66 admin/old_files/help.php:60 admin/payments.php:181
+#: admin/help.php:66 admin/old_files/help.php:60 admin/payments.php:199
 msgid "2Checkout"
 msgstr "2Checkout"
 
@@ -1776,156 +1779,158 @@ msgstr ""
 "Этот параметр позволяет выбрать на каком языке покупатель видит 2Checkout "
 "сайт"
 
-#: admin/help.php:136 admin/payments.php:111
-msgid "Yandex"
+#: admin/help.php:136 admin/payments.php:109 admin/payments.php:422
+#: payments/yandex/Yandex.php:49 payments/yandex/Yandex.php:60
+msgid "ЮMoney"
 msgstr ""
 
-#: admin/help.php:140 admin/help.php:168 admin/help.php:303 admin/help.php:339
+#: admin/help.php:140 admin/help.php:183 admin/help.php:318 admin/help.php:354
 msgid "Login or register in"
 msgstr "Зарегистрируйтесь или войдите на"
 
 #: admin/help.php:143
 msgid ""
-"Зайдите в Настройки - Всё остальное - Сбор Денег - Уведомления - Настроить ."
+"Зайдите в Настройки - Пакеты/Другие сервисы - Сбор Денег - Уведомления - "
+"Уведомления По HTTP - Подключить."
 msgstr ""
 
-#: admin/help.php:146
+#: admin/help.php:155
 msgid "HTTP-уведомления. Вставьте адрес:"
 msgstr ""
 
-#: admin/help.php:149
+#: admin/help.php:161
 msgid ""
 "Поставьте галочку - Отправлять уведомления и сохраните настройки. Далее "
 "нажмите показать секрет. Вставьте данный набор символов в поле плагина "
-"Секретное слово Яндекс"
+"Секретное слово ЮMoney"
 msgstr ""
 
-#: admin/help.php:152
+#: admin/help.php:167
 msgid ""
 "Вставьте номер Вашего кошелька в поле плагина Номер вашего кошелька и "
 "сохраните."
 msgstr ""
 
-#: admin/help.php:155
+#: admin/help.php:170
 msgid ""
-"Тестовой среды ЯндексДеньги не имеют. Поэтому для тестов можно только "
-"сделать реальные платежи."
+"Тестовой среды ЮMoney не имеют. Поэтому для тестов можно только сделать "
+"реальные платежи."
 msgstr ""
 
-#: admin/help.php:158
+#: admin/help.php:173
 msgid ""
-"Важно! При оплате с мобильных телефонов - Яндекс не присылает уведомлений на "
+"Важно! При оплате с мобильных телефонов - ЮMoney не присылает уведомлений на "
 "сайт. Поэтому если Вы включите эту опцию, обрабатывать платежи придётся "
 "вручную."
 msgstr ""
 
-#: admin/help.php:164 admin/payments.php:121
+#: admin/help.php:179 admin/payments.php:139
 msgid "Interkassa"
 msgstr ""
 
-#: admin/help.php:171
+#: admin/help.php:186
 msgid "Зайдите в Настройки - Мои Кассы - Создайте кассу ."
 msgstr ""
 
-#: admin/help.php:174 admin/help.php:309
+#: admin/help.php:189 admin/help.php:324
 msgid "В настройках кассы:"
 msgstr ""
 
-#: admin/help.php:177
+#: admin/help.php:192
 msgid "Настройки платежей. Проверять уникальность платежей - вкл.. "
 msgstr ""
 
-#: admin/help.php:180
+#: admin/help.php:195
 msgid "Платёжные системы - выберите нужные. "
 msgstr ""
 
-#: admin/help.php:183
+#: admin/help.php:198
 msgid ""
 "Интерфейс. Все URL взаимодействия: Тип запроса - POST и разрешить "
 "переопределять в запросе"
 msgstr ""
 
-#: admin/help.php:186
+#: admin/help.php:201
 msgid ""
 "Безопасность. Цифровая подпись: MD5. Проверять подпись в форме запроса "
 "платежа - не включать."
 msgstr ""
 
-#: admin/help.php:189
+#: admin/help.php:204
 msgid ""
 "Секретный ключ( или тестовый секретный ключ) из кабинета Интеркассы вставьте "
 "в поле плагина(Интеркасса параметры - Интеркасса секретный ключ)."
 msgstr ""
 
-#: admin/help.php:192
+#: admin/help.php:207
 msgid ""
 "В поле Интеркасса id кассы  вставьте ID Ваше кассы ( раздел Мои Кассы - ID "
 "виден под названием кассы)"
 msgstr ""
 
-#: admin/help.php:195
+#: admin/help.php:210
 msgid "Если Вы хотите протестировать взаимодействие с Интеркассой:"
 msgstr ""
 
-#: admin/help.php:198
+#: admin/help.php:213
 msgid "1. Используйте тестовый секретный ключ в настройках плагина."
 msgstr ""
 
-#: admin/help.php:201
+#: admin/help.php:216
 msgid "2. А в кабинете Интеркассы - включите Тестовую платежную систему."
 msgstr ""
 
-#: admin/help.php:204
+#: admin/help.php:219
 msgid ""
 "3. Никаких дополнительных настроек для тестовых платежей не требуется. В "
 "настройках плагина используйте стандартную валюту RUB или UAH, и оплачиваете "
 "заказ."
 msgstr ""
 
-#: admin/help.php:207
+#: admin/help.php:222
 msgid ""
 "4. Просто при оплате на Интеркассе выберите тестовый способо оплаты. И не "
 "забудьте выключить его после тестирования!"
 msgstr ""
 
-#: admin/help.php:213 admin/payments.php:131
+#: admin/help.php:228 admin/payments.php:119
 msgid "Robokassa"
 msgstr ""
 
-#: admin/help.php:216 admin/help.php:234 admin/help.php:275
+#: admin/help.php:231 admin/help.php:249 admin/help.php:290
 msgid "Tips For Administrators"
 msgstr "Подсказка для администратора"
 
-#: admin/help.php:218
+#: admin/help.php:233
 msgid "Metod - POST. Signature - MD5"
 msgstr "Метод отправки данных - POST, алгоритм расчёта хеша - MD5."
 
-#: admin/help.php:231 admin/payments.php:151
+#: admin/help.php:246 admin/payments.php:179
 msgid "Payeer"
 msgstr ""
 
-#: admin/help.php:236
+#: admin/help.php:251
 msgid "Register at  https://payeer.com/ru/account/  and add new merchant"
 msgstr ""
 "Зарегистрируйтесь на https://payeer.com/ru/account/ и добавьте нового "
 "мерчанта"
 
-#: admin/help.php:247 admin/help.php:330
+#: admin/help.php:262 admin/help.php:345
 msgid "Paste in plugin settings ID and secret key from this merchant"
 msgstr ""
 "Вставьте ID мерчанта и секретный ключ из личного кабинета в настройки плагина"
 
-#: admin/help.php:250
+#: admin/help.php:265
 msgid "Add Merchant URL . By default - https://payeer.com/merchant/"
 msgstr ""
 "Добавьте  настройки плагина Merchant URL, по умолчанию это - https://payeer."
 "com/merchant/"
 
-#: admin/help.php:254 admin/payments.php:670
+#: admin/help.php:269 admin/payments.php:749
 msgid "IP - filter"
 msgstr "IP- фильтр"
 
-#: admin/help.php:256
+#: admin/help.php:271
 msgid ""
 "You can specify the list of all trusted ip addresses of servers, separated "
 "by commas."
@@ -1934,7 +1939,7 @@ msgstr ""
 "будут приниматься уведомления , список IP доступен в личном кабинете "
 "Payeer), разделенных запятыми."
 
-#: admin/help.php:258
+#: admin/help.php:273
 msgid ""
 "You can also specify a mask instead of the ip address. If the field is "
 "empty, checking for trusted ip addresses not performed."
@@ -1942,163 +1947,163 @@ msgstr ""
 "Вы также можете указать маску вместо IP-адреса. Если поле пусто, проверка "
 "для доверенных IP-адресов не выполняется."
 
-#: admin/help.php:260
+#: admin/help.php:275
 msgid "For example"
 msgstr "Например"
 
-#: admin/help.php:264 admin/help.php:267
+#: admin/help.php:279 admin/help.php:282
 msgid "Or"
 msgstr "Или"
 
-#: admin/help.php:268
+#: admin/help.php:283
 msgid "all available IP addresses"
 msgstr "все IP адреса разрешены"
 
-#: admin/help.php:273 admin/payments.php:141
+#: admin/help.php:288 admin/payments.php:169
 msgid "Walletone"
 msgstr ""
 
-#: admin/help.php:277
+#: admin/help.php:292
 msgid ""
 "1.Вам необходимо заргестрировать акканут в кассе Walletone - https://www."
 "walletone.com/merchant/"
 msgstr ""
 
-#: admin/help.php:280
+#: admin/help.php:295
 msgid "2. Создайте новый проект. Заполните все требуемые данные."
 msgstr ""
 
-#: admin/help.php:283
+#: admin/help.php:298
 msgid "3. Настройки проекта:."
 msgstr ""
 
-#: admin/help.php:286
+#: admin/help.php:301
 msgid "Metod ECP - POST. Signature - MD5"
 msgstr "Метод  ECP - POST, формирования ЭЦП  - MD5."
 
-#: admin/help.php:291
+#: admin/help.php:306
 msgid ""
 "Сгенерируйте ключ. Внесите ключ и ID кассы ( правый-верхний угол в аккануте, "
 "номер под названием кассы) в настройки плагина."
 msgstr ""
 
-#: admin/help.php:294
+#: admin/help.php:309
 msgid ""
 "4. Важно! В настроках плагина все цены должны быть с разделителем . (точка). "
 "После точки обязательно должно быть две цифры."
 msgstr ""
 
-#: admin/help.php:299 admin/payments.php:161
+#: admin/help.php:314 admin/payments.php:129
 msgid "Free-kassa"
 msgstr ""
 
-#: admin/help.php:306
+#: admin/help.php:321
 msgid "Зайдите в Мои Кассы - Добавьте кассу ."
 msgstr ""
 
-#: admin/help.php:312
+#: admin/help.php:327
 msgid "Все методы отсылки, оповещения выберите - POST "
 msgstr ""
 
-#: admin/help.php:315
+#: admin/help.php:330
 msgid "создайте - Секретное слово и Секретное слово 2 не одинаковыми "
 msgstr ""
 
-#: admin/help.php:318
+#: admin/help.php:333
 msgid "Режим интеграции выберите - Нет"
 msgstr ""
 
-#: admin/help.php:335 admin/payments.php:171
+#: admin/help.php:350 admin/payments.php:189
 msgid "Webmoney"
 msgstr ""
 
-#: admin/help.php:342
+#: admin/help.php:357
 msgid "Зайдите в"
 msgstr ""
 
-#: admin/help.php:345
+#: admin/help.php:360
 msgid "Напротив нужного кошелька выбираем настроить."
 msgstr ""
 
-#: admin/help.php:348
+#: admin/help.php:363
 msgid "Указываем тестовый либо рабочий режим работы"
 msgstr ""
 
-#: admin/help.php:351
+#: admin/help.php:366
 msgid "Указываем торговое имя "
 msgstr ""
 
-#: admin/help.php:354
+#: admin/help.php:369
 msgid "Указываем Secret Key"
 msgstr ""
 
-#: admin/help.php:357
+#: admin/help.php:372
 msgid "Указываем(необязательно) несколько URL:"
 msgstr ""
 
-#: admin/help.php:367
+#: admin/help.php:382
 msgid "Методы вызова - POST"
 msgstr ""
 
-#: admin/help.php:368
+#: admin/help.php:383
 msgid ""
 "Передавать параметры в предварительном запросе - нет. Не выбираем этот check-"
 "box!"
 msgstr ""
 
-#: admin/help.php:369
+#: admin/help.php:384
 msgid ""
 "Выбираем check-box [x] Позволять использовать URL, передаваемые в форме, "
 "если не указывали Result URL, Success URL, Fail URL"
 msgstr ""
 
-#: admin/help.php:370
+#: admin/help.php:385
 msgid "Выбираем в Метод формирования контрольной подписи - SHA256"
 msgstr ""
 
-#: admin/help.php:371
+#: admin/help.php:386
 msgid "Обязательно требовать подтверждение транзакции по СМС - ВЫКЛ"
 msgstr ""
 
-#: admin/help.php:372
+#: admin/help.php:387
 msgid "Обязательно требовать подпись платежной формы - ВЫКЛ"
 msgstr ""
 
-#: admin/help.php:373
+#: admin/help.php:388
 msgid "Обеспечивать уникальность lmi_payment_no - ВЫКЛ"
 msgstr ""
 
-#: admin/help.php:374
+#: admin/help.php:389
 msgid "Сохраняем настройки"
 msgstr ""
 
-#: admin/help.php:376
+#: admin/help.php:391
 msgid ""
 "Вставляем номер кошелька(полнсотью с буквой R,Z и т.д.) и сектерный ключ в "
 "плагин"
 msgstr ""
 
-#: admin/help.php:381 admin/old_files/help.php:180
+#: admin/help.php:396 admin/old_files/help.php:180
 msgid "Blockchain"
 msgstr "Blockchain"
 
-#: admin/help.php:384 admin/old_files/help.php:183
+#: admin/help.php:399 admin/old_files/help.php:183
 msgid "Register wallet in  https://blockchain.info "
 msgstr "Зарегистрируйтре кошелек в https://blockchain.info"
 
-#: admin/help.php:385 admin/old_files/help.php:184
+#: admin/help.php:400 admin/old_files/help.php:184
 msgid "Get API KEY https://api.blockchain.info/v2/apikey/request/ "
 msgstr "Получите ключ API https://api.blockchain.info/v2/apikey/request/"
 
-#: admin/help.php:386 admin/old_files/help.php:185
+#: admin/help.php:401 admin/old_files/help.php:185
 msgid "secret: - think up any password and past"
 msgstr "секрет: - придумайте и вставьте любой пароль"
 
-#: admin/help.php:387 admin/old_files/help.php:186
+#: admin/help.php:402 admin/old_files/help.php:186
 msgid "xpub: - copy from you Blockchain wallet and past"
 msgstr "xpub:- скопируйте из Вашего  Blockchain кошелька и вставьте"
 
-#: admin/help.php:388 admin/old_files/help.php:187
+#: admin/help.php:403 admin/old_files/help.php:187
 msgid ""
 "Count blocks: - you can set value 1-25. This affects the speed of validation "
 "of payments. The most used by user - 5 block."
@@ -2107,7 +2112,7 @@ msgstr ""
 "скорость проверки платежей. Наиболее часто используемые пользователем - 5 "
 "блок."
 
-#: admin/help.php:389 admin/old_files/help.php:188
+#: admin/help.php:404 admin/old_files/help.php:188
 msgid ""
 "If you use 5 blocks - after five notification from Blockchain - payment will "
 "be accepted by plugin."
@@ -2115,7 +2120,7 @@ msgstr ""
 "Если вы используете 5 блоков - после пяти уведомления от Blockchain - оплата "
 "будет принята плагином."
 
-#: admin/help.php:391 admin/old_files/help.php:190
+#: admin/help.php:406 admin/old_files/help.php:190
 msgid ""
 "Your default currency may be a USD or other currency! Plugin convert "
 "currencies to BTC with Blockchain api"
@@ -2123,7 +2128,7 @@ msgstr ""
 "Ваша валюта по умолчанию может быть любая! Плагин конвертирует валюты в BTC  "
 "с помощью Blockchain api"
 
-#: admin/help.php:394 admin/old_files/help.php:193
+#: admin/help.php:409 admin/old_files/help.php:193
 msgid ""
 "Of course you can use BTC currency only. But other payment systems not work "
 "with BTC."
@@ -2131,27 +2136,27 @@ msgstr ""
 "Конечно Вы можете использовать  только BTC . Но другие платежные системы не "
 "работают с  BTC."
 
-#: admin/help.php:400 admin/old_files/help.php:198 admin/payments.php:191
+#: admin/help.php:415 admin/old_files/help.php:198 admin/payments.php:209
 msgid "Fortumo"
 msgstr ""
 
-#: admin/help.php:403 admin/old_files/help.php:201
+#: admin/help.php:418 admin/old_files/help.php:201
 msgid "Fortumo setup"
 msgstr "Fortumo установки"
 
-#: admin/help.php:404 admin/old_files/help.php:202
+#: admin/help.php:419 admin/old_files/help.php:202
 msgid "Register - https://fortumo.com/ "
 msgstr "Зарегистрируйтесь здесь - https://fortumo.com/"
 
-#: admin/help.php:406 admin/old_files/help.php:204
+#: admin/help.php:421 admin/old_files/help.php:204
 msgid "Create new service. Select service type: Cross-Platform Mobile Payments"
 msgstr "Создайте новый сервис. Выберите тип: Cross-Platform Mobile Payments"
 
-#: admin/help.php:410 admin/old_files/help.php:208
+#: admin/help.php:425 admin/old_files/help.php:208
 msgid "Step1. Select Country (or countries). I am select for example Italy:"
 msgstr "Шаг 1. Выберите страну (или страны). Я например выбрал Италию:"
 
-#: admin/help.php:414 admin/old_files/help.php:212
+#: admin/help.php:429 admin/old_files/help.php:212
 msgid ""
 "Is Your Service, Game or App Related To…?:Adult or Erotic Content,Lotteries "
 "or Gambling,Donations. Select Yes or No."
@@ -2159,7 +2164,7 @@ msgstr ""
 "Укажите относится ли Ваш сайт к одной из тематик: Adult or Erotic Content,"
 "Lotteries or Gambling,Donations"
 
-#: admin/help.php:418 admin/old_files/help.php:216
+#: admin/help.php:433 admin/old_files/help.php:216
 msgid ""
 "Setup price. Here are possible options. If you select Single item - you can "
 "specify only one price."
@@ -2167,7 +2172,7 @@ msgstr ""
 "Установите цену. Если Вы веберите Single item -вам нужно будет установить "
 "цену."
 
-#: admin/help.php:420 admin/old_files/help.php:218
+#: admin/help.php:435 admin/old_files/help.php:218
 msgid ""
 "Or you can select Virtual credits. And user can choose the price at which he "
 "wants to Fund wallet on your website. As in my example:"
@@ -2175,7 +2180,7 @@ msgstr ""
 "Или Вы можете выбрать Virtual credits. Тогда пользователь сам сможет указать "
 "сумму для пополнения кошелька на Вашем сайте."
 
-#: admin/help.php:424 admin/old_files/help.php:222
+#: admin/help.php:439 admin/old_files/help.php:222
 msgid ""
 "Step2. Add info about you site and service. And paste - To which URL will "
 "your payment requests be forwarded to?:"
@@ -2183,26 +2188,26 @@ msgstr ""
 "Заполните информацию о вашем сайте и услугах. И вставьте в поле To which URL "
 "will your payment requests be forwarded to? ссылку:"
 
-#: admin/help.php:428 admin/old_files/help.php:226
+#: admin/help.php:443 admin/old_files/help.php:226
 msgid "And paste - Where to redirect the user after completing the payment?:"
 msgstr ""
 "А в поле Where to redirect the user after completing the payment? ссылку:"
 
-#: admin/help.php:434 admin/old_files/help.php:232
+#: admin/help.php:449 admin/old_files/help.php:232
 msgid "Write Additional information about Your service."
 msgstr "Напишите дополнительную информацию о Ваших услугах."
 
-#: admin/help.php:436 admin/old_files/help.php:234
+#: admin/help.php:451 admin/old_files/help.php:234
 msgid "Step3. Agree to follow all general rules. Confirm."
 msgstr ""
 "Agree to follow all general rules - потдвердите согласние с правилами "
 "Fortumo."
 
-#: admin/help.php:438 admin/old_files/help.php:236
+#: admin/help.php:453 admin/old_files/help.php:236
 msgid "Service ready to test."
 msgstr "Всё готово к тестированию."
 
-#: admin/help.php:442 admin/old_files/help.php:240
+#: admin/help.php:457 admin/old_files/help.php:240
 msgid ""
 "ServiceID and Secret past in plugin. Check - Enable Sandbox in plugin "
 "Fortumo settings. Test!"
@@ -2210,13 +2215,13 @@ msgstr ""
 "Вставьте в плагин  ServiceID(Сервис ID) и Secret(Секрет). Включите в плагине "
 "Sandbox. Тестируйте!"
 
-#: admin/help.php:444 admin/old_files/help.php:242
+#: admin/help.php:459 admin/old_files/help.php:242
 msgid "After testing. Check Go live in Fortumo site and get real SMS payments."
 msgstr ""
 "После тестирования. Включите в личном кабинете Fortumo -  Go live  и "
 "принимайте реальные  SMS-платежи."
 
-#: admin/help.php:446 admin/old_files/help.php:244
+#: admin/help.php:461 admin/old_files/help.php:244
 msgid ""
 "IMPORTANT!!! Fortumo enabled only in user account Wallet. The user can add "
 "funds to wallet on you site. And then pay for premium services from Wallet."
@@ -2224,15 +2229,15 @@ msgstr ""
 "ВАЖНО!!! Fortumo работает только в кошельке. Для пополнения кошелька на "
 "сайте."
 
-#: admin/help.php:455 admin/old_files/help.php:250
+#: admin/help.php:470 admin/old_files/help.php:250
 msgid "Highlighting"
 msgstr "Выделение цветом"
 
-#: admin/help.php:458 admin/old_files/help.php:253
+#: admin/help.php:473 admin/old_files/help.php:253
 msgid "Setting highlighting"
 msgstr "Настройка Выделения цветом"
 
-#: admin/help.php:460 admin/old_files/help.php:255
+#: admin/help.php:475 admin/old_files/help.php:255
 msgid ""
 "Need small modifictions of theme files. Need add two HTML \"id\" tag with "
 "PHP code in search files."
@@ -2241,27 +2246,27 @@ msgstr ""
 "шаблона. Нужно добавить два ID в файлы отвечающие за вывод объявлений в "
 "поиске."
 
-#: admin/help.php:463
+#: admin/help.php:478
 msgid "Open these 2 files in your template:"
 msgstr "Откройте эти 2 файла в вашем шаблоне:"
 
-#: admin/help.php:466 admin/help.php:529
+#: admin/help.php:481 admin/help.php:544
 msgid "In default theme Bender and in some other themes, files named:"
 msgstr "В шаблоне Bender и некоторых других шаблонах имена файлов:"
 
-#: admin/help.php:469 admin/help.php:532
+#: admin/help.php:484 admin/help.php:547
 msgid "In Modern theme and in some other themes, files named:"
 msgstr "В шаблоне Modern и некоторых других шаблонах имена файлов:"
 
-#: admin/help.php:472
+#: admin/help.php:487
 msgid "First \"id\" ( or \"class\") for premium items"
 msgstr "Первый «id» (или «класс») для премиум объявлений"
 
-#: admin/help.php:480
+#: admin/help.php:495
 msgid "Second \"id\" ( or \"class\") for items"
 msgstr "Второй \"id\" ( или \"class\") для объявлений"
 
-#: admin/help.php:488 admin/old_files/help.php:261
+#: admin/help.php:503 admin/old_files/help.php:261
 msgid ""
 "In Highlighted ads will be shown - id = \"colorized\", normal - id = \"normal"
 "\". Items with id = \"colorized\" will have a Highlighted color background"
@@ -2269,19 +2274,19 @@ msgstr ""
 "У выделенного цветом объявления будет - id = \"colorized\", у обычного - id "
 "= \"normal\""
 
-#: admin/help.php:491 admin/old_files/help.php:263
+#: admin/help.php:506 admin/old_files/help.php:263
 msgid "Example, for the Bender theme:"
 msgstr "Например, для темы Бендер:"
 
-#: admin/help.php:494 admin/old_files/help.php:265
+#: admin/help.php:509 admin/old_files/help.php:265
 msgid "File loop-single.php - 2-line :"
 msgstr "Файл loop-single.php - 2-линия :"
 
-#: admin/help.php:504 admin/old_files/help.php:269
+#: admin/help.php:519 admin/old_files/help.php:269
 msgid "File loop-single-premium.php :"
 msgstr "Файл loop-single-premium.php :"
 
-#: admin/help.php:514 admin/old_files/help.php:273
+#: admin/help.php:529 admin/old_files/help.php:273
 msgid ""
 "Modified files for Modern and Bender(for examples) in /oc-content/plugins/"
 "rupayments/examples."
@@ -2289,19 +2294,19 @@ msgstr ""
 "Измененные файлы для Modern и Bender (для примера) в <strong>/oc-content/"
 "plugins/rupayments/examples</strong>."
 
-#: admin/help.php:526
+#: admin/help.php:541
 msgid "Open these 3 files in your template:"
 msgstr "Откройте эти 3 файла в вашем шаблоне:"
 
-#: admin/help.php:536
+#: admin/help.php:551
 msgid "In the <strong>item.php</strong> file find line of code:"
 msgstr "В файле <strong>item.php</strong> найти строку кода:"
 
-#: admin/help.php:544 admin/help.php:562 admin/help.php:580
+#: admin/help.php:559 admin/help.php:577 admin/help.php:595
 msgid "And Replace with:"
 msgstr "и замените на:"
 
-#: admin/help.php:554
+#: admin/help.php:569
 msgid ""
 "In the <strong>loop-single.php( or search_list.php and search_gallery.php)</"
 "strong> file find line of code:"
@@ -2309,7 +2314,7 @@ msgstr ""
 "В файле <strong>oop-single.php( или search_list.php и search_gallery.php)</"
 "strong> найдите код:"
 
-#: admin/help.php:572
+#: admin/help.php:587
 msgid ""
 "In the <strong>loop-single-premium.php(if such a file is in the theme)</"
 "strong> file find line of code:"
@@ -2317,7 +2322,7 @@ msgstr ""
 "В файле <strong>loop-single-premium.php(если есть такой файл в шаблоне)</"
 "strong> найдите код:"
 
-#: admin/help.php:590
+#: admin/help.php:605
 msgid ""
 "Modified files for Modern and Bender (for examples) in <strong>/oc-content/"
 "plugins/rupayments/examples</strong>."
@@ -2325,19 +2330,19 @@ msgstr ""
 "Измененные файлы для Modern и Bender (для примера) в <strong>/oc-content/"
 "plugins/rupayments/examples</strong>."
 
-#: admin/help.php:597
+#: admin/help.php:612
 msgid "How to add button \"Buy Item\" on the site"
 msgstr "Как добавить кнопку «Купить товар» на сайте"
 
-#: admin/help.php:600
+#: admin/help.php:615
 msgid "It's simple, just open file in your template:"
 msgstr "Это просто, откройте файл Вашего шаблона:"
 
-#: admin/help.php:604
+#: admin/help.php:619
 msgid "And add the one line of code:"
 msgstr "И добавить одну строку кода:"
 
-#: admin/help.php:614
+#: admin/help.php:629
 msgid ""
 "Modified files for Bender (for examples) in <strong>/oc-content/plugins/"
 "rupayments/examples</strong>."
@@ -2345,11 +2350,11 @@ msgstr ""
 "Измененные файлы для Бендер (для примера) в <strong>/oc-content/plugins/"
 "rupayments/examples</strong>."
 
-#: admin/help.php:620 admin/old_files/help.php:276
+#: admin/help.php:635 admin/old_files/help.php:276
 msgid "Important information!!!"
 msgstr "Важная информация!"
 
-#: admin/help.php:624 admin/old_files/help.php:280
+#: admin/help.php:639 admin/old_files/help.php:280
 msgid ""
 "If you test the plugin and publish listings from Front-end, you must logout "
 "from  oc-admin. Otherwise you will not see \"After publish\" option or "
@@ -2358,7 +2363,7 @@ msgstr ""
 "Для тестировая Оплаты публикации или После публикации - выйдите обязательно "
 "из админки сайта, иначе Вы не увидете этих опций в публичной части сайта."
 
-#: admin/help.php:628 admin/old_files/help.php:284
+#: admin/help.php:643 admin/old_files/help.php:284
 msgid ""
 "If you logged in oc-admin you can see buttons for Admin in Front-end item "
 "page and make item Premium, Move to TOP, Highlight without Payment."
@@ -2367,7 +2372,7 @@ msgstr ""
 "сайта - Вы увидите кнопки на страницах объявления, с помощью которых сможете "
 "любое объявление сделать премиум, выделить цветом или поднять в топ."
 
-#: admin/help.php:632 admin/old_files/help.php:288
+#: admin/help.php:647 admin/old_files/help.php:288
 msgid ""
 "If you logged as user, you can see buttons for User in Front-end item page "
 "and Pay item Premium, Move to TOP, Highlight ."
@@ -2375,7 +2380,7 @@ msgstr ""
 "Если вы вошли как пользователь, вы можете увидеть кнопки для пользователя на "
 "странице объявления"
 
-#: admin/help.php:636
+#: admin/help.php:651
 msgid ""
 "Enable Cron. We recommend you to use  hourly Crontab on the hosting or "
 "server. More: https://osclass.pro/dokumentaciya/cron/ .  "
@@ -2383,7 +2388,7 @@ msgstr ""
 "Включите Cron. Мы рекомендуем вам использовать задания Crontab на хостинге "
 "или сервере . Подробней: https://osclass.pro/dokumentaciya/cron/ ."
 
-#: admin/help.php:640
+#: admin/help.php:655
 msgid ""
 "Osclass cron is a psevdo cron. And it not work fine. This is only if you not "
 "have another choice.  "
@@ -2392,7 +2397,7 @@ msgstr ""
 "отлично сам по себе. Он срабатывает только когда, кто-то пользуется Вашим "
 "сайтом."
 
-#: admin/help.php:644
+#: admin/help.php:659
 msgid ""
 "Simle command for CRON -  wget domain.com/index.php?page=cron . Use it "
 "hourly."
@@ -2400,7 +2405,7 @@ msgstr ""
 "Пример простой команды CRON, которую Вы можете использовать - wget вашдомен."
 "com/index.php?page=cron. Настройте это задание крон  на запуск каждый час."
 
-#: admin/help.php:648
+#: admin/help.php:663
 msgid ""
 "After each plugin update first Disable and then Enable plugin to take effect "
 "changes.  "
@@ -2433,7 +2438,7 @@ msgstr "Группы пользователей"
 msgid "Bonuses"
 msgstr "Бонусы"
 
-#: admin/left_menu.php:44 admin/top_menu.php:47 index.php:216
+#: admin/left_menu.php:44 admin/top_menu.php:47 index.php:212
 #: user/banners.php:38
 msgid "Banners"
 msgstr "Баннеры"
@@ -2511,15 +2516,15 @@ msgstr "Поднятие в топ"
 msgid "Renew"
 msgstr "Возобновить"
 
-#: admin/log.php:82 admin/old_files/log.php:82 index.php:328
+#: admin/log.php:82 admin/old_files/log.php:82 index.php:326
 msgid "Pack 1"
 msgstr "Пакет 1"
 
-#: admin/log.php:83 admin/old_files/log.php:83 index.php:329
+#: admin/log.php:83 admin/old_files/log.php:83 index.php:327
 msgid "Pack 2"
 msgstr "Пакет 2"
 
-#: admin/log.php:84 admin/old_files/log.php:84 index.php:330
+#: admin/log.php:84 admin/old_files/log.php:84 index.php:328
 msgid "Pack 3"
 msgstr "Пакет 3"
 
@@ -2679,91 +2684,117 @@ msgstr ""
 "Включите Cron. Мы рекомендуем вам использовать Crontab на хостинге или "
 "сервере. Подробней: https://doc.osclass.org/Cron."
 
-#: admin/payments.php:201
+#: admin/payments.php:149
+msgid "Liqpay"
+msgstr ""
+
+#: admin/payments.php:219
 msgid "Blockchain (bitcoin)"
 msgstr "Blockchain (bitcoin)"
 
-#: admin/payments.php:355
+#: admin/payments.php:373
 msgid "Yandex enable"
 msgstr "Яндекс включить"
 
-#: admin/payments.php:366
+#: admin/payments.php:384
 msgid "Yandex merchant/account id"
 msgstr "Номер вашего кошелька"
 
-#: admin/payments.php:375
+#: admin/payments.php:393
 msgid "Yandex secret word"
 msgstr "Секретное слово Яндекс"
 
-#: admin/payments.php:384
+#: admin/payments.php:402
 msgid "Choose Payment method: Accept card"
 msgstr "Принимать оплату:"
 
-#: admin/payments.php:390
+#: admin/payments.php:408
 msgid "Bank card"
 msgstr "банковская карта"
 
-#: admin/payments.php:398
+#: admin/payments.php:416
 msgid "Choose Payment method: Yandex.Money Wallet"
 msgstr "Принимать оплату:"
 
-#: admin/payments.php:404
-msgid "Yandex.Money Wallet"
-msgstr "Яндекс Деньги"
-
-#: admin/payments.php:411
+#: admin/payments.php:429
 msgid "Choose Payment method: Mobile phone"
 msgstr "Принимать оплату:"
 
-#: admin/payments.php:417
+#: admin/payments.php:435
 msgid "Mobile phone"
 msgstr "Моб. телефон"
 
-#: admin/payments.php:429
+#: admin/payments.php:447
 msgid "Interkassa enable"
 msgstr "Интеркасса включить"
 
-#: admin/payments.php:440
+#: admin/payments.php:458
 msgid "Interkassa kassa id"
 msgstr "Интеркасса id кассы"
 
-#: admin/payments.php:449
+#: admin/payments.php:467
 msgid "Interkassa secret key"
 msgstr "Интеркасса секретный ключ"
 
-#: admin/payments.php:462
+#: admin/payments.php:480
 msgid "Robokassa enable"
 msgstr "Robokassa включить"
 
-#: admin/payments.php:473
+#: admin/payments.php:491
 msgid "ID shop"
 msgstr "ID магазина"
 
-#: admin/payments.php:482
+#: admin/payments.php:500
 msgid "Password1"
 msgstr "Пароль1"
 
-#: admin/payments.php:491
+#: admin/payments.php:509
 msgid "Password2"
 msgstr "Пароль2"
 
-#: admin/payments.php:515
+#: admin/payments.php:532
+#, fuzzy
+#| msgid "Paypal enable"
+msgid "Liqpay enable"
+msgstr "PayPal включить"
+
+#: admin/payments.php:543
+#, fuzzy
+#| msgid "Publish fee"
+msgid "Public Key"
+msgstr "Оплата публикации"
+
+#: admin/payments.php:552
+msgid "Private Key"
+msgstr ""
+
+#: admin/payments.php:561
+#, fuzzy
+#| msgid "Stripe public key"
+msgid "Test Public Key"
+msgstr "Stripe открытый ключ"
+
+#: admin/payments.php:570
+msgid "Test Private Key"
+msgstr ""
+
+#: admin/payments.php:594
 msgid "Walletone enable"
 msgstr "Walletone включить"
 
-#: admin/payments.php:525
+#: admin/payments.php:604
 msgid "Kassa ID:"
 msgstr "ID кассы"
 
-#: admin/payments.php:534
+#: admin/payments.php:613
 msgid "Key:"
 msgstr "Ключ"
 
-#: admin/payments.php:547
+#: admin/payments.php:626
 msgid "Fortumo enable"
 msgstr "Fortumo включить"
 
-#: admin/payments.php:547
+#: admin/payments.php:626
 msgid ""
 "Remember! Fortumo work only in Wallet. Specify at least one Price of pack "
 "before use, to enable Wallet in user menu. <br /> Price(or prices) for SMS "
@@ -2773,43 +2804,43 @@ msgstr ""
 "цену пакета перед использованием, чтобы включить «Кошелек» в меню "
 "пользователя."
 
-#: admin/payments.php:591
+#: admin/payments.php:670
 msgid "Blockchain enable"
 msgstr "Включить Blockchain"
 
-#: admin/payments.php:641
+#: admin/payments.php:720
 msgid "Payeer enable"
 msgstr "Включить Payeer"
 
-#: admin/payments.php:662
+#: admin/payments.php:741
 msgid "Secret key"
 msgstr "Секретный ключ"
 
-#: admin/payments.php:683
+#: admin/payments.php:762
 msgid "Free-kassa enable"
 msgstr "Free-kassa включить"
 
-#: admin/payments.php:694
+#: admin/payments.php:773
 msgid "Free-kassa shop id"
 msgstr "ID кассы"
 
-#: admin/payments.php:703
+#: admin/payments.php:782
 msgid "Free-kassa secret key"
 msgstr "Секретное слово"
 
-#: admin/payments.php:711
+#: admin/payments.php:790
 msgid "Free-kassa secret key 2"
 msgstr "Секретное слово 2"
 
-#: admin/payments.php:723
+#: admin/payments.php:802
 msgid "Webmoney enable"
 msgstr "Включить WebMoney"
 
-#: admin/payments.php:734
+#: admin/payments.php:813
 msgid "Wallet №"
 msgstr "Номер кошелька"
 
-#: admin/payments.php:743
+#: admin/payments.php:822
 msgid "Webmoney secret"
 msgstr "Секретный ключ"
 
@@ -2985,7 +3016,7 @@ msgstr "Затем пользователь из этого баланса мо�
 msgid "Are you sure you want to delete this pack?"
 msgstr "Вы уверены, что хотите удалить это пакет?"
 
-#: ajax.php:84 user/itemform.php:115
+#: ajax.php:84 user/itemform.php:117
 msgid "No,thanks"
 msgstr "Спасибо, позже."
 
@@ -3106,36 +3137,36 @@ msgstr "Премиум"
 msgid "Pay with credit"
 msgstr "Оплатить из кошелька"
 
-#: index.php:71
+#: index.php:72
 msgid "Russian Ultimate Payments"
 msgstr ""
 
-#: index.php:220 user/ebuy_deals.php:50
+#: index.php:216 user/ebuy_deals.php:50
 msgid "Deals"
 msgstr "Сделки"
 
-#: index.php:224 user/membership.php:26
+#: index.php:220 user/membership.php:26
 msgid "Membership"
 msgstr "Подписка"
 
-#: index.php:227
+#: index.php:223
 msgid "Premium services"
 msgstr "Премиум-услуги"
 
-#: index.php:369
+#: index.php:367
 #, php-format
 msgid "Credit packs. Your current credit is %s %s"
 msgstr "Кредитные пакеты. Ваш текущий кредит является %s %s"
 
-#: index.php:372 user/pack.php:30
+#: index.php:370 user/pack.php:30
 msgid "Your wallet is empty. Buy some credits."
 msgstr "Ваш кошелёк пуст. Пополните его."
 
-#: index.php:377
+#: index.php:375
 msgid "Filling up processed correctly"
 msgstr "Кошелёк успешно пополнен!"
 
-#: index.php:378
+#: index.php:376
 msgid ""
 "Filling up did not processed (there were some errors), please try again "
 "later or contact the administrators"
@@ -3143,34 +3174,34 @@ msgstr ""
 "Кошелёк не пополнен (возникла ошибка), пожалуйста, повторите попытку позже "
 "или свяжитесь с администратором"
 
-#: index.php:386
+#: index.php:384
 msgid "Fill up the Wallet"
 msgstr "Пополнить кошелек"
 
-#: index.php:389
+#: index.php:387
 msgid "Empty"
 msgstr "Пусто"
 
-#: index.php:402
+#: index.php:400
 #, php-format
 msgid "Credit pack #%d"
 msgstr "Пополнить кошелёк #%d"
 
-#: index.php:430 user/emailpayment.php:33 user/itemform.php:18
+#: index.php:428 user/emailpayment.php:35 user/itemform.php:20
 msgid "Services for you item:"
 msgstr "Услуги для Вашего объявления:"
 
-#: index.php:433 user/after.php:23 user/itemform.php:21 user/menu.php:37
+#: index.php:431 user/after.php:25 user/itemform.php:23 user/menu.php:39
 #: user/payperpublish.php:30
 msgid "PACK 3-in-1"
 msgstr "Пакет 3-в-1"
 
-#: index.php:433 user/after.php:23 user/itemform.php:21 user/menu.php:37
+#: index.php:431 user/after.php:25 user/itemform.php:23 user/menu.php:39
 #: user/payperpublish.php:30
 msgid "100x views!"
 msgstr "100x просмотров!"
 
-#: index.php:434 user/after.php:24 user/itemform.php:22 user/menu.php:38
+#: index.php:432 user/after.php:26 user/itemform.php:24 user/menu.php:40
 #: user/payperpublish.php:31
 msgid ""
 "Attract as many visitors as possible to your ad. This option includes: "
@@ -3181,18 +3212,18 @@ msgstr ""
 "включает: Премиум статус, Выделение цветом и автоматическое поднятие "
 "объявления в топ-каждый день! Продолжительность опции в днях:"
 
-#: index.php:437 user/after.php:27 user/emailpayment.php:34
-#: user/itemform.php:25 user/menu.php:41 user/payperpublish.php:34
+#: index.php:435 user/after.php:29 user/emailpayment.php:36
+#: user/itemform.php:27 user/menu.php:43 user/payperpublish.php:34
 msgid "PREMIUM"
 msgstr "ПРЕМИУМ"
 
-#: index.php:437 user/after.php:27 user/emailpayment.php:34
-#: user/itemform.php:25 user/menu.php:41 user/payperpublish.php:34
+#: index.php:435 user/after.php:29 user/emailpayment.php:36
+#: user/itemform.php:27 user/menu.php:43 user/payperpublish.php:34
 msgid "20x views!"
 msgstr "20x просмотров!"
 
-#: index.php:438 user/after.php:28 user/emailpayment.php:35
-#: user/itemform.php:26 user/menu.php:42 user/payperpublish.php:35
+#: index.php:436 user/after.php:30 user/emailpayment.php:37
+#: user/itemform.php:28 user/menu.php:44 user/payperpublish.php:35
 msgid ""
 "Premium status is when the ads are highlighted and shown on top of free ads "
 "in . This promotes more rapid sales. The duration of the option in days:"
@@ -3201,18 +3232,18 @@ msgstr ""
 "объявлениями и выделено цветом. Это значительно увеличивает просмотры "
 "объявления, скорость продажи и кол-во продаж. Срок действия услуги в днях:"
 
-#: index.php:439 user/after.php:29 user/emailpayment.php:36
-#: user/itemform.php:27 user/menu.php:43 user/payperpublish.php:36
+#: index.php:437 user/after.php:31 user/emailpayment.php:38
+#: user/itemform.php:29 user/menu.php:45 user/payperpublish.php:36
 msgid "HIGHLIGHT"
 msgstr "Выделение цветом"
 
-#: index.php:439 user/after.php:29 user/emailpayment.php:36
-#: user/itemform.php:27 user/menu.php:43 user/payperpublish.php:36
+#: index.php:437 user/after.php:31 user/emailpayment.php:38
+#: user/itemform.php:29 user/menu.php:45 user/payperpublish.php:36
 msgid "5x views!"
 msgstr "5х просмотров!"
 
-#: index.php:440 user/after.php:30 user/emailpayment.php:37
-#: user/itemform.php:28 user/menu.php:44 user/payperpublish.php:37
+#: index.php:438 user/after.php:32 user/emailpayment.php:39
+#: user/itemform.php:30 user/menu.php:46 user/payperpublish.php:37
 msgid ""
 "This option allows to attract the visitors attention on you ads. Background "
 "of your ad becomes highlighted. The duration of the option in days:"
@@ -3220,17 +3251,17 @@ msgstr ""
 "Эта опция привлечёт больше внимания к Вашему объявлению. Объявление будет "
 "выделено цветом. Срок действия услуги в днях:"
 
-#: index.php:441 user/after.php:31 user/emailpayment.php:38 user/menu.php:45
+#: index.php:439 user/after.php:33 user/emailpayment.php:40 user/menu.php:47
 #: user/payperpublish.php:38
 msgid "MOVE TO TOP"
 msgstr "Поднять в Топ"
 
-#: index.php:441 user/after.php:31 user/emailpayment.php:38 user/menu.php:45
+#: index.php:439 user/after.php:33 user/emailpayment.php:40 user/menu.php:47
 #: user/payperpublish.php:38
 msgid "3x views!"
 msgstr "3х просмотров!"
 
-#: index.php:442 user/after.php:32 user/emailpayment.php:39 user/menu.php:46
+#: index.php:440 user/after.php:34 user/emailpayment.php:41 user/menu.php:48
 #: user/payperpublish.php:39
 msgid ""
 "This function moves you ad once on the top of the you category and the main "
@@ -3239,89 +3270,89 @@ msgstr ""
 "Эта функция поднимет один раз вверх Ваше объявление в категории и на главной "
 "странице."
 
-#: index.php:445 user/after.php:35 user/itemform.php:31 user/menu.php:49
+#: index.php:443 user/after.php:37 user/itemform.php:33 user/menu.php:51
 #: user/payperpublish.php:41
 msgid "SHOW IMAGE"
 msgstr "Показ изображений"
 
-#: index.php:446 user/after.php:36 user/itemform.php:32 user/menu.php:50
+#: index.php:444 user/after.php:38 user/itemform.php:34 user/menu.php:52
 #: user/payperpublish.php:42
 msgid "This option allows you to show uploaded images in your ads"
 msgstr ""
 "Эта опция позволяет вам показывать загруженные изображения в объявлениях"
 
-#: index.php:544 payments/yandex/Yandex.php:73 user/menu.php:198
+#: index.php:542 payments/yandex/Yandex.php:73 user/menu.php:200
 msgid "Select and Pay"
 msgstr "Выбрать и оплатить"
 
-#: index.php:566 user/item_edit.php:24 user/item_edit.php:25
+#: index.php:564 user/item_edit.php:24 user/item_edit.php:25
 msgid "Published"
 msgstr "Опубликовано"
 
-#: index.php:570 user/item_edit.php:29 user/item_edit.php:30
+#: index.php:568 user/item_edit.php:29 user/item_edit.php:30
 msgid "Marked as Premium"
 msgstr "Помечено как премиум"
 
-#: index.php:577 user/item_edit.php:37 user/item_edit.php:38
+#: index.php:575 user/item_edit.php:37 user/item_edit.php:38
 msgid "Marked as Highlighted"
 msgstr "Выделено цветом"
 
-#: index.php:584 user/item_edit.php:61 user/item_edit.php:62
+#: index.php:582 user/item_edit.php:61 user/item_edit.php:62
 msgid "Moved to TOP"
 msgstr "Поднято в Топ"
 
-#: index.php:588 user/item_edit.php:66 user/item_edit.php:67
+#: index.php:586 user/item_edit.php:66 user/item_edit.php:67
 msgid "Renewed"
 msgstr "Обновлено"
 
-#: index.php:592 user/item_edit.php:71
+#: index.php:590 user/item_edit.php:71
 msgid "Marked as Premium and Highlighted"
 msgstr "Помечено как премиум и выделено цветом"
 
-#: index.php:637
+#: index.php:635
 msgid "Admin options:"
 msgstr "Опции администратора:"
 
-#: index.php:650 index.php:840 user/menu.php:23
+#: index.php:648 index.php:838 user/menu.php:23
 msgid "Valid"
 msgstr "Действительна "
 
-#: index.php:651 index.php:841 user/emailpayment.php:22 user/menu.php:24
+#: index.php:649 index.php:839 user/emailpayment.php:22 user/menu.php:24
 msgid "Expired"
 msgstr "Просроченно"
 
-#: index.php:652 index.php:842 user/emailpayment.php:23 user/menu.php:25
+#: index.php:650 index.php:840 user/emailpayment.php:23 user/menu.php:25
 msgid "Before Expiration"
 msgstr "До истечения срока действия"
 
-#: index.php:653 index.php:843 user/emailpayment.php:24 user/membership.php:58
+#: index.php:651 index.php:841 user/emailpayment.php:24 user/membership.php:58
 #: user/menu.php:26
 msgid "days"
 msgstr "дней"
 
-#: index.php:654 index.php:844 user/emailpayment.php:25 user/menu.php:27
+#: index.php:652 index.php:842 user/emailpayment.php:25 user/menu.php:27
 msgid "hours"
 msgstr "часов"
 
-#: index.php:655 index.php:845 user/emailpayment.php:26 user/menu.php:28
+#: index.php:653 index.php:843 user/emailpayment.php:26 user/menu.php:28
 msgid "minutes"
 msgstr "минут"
 
-#: index.php:703 index.php:923
+#: index.php:701 index.php:921
 msgid "Apply as admin"
 msgstr "Применить как админ"
 
-#: index.php:827
+#: index.php:825
 msgid "Admin Ultimate Payments options:"
 msgstr "Опции администратора Ultimate Payments:"
 
 #: payments/2chekout/return.php:40 payments/blockchain/result.php:84
 #: payments/fortumo/result.php:62 payments/freekassa/status.php:59
-#: payments/interkassa/notification.php:60 payments/payeer/status.php:120
-#: payments/paypal/paypal/Paypal.php:187 payments/paypal/paypal/Paypal.php:320
-#: payments/robokassa/result.php:39 payments/walletone/result.php:67
-#: payments/webmoney/notification.php:54 payments/yandex/notification.php:63
-#: payments/yandex/return.php:65
+#: payments/interkassa/notification.php:60 payments/liqpay/return.php:109
+#: payments/payeer/status.php:120 payments/paypal/paypal/Paypal.php:187
+#: payments/paypal/paypal/Paypal.php:320 payments/robokassa/result.php:39
+#: payments/walletone/result.php:67 payments/webmoney/notification.php:54
+#: payments/yandex/notification.php:63 payments/yandex/return.php:65
 msgid " + Bonus: "
 msgstr "+Бонус:"
 
@@ -3434,8 +3465,9 @@ msgstr "Кредит <strong>"
 #: payments/fortumo/result.php:123 user/membership.php:79
 #: user/membership.php:85 user/membership.php:91 user/membership.php:97
 #: user/membership.php:102 user/membership.php:107 user/membership.php:112
-#: user/membership.php:117 user/membership.php:123 user/membership.php:128
-#: user/membership.php:133 user/membership.php:141 user/wallet.php:28
+#: user/membership.php:117 user/membership.php:122 user/membership.php:128
+#: user/membership.php:133 user/membership.php:138 user/membership.php:146
+#: user/wallet.php:28
 #, php-format
 msgid "Payment of membership fee: %s"
 msgstr "Оплата аккаунта: %s"
@@ -3499,16 +3531,17 @@ msgstr "Премиум для объявления (%s)"
 #: payments/blockchain/result.php:385 payments/blockchain/result.php:402
 #: payments/blockchain/result.php:411 payments/blockchain/result.php:420
 #: payments/fortumo/result.php:169 payments/fortumo/result.php:177
-#: payments/interkassa/success.php:25 payments/payeer/success.php:42
-#: payments/paypal/paypal/return.php:25 payments/paypal/paypal/return.php:159
-#: payments/paypal/paypal/return.php:168 payments/paypal/paypal/return.php:172
-#: payments/paypal/paypal/return.php:177 payments/paypal/paypal/return.php:182
-#: payments/paypal/paypal/return.php:187 payments/paypal/paypal/return.php:193
-#: payments/paypal/paypal/return.php:198 payments/paypal/paypal/return.php:202
-#: payments/paypal/paypal/return.php:206 payments/paypal/paypal/return.php:210
-#: payments/robokassa/success.php:25 payments/walletone/success.php:6
-#: payments/walletone/success.php:9 payments/webmoney/success.php:23
-#: payments/yandex/return.php:242 user/wallet.php:187
+#: payments/interkassa/success.php:25 payments/liqpay/result.php:52
+#: payments/payeer/success.php:42 payments/paypal/paypal/return.php:25
+#: payments/paypal/paypal/return.php:159 payments/paypal/paypal/return.php:168
+#: payments/paypal/paypal/return.php:172 payments/paypal/paypal/return.php:177
+#: payments/paypal/paypal/return.php:182 payments/paypal/paypal/return.php:187
+#: payments/paypal/paypal/return.php:193 payments/paypal/paypal/return.php:198
+#: payments/paypal/paypal/return.php:202 payments/paypal/paypal/return.php:206
+#: payments/paypal/paypal/return.php:210 payments/robokassa/success.php:25
+#: payments/walletone/success.php:6 payments/walletone/success.php:9
+#: payments/webmoney/success.php:23 payments/yandex/return.php:242
+#: user/wallet.php:187
 msgid "Payment processed correctly"
 msgstr "Оплата прошла успешно"
 
@@ -3572,171 +3605,177 @@ msgid " - do not match the digital signature"
 msgstr ""
 
 #: payments/freekassa/status.php:85 payments/interkassa/notification.php:86
-#: payments/payeer/status.php:143 payments/robokassa/result.php:59
-#: payments/walletone/result.php:87 payments/webmoney/notification.php:80
-#: payments/yandex/notification.php:89 payments/yandex/return.php:91
-#: user/payments.php:81
+#: payments/liqpay/return.php:161 payments/payeer/status.php:143
+#: payments/robokassa/result.php:59 payments/walletone/result.php:87
+#: payments/webmoney/notification.php:80 payments/yandex/notification.php:89
+#: payments/yandex/return.php:91 user/payments.php:84
 msgid "Publish and Make Item Premium"
 msgstr "Оплата Публикации и Премиум"
 
 #: payments/freekassa/status.php:89 payments/interkassa/notification.php:90
-#: payments/payeer/status.php:147 payments/robokassa/result.php:63
-#: payments/walletone/result.php:91 payments/webmoney/notification.php:84
-#: payments/yandex/notification.php:93 payments/yandex/return.php:95
-#: user/payments.php:98
+#: payments/liqpay/return.php:169 payments/payeer/status.php:147
+#: payments/robokassa/result.php:63 payments/walletone/result.php:91
+#: payments/webmoney/notification.php:84 payments/yandex/notification.php:93
+#: payments/yandex/return.php:95 user/payments.php:101
 msgid "Publish and Make Item Highlighted"
 msgstr "Оплата Публикации и Выделение цветом"
 
 #: payments/freekassa/status.php:93 payments/interkassa/notification.php:94
-#: payments/payeer/status.php:151 payments/robokassa/result.php:67
-#: payments/walletone/result.php:95 payments/webmoney/notification.php:88
-#: payments/yandex/notification.php:97 payments/yandex/return.php:99
-#: user/payments.php:115
+#: payments/liqpay/return.php:177 payments/payeer/status.php:151
+#: payments/robokassa/result.php:67 payments/walletone/result.php:95
+#: payments/webmoney/notification.php:88 payments/yandex/notification.php:97
+#: payments/yandex/return.php:99 user/payments.php:118
 msgid "Publish and Show Image"
 msgstr "Публиковать и активировать показ изображений"
 
 #: payments/freekassa/status.php:97 payments/interkassa/notification.php:98
-#: payments/payeer/status.php:155 payments/robokassa/result.php:71
-#: payments/walletone/result.php:99 payments/webmoney/notification.php:92
-#: payments/yandex/notification.php:101 payments/yandex/return.php:103
-#: user/payments.php:132
+#: payments/liqpay/return.php:185 payments/payeer/status.php:155
+#: payments/robokassa/result.php:71 payments/walletone/result.php:99
+#: payments/webmoney/notification.php:92 payments/yandex/notification.php:101
+#: payments/yandex/return.php:103 user/payments.php:135
 msgid "Publish, Make Item Premium and Show Image"
 msgstr "Публиковать, применить Премиум и активировать показ изображений"
 
 #: payments/freekassa/status.php:101 payments/interkassa/notification.php:102
-#: payments/payeer/status.php:159 payments/robokassa/result.php:75
-#: payments/walletone/result.php:103 payments/webmoney/notification.php:96
-#: payments/yandex/notification.php:105 payments/yandex/return.php:107
-#: user/payments.php:149
+#: payments/liqpay/return.php:193 payments/payeer/status.php:159
+#: payments/robokassa/result.php:75 payments/walletone/result.php:103
+#: payments/webmoney/notification.php:96 payments/yandex/notification.php:105
+#: payments/yandex/return.php:107 user/payments.php:152
 msgid "Publish, Make Item Highlighted and Show Image"
 msgstr "Публиковать, Выделить цветом и активировать показ изображений"
 
 #: payments/freekassa/status.php:105 payments/interkassa/notification.php:106
-#: payments/payeer/status.php:163 payments/robokassa/result.php:79
-#: payments/walletone/result.php:107 payments/webmoney/notification.php:100
-#: payments/yandex/notification.php:109 payments/yandex/return.php:111
-#: user/payments.php:166
+#: payments/liqpay/return.php:201 payments/payeer/status.php:163
+#: payments/robokassa/result.php:79 payments/walletone/result.php:107
+#: payments/webmoney/notification.php:100 payments/yandex/notification.php:109
+#: payments/yandex/return.php:111 user/payments.php:169
 msgid "Publish, Make Item Premium, Make Item Highlighted and Show Image"
 msgstr ""
 "Публиковать, применить Премиум, Выделить цветом и активировать показ "
 "изображений"
 
 #: payments/freekassa/status.php:109 payments/interkassa/notification.php:110
-#: payments/payeer/status.php:167 payments/robokassa/result.php:83
-#: payments/walletone/result.php:111 payments/webmoney/notification.php:104
-#: payments/yandex/notification.php:113 payments/yandex/return.php:115
+#: payments/liqpay/return.php:209 payments/payeer/status.php:167
+#: payments/robokassa/result.php:83 payments/walletone/result.php:111
+#: payments/webmoney/notification.php:104 payments/yandex/notification.php:113
+#: payments/yandex/return.php:115
 msgid "Publish and Apply: Pack 3-in-1"
 msgstr "Публиковать и применить: Пакет 3-в-1"
 
 #: payments/freekassa/status.php:113 payments/interkassa/notification.php:114
-#: payments/payeer/status.php:171 payments/robokassa/result.php:87
-#: payments/walletone/result.php:115 payments/webmoney/notification.php:108
-#: payments/yandex/notification.php:117 payments/yandex/return.php:119
+#: payments/liqpay/return.php:217 payments/payeer/status.php:171
+#: payments/robokassa/result.php:87 payments/walletone/result.php:115
+#: payments/webmoney/notification.php:108 payments/yandex/notification.php:117
+#: payments/yandex/return.php:119
 msgid "Publish, Activate Show Image and apply: Pack 3-in-1"
 msgstr "Публиковать, активировать показ изображений и применить: Пакет 3-в-1"
 
 #: payments/freekassa/status.php:117 payments/interkassa/notification.php:118
-#: payments/payeer/status.php:175 payments/robokassa/result.php:91
-#: payments/walletone/result.php:119 payments/webmoney/notification.php:112
-#: payments/yandex/notification.php:121 payments/yandex/return.php:123
-#: user/payments.php:217
+#: payments/liqpay/return.php:225 payments/payeer/status.php:175
+#: payments/robokassa/result.php:91 payments/walletone/result.php:119
+#: payments/webmoney/notification.php:112 payments/yandex/notification.php:121
+#: payments/yandex/return.php:123 user/payments.php:220
 msgid "Publish and Make Item Highlighted and Premium"
 msgstr "Опубликовать и сделать объявление выделенным и премиум"
 
 #: payments/freekassa/status.php:122 payments/interkassa/notification.php:123
-#: payments/payeer/status.php:180 payments/robokassa/result.php:96
-#: payments/walletone/result.php:124 payments/webmoney/notification.php:117
-#: payments/yandex/notification.php:126 payments/yandex/return.php:128
-#: user/payments.php:75
+#: payments/liqpay/return.php:233 payments/payeer/status.php:180
+#: payments/robokassa/result.php:96 payments/walletone/result.php:124
+#: payments/webmoney/notification.php:117 payments/yandex/notification.php:126
+#: payments/yandex/return.php:128 user/payments.php:78
 msgid "Make Item Premium"
 msgstr "Купить премиум"
 
 #: payments/freekassa/status.php:123 payments/interkassa/notification.php:124
-#: payments/payeer/status.php:181 payments/robokassa/result.php:97
-#: payments/walletone/result.php:125 payments/webmoney/notification.php:118
-#: payments/yandex/notification.php:127 payments/yandex/return.php:129
-#: user/payments.php:92
+#: payments/liqpay/return.php:235 payments/payeer/status.php:181
+#: payments/robokassa/result.php:97 payments/walletone/result.php:125
+#: payments/webmoney/notification.php:118 payments/yandex/notification.php:127
+#: payments/yandex/return.php:129 user/payments.php:95
 msgid "Make Item Highlighted"
 msgstr "Выделить цветом объявление"
 
 #: payments/freekassa/status.php:124 payments/interkassa/notification.php:125
-#: payments/payeer/status.php:182 payments/robokassa/result.php:98
-#: payments/walletone/result.php:126 payments/webmoney/notification.php:119
-#: payments/yandex/notification.php:128 payments/yandex/return.php:130
-#: user/payments.php:109
+#: payments/liqpay/return.php:237 payments/payeer/status.php:182
+#: payments/robokassa/result.php:98 payments/walletone/result.php:126
+#: payments/webmoney/notification.php:119 payments/yandex/notification.php:128
+#: payments/yandex/return.php:130 user/payments.php:112
 msgid "Show Image"
 msgstr "Активировать показ изображений"
 
 #: payments/freekassa/status.php:125 payments/interkassa/notification.php:126
-#: payments/payeer/status.php:183 payments/robokassa/result.php:99
-#: payments/walletone/result.php:127 payments/webmoney/notification.php:120
-#: payments/yandex/notification.php:129 payments/yandex/return.php:131
-#: user/payments.php:126
+#: payments/liqpay/return.php:239 payments/payeer/status.php:183
+#: payments/robokassa/result.php:99 payments/walletone/result.php:127
+#: payments/webmoney/notification.php:120 payments/yandex/notification.php:129
+#: payments/yandex/return.php:131 user/payments.php:129
 msgid "Make Item Premium and Show Image"
 msgstr "Купить премиум  и показывать изображения"
 
 #: payments/freekassa/status.php:126 payments/interkassa/notification.php:127
-#: payments/payeer/status.php:184 payments/robokassa/result.php:100
-#: payments/walletone/result.php:128 payments/webmoney/notification.php:121
-#: payments/yandex/notification.php:130 payments/yandex/return.php:132
-#: user/payments.php:143
+#: payments/liqpay/return.php:241 payments/payeer/status.php:184
+#: payments/robokassa/result.php:100 payments/walletone/result.php:128
+#: payments/webmoney/notification.php:121 payments/yandex/notification.php:130
+#: payments/yandex/return.php:132 user/payments.php:146
 msgid "Make Item Highlighted and Show Image"
 msgstr "Выделить цветом и активировать показ изображений"
 
 #: payments/freekassa/status.php:127 payments/interkassa/notification.php:128
-#: payments/payeer/status.php:185 payments/robokassa/result.php:101
-#: payments/walletone/result.php:129 payments/webmoney/notification.php:122
-#: payments/yandex/notification.php:131 payments/yandex/return.php:133
-#: user/payments.php:160
+#: payments/liqpay/return.php:243 payments/payeer/status.php:185
+#: payments/robokassa/result.php:101 payments/walletone/result.php:129
+#: payments/webmoney/notification.php:122 payments/yandex/notification.php:131
+#: payments/yandex/return.php:133 user/payments.php:163
 msgid "Make Item Premium, Make Item Highlighted and Show Image"
 msgstr "Применить Премиум, Выделить цветом и активировать показ изображений"
 
 #: payments/freekassa/status.php:130 payments/interkassa/notification.php:131
-#: payments/payeer/status.php:188 payments/robokassa/result.php:104
-#: payments/walletone/result.php:132 payments/webmoney/notification.php:125
-#: payments/yandex/notification.php:134 payments/yandex/return.php:136
-#: user/payments.php:212
+#: payments/liqpay/return.php:249 payments/payeer/status.php:188
+#: payments/robokassa/result.php:104 payments/walletone/result.php:132
+#: payments/webmoney/notification.php:125 payments/yandex/notification.php:134
+#: payments/yandex/return.php:136 user/payments.php:215
 msgid "Make Item Highlighted and Premium"
 msgstr "Выделить цветом и Премиум"
 
 #: payments/freekassa/status.php:133 payments/interkassa/notification.php:134
-#: payments/payeer/status.php:191 payments/robokassa/result.php:107
-#: payments/walletone/result.php:135 payments/webmoney/notification.php:128
-#: payments/yandex/notification.php:137 payments/yandex/return.php:139
-#: user/payments.php:67
+#: payments/liqpay/return.php:255 payments/payeer/status.php:191
+#: payments/robokassa/result.php:107 payments/walletone/result.php:135
+#: payments/webmoney/notification.php:128 payments/yandex/notification.php:137
+#: payments/yandex/return.php:139 user/payments.php:70
 msgid "Publish Item"
 msgstr "Опубликовать"
 
 #: payments/freekassa/status.php:135 payments/interkassa/notification.php:136
-#: payments/payeer/status.php:193 payments/robokassa/result.php:109
-#: payments/walletone/result.php:137 payments/webmoney/notification.php:130
-#: payments/yandex/notification.php:139 payments/yandex/return.php:141
+#: payments/liqpay/return.php:259 payments/payeer/status.php:193
+#: payments/robokassa/result.php:109 payments/walletone/result.php:137
+#: payments/webmoney/notification.php:130 payments/yandex/notification.php:139
+#: payments/yandex/return.php:141
 msgid "Payment of membership fee: "
 msgstr "Оплата аккаунта:"
 
 #: payments/freekassa/status.php:136 payments/interkassa/notification.php:137
-#: payments/payeer/status.php:194 payments/robokassa/result.php:110
-#: payments/walletone/result.php:138 payments/webmoney/notification.php:131
-#: payments/yandex/notification.php:140 payments/yandex/return.php:142
+#: payments/liqpay/return.php:261 payments/payeer/status.php:194
+#: payments/robokassa/result.php:110 payments/walletone/result.php:138
+#: payments/webmoney/notification.php:131 payments/yandex/notification.php:140
+#: payments/yandex/return.php:142
 msgid "Payment of banner public fee: "
 msgstr "Размещение баннера"
 
 #: payments/freekassa/status.php:137 payments/interkassa/notification.php:138
-#: payments/payeer/status.php:195 payments/robokassa/result.php:111
-#: payments/walletone/result.php:139 payments/webmoney/notification.php:132
-#: payments/yandex/notification.php:141 payments/yandex/return.php:143
-#: user/ebuy_purchase.php:69 user/ebuy_purchase.php:74
-#: user/ebuy_purchase.php:79 user/ebuy_purchase.php:84
-#: user/ebuy_purchase.php:89 user/ebuy_purchase.php:94
-#: user/ebuy_purchase.php:99 user/ebuy_purchase.php:104
-#: user/ebuy_purchase.php:109
+#: payments/liqpay/return.php:263 payments/payeer/status.php:195
+#: payments/robokassa/result.php:111 payments/walletone/result.php:139
+#: payments/webmoney/notification.php:132 payments/yandex/notification.php:141
+#: payments/yandex/return.php:143 user/ebuy_purchase.php:69
+#: user/ebuy_purchase.php:74 user/ebuy_purchase.php:79
+#: user/ebuy_purchase.php:84 user/ebuy_purchase.php:89
+#: user/ebuy_purchase.php:94 user/ebuy_purchase.php:99
+#: user/ebuy_purchase.php:104 user/ebuy_purchase.php:109
+#: user/ebuy_purchase.php:114
 msgid "Payment of Item Purchase: "
 msgstr "Покупка товара:"
 
 #: payments/freekassa/status.php:138 payments/interkassa/notification.php:139
-#: payments/payeer/status.php:196 payments/robokassa/result.php:112
-#: payments/walletone/result.php:140 payments/webmoney/notification.php:133
-#: payments/yandex/notification.php:142 payments/yandex/return.php:144
+#: payments/liqpay/return.php:265 payments/payeer/status.php:196
+#: payments/robokassa/result.php:112 payments/walletone/result.php:140
+#: payments/webmoney/notification.php:133 payments/yandex/notification.php:142
+#: payments/yandex/return.php:144
 msgid "Move to TOP"
 msgstr "Поднятие в топ"
 
@@ -3763,6 +3802,12 @@ msgid ""
 msgstr ""
 "Мы обрабатываем Ваш платёж, если процесс не закончится через несколько "
 "секунд, пожалуйста, свяжитесь с нами"
+
+#: payments/liqpay/result.php:174
+#, fuzzy
+#| msgid "Skrill Payment has canceled, you can try again"
+msgid "LiqPay Payment has canceled, you can try again"
+msgstr "Оплата отменена, вы можете попробовать ещё раз."
 
 #: payments/payeer/status.php:16
 msgid " - undefined order id"
@@ -3838,17 +3883,9 @@ msgstr "Истекло время сессии вашего платежа, по
 msgid "Payment of premium services"
 msgstr "Оплата услуг на сайте"
 
-#: payments/yandex/Yandex.php:49
-msgid "Яндекс.Деньги"
-msgstr ""
-
 #: payments/yandex/Yandex.php:56
 msgid "by Bank card"
 msgstr "Банковской картой"
-
-#: payments/yandex/Yandex.php:60
-msgid "by Wallet"
-msgstr "Яндекс деньгами"
 
 #: payments/yandex/Yandex.php:64
 msgid "By Mobile"
@@ -3866,29 +3903,29 @@ msgstr ""
 "Платёж обрабатывается, если он в скором времени не будет завершён , то "
 "пожалуйста, обратитесь к администратору сайта."
 
-#: user/after.php:19 user/emailpayment.php:75
+#: user/after.php:19 user/emailpayment.php:77
 msgid "You can also improve your ad with additional options"
 msgstr "Вы можете также улучшить ваше объявление с дополнительными опциями"
 
-#: user/after.php:53 user/payperpublish.php:26
+#: user/after.php:55 user/payperpublish.php:26
 msgid "You can Publish item with additional options:"
 msgstr "Вы можете опубликовать объявление с дополнительными опциями:"
 
-#: user/after.php:153
+#: user/after.php:155
 msgid "Choose and continue >>"
 msgstr "Выбрать и продолжить"
 
-#: user/after.php:159
+#: user/after.php:161
 msgid "No, Thanks"
 msgstr "Нет, спасибо."
 
 #: user/banner_pay.php:25 user/ebuy_purchase.php:26 user/pack.php:25
-#: user/payments.php:54
+#: user/payments.php:57
 #, php-format
 msgid "Your current credit is %s %s"
 msgstr "Баланс Вашего кошелька на сайте %s %s"
 
-#: user/banner_pay.php:29 user/ebuy_purchase.php:30 user/payments.php:58
+#: user/banner_pay.php:29 user/ebuy_purchase.php:30 user/payments.php:61
 msgid "Your wallet is empty."
 msgstr "Ваш кошелек пуст."
 
@@ -3907,7 +3944,8 @@ msgstr "Сумма оплаты"
 #: user/banner_pay.php:56 user/banner_pay.php:62 user/banner_pay.php:68
 #: user/banner_pay.php:74 user/banner_pay.php:79 user/banner_pay.php:84
 #: user/banner_pay.php:89 user/banner_pay.php:94 user/banner_pay.php:99
-#: user/banner_pay.php:104 user/banner_pay.php:109 user/wallet.php:48
+#: user/banner_pay.php:104 user/banner_pay.php:109 user/banner_pay.php:114
+#: user/wallet.php:48
 #, php-format
 msgid "Payment of banner public fee: %s"
 msgstr "Стоимость размещения баннера: %s"
@@ -4012,7 +4050,7 @@ msgid "Pay for Item Purchase"
 msgstr "Оплатить товар"
 
 #: user/ebuy_purchase.php:57 user/ebuy_purchase.php:63
-#: user/ebuy_purchase.php:69 user/ebuy_purchase.php:99 user/wallet.php:71
+#: user/ebuy_purchase.php:69 user/ebuy_purchase.php:104 user/wallet.php:71
 #, php-format
 msgid "Payment of Item Purchase: %s"
 msgstr "Покупка товара: %s"
@@ -4069,7 +4107,7 @@ msgstr ""
 msgid "The current Publish fee for this category is: %.2f %s"
 msgstr "Цена Публикации для данной категории: %.2f %s"
 
-#: user/emailpayment.php:150 user/payperpublish.php:172
+#: user/emailpayment.php:162 user/payperpublish.php:172
 msgid "Choose and continue"
 msgstr "Выбрать и продолжить"
 
@@ -4105,7 +4143,7 @@ msgstr "Продолжительность:"
 msgid "Extend Membership"
 msgstr "Продлить"
 
-#: user/membership.php:62 user/membership.php:153
+#: user/membership.php:62 user/membership.php:158
 msgid "Select Plan"
 msgstr "Выберите план"
 
@@ -4117,19 +4155,19 @@ msgstr "Отключено"
 msgid "Select a Payment Method"
 msgstr "Выберите способ оплаты"
 
-#: user/membership.php:138 user/pack.php:107
+#: user/membership.php:143 user/pack.php:112
 msgid "SMS"
 msgstr "SMS"
 
-#: user/membership.php:154
+#: user/membership.php:159
 msgid "Plan Selected"
 msgstr "Выбранный план"
 
-#: user/menu.php:33
+#: user/menu.php:35
 msgid "Premium services for you items:"
 msgstr "Дополнительные услуги для Вашего объявления:"
 
-#: user/menu.php:56
+#: user/menu.php:58
 msgid "You don't have any listing yet"
 msgstr "У Вас нет объявлений"
 
@@ -4138,18 +4176,18 @@ msgstr "У Вас нет объявлений"
 msgid "Credit for %s %s at %s"
 msgstr "Поплнение кошелька %s %s на %s"
 
-#: user/pack.php:61 user/pack.php:92 user/pack.php:110
+#: user/pack.php:61 user/pack.php:97 user/pack.php:115
 #, php-format
 msgid "Credit for %s%s at %s"
 msgstr "Поплнение кошелька %s %s на %s"
 
-#: user/pack.php:61 user/pack.php:92 user/pack.php:110
+#: user/pack.php:61 user/pack.php:97 user/pack.php:115
 #, php-format
 msgid "Add funds: %s"
 msgstr "Добавить средства: %s"
 
 #: user/pack.php:66 user/pack.php:71 user/pack.php:76 user/pack.php:81
-#: user/pack.php:86 user/pack.php:97 user/pack.php:102
+#: user/pack.php:86 user/pack.php:91 user/pack.php:102 user/pack.php:107
 #, php-format
 msgid "Credit for: %s"
 msgstr "Кредит для: %s"
@@ -4166,68 +4204,68 @@ msgstr "Ваш заказ"
 msgid "Price of the order"
 msgstr "Цена заказа"
 
-#: user/payments.php:68
+#: user/payments.php:71
 #, php-format
 msgid "Publish fee for item %d"
 msgstr "Цена за публикацию %d"
 
-#: user/payments.php:76
+#: user/payments.php:79
 #, php-format
 msgid "Premium fee for item %d"
 msgstr "Премиум для объявления %d"
 
-#: user/payments.php:82
+#: user/payments.php:85
 #, php-format
 msgid "Publish and Premium fee for item %d"
 msgstr "Цена Публикации и Премиум %d"
 
-#: user/payments.php:93
+#: user/payments.php:96
 #, php-format
 msgid "Highlighted fee for item %d"
 msgstr "Цена за выделение цветом %d"
 
-#: user/payments.php:99
+#: user/payments.php:102
 #, php-format
 msgid "Publish and Highlighted fee for item %d"
 msgstr "Цена за публикацию и выделение цветом %d"
 
-#: user/payments.php:110
+#: user/payments.php:113
 #, php-format
 msgid "Show Image fee for item %d"
 msgstr "Цена показа изображений %d"
 
-#: user/payments.php:116
+#: user/payments.php:119
 #, php-format
 msgid "Publish and Show Image fee for item %d"
 msgstr "Публиковать и показать изображения  %d"
 
-#: user/payments.php:127
+#: user/payments.php:130
 #, php-format
 msgid "Make Item Premium and Show Image fee for item %d"
 msgstr "Купить премиум  и показывать изображения  %d"
 
-#: user/payments.php:133
+#: user/payments.php:136
 #, php-format
 msgid "Publish, Make Item Premium and Show Image fee for item %d"
 msgstr "Публиковать, применить Премиум и активировать показ изображений: %d"
 
-#: user/payments.php:144
+#: user/payments.php:147
 #, php-format
 msgid "Make Item Highlighted and Show Image fee for item %d"
 msgstr "Выделить цветом и активировать показ изображений: %d"
 
-#: user/payments.php:150
+#: user/payments.php:153
 #, php-format
 msgid "Publish, Make Item Highlighted and Show Image fee for item %d"
 msgstr "Публиковать, Выделить цветом и активировать показ изображений: %d"
 
-#: user/payments.php:161
+#: user/payments.php:164
 #, php-format
 msgid "Make Item Premium, Make Item Highlighted and Show Image fee for item %d"
 msgstr ""
 "Применить Премиум, Выделить цветом и активировать показ изображений: %d"
 
-#: user/payments.php:167
+#: user/payments.php:170
 #, php-format
 msgid ""
 "Publish, Make Item Premium, Make Item Highlighted and Show Image fee for "
@@ -4236,72 +4274,72 @@ msgstr ""
 "Публиковать, применить Премиум, Выделить цветом и активировать показ "
 "изображений: %d"
 
-#: user/payments.php:178
+#: user/payments.php:181
 #, php-format
 msgid "Apply: Pack 3-in-1 fee for item %d"
 msgstr "Применить: Пакет 3-в-1 %d"
 
-#: user/payments.php:184
+#: user/payments.php:187
 #, php-format
 msgid "Publish and apply: Pack 3-in-1 fee for item %d"
 msgstr "Публиковать и применить: Пакет 3-в-1 %d"
 
-#: user/payments.php:195
+#: user/payments.php:198
 #, php-format
 msgid "Activate Show Image and apply: Pack 3-in-1 fee for item %d"
 msgstr "Активировать показ изображений и применить: Пакет 3-в-1 %d"
 
-#: user/payments.php:201
+#: user/payments.php:204
 #, php-format
 msgid "Publish, activate Show Image and apply: Pack 3-in-1 fee for item %d"
 msgstr ""
 "Публиковать, активировать показ изображений и применить: Пакет 3-в-1 %d"
 
-#: user/payments.php:213
+#: user/payments.php:216
 #, php-format
 msgid "Premium and Highlighted fee for item %d"
 msgstr "Цена Премиум и Выделения цветом %d"
 
-#: user/payments.php:218
+#: user/payments.php:221
 #, php-format
 msgid "Publish, Premium and Highlighted fee for item %d"
 msgstr "Цена Публикации, Премиум и Выделения цветом %d"
 
-#: user/payments.php:225
+#: user/payments.php:228
 msgid "Move Item to TOP"
 msgstr "Поднять объявление в ТОП"
 
-#: user/payments.php:226
+#: user/payments.php:229
 #, php-format
 msgid "Move to TOP fee for item %d"
 msgstr "Цена за поднятие объявления %d"
 
-#: user/payments.php:231
+#: user/payments.php:234
 msgid "Renew Item"
 msgstr "Продлить объявление"
 
-#: user/payments.php:232
+#: user/payments.php:235
 #, php-format
 msgid "Renew fee for item %d"
 msgstr "Цена продления объявления %d"
 
-#: user/payments.php:237
+#: user/payments.php:240
 msgid "Back"
 msgstr "Назад"
 
-#: user/payments.php:255
+#: user/payments.php:260
 msgid "Your choice is:"
 msgstr "ВАШ ВЫБОР"
 
-#: user/payments.php:256
+#: user/payments.php:261
 msgid "Price:"
 msgstr "Цена:"
 
-#: user/payments.php:272
+#: user/payments.php:277
 msgid "You can pay with:"
 msgstr "Вы можете оплатить с помощью:"
 
-#: user/payments.php:283 user/payments.php:288
+#: user/payments.php:288 user/payments.php:293
 msgid "Add funds"
 msgstr "Пополнить счет"
 
@@ -4336,6 +4374,12 @@ msgstr "Нет такого объявления"
 msgid ""
 "There were some errors, please try again later or contact the administrators"
 msgstr "Ваш платёж не завершён.  Свяжитесь с администрацией"
+
+#~ msgid "Yandex.Money Wallet"
+#~ msgstr "Яндекс Деньги"
+
+#~ msgid "by Wallet"
+#~ msgstr "Яндекс деньгами"
 
 #~ msgid "Add funds: "
 #~ msgstr "Пополнить счет"
@@ -4457,9 +4501,6 @@ msgstr "Ваш платёж не завершён.  Свяжитесь с адм
 
 #~ msgid "Zipcode:"
 #~ msgstr "Индекс"
-
-#~ msgid "Skrill Payment has canceled, you can try again"
-#~ msgstr "Оплата отменена, вы можете попробовать ещё раз."
 
 #~ msgid "Time of session of your Scrill has expired, please try again"
 #~ msgstr "Время сессии истекло, пожалуйста, попробуйте снова"

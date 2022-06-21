@@ -1,0 +1,18 @@
+CREATE TABLE /*TABLE_PREFIX*/t_referral(
+ref_id VARCHAR(20),
+ref_ip VARCHAR(20),
+ref_name VARCHAR(100),
+ref_email VARCHAR(100),
+user_id VARCHAR(20),
+user_name VARCHAR(100),
+user_email VARCHAR(100),
+date DATE,
+time TIME,
+status VARCHAR(20)
+) ENGINE = InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';
+
+CREATE TABLE /*TABLE_PREFIX*/t_ref_premium(
+user_id VARCHAR(20),
+item_id VARCHAR(20),
+premium VARCHAR(20)
+) ENGINE = InnoDB DEFAULT CHARACTER SET 'UTF8' COLLATE 'UTF8_GENERAL_CI';

@@ -1,0 +1,453 @@
+.alert {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+.alert i {
+    font-size: 18px !important;
+    position: relative;
+    top: 2px;
+}
+
+.alert-warning {
+    background: #ff9900;
+}
+
+.alert-success {
+    background: #22c222;
+}
+
+.alert-danger {
+    background: #d90909;
+}
+
+.alert-info {
+    background: #80c5f1;
+}
+
+.alert-default {
+    background: #018be3;
+}
+
+#item-form #left-side {
+    margin-right:10px;
+}
+input:read-only {
+    opacity: 0.5;
+}
+.clear {
+    clear: both;
+}
+.fa-help {
+    font-size: 14px !important;
+    color: #018be3 !important;
+    border-bottom: none !important;
+}
+.fa-alert {
+    font-size: 14px !important;
+    color: #d90909 !important;
+    border-bottom: none !important;
+}
+.rupayments-manage-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: solid 1px #ddd;
+    min-height: 400px;
+    overflow: hidden;
+}
+.rupayments-top-menu {
+    margin: 0 0 15px;
+    padding: 0;
+    float: right;
+}
+.rupayments-top-menu li {
+    float: left;
+    text-align: center;
+    padding: 0 15px;
+    font-size: 0.9em;
+}
+.rupayments-top-menu li span {
+    font-size: 0.9em;
+}
+.rupayments-top-menu li a {
+    opacity: 0.5;
+}
+.rupayments-top-menu li a.active, .rupayments-top-menu li a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+.rupayments-page-header {
+    float: left;
+    font-size: 1.7em;
+    padding: 5px 0 0 15px;
+}
+#cat-switcher, #cat-prices-switcher, #country-switcher, #region-switcher, #publish-policy-switcher {
+    opacity: 0.5;
+}
+#cat-switcher:hover, #cat-prices-switcher:hover, #country-switcher:hover, #region-switcher:hover, #publish-policy-switcher:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+#table-packs input[type='text'] {
+    width: 200px;
+}
+#table-packs input[type='color'] {
+    padding: 0 2px;
+}
+#table-packs input[type='number'] {
+    display: inline-block;
+    width: 100px;
+    height: 18px;
+    padding: 4px 6px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    vertical-align: top;
+}
+#table-packs a.remove {
+    font-size: 15px;
+}
+#table-user-groups input[type='text'] {
+    width: 140px;
+}
+#table-user-groups input[type='color'] {
+    padding: 0 2px;
+}
+#table-user-groups input[type='number'] {
+    display: inline-block;
+    width: 45px;
+    height: 18px;
+    padding: 4px 6px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    vertical-align: top;
+}
+#table-user-groups a.remove {
+    font-size: 15px;
+}
+#table-banner-settings input[type='text'] {
+    width: 180px;
+}
+#table-banner-settings  tr td:last-child, #ads-settings tr td:last-child, #publishing-policy tr td:last-child {
+    text-shadow: none!important;
+}
+#table-banner-settings .banner-code {
+    width: 300px;
+    font-size: 11px;
+}
+#table-banner-settings .banner-fee, #table-banner-settings .banner-fee input {
+    width: 120px;
+}
+
+#ads-settings tr td:last-child span.lbl {
+    top: 0 !important;
+}
+#region-prices input[type='text'] {
+    width: 50px !important;
+}
+
+#publishing-policy tr td:last-child span.lbl {
+    font-size: 11px!important;
+}
+
+#publishing-policy input[type='number'] {
+    display: inline-block;
+    width: 220px;
+    height: 18px;
+    padding: 4px 6px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    vertical-align: top;
+}
+
+#category-prices input[type='text'] {
+    width: 50px !important;
+}
+/* ########################################################### */
+.rupayments-manage-menu {
+    float:left;
+    top:0px;
+    left: 0px;
+    border-right: solid 1px #ddd;
+    width: 220px;
+    height: 100%;
+    min-height: 430px;
+    padding-bottom: 50000px;
+    margin-bottom: -50000px;
+}
+.rupayments-manage-menu ul {
+    margin:0px;
+    padding:0px;
+}
+.rupayments-manage-menu ul li {
+    border-bottom: solid 1px #ddd;
+    background-color: #ECEFF1;
+}
+.rupayments-manage-menu ul li a{
+    display: block;
+    color: #474749;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1em;
+}
+.rupayments-manage-menu ul li.active {
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 1.3em;
+    background-color: rgb(243, 243, 243);
+}
+.rupayments-manage-menu ul li.active a {
+    cursor:default;
+}
+.rupayments-manage-menu ul li a:hover{
+    border-color: #3f51b5;
+    background-color: rgba(63, 81, 181, 0.1);
+}
+.rupayments-manage-content {
+    margin-left: 220px;
+    padding: 0;
+    min-height: 400px;
+}
+.table-striped {
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	border:#ccc 1px solid;
+	border-collapse:separate;
+	border-radius:3px;
+	box-shadow: 0 1px 2px #d1d1d1;
+    width: 100%;
+}
+.table-striped th {
+    font-size: 11px;
+	font-weight:bold;
+	padding:15px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+.table-striped th:first-child{
+	text-align: left;
+	padding-left:20px;
+}
+.table-striped tr:first-child th:first-child{
+	border-top-left-radius:3px;
+}
+.table-striped tr:first-child th:last-child{
+	border-top-right-radius:3px;
+}
+.table-striped tr{
+	text-align: center;
+	padding-left:20px;
+}
+.table-striped tr td:first-child{
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+.table-striped tr td {
+	padding:10px;
+	border-top: 1px solid #ffffff;
+    border-left: 1px solid #e0e0e0;
+	border-bottom:1px solid #e0e0e0;
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+.table-striped tr:nth-child(even) td{
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+.table-striped tr:last-child td{
+	border-bottom:0;
+}
+.table-striped tr:last-child td:first-child{
+	border-bottom-left-radius:3px;
+}
+.table-striped tr:last-child td:last-child{
+	border-bottom-right-radius:3px;
+}
+.table-striped tr:hover td{
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);
+}
+.table-striped table a {
+	color: #666;
+	font-weight: bold;
+	text-decoration:none;
+}
+.table-striped table a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+.table-no-border, .table-no-border tr, .table-no-border tr td, .table-no-border th {
+    border: none;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.col-status {
+    text-align: center;
+}
+.col-actions {
+    width:170px;
+}
+.col-actions a {
+    float:left;
+    width: 100%;
+    clear:both;
+    text-align: center;
+    margin:3px auto;
+}
+.circle-custom {
+    top: 3px;
+    color:black;
+}
+.rupayments-section {
+    color: #474749;
+}
+.rupayments-section h3 {
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 1em;
+    text-transform: uppercase;
+}
+.rupayments-section .content {
+    position: relative;
+    margin: 1em;
+    overflow: hidden;
+}
+
+.rupayments-section .short-description ul {
+    display: inline-block;
+    text-align: center;
+    padding:0;
+}
+.rupayments-section .short-description ul li{
+    float:left;
+    margin: 1em;
+    max-width: 355px;
+}
+
+.rupayments-section .short-description {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+}
+.rupayments-section .short-description  ul li a {
+    display: inline-block;
+    background-color: #ECEFF1;
+    color: #474749;
+    text-decoration: none;
+    padding: 24px 30px;
+    height: 1.3em;
+    font-size: 1.2em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.rupayments-section .short-description  ul li a:hover {
+    border-color: #3f51b5;
+    background-color: rgba(63, 81, 181, 0.1);
+}
+
+.rupayments-section .float-right {
+    margin-right: 30px;
+}
+.rupayments-section span.title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin:4px 8px;
+    margin: 22px 8px;
+    display: inline-block;
+}
+.create-rupayments {
+    display: inline-block;
+    padding:1em;
+}
+.rupayments-manage-content.rupayments-add .rupayments-section {
+    width: 49%;
+    float:left;
+    border-top:solid 2px #ddd;
+    border-bottom: 0px;
+    text-align: center;
+    height: 400px;
+    margin: 0.9px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #ffffff;
+}
+.rupayments-manage-content.rupayments-add .rupayments-section .content{
+    margin:0px;
+    padding:1em;
+}
+.rupayments-manage-content.rupayments-add .rupayments-section .content:hover {
+    background-color: rgba(243,243,243, 0.3);
+}
+.col-status-border-item {
+    background-color: #d9edf7;
+}
+.col-status-border-user {
+    background-color: #dff0d8;
+}
+.col-status-border-stats {
+    background-color: #fcf8e3;
+}
+.code-block {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0 0;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ECEFF1;
+}
+.htaccess-function {
+    color: #018be3;
+    font-weight: bold;
+}
+.load {
+	background:url(../img/loading.png) center no-repeat;
+    width:66px;
+    height:66px;
+    position:fixed;
+    left:60%;
+    top:50%;
+    z-index:10;
+    display: none;
+}

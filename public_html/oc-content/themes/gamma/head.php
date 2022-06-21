@@ -16,9 +16,9 @@
 <?php osc_current_web_theme_path('head-favicon.php') ; ?>
 <?php osc_current_web_theme_path('head-color.php') ; ?>
 
-<?php 
+<?php
   $current_locale = osc_get_current_user_locale();
-  $dimNormal = explode('x', osc_get_preference('dimNormal', 'osclass')); 
+  $dimNormal = explode('x', osc_get_preference('dimNormal', 'osclass'));
 ?>
 
 <script type="text/javascript">
@@ -151,3 +151,17 @@ osc_enqueue_script('global');
 
 
 <?php osc_run_hook('header'); ?>
+
+<!-- Блоки Олего -->
+
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KXGSMR');</script>
+<!-- End Google Tag Manager -->

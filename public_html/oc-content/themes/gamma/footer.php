@@ -103,11 +103,26 @@
       </div>
     </div>
 
+    <p>
+      <!--LiveInternet counter-->
+        <a href="https://www.liveinternet.ru/click"
+        target="_blank"><img id="licnt0F8C" width="1px" height="1px" style="border:0"
+        title="LiveInternet: Бартер.РФ"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+        alt=""/></a><script>(function(d,s){d.getElementById("licnt0F8C").src=
+        "https://counter.yadro.ru/hit?t29.6;r"+escape(d.referrer)+
+        ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+        (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+        ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+        (document,screen)</script>
+      <!--/LiveInternet-->
+    </p>
+
     <div class="footer-hook"><?php osc_run_hook('footer'); ?></div>
 
   </div>
-</footer>
 
+</footer>
 
 <?php if(gam_param('scrolltop') == 1) { ?>
   <a id="scroll-to-top"><img src="<?php echo osc_current_web_theme_url('images/scroll-to-top.png'); ?>"/></a>
@@ -164,12 +179,12 @@
 <script>
   $(document).ready(function(){
 
-    // JAVASCRIPT AJAX LOADER FOR LOCATIONS 
+    // JAVASCRIPT AJAX LOADER FOR LOCATIONS
     var termClicked = false;
     var currentCountry = "<?php echo gam_ajax_country(); ?>";
     var currentRegion = "<?php echo gam_ajax_region(); ?>";
     var currentCity = "<?php echo gam_ajax_city(); ?>";
-  
+
 
     // Create delay
     var delay = (function(){
@@ -254,7 +269,7 @@
                     city_id = data[key].city_id;
                     id = city_id;
                   }
-                    
+
 
                   // Count cities, regions & countries
                   if (data[key].type == 'city') {
@@ -268,12 +283,12 @@
 
                   // Find currently selected element
                   var selectedClass = '';
-                  if( 
-                    data[key].type == 'country' && parseInt(currentCountry) == parseInt(data[key].country_code) 
-                    || data[key].type == 'region' && parseInt(currentRegion) == parseInt(data[key].region_id) 
-                    || data[key].type == 'city' && parseInt(currentCity) == parseInt(data[key].city_id) 
-                  ) { 
-                    selectedClass = ' selected'; 
+                  if(
+                    data[key].type == 'country' && parseInt(currentCountry) == parseInt(data[key].country_code)
+                    || data[key].type == 'region' && parseInt(currentRegion) == parseInt(data[key].region_id)
+                    || data[key].type == 'city' && parseInt(currentCity) == parseInt(data[key].city_id)
+                  ) {
+                    selectedClass = ' selected';
                   }
 
 

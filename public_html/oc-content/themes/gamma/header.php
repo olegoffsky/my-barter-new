@@ -38,15 +38,15 @@
 
             <a class="logout" href="<?php echo osc_user_logout_url(); ?>"><?php _e('Log out', 'gamma'); ?></a>
           </div>
-        </div> 
+        </div>
       <?php } ?>
 
       <div class="right isDesktop isTablet">
-         
+
         <?php if(!osc_is_web_user_logged_in()) { ?>
           <a class="login" href="<?php echo osc_user_login_url(); ?>">
             <span class="svg"><svg viewBox="0 0 32 32" color="#696766" width="20" height="20"><defs><path id="mbIconSignin" d="M16 30c-4.992 0-8.737-1.527-11.094-4.413 2.362-.829 6.498-1.35 10.946-1.35 5.194 0 9.137.674 11.169 1.433C24.66 28.5 20.942 30 16 30m0-28c9.028 0 14 4.972 14 14 0 3.181-.63 5.847-1.824 7.98-2.5-1.082-7.106-1.743-12.324-1.743-5.007 0-9.531.631-12.077 1.653C2.613 21.771 2 19.136 2 16 2 6.972 6.972 2 16 2m0-2C5.832 0 0 5.832 0 16s5.832 16 16 16 16-5.832 16-16S26.168 0 16 0m0 8.37a4.568 4.568 0 014.563 4.562A4.568 4.568 0 0116 17.495a4.568 4.568 0 01-4.563-4.563A4.568 4.568 0 0116 8.37m0 11.126a6.57 6.57 0 01-6.563-6.563A6.57 6.57 0 0116 6.37a6.57 6.57 0 016.563 6.563A6.57 6.57 0 0116 19.495zm-.027-4.008a3.17 3.17 0 003.057-2.343h-6.115a3.17 3.17 0 003.058 2.343z"></path></defs><use fill="currentColor" xlink:href="#mbIconSignin" fill-rule="evenodd"></use></svg></span>
-            <span class="txt"><?php _e('Sign up', 'gamma'); ?></span>
+            <span class="txt"><?php _e('Log in', 'gamma'); ?></span>
           </a>
         <?php } else { ?>
           <a class="my-account" href="<?php echo osc_user_dashboard_url(); ?>">
@@ -101,17 +101,18 @@
         <?php } ?>
 
 
-        <?php if(function_exists('im_messages') && osc_is_web_user_logged_in()) { ?>
+        <?php if(function_exists('im_messages') /*&& osc_is_web_user_logged_in()*/ ) { ?>
           <a class="messages" href="<?php echo osc_route_url('im-threads'); ?>">
             <span class="svg"><svg viewBox="0 0 32 32" color="#696766" width="20" height="20"><defs><path id="mbIconMessage" d="M16 0c10.168 0 16 4.647 16 12.75 0 5.301-2.483 9.167-7.183 11.186l-10.38 7.408 1.34-5.847C5.748 25.43.002 20.792.002 12.75 0 4.647 5.83 0 16 0zm7.938 22.137C27.959 20.444 30 17.285 30 12.75 30 5.817 25.029 2 16 2 6.973 2 2 5.817 2 12.75c0 6.931 4.973 10.748 14 10.748.34 0 .674-.007 1.003-.018l1.297-.043-.736 3.22 6.373-4.52zM11 16v-2h10v2H11zm0-5V9h10v2H11z"></path></defs><use fill="currentColor" xlink:href="#mbIconMessage" fill-rule="evenodd"></use></svg></span>
             <span class="txt"><?php _e('Messages', 'gamma'); ?></span>
 
-            <?php 
+            <?php
               if(osc_is_web_user_logged_in()) {
                 $message_count = ModelIM::newInstance()->countMessagesByUserId( osc_logged_user_id() );
                 $message_count = $message_count['i_count'];
               } else {
-                $message_count = 0;
+                // hack line for more registrations
+                $message_count = 1;
               }
             ?>
 
@@ -122,11 +123,12 @@
         <?php } ?>
 
 
+
         <a class="publish btn mbBg2 isDesktop isTablet" href="<?php echo osc_item_post_url(); ?>">
           <svg viewBox="0 0 32 32" color="#ffffff" width="16" height="16"><defs><path id="mbIconAdd" d="M17.125 14.875h6.749c.622 0 1.126.5 1.126 1.125 0 .621-.5 1.125-1.126 1.125h-6.749v6.749c0 .622-.5 1.126-1.125 1.126-.621 0-1.125-.5-1.125-1.126v-6.749H8.126C7.504 17.125 7 16.625 7 16c0-.621.5-1.125 1.126-1.125h6.749V8.126c0-.622.5-1.126 1.125-1.126.621 0 1.125.5 1.125 1.126v6.749zM29.779 25.28l-.125.185c-.079.13-.169.249-.252.375l-.061.09-.025.032c-.316.467-.662.907-1.032 1.322l-.073.082c-1.171 1.29-2.598 2.327-4.274 3.087l-.009.005a15.64 15.64 0 01-1.622.618c-.113.037-.228.069-.341.103-.463.138-.94.259-1.432.362-.162.035-.324.069-.49.1a20.74 20.74 0 01-1.462.207c-.175.019-.343.045-.52.06-.667.057-1.351.092-2.061.092-.715 0-1.403-.036-2.074-.093-.186-.016-.364-.043-.545-.063a20.722 20.722 0 01-1.447-.208c-.178-.032-.352-.07-.527-.107a17.577 17.577 0 01-1.409-.361c-.126-.038-.253-.073-.376-.114-1.789-.585-3.347-1.44-4.657-2.549-.04-.033-.077-.069-.117-.104a12.57 12.57 0 01-1.116-1.098l-.144-.162a12.867 12.867 0 01-1.004-1.322c-.008-.011-.018-.021-.025-.033l-.027-.04c-.067-.104-.138-.205-.204-.312l-.263-.402.031-.024C.729 22.575 0 19.561 0 16 0 5.832 5.832 0 16 0s16 5.832 16 16c0 3.684-.775 6.79-2.235 9.264l.014.016zm-1.722-1.16l-.013-.014C29.322 21.941 30 19.223 30 16c0-8.897-5.103-14-14-14S2 7.103 2 16c0 3.116.638 5.753 1.834 7.882l-.027.021.23.352c.058.093.12.182.178.273l.024.035c.006.01.015.019.022.029.27.408.564.792.878 1.156l.127.142c.306.34.63.662.976.96.035.031.067.063.102.092 1.147.97 2.51 1.718 4.075 2.23.108.036.219.067.33.1.397.12.809.226 1.232.316.153.032.306.066.461.093.41.076.834.134 1.266.182.159.018.315.042.477.056.587.05 1.19.081 1.815.081.621 0 1.22-.03 1.803-.08.155-.014.302-.036.455-.053a18.17 18.17 0 001.28-.181c.145-.027.287-.057.428-.088.43-.09.848-.196 1.253-.316.1-.03.2-.058.299-.09a13.84 13.84 0 001.419-.541l.008-.005a11.294 11.294 0 003.74-2.7l.064-.073c.323-.363.626-.748.902-1.156l.022-.028.054-.079c.072-.11.151-.214.22-.328l.11-.162z"></path></defs><use fill="currentColor" xlink:href="#mbIconAdd" fill-rule="evenodd"></use></svg>
           <span><?php _e('Post an ad', 'gamma'); ?></span>
         </a>
-      </div>   
+      </div>
 
       <div class="mobile-block isMobile">
         <a href="#" id="m-options" class="mobile-menu" data-menu-id="#menu-options">
@@ -159,11 +161,11 @@
       <div class="box">
         <?php osc_goto_first_category(); ?>
         <?php while(osc_has_categories()) { ?>
-          <?php 
-            $search_params['sCategory'] = osc_category_id(); 
+          <?php
+            $search_params['sCategory'] = osc_category_id();
             $color = gam_get_cat_color(osc_category_id());
           ?>
-   
+
           <a href="<?php echo osc_search_url($search_params); ?>" class="cat1">
             <div>
               <?php if(gam_param('cat_icons') == 1) { ?>
@@ -175,7 +177,7 @@
 
             <h3><?php echo osc_category_name(); ?></h3>
           </a>
-          
+
           <div class="sub-box">
             <?php while(osc_has_subcategories()) { ?>
               <?php $search_params['sCategory'] = osc_category_id(); ?>
@@ -198,7 +200,7 @@
   </form>
 </div>
 
-<?php 
+<?php
   $loc = (osc_get_osclass_location() == '' ? 'home' : osc_get_osclass_location());
   $sec = (osc_get_osclass_section() == '' ? 'default' : osc_get_osclass_section());
 ?>
@@ -206,8 +208,8 @@
 <section class="content loc-<?php echo $loc; ?> sec-<?php echo $sec; ?>">
 
 <?php
-  if(osc_is_home_page()) { 
-    osc_current_web_theme_path('inc.search.php'); 
+  if(osc_is_home_page()) {
+    osc_current_web_theme_path('inc.search.php');
     osc_current_web_theme_path('inc.category.php');
   }
 ?>

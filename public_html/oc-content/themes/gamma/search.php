@@ -16,7 +16,7 @@
 <?php osc_current_web_theme_path('inc.search.php') ; ?>
 <?php osc_current_web_theme_path('inc.category.php') ; ?>
 
-<?php 
+<?php
   $params_spec = gam_search_params();
   $params_all = gam_search_params_all();
 
@@ -37,14 +37,15 @@
 
   // Get search hooks
   GLOBAL $search_hooks;
-  ob_start(); 
+  ob_start();
 
-  if(osc_search_category_id()) { 
+  if(osc_search_category_id()) {
     osc_run_hook('search_form', osc_search_category_id());
-  } else { 
+  } else {
     osc_run_hook('search_form');
   }
 
+  //mod
   //$search_hooks = trim(ob_get_clean());
   //ob_end_flush();
 
@@ -77,7 +78,7 @@
 
           <div class="block">
             <div class="search-wrap">
- 
+
               <!-- PATTERN AND LOCATION -->
               <div class="box isMobile">
                 <h2><?php _e('Search', 'gamma'); ?></h2>
@@ -169,8 +170,8 @@
                 </div>
               <?php } ?>
 
- 
-              <!-- CONDITION --> 
+
+              <!-- CONDITION -->
               <?php if(@!in_array($search_cat_id, $exclude_tr_con)) { ?>
                 <div class="box">
                   <h2><?php _e('Condition', 'gamma'); ?></h2>
@@ -181,9 +182,9 @@
                 </div>
               <?php } ?>
 
- 
-              <!-- TRANSACTION --> 
-              <?php if(@!in_array($search_cat_id, $exclude_tr_con)) { ?>
+
+              <!-- TRANSACTION -->
+              <!-- <?php if(@!in_array($search_cat_id, $exclude_tr_con)) { ?> -->
                 <div class="box">
                   <h2><?php _e('Transaction', 'gamma'); ?></h2>
 
@@ -191,10 +192,10 @@
                     <?php echo gam_simple_transaction_list(); ?>
                   </div>
                 </div>
-              <?php } ?>
+              <!-- <?php } ?> -->
 
 
-              <!-- PERIOD--> 
+              <!-- PERIOD-->
               <div class="box">
                 <h2><?php _e('Period', 'gamma'); ?></h2>
 
@@ -257,11 +258,11 @@
       <div class="relative2">
         <div class="titles-top">
           <h1>
-            <?php 
+            <?php
               $loc = array_filter(array(osc_search_city(), osc_search_region(), osc_search_city()))[0];
               $cat = @$category['s_name'];
 
-              if(osc_search_total_items() <= 0) { 
+              if(osc_search_total_items() <= 0) {
                 echo __('No listings found', 'gamma');
 
               } else if($cat <> '') {
@@ -291,7 +292,7 @@
           $p3 = $params_all; $p3['sCompany'] = 1;
 
           $us_type = Params::getParam('sCompany');
-          
+
         ?>
 
 
@@ -346,16 +347,16 @@
           <?php } ?>
         </div>
       </div>
-      
 
-      <div id="search-items">     
+
+      <div id="search-items">
         <!-- REMOVE FILTER SECTION -->
-        <?php  
+        <?php
           // count usable params
           $filter_check = 0;
           if(count($search_params_remove) > 0) {
-            foreach($search_params_remove as $n => $v) { 
-              if($v['name'] <> '' && $v['title'] <> '') { 
+            foreach($search_params_remove as $n => $v) {
+              if($v['name'] <> '' && $v['title'] <> '') {
                 $filter_check++;
               }
             }
@@ -378,8 +379,8 @@
             <a class="bold" href="<?php echo osc_search_url(array('page' => 'search')); ?>"><?php _e('Remove all', 'gamma'); ?></a>
           </div>
         <?php } ?>
-  
-             
+
+
         <?php if(osc_count_items() == 0) { ?>
           <div class="list-empty round3" >
             <span class="titles"><?php _e('We could not find any results for your search...', 'gamma'); ?></span>

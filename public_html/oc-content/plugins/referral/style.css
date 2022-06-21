@@ -1,0 +1,40 @@
+/* referral */
+p.refer{font-size: 15px; color: #008000; margin: 0 0 5px 10px}
+p.refer a{text-decoration: none;}
+.tstyle {border: solid #DDD 1px; font-family: 'trebuchet MS', 'Lucida sans', Arial; font-size: 14px; color: #444; *border-collapse: collapse; /* IE7 and lower */ border-spacing: 0; width: 100%;}
+.tstyle tr:hover { background: #fbf8e9;}
+.tstyle td, .tstyle th { border-left: 1px solid #ccc; border-top: 1px solid #ccc; padding: 5px; text-align: left;}
+.tstyle td a{ text-decoration: none;}
+
+h3.referral{ background: #EBF9FD; border: 1px solid #90ddf4; font-weight: bold; margin-top: 5px; padding: 5px;}
+
+/* User Ads */
+div.referral {clear:both; min-height: 500px; }
+div.referral table { clear:both; width:100%; }
+div.referral table td { border-bottom:1px dotted #CCC; padding:8px; vertical-align:top; }
+div.referral table tr.odd td { background:#f8f8f8;  }
+div.referral table tr:hover td { background:#fefbea; }
+div.referral table td.photo { padding-left:2px; }
+div.referral table td.photo img { background:#FFF; border:1px solid #DDD; padding:1px; }
+div.referral table td.text{ width: 560px;}
+div.referral table td.text h3 { text-transform: capitalize; font:18px Georgia, Times, 'Times New Roman', serif; margin-bottom: 4px;}
+div.referral table td.text h3 a{text-decoration: none; }
+div.referral table td.text h4 { color:#000; font-size:11px; font-weight:bold; margin-bottom: 3px; }
+div.referral table td.text h4 span { color:#CCC; margin:0 5px; }
+div.referral table td.text p { line-height:16px; font-size:14px; font:15px Georgia, Times, 'Times New Roman', serif; }
+div.referral table td.text p.options strong{ font-size: 14px;}
+div.referral table td.text p strong a{text-decoration: none;}
+div.referral table td.price { padding-left:25px; }
+div.referral table td.text p.price {padding: 1px 4px 2px; background-color: #3A87AD; color: #FFFFFF; float:right; font-size:12px; font-weight: bold;  -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+
+
+div.offer{clear: none; float: left;}
+div.offer table td { border-bottom:none; }
+div.offer {width: 600px; }
+div.offer table tr:hover td { background:none; }
+div.offer table td.photo { padding-left:2px; width: 0px; }
+
+/* Make Premium */
+.makepremium h3{background: #EED3D7; font-size: 20px; padding: 10px;}
+.makepremium{ margin-right: 10px; color: #B94A48; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); background-color: #F2DEDE; border: 1px solid #fbeed5; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; float: right}
+.makepremium a{ color: #B94A48; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); font-size: 40px; text-decoration: none; padding: 10px;}

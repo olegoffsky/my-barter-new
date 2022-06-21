@@ -1,0 +1,30 @@
+Russian Ultimate Payments 4.3.0 2020-06-11
+------------------------
+- Change Yandex to Umoney
+- Improved Help section
+
+Russian Ultimate Payments 4.1.7 2019-17-04
+------------------------
+- Fixed Result URL for Webmoney
+- Improved Help section
+
+Russian Ultimate Payments 4.1.6 2018-12-10
+------------------------
+- E-mail templates translated to Russian
+
+Russian Ultimate Payments 4.1.5 2018-10-04
+------------------------
+- Categories prices fixed in Osclass 3.8.0
+
+Russian Ultimate Payments 4.1.1 2018-02-28
+------------------------
+- Admin menu icons fix
+
+Russian Ultimate Payments 4.0.0 2017-12-14
+------------------------
+- New options
+
+
+
+
+

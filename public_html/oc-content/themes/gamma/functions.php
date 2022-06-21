@@ -127,18 +127,18 @@ function gam_mask_email($email) {
 
   $len_name = strlen($name)-2;
   $mask_name = substr($name,0, strlen($name) - $len_name) . str_repeat('*', $len_name);
- 
+
   $len_domain = strlen($domain) - 4;
   $mask_domain = str_repeat('*', $len_domain) . substr($domain, $len_domain, strlen($domain));
 
 
-  return  $mask_name . '@' . $mask_domain;   
+  return  $mask_name . '@' . $mask_domain;
 }
 
 
 // PUBLIC PROFILE ITEMS
 function gam_public_profile_items() {
-  $section = osc_get_osclass_section();  
+  $section = osc_get_osclass_section();
   if(osc_get_osclass_location() == 'user' && ($section == 'items' || $section == 'pub_profile')) {
     Params::setParam('itemsPerPage', gam_param('public_items'));
   }
@@ -159,7 +159,7 @@ function gam_is_lazy() {
 
 // GET NO IMAGE LINK
 function gam_get_noimage() {
-  $dim = osc_get_preference('dimThumbnail', 'osclass'); 
+  $dim = osc_get_preference('dimThumbnail', 'osclass');
 
   if(file_exists(WebThemes::newInstance()->getCurrentThemePath() . 'images/no-image-' . $dim . '.png')) {
     return osc_current_web_theme_url('images/no-image-' . $dim . '.png');
@@ -176,16 +176,16 @@ function gam_related_ads() {
 
     $mSearch = new Search();
     $mSearch->addCategory(osc_item_category_id());
-    //$mSearch->withPicture(true); 
+    //$mSearch->withPicture(true);
     $mSearch->limit(1, $limit);
     $mSearch->addItemConditions(sprintf("%st_item.pk_i_id <> %d", DB_TABLE_PREFIX, osc_item_id()));
 
-    $aItems = $mSearch->doSearch(); 
+    $aItems = $mSearch->doSearch();
 
 
     GLOBAL $global_items;
     $global_items = View::newInstance()->_get('items');
-    View::newInstance()->_exportVariableToView('items', $aItems); 
+    View::newInstance()->_exportVariableToView('items', $aItems);
 
     if(osc_count_items() > 0) {
       echo '<div id="rel-block" class="related products grid"><div class="inside">';
@@ -255,10 +255,10 @@ function gam_profile_picture($user_id = '', $size = 'small') {
     $result = $conn->osc_dbFetchResult("SELECT user_id, pic_ext FROM %st_profile_picture WHERE user_id = '%d' ", DB_TABLE_PREFIX, $user_id);
 
 
-    if($result > 0) { 
+    if($result > 0) {
       $path = osc_plugins_path().'profile_picture/images/';
 
-      if(file_exists($path . 'profile' . $user_id . $result['pic_ext'])) { 
+      if(file_exists($path . 'profile' . $user_id . $result['pic_ext'])) {
         $img = osc_base_url() . 'oc-content/plugins/profile_picture/images/' . 'profile' . $user_id . $result['pic_ext'];
       }
     }
@@ -282,7 +282,7 @@ function gam_search_param_remove() {
   foreach($params as $n => $v) {
     if(!in_array($n, array('page')) && ($v > 0 || $v <> '')) {
       $output[$n] = array(
-        'value' => $v, 
+        'value' => $v,
         'param' => $n,
         'title' => gam_param_name($n),
         'name' => gam_remove_value_name($v, $n)
@@ -298,13 +298,13 @@ function gam_search_param_remove() {
 function gam_remove_value_name($value, $type) {
   $def_cur = (gam_param('def_cur') <> '' ? gam_param('def_cur') : '$');
 
-  if($type == 'sPeriod') {  
+  if($type == 'sPeriod') {
     return gam_get_simple_name($value, 'period');
 
-  } else if($type == 'sTransaction') {  
+  } else if($type == 'sTransaction') {
     return gam_get_simple_name($value, 'transaction');
 
-  } else if($type == 'sCondition') {  
+  } else if($type == 'sCondition') {
     return gam_get_simple_name($value, 'condition');
 
   } else if ($type == 'sCategory' || $type == 'category') {
@@ -321,7 +321,7 @@ function gam_remove_value_name($value, $type) {
 
   } else if ($type == 'sCity' || $type == 'city') {
     return osc_search_city();
-  
+
   } else if ($type == 'sPriceMin' || $type == 'sPriceMax') {
     return $value . ' ' . $def_cur;
 
@@ -387,7 +387,7 @@ function gam_param_name($param) {
   } else if($param == 'sPattern') {
     return __('Keyword', 'gamma');
 
-  } 
+  }
 
   return '';
 }
@@ -398,16 +398,16 @@ function gam_list_options($type) {
   $opt = array();
 
   if($type == 'condition') {
-    $opt[0] = __('All', 'gamma');
+    //$opt[0] = __('All', 'gamma');
     $opt[1] = __('New', 'gamma');
     $opt[2] = __('Used', 'gamma');
 
   } else if($type == 'transaction') {
-    $opt[0] = __('All', 'gamma');
+    //$opt[0] = __('All', 'gamma');
     $opt[1] = __('Sell', 'gamma');
     $opt[2] = __('Buy', 'gamma');
-    $opt[3] = __('Rent', 'gamma');
-    $opt[4] = __('Exchange', 'gamma');
+    //$opt[3] = __('Rent', 'gamma');
+    //$opt[4] = __('Exchange', 'gamma');
 
   } else if ($type == 'period') {
     $opt[0] = __('All', 'gamma');
@@ -464,7 +464,7 @@ function gam_def_location() {
         if(strtoupper($r['fk_c_country_code']) == strtoupper($c['pk_c_code'])) {
           if($type == 'region') {
             $html .= '<div class="option region init" data-country="' . $r['fk_c_country_code'] . '" data-region="' . $r['pk_i_id'] . '" data-city="" data-code="region' . $r['pk_i_id'] . '" id="' . $r['pk_i_id'] . '" title="' . osc_esc_html($c['s_name']) . '"><strong>' . $r['s_name'] . '</strong></div>';
-          } else { 
+          } else {
             $html .= '<div class="option region init" data-country="' . $r['fk_c_country_code'] . '" data-region="' . $r['fk_i_region_id'] . '" data-city="' . $r['pk_i_id'] . '" data-code="city' . $r['pk_i_id'] . '" title="' . osc_esc_html($r['s_region_name']) . '" id="' . $r['pk_i_id'] . '"><strong>' . $r['s_name'] . '</strong></div>';
           }
         }
@@ -508,13 +508,13 @@ function gam_locbox_short($country = '', $region = '', $city = '', $level = 'all
     //$html .= '</div>';
     $html .= '</div>';
     $html .= '</div>';
-  } 
+  }
 
-  
+
   // REGIONS
   if($level == 'all' || $level == 'region') {
     $html .= '<div class="loc-tab region-tab">';
-    
+
     if(count($countries) <= 1 || $country <> '') {
       if($country <> '') {
         $regions = Region::newInstance()->findByCountry($country);
@@ -536,7 +536,7 @@ function gam_locbox_short($country = '', $region = '', $city = '', $level = 'all
   // CITIES
   if($level == 'all' || $level == 'city') {
     $html .= '<div class="loc-tab city-tab">';
-    
+
     if($region <> '') {
       $cities = City::newInstance()->findByRegion($region);
 
@@ -831,7 +831,7 @@ function gam_check_sold(){
     if( $secret == $item['s_secret'] ) {
       //Item::newInstance()->dao->update(DB_TABLE_PREFIX.'t_item_gamma', array('i_sold' => $status), array('fk_i_item_id' => $item['pk_i_id']));
       $comm->update(DB_TABLE_PREFIX.'t_item_gamma', array('i_sold' => $status), array('fk_i_item_id' => $item['pk_i_id']));
- 
+
       if (osc_rewrite_enabled()) {
         $item_type_url = '?itemType=' . $item_type;
       } else {
@@ -879,7 +879,7 @@ function gam_category_loop( $parent_id = NULL, $parent_color = NULL ) {
     } else {
       $icon = '<div class="parent-icon children" style="background: ' . $parent_color . '">' . gam_get_cat_icon( $c['pk_i_id'] ) . '</div>';
     }
-    
+
     $html .= '<div class="single tr1' . ($c['pk_i_id'] == $id ? ' selected' : '') . '" data-id="' . $c['pk_i_id'] . '"><span>' . $icon . $c['s_name'] . '</span></div>';
 
     $subcategories = Category::newInstance()->findSubcategoriesEnabled( $c['pk_i_id'] );
@@ -887,7 +887,7 @@ function gam_category_loop( $parent_id = NULL, $parent_color = NULL ) {
       $html .= gam_category_loop( $c['pk_i_id'], $parent_color );
     }
   }
-  
+
   $html .= '</div>';
   return $html;
 }
@@ -895,14 +895,14 @@ function gam_category_loop( $parent_id = NULL, $parent_color = NULL ) {
 
 
 // FLAT CATEGORIES SELECT (Publish)
-function gam_flat_category_select(){  
+function gam_flat_category_select(){
   $root = Category::newInstance()->findRootCategoriesEnabled();
 
   $html = '<div class="category-box tr1">';
   foreach( $root as $c ) {
     $html .= '<div class="option tr1" style="background:' . gam_get_cat_color( $c['pk_i_id'] ) . ';">' . gam_get_cat_icon( $c['pk_i_id'] ) . '</div>';
   }
- 
+
   $html .= '</div>';
   return $html;
 }
@@ -1049,7 +1049,7 @@ function gam_user_menu() {
   echo '<div class="img">';
   echo '<div class="box"><img src="' . gam_profile_picture(osc_logged_user_id(), 'large') . '"/></div><strong>' . sprintf(__('Hi %s!', 'gamma'), osc_logged_user_name()) . '</strong>';
 
-  if(function_exists('profile_picture_show')) { 
+  if(function_exists('profile_picture_show')) {
     echo '<a href="#" class="update-avatar"><i class="fa fa-upload"></i>' . __('Update', 'gamma') . '</a>';
   }
 
@@ -1099,7 +1099,7 @@ function gam_user_menu() {
   echo '</ul>';
   echo '</div>';
 
-  
+
 
   // SECTION 3 - LOGOUT
   echo '<div class="um s3 logout">';
@@ -1126,7 +1126,7 @@ function gam_get_term($term = '', $country = '', $region = '', $city = ''){
       $city_info = City::newInstance()->findByPrimaryKey( $city );
       return (isset($city_info['s_name']) ? $city_info['s_name'] : $city);
     }
- 
+
     if( $region <> '' && is_numeric($region) ) {
       $region_info = Region::newInstance()->findByPrimaryKey( $region );
       return (isset($region_info['s_name']) ? $region_info['s_name'] : $region);
@@ -1218,7 +1218,7 @@ function gam_extra_edit( $item ) {
     ModelAisItem::newInstance()->updateItemMeta( $item['pk_i_id'], Params::getParam('ais_meta_title'), Params::getParam('ais_meta_description') );
   } else {
     ModelAisItem::newInstance()->insertItemMeta( $item['pk_i_id'], Params::getParam('ais_meta_title'), Params::getParam('ais_meta_description') );
-  } 
+  }
 }
 
 
@@ -1234,14 +1234,14 @@ function gam_simple_sort() {
   //$html  = '<input type="hidden" name="iOrderType" id="iOrderType" val="' . $order . '"/>';
 
   $html  = '<select class="orderSelect" id="orderSelect" name="orderSelect">';
-  
+
   foreach($orders as $label => $spec) {
 
     $selected = '';
     if( $spec['sOrder'] == $type && $spec['iOrderType'] == $order ) {
       $selected = ' selected="selected"';
     }
- 
+
     $html .= '<option' . $selected . ' data-type="' . $spec['sOrder'] . '" data-order="' . $spec['iOrderType'] . '">' . $label . '</option>';
   }
 
@@ -1286,7 +1286,7 @@ function gam_simple_category($select = false, $level = 3, $id = 'sCategory') {
       $html .= '<div class="option ' . ($disable ? 'nonclickable' : '') . ' root' . ($root['pk_i_id'] == $c['pk_i_id'] ? ' selected' : '') . '" data-id="' . $c['pk_i_id'] . '">' . $c['s_name'] . '</span></div>';
 
       // Sub cat level 1
-      if(count(@$c['categories']) > 0 && $level >= 1) { 
+      if(count(@$c['categories']) > 0 && $level >= 1) {
         foreach($c['categories'] as $s1) {
           $disable = false;
           if($allow_parent == 0 && count($s1['categories']) > 0) { $disable = true; }
@@ -1294,7 +1294,7 @@ function gam_simple_category($select = false, $level = 3, $id = 'sCategory') {
           $html .= '<div class="option ' . ($disable ? 'nonclickable' : '') . ' sub1' . ($current == $s1['pk_i_id'] ? ' selected' : '') . '" data-id="' . $s1['pk_i_id'] . '">' . $s1['s_name'] . '</span></div>';
 
           // Sub cat level 2
-          if(count($s1['categories']) > 0 && $level >= 2) { 
+          if(count($s1['categories']) > 0 && $level >= 2) {
             foreach($s1['categories'] as $s2) {
               $disable = false;
               if($allow_parent == 0 && count($s2['categories']) > 0) { $disable = true; }
@@ -1302,7 +1302,7 @@ function gam_simple_category($select = false, $level = 3, $id = 'sCategory') {
               $html .= '<div class="option ' . ($disable ? 'nonclickable' : '') . ' sub2' . ($current == $s2['pk_i_id'] ? ' selected' : '') . '" data-id="' . $s2['pk_i_id'] . '">' . $s2['s_name'] . '</span></div>';
 
               // Sub cat level 3
-              if(count($s2['categories']) > 0 && $level >= 3) { 
+              if(count($s2['categories']) > 0 && $level >= 3) {
                 foreach($s2['categories'] as $s3) {
                   $html .= '<div class="option sub3' . ($current == $s3['pk_i_id'] ? ' selected' : '') . '" data-id="' . $s3['pk_i_id'] . '">' . $s3['s_name'] . '</span></div>';
                 }
@@ -1327,17 +1327,17 @@ function gam_simple_category($select = false, $level = 3, $id = 'sCategory') {
       $html .= '<option ' . ($root['pk_i_id'] == $c['pk_i_id'] ? ' selected="selected"' : '') . ' value="' . $c['pk_i_id'] . '">' . $c['s_name'] . '</option>';
 
       // Sub cat level 1
-      if(count(@$c['categories']) > 0 && $level >= 1) { 
+      if(count(@$c['categories']) > 0 && $level >= 1) {
         foreach($c['categories'] as $s1) {
           $html .= '<option ' . ($current == $s1['pk_i_id'] ? ' selected="selected"' : '') . ' value="' . $s1['pk_i_id'] . '">- ' . $s1['s_name'] . '</option>';
 
           // Sub cat level 2
-          if(count($s1['categories']) > 0 && $level >= 2) { 
+          if(count($s1['categories']) > 0 && $level >= 2) {
             foreach($s1['categories'] as $s2) {
               $html .= '<option ' . ($current == $s2['pk_i_id'] ? ' selected="selected"' : '') . ' value="' . $s2['pk_i_id'] . '">-- ' . $s2['s_name'] . '</option>';
 
               // Sub cat level 3
-              if(count($s2['categories']) > 0 && $level >= 3) { 
+              if(count($s2['categories']) > 0 && $level >= 3) {
                 foreach($s2['categories'] as $s3) {
                   $html .= '<option ' . ($current == $s3['pk_i_id'] ? ' selected="selected"' : '') . ' value="' . $s3['pk_i_id'] . '">--- ' . $s3['s_name'] . '</option>';
                 }
@@ -1518,7 +1518,7 @@ function gam_simple_condition( $select = false, $item_id = false ) {
 // SIMPLE CURRENCY SELECT (publish)
 function gam_simple_currency() {
   $currencies = osc_get_currencies();
-  $item = osc_item(); 
+  $item = osc_item();
 
   if((osc_is_publish_page() || osc_is_edit_page()) && gam_get_session('currency') <> '') {
     $id = gam_get_session('currency');
@@ -1562,7 +1562,7 @@ function gam_simple_currency() {
 
 // SIMPLE PRICE TYPE SELECT (publish)
 function gam_simple_price_type() {
-  $item = osc_item(); 
+  $item = osc_item();
 
   // Item edit
   if( isset($item['i_price']) ) {
@@ -1575,8 +1575,8 @@ function gam_simple_price_type() {
     } else if( $item['i_price'] == '' ) {
       $default_key = 2;
       $default_name = '<i class="fa fa-phone help"></i> ' . __('Check with seller', 'gamma');
-    } 
-  
+    }
+
   // Item publish
   } else {
     $default_key = 0;
@@ -1838,7 +1838,7 @@ function gam_random_items($numItems = 10, $category = array(), $withPicture = fa
   }
 
   $randSearch->dao->where(DB_TABLE_PREFIX.'t_item.pk_i_id = LIM.pk_i_id');
-  
+
 
   // group by & order & limit
   $randSearch->dao->groupBy(DB_TABLE_PREFIX.'t_item.pk_i_id');
@@ -1879,7 +1879,7 @@ function gam_item_location($premium = false) {
 
 
 // LOCATION FORMATER - USED ON SEARCH LIST
-function gam_location_format($country = null, $region = null, $city = null) { 
+function gam_location_format($country = null, $region = null, $city = null) {
   if($country <> '') {
     if(strlen($country) == 2) {
       $country_full = Country::newInstance()->findByCode($country);
@@ -1893,7 +1893,7 @@ function gam_location_format($country = null, $region = null, $city = null) {
       } else {
         return $region . ' (' . $country_full['s_name'] . ')';
       }
-    } else { 
+    } else {
       if($city <> '') {
         return $city . ' ' . __('in', 'gamma') . ' ' . $country_full['s_name'];
       } else {
@@ -1907,7 +1907,7 @@ function gam_location_format($country = null, $region = null, $city = null) {
       } else {
         return $region;
       }
-    } else { 
+    } else {
       if($city <> '') {
         return $city;
       } else {
@@ -2291,7 +2291,7 @@ function gam_new_category_extra() {
   $comm = new DBCommandClass($data);
   $db_prefix = DB_TABLE_PREFIX;
 
-  $query = "INSERT INTO {$db_prefix}t_category_gamma (fk_i_category_id) 
+  $query = "INSERT INTO {$db_prefix}t_category_gamma (fk_i_category_id)
             SELECT c.pk_i_id FROM {$db_prefix}t_category c WHERE c.pk_i_id NOT IN (SELECT d.fk_i_category_id FROM {$db_prefix}t_category_gamma d)";
   $result = $comm->query($query);
 }
@@ -2348,7 +2348,7 @@ function gam_item_extra($item_id) {
 
     $query = "SELECT * FROM {$db_prefix}t_item_gamma s WHERE fk_i_item_id = " . $item_id . ";";
     $result = Item::newInstance()->dao->query( $query );
-    if( !$result ) { 
+    if( !$result ) {
       $prepare = array();
       return false;
     } else {
@@ -2362,7 +2362,7 @@ function gam_item_extra($item_id) {
 // GET GAMMA CATEGORY EXTRA VALUES
 function gem_count_favorite($user_id = '') {
 
-  if($user_id > 0) { 
+  if($user_id > 0) {
     // nothing
   } else if(osc_is_web_user_logged_in()) {
     $user_id = osc_logged_user_id();
@@ -2376,7 +2376,7 @@ function gem_count_favorite($user_id = '') {
 
     $query = "SELECT count(*) as count FROM {$db_prefix}t_favorite_items i, {$db_prefix}t_favorite_list l WHERE l.list_id = i.list_id AND l.user_id = " . $user_id . ";";
     $result = Item::newInstance()->dao->query($query);
-    if( !$result ) { 
+    if( !$result ) {
       $prepare = array();
       return 0;
     } else {
@@ -2396,7 +2396,7 @@ function gam_category_extra($category_id) {
 
     $query = "SELECT * FROM {$db_prefix}t_category_gamma s WHERE fk_i_category_id = " . $category_id . ";";
     $result = Category::newInstance()->dao->query($query);
-    if( !$result ) { 
+    if( !$result ) {
       $prepare = array();
       return false;
     } else {
@@ -2467,18 +2467,18 @@ if(!function_exists('osc_is_edit_page')) {
 // DEFAULT ICONS ARRAY
 function gam_default_icons() {
   $icons = array(
-    1 => 'fa-newspaper', 2 => 'fa-motorcycle', 3 => 'fa-graduation-cap', 4 => 'fa-home', 5 => 'fa-wrench', 6 => 'fa-users', 7 => 'fa-venus-mars', 8 => 'fa-briefcase', 9 => 'fa-paw', 
-    10 => 'fa-paint-brush', 11 => 'fa-exchange', 12 => 'fa-newspaper', 13 => 'fa-camera', 14 => 'fa-tablet', 15 => 'fa-mobile', 16 => 'fa-shopping-bag', 
-    17 => 'fa-laptop', 18 => 'fa-mobile', 19 => 'fa-lightbulb-o', 20 => 'fa-soccer-ball-o', 21 => 'fa-s15', 22 => 'fa-medkit', 23 => 'fa-home', 24 => 'fa-clock-o', 
-    25 => 'fa-microphone', 26 => 'fa-bicycle', 27 => 'fa-ticket', 28 => 'fa-plane', 29 => 'fa-television', 30 => 'fa-ellipsis-h', 31 => 'fa-car', 32 => 'fa-gears', 
-    33 => 'fa-motorcycle', 34 => 'fa-ship', 35 => 'fa-bus', 36 => 'fa-truck', 37 => 'fa-ellipsis-h', 38 => 'fa-laptop', 39 => 'fa-language', 40 => 'fa-microphone', 
-    41 => 'fa-graduation-cap', 42 => 'fa-ellipsis-h', 43 => 'fa-building-o', 44 => 'fa-building', 45 => 'fa-refresh', 46 => 'fa-exchange', 47 => 'fa-plane', 48 => 'fa-car', 
-    49 => 'fa-window-minimize', 50 => 'fa-suitcase', 51 => 'fa-shopping-basket', 52 => 'fa-child', 53 => 'fa-microphone', 54 => 'fa-laptop', 55 => 'fa-music', 
-    56 => 'fa-stethoscope', 57 => 'fa-star', 58 => 'fa-home', 59 => 'fa-truck', 60 => 'fa-wrench', 61 => 'fa-pencil', 62 => 'fa-ellipsis-h', 63 => 'fa-refresh', 
-    64 => 'fa-sun-o', 65 => 'fa-star', 66 => 'fa-music', 67 => 'fa-wheelchair', 68 => 'fa-key', 69 => 'fa-venus', 70 => 'fa-mars', 71 => 'fa-mars-double', 
-    72 => 'fa-venus-double', 73 => 'fa-genderless', 74 => 'fa-phone', 75 => 'fa-money', 76 => 'fa-television', 77 => 'fa-paint-brush', 78 => 'fa-book', 79 => 'fa-headphones', 
-    80 => 'fa-graduation-cap', 81 => 'fa-paper-plane-o', 82 => 'fa-medkit', 83 => 'fa-users', 84 => 'fa-internet-explorer', 85 => 'fa-gavel', 86 => 'fa-wrench', 
-    87 => 'fa-industry', 88 => 'fa-newspaper', 89 => 'fa-wheelchair', 90 => 'fa-home', 91 => 'fa-spoon', 92 => 'fa-exchange', 93 => 'fa-gavel', 94 => 'fa-microchip', 
+    1 => 'fa-newspaper', 2 => 'fa-motorcycle', 3 => 'fa-graduation-cap', 4 => 'fa-home', 5 => 'fa-wrench', 6 => 'fa-users', 7 => 'fa-venus-mars', 8 => 'fa-briefcase', 9 => 'fa-paw',
+    10 => 'fa-paint-brush', 11 => 'fa-exchange', 12 => 'fa-newspaper', 13 => 'fa-camera', 14 => 'fa-tablet', 15 => 'fa-mobile', 16 => 'fa-shopping-bag',
+    17 => 'fa-laptop', 18 => 'fa-mobile', 19 => 'fa-lightbulb-o', 20 => 'fa-soccer-ball-o', 21 => 'fa-s15', 22 => 'fa-medkit', 23 => 'fa-home', 24 => 'fa-clock-o',
+    25 => 'fa-microphone', 26 => 'fa-bicycle', 27 => 'fa-ticket', 28 => 'fa-plane', 29 => 'fa-television', 30 => 'fa-ellipsis-h', 31 => 'fa-car', 32 => 'fa-gears',
+    33 => 'fa-motorcycle', 34 => 'fa-ship', 35 => 'fa-bus', 36 => 'fa-truck', 37 => 'fa-ellipsis-h', 38 => 'fa-laptop', 39 => 'fa-language', 40 => 'fa-microphone',
+    41 => 'fa-graduation-cap', 42 => 'fa-ellipsis-h', 43 => 'fa-building-o', 44 => 'fa-building', 45 => 'fa-refresh', 46 => 'fa-exchange', 47 => 'fa-plane', 48 => 'fa-car',
+    49 => 'fa-window-minimize', 50 => 'fa-suitcase', 51 => 'fa-shopping-basket', 52 => 'fa-child', 53 => 'fa-microphone', 54 => 'fa-laptop', 55 => 'fa-music',
+    56 => 'fa-stethoscope', 57 => 'fa-star', 58 => 'fa-home', 59 => 'fa-truck', 60 => 'fa-wrench', 61 => 'fa-pencil', 62 => 'fa-ellipsis-h', 63 => 'fa-refresh',
+    64 => 'fa-sun-o', 65 => 'fa-star', 66 => 'fa-music', 67 => 'fa-wheelchair', 68 => 'fa-key', 69 => 'fa-venus', 70 => 'fa-mars', 71 => 'fa-mars-double',
+    72 => 'fa-venus-double', 73 => 'fa-genderless', 74 => 'fa-phone', 75 => 'fa-money', 76 => 'fa-television', 77 => 'fa-paint-brush', 78 => 'fa-book', 79 => 'fa-headphones',
+    80 => 'fa-graduation-cap', 81 => 'fa-paper-plane-o', 82 => 'fa-medkit', 83 => 'fa-users', 84 => 'fa-internet-explorer', 85 => 'fa-gavel', 86 => 'fa-wrench',
+    87 => 'fa-industry', 88 => 'fa-newspaper', 89 => 'fa-wheelchair', 90 => 'fa-home', 91 => 'fa-spoon', 92 => 'fa-exchange', 93 => 'fa-gavel', 94 => 'fa-microchip',
     95 => 'fa-ellipsis-h', 999 => 'fa-newspaper'
   );
 
@@ -2497,7 +2497,7 @@ function gam_get_cat_icon( $id, $string = false ) {
   $category_extra = gam_category_extra($id);
   $default_icons = gam_default_icons();
 
-  if(gam_param('cat_icons') == 1) { 
+  if(gam_param('cat_icons') == 1) {
     if($category_extra['s_icon'] <> '') {
       $icon_code = $category_extra['s_icon'];
     } else {
@@ -2526,7 +2526,7 @@ function gam_get_cat_icon( $id, $string = false ) {
   }
 
   if($string) {
-    
+
   } else {
     return $icon;
   }
@@ -2539,7 +2539,7 @@ function gam_get_cat_color( $id ) {
   $default_colors = gam_default_colors();
 
   if($category_extra['s_color'] <> '') {
-    $color_code = $category_extra['s_color'];                        
+    $color_code = $category_extra['s_color'];
   } else {
     if(isset($default_colors[$category['pk_i_id']]) && $default_colors[$category['pk_i_id']] <> '') {
       $color_code = $default_colors[$category['pk_i_id']];
@@ -2623,7 +2623,7 @@ function gam_phone_clicks( $item_id ) {
 
     $query = "SELECT sum(coalesce(i_num_phone_clicks, 0)) as phone_clicks FROM {$db_prefix}t_item_stats_gamma s WHERE fk_i_item_id = " . $item_id . ";";
     $result = ItemStats::newInstance()->dao->query( $query );
-    if( !$result ) { 
+    if( !$result ) {
       $prepare = array();
       return '0';
     } else {
@@ -2753,7 +2753,7 @@ osc_add_hook('header', 'gam_disable_404');
 // THEME PARAMS UPDATE
 if(!function_exists('gam_param_update')) {
   function gam_param_update( $param_name, $update_param_name, $type = NULL, $plugin_var_name ) {
-  
+
     $val = '';
     if( $type == 'check') {
 
@@ -2791,7 +2791,7 @@ if(!function_exists('gam_param_update')) {
     if( Params::getParam( $update_param_name ) == 'done' ) {
 
       if(osc_get_preference( $param_name, $plugin_var_name ) == '') {
-        osc_set_preference( $param_name, $val, $plugin_var_name, 'STRING');  
+        osc_set_preference( $param_name, $val, $plugin_var_name, 'STRING');
       } else {
         $dao_preference = new Preference();
         $dao_preference->update( array( "s_value" => $val ), array( "s_section" => $plugin_var_name, "s_name" => $param_name ));
@@ -2834,7 +2834,7 @@ function gam_cat_sub($id) {
       $i++;
     }
   }
-      
+
   return $array;
 }
 
