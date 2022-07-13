@@ -33,7 +33,7 @@
   }
 
 
-  $avl_duration = explode(',', osp_available_duration());
+  $avl_duration = explode(',', osp_available_duration(true));
   $avl_repeat = explode(',', osp_available_repeat());
   $duration_array = explode(',', $republish_duration);
   $republish_repeat_array = explode(',', $republish_repeat);
@@ -53,6 +53,7 @@
         // detail[2] - category
         // detail[3] - duration
 
+        $detail[3] = str_replace('dot', '.', $detail[3]);
         ModelOSP::newInstance()->updateCategoryFee($detail[1], $detail[2], $params[$p], $detail[3]);
       }
     }
@@ -293,7 +294,7 @@
                   ?>
 
                   <div class="mb-col-<?php echo $cols; ?> mb-category-price mb-has-tooltip-light <?php echo $class2; ?>" data-hours="<?php echo $hours; ?>" title="<?php echo $title2 . osc_esc_html(__('Click to unlock field', 'osclass_pay')); ?>">
-                    <input class="<?php echo $class; ?>" type="text" disabled="disabled" id="category-fee" name="fee_<?php echo OSP_TYPE_REPUBLISH; ?>_<?php echo $c['pk_i_id']; ?>_<?php echo $hours; ?>" value="<?php echo number_format((float)$fee, 1, '.', ''); ?>" /><div class="mb-input-desc"><?php echo osp_currency_symbol(); ?></div>
+                    <input class="<?php echo $class; ?>" type="text" disabled="disabled" id="category-fee" name="fee_<?php echo OSP_TYPE_REPUBLISH; ?>_<?php echo $c['pk_i_id']; ?>_<?php echo str_replace('.', 'dot', $hours); ?>" value="<?php echo number_format((float)$fee, 1, '.', ''); ?>" /><div class="mb-input-desc"><?php echo osp_currency_symbol(); ?></div>
                   </div>
                 <?php } ?>
               </div>

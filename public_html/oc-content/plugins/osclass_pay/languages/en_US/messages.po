@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Osclass Pay Plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-11 11:06+0100\n"
-"PO-Revision-Date: 2022-03-11 11:08+0100\n"
+"POT-Creation-Date: 2022-05-26 11:44+0200\n"
+"PO-Revision-Date: 2022-05-26 11:46+0200\n"
 "Last-Translator: Miso <miso546@azet.sk>\n"
 "Language-Team: MB Themes <info@mb-themes.com>\n"
 "Language: en_US\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: admin/_ecommerce_settings.php:21 admin/_gateway_backup.php:161
 #: admin/_gateway_settings.php:160 admin/_group.php:23 admin/_highlight.php:85
 #: admin/_image.php:67 admin/_movetotop.php:67 admin/_premium.php:83
-#: admin/_publish.php:68 admin/_republish.php:96 admin/_wallet.php:22
+#: admin/_publish.php:68 admin/_republish.php:97 admin/_wallet.php:22
 #: admin/banner.php:54 admin/configure.php:23 admin/tax.php:39
 msgid "Settings were successfully saved"
 msgstr ""
@@ -159,7 +159,7 @@ msgstr ""
 #: admin/_movetotop.php:127 admin/_movetotop.php:218 admin/_movetotop.php:303
 #: admin/_premium.php:161 admin/_premium.php:271 admin/_premium.php:356
 #: admin/_publish.php:135 admin/_publish.php:228 admin/_publish.php:313
-#: admin/_republish.php:196 admin/_republish.php:305 admin/_republish.php:390
+#: admin/_republish.php:197 admin/_republish.php:306 admin/_republish.php:391
 #: admin/_wallet.php:179 admin/_wallet.php:303 admin/_wallet.php:373
 #: admin/banner.php:128 admin/tax.php:160
 msgid "Update"
@@ -220,14 +220,14 @@ msgid "Set User as Seller"
 msgstr ""
 
 #: admin/_ecommerce_backup.php:301 admin/_ecommerce_backup.php:450
-#: admin/_ecommerce_users.php:126 functions.php:878 functions.php:890
-#: functions.php:918 functions.php:930
+#: admin/_ecommerce_users.php:126 functions.php:895 functions.php:907
+#: functions.php:935 functions.php:947
 msgid "No"
 msgstr ""
 
 #: admin/_ecommerce_backup.php:302 admin/_ecommerce_backup.php:449
-#: admin/_ecommerce_users.php:127 functions.php:879 functions.php:891
-#: functions.php:919 functions.php:931
+#: admin/_ecommerce_users.php:127 functions.php:896 functions.php:908
+#: functions.php:936 functions.php:948
 msgid "Yes"
 msgstr ""
 
@@ -246,9 +246,9 @@ msgstr ""
 #: admin/_highlight.php:322 admin/_image.php:169 admin/_image.php:258
 #: admin/_movetotop.php:166 admin/_movetotop.php:252 admin/_premium.php:214
 #: admin/_premium.php:305 admin/_publish.php:174 admin/_publish.php:262
-#: admin/_republish.php:248 admin/_republish.php:339 admin/_wallet.php:213
-#: admin/banner.php:146 admin/log.php:30 admin/log.php:94 functions.php:2362
-#: functions.php:2463 user/cart.php:100 user/item_pay.php:82 user/order.php:92
+#: admin/_republish.php:249 admin/_republish.php:340 admin/_wallet.php:213
+#: admin/banner.php:146 admin/log.php:30 admin/log.php:94 functions.php:2398
+#: functions.php:2499 user/cart.php:102 user/item_pay.php:84 user/order.php:92
 #: user/products.php:119 user/sales.php:46 user/shipping.php:198
 msgid "ID"
 msgstr ""
@@ -258,12 +258,12 @@ msgid "Seller"
 msgstr ""
 
 #: admin/_ecommerce_backup.php:316 admin/_ecommerce_users.php:141
-#: functions.php:1473 index.php:692 index.php:717
+#: functions.php:1490 index.php:692 index.php:717
 msgid "Items"
 msgstr ""
 
 #: admin/_ecommerce_backup.php:318 admin/_ecommerce_users.php:143
-#: admin/log.php:60 admin/log.php:103 functions.php:363
+#: admin/log.php:60 admin/log.php:103 functions.php:380
 msgid "Type"
 msgstr ""
 
@@ -391,7 +391,7 @@ msgid "Full Price"
 msgstr ""
 
 #: admin/_ecommerce_backup.php:517 admin/_gateway_backup.php:1645
-#: admin/_gateway_transfer.php:188 admin/banner.php:206 functions.php:1353
+#: admin/_gateway_transfer.php:188 admin/banner.php:206 functions.php:1370
 #: user/manager.php:122
 msgid "Paid"
 msgstr ""
@@ -454,20 +454,20 @@ msgid "Not set!"
 msgstr ""
 
 #: admin/_ecommerce_backup.php:600 admin/_ecommerce_orders.php:287
-#: functions.php:182 user/manager.php:101 user/manager.php:199
+#: functions.php:199 user/manager.php:101 user/manager.php:199
 #: user/order.php:70 user/order.php:175 user/sales.php:126
 msgid "Processing"
 msgstr ""
 
 #: admin/_ecommerce_backup.php:601 admin/_ecommerce_orders.php:129
-#: admin/_ecommerce_orders.php:288 functions.php:184 user/manager.php:102
+#: admin/_ecommerce_orders.php:288 functions.php:201 user/manager.php:102
 #: user/manager.php:200 user/order.php:76 user/order.php:178 user/sales.php:129
 msgid "Shipped"
 msgstr ""
 
 #: admin/_ecommerce_backup.php:602 admin/_ecommerce_backup.php:606
 #: admin/_ecommerce_orders.php:130 admin/_ecommerce_orders.php:289
-#: admin/_ecommerce_orders.php:293 functions.php:186 user/manager.php:103
+#: admin/_ecommerce_orders.php:293 functions.php:203 user/manager.php:103
 #: user/manager.php:197 user/manager.php:201 user/order.php:82
 #: user/order.php:172 user/order.php:181 user/sales.php:123 user/sales.php:132
 msgid "Completed"
@@ -475,7 +475,7 @@ msgstr ""
 
 #: admin/_ecommerce_backup.php:603 admin/_ecommerce_orders.php:131
 #: admin/_ecommerce_orders.php:290 admin/_gateway_backup.php:1647
-#: admin/_gateway_transfer.php:190 functions.php:188 user/manager.php:104
+#: admin/_gateway_transfer.php:190 functions.php:205 user/manager.php:104
 #: user/manager.php:202 user/order.php:184 user/sales.php:135
 msgid "Cancelled"
 msgstr ""
@@ -567,7 +567,7 @@ msgstr ""
 #: admin/_ecommerce_backup.php:721 admin/_ecommerce_settings.php:175
 #: admin/_group.php:517 admin/_highlight.php:416 admin/_image.php:352
 #: admin/_movetotop.php:313 admin/_premium.php:367 admin/_publish.php:322
-#: admin/_republish.php:400 admin/_wallet.php:384 admin/banner.php:352
+#: admin/_republish.php:401 admin/_wallet.php:384 admin/banner.php:352
 #: admin/configure.php:178 admin/log.php:169 admin/tax.php:172
 msgid "Help"
 msgstr ""
@@ -653,8 +653,8 @@ msgstr ""
 msgid "Buyer/Seller"
 msgstr ""
 
-#: admin/_ecommerce_orders.php:85 functions.php:1978 user/cart.php:101
-#: user/item_pay.php:83
+#: admin/_ecommerce_orders.php:85 functions.php:2011 user/cart.php:103
+#: user/item_pay.php:85
 msgid "Product"
 msgstr ""
 
@@ -750,7 +750,7 @@ msgid "Item #%s"
 msgstr ""
 
 #: admin/_ecommerce_orders.php:266 admin/_ecommerce_shipping.php:133
-#: functions.php:2441 functions.php:2544 functions.php:2551
+#: functions.php:2477 functions.php:2580 functions.php:2587
 #: user/manager.php:140
 msgid "N/A"
 msgstr ""
@@ -785,9 +785,9 @@ msgstr ""
 msgid "Availability"
 msgstr ""
 
-#: admin/_ecommerce_products.php:113 admin/ecommerce.php:10 functions.php:887
-#: functions.php:927 functions.php:1976 index.php:933 index.php:934
-#: index.php:935 user/manager.php:75 user/order.php:29 user/products.php:68
+#: admin/_ecommerce_products.php:113 admin/ecommerce.php:10 functions.php:904
+#: functions.php:944 functions.php:2009 index.php:938 index.php:939
+#: index.php:940 user/manager.php:75 user/order.php:29 user/products.php:68
 #: user/products.php:97 user/products.php:123 user/sales.php:35
 #: user/shipping.php:96
 msgid "Shipping"
@@ -914,7 +914,7 @@ msgid "Bank transfer accepted successfully"
 msgstr ""
 
 #: admin/_gateway_backup.php:235 admin/_gateway_transfer.php:83
-#: functions.php:2183
+#: functions.php:2219
 #, php-format
 msgid ""
 "Insufficient quantity on stock for product %s! We have %s items on stock, "
@@ -1831,7 +1831,7 @@ msgstr ""
 msgid "Paystack Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1156 admin/_gateway_settings.php:1042
+#: admin/_gateway_backup.php:1156
 msgid ""
 "Paystack operates in USD, GHS & NGN currency only, plugin must be set to one "
 "of listed currency, otherwise payment will not be available."
@@ -2204,7 +2204,7 @@ msgid "No bank transfers has been found"
 msgstr ""
 
 #: admin/_gateway_backup.php:1629 admin/_gateway_transfer.php:172
-#: functions.php:191 functions.php:1985 user/order.php:146
+#: functions.php:208 functions.php:2018 user/order.php:146
 msgid "Unknown"
 msgstr ""
 
@@ -2214,7 +2214,6 @@ msgid ""
 msgstr ""
 
 #: admin/_gateway_backup.php:1643 admin/_gateway_transfer.php:186
-#: user/payments.php:49
 msgid "Pending"
 msgstr ""
 
@@ -2232,6 +2231,12 @@ msgstr ""
 
 #: admin/_gateway_backup.php:1664 admin/_gateway_transfer.php:207
 msgid "Are you sure you want to remove this transfer? Action cannot be undone."
+msgstr ""
+
+#: admin/_gateway_settings.php:1042
+msgid ""
+"Paystack operates in USD, GHS, ZAR & NGN currency only, plugin must be set "
+"to one of listed currency, otherwise payment will not be available."
 msgstr ""
 
 #: admin/_gateway_transfer.php:122
@@ -2608,24 +2613,24 @@ msgid ""
 msgstr ""
 
 #: admin/_highlight.php:49 admin/_image.php:31 admin/_movetotop.php:31
-#: admin/_premium.php:47 admin/_publish.php:32 admin/_republish.php:60
+#: admin/_premium.php:47 admin/_publish.php:32 admin/_republish.php:61
 msgid "Fees for categories were successfully saved"
 msgstr ""
 
 #: admin/_highlight.php:75 admin/_image.php:57 admin/_movetotop.php:57
-#: admin/_premium.php:73 admin/_publish.php:58 admin/_republish.php:86
+#: admin/_premium.php:73 admin/_publish.php:58 admin/_republish.php:87
 msgid "Fees for locations were successfully saved"
 msgstr ""
 
 #: admin/_highlight.php:78 admin/_image.php:60 admin/_movetotop.php:60
-#: admin/_premium.php:76 admin/_publish.php:61 admin/_republish.php:89
+#: admin/_premium.php:76 admin/_publish.php:61 admin/_republish.php:90
 msgid ""
 "Some uplifts were not updated due to their format or range. Note that only "
 "integer values between -90 and 300 are accepted."
 msgstr ""
 
 #: admin/_highlight.php:110 admin/_image.php:91 admin/_movetotop.php:91
-#: admin/_premium.php:108 admin/_publish.php:92 admin/_republish.php:121
+#: admin/_premium.php:108 admin/_publish.php:92 admin/_republish.php:122
 #: admin/ecommerce.php:12 admin/gateway.php:8
 msgid "Settings"
 msgstr ""
@@ -2650,11 +2655,11 @@ msgstr ""
 msgid "When enabled, users can pay to mark their listings as highlight."
 msgstr ""
 
-#: admin/_highlight.php:141 admin/_premium.php:139 admin/_republish.php:153
+#: admin/_highlight.php:141 admin/_premium.php:139 admin/_republish.php:154
 msgid "Default fee per 24 hours"
 msgstr ""
 
-#: admin/_highlight.php:145 admin/_premium.php:143 admin/_republish.php:157
+#: admin/_highlight.php:145 admin/_premium.php:143 admin/_republish.php:158
 msgid ""
 "Define default fee per 24 hours of duration. Price for other durations is "
 "recalculated via formula."
@@ -2687,38 +2692,38 @@ msgid "Extra CSS styles. Example:"
 msgstr ""
 
 #: admin/_highlight.php:188 admin/_image.php:139 admin/_movetotop.php:137
-#: admin/_premium.php:171 admin/_publish.php:145 admin/_republish.php:206
+#: admin/_premium.php:171 admin/_publish.php:145 admin/_republish.php:207
 msgid "Category Prices"
 msgstr ""
 
 #: admin/_highlight.php:193 admin/_image.php:144 admin/_movetotop.php:142
-#: admin/_premium.php:176 admin/_publish.php:150 admin/_republish.php:211
+#: admin/_premium.php:176 admin/_publish.php:150 admin/_republish.php:212
 msgid ""
 "If you do not want to set different prices per category, skip this section. "
 "Prices will be then calculated based on default price."
 msgstr ""
 
 #: admin/_highlight.php:194 admin/_image.php:145 admin/_movetotop.php:143
-#: admin/_premium.php:177 admin/_publish.php:151 admin/_republish.php:212
+#: admin/_premium.php:177 admin/_publish.php:151 admin/_republish.php:213
 msgid ""
 "If price on parent category is changed, this change is applied to all "
 "subcategories of this category."
 msgstr ""
 
 #: admin/_highlight.php:195 admin/_image.php:146 admin/_movetotop.php:144
-#: admin/_premium.php:178 admin/_publish.php:152 admin/_republish.php:213
+#: admin/_premium.php:178 admin/_publish.php:152 admin/_republish.php:214
 msgid ""
 "If same price as default price is set, price is cleared (default is used). "
 "If price field is left blank, default price is used."
 msgstr ""
 
 #: admin/_highlight.php:196 admin/_image.php:147 admin/_movetotop.php:145
-#: admin/_premium.php:179 admin/_publish.php:153 admin/_republish.php:214
+#: admin/_premium.php:179 admin/_publish.php:153 admin/_republish.php:215
 msgid "Do not modify too many categories at once."
 msgstr ""
 
 #: admin/_highlight.php:200 admin/_image.php:151 admin/_movetotop.php:149
-#: admin/_premium.php:183 admin/_publish.php:157 admin/_republish.php:218
+#: admin/_premium.php:183 admin/_publish.php:157 admin/_republish.php:219
 msgid ""
 "Set price to 0 (zero) to disable selection. Set price to blank (empty) to "
 "use default price."
@@ -2727,54 +2732,54 @@ msgstr ""
 #: admin/_highlight.php:212 admin/_highlight.php:316 admin/_image.php:163
 #: admin/_image.php:252 admin/_movetotop.php:160 admin/_movetotop.php:246
 #: admin/_premium.php:195 admin/_premium.php:299 admin/_publish.php:168
-#: admin/_publish.php:256 admin/_republish.php:229 admin/_republish.php:333
+#: admin/_publish.php:256 admin/_republish.php:230 admin/_republish.php:334
 msgid "Show only prices different to default"
 msgstr ""
 
 #: admin/_highlight.php:213 admin/_highlight.php:317 admin/_image.php:164
 #: admin/_image.php:253 admin/_movetotop.php:161 admin/_movetotop.php:247
 #: admin/_premium.php:196 admin/_premium.php:300 admin/_publish.php:169
-#: admin/_publish.php:257 admin/_republish.php:230 admin/_republish.php:334
+#: admin/_publish.php:257 admin/_republish.php:231 admin/_republish.php:335
 msgid "Show all prices"
 msgstr ""
 
 #: admin/_highlight.php:214 admin/_highlight.php:318 admin/_image.php:165
 #: admin/_image.php:254 admin/_movetotop.php:162 admin/_movetotop.php:248
 #: admin/_premium.php:197 admin/_premium.php:301 admin/_publish.php:170
-#: admin/_publish.php:258 admin/_republish.php:231 admin/_republish.php:335
+#: admin/_publish.php:258 admin/_republish.php:232 admin/_republish.php:336
 msgid "Clear prices"
 msgstr ""
 
 #: admin/_highlight.php:232 admin/_image.php:170 admin/_movetotop.php:167
-#: admin/_premium.php:215 admin/_publish.php:175 admin/_republish.php:249
+#: admin/_premium.php:215 admin/_publish.php:175 admin/_republish.php:250
 #: user/banner_form.php:54
 msgid "Category"
 msgstr ""
 
 #: admin/_highlight.php:242 admin/_image.php:177 admin/_movetotop.php:174
-#: admin/_premium.php:225 admin/_publish.php:182 admin/_republish.php:259
+#: admin/_premium.php:225 admin/_publish.php:182 admin/_republish.php:260
 msgid "No categories has been added yet"
 msgstr ""
 
 #: admin/_highlight.php:250 admin/_image.php:185 admin/_movetotop.php:182
-#: admin/_premium.php:233 admin/_publish.php:190 admin/_republish.php:267
+#: admin/_premium.php:233 admin/_publish.php:190 admin/_republish.php:268
 msgid "Main category"
 msgstr ""
 
 #: admin/_highlight.php:262 admin/_image.php:196 admin/_movetotop.php:193
-#: admin/_premium.php:245 admin/_publish.php:201 admin/_republish.php:279
+#: admin/_premium.php:245 admin/_publish.php:201 admin/_republish.php:280
 msgid "This option is disabled"
 msgstr ""
 
 #: admin/_highlight.php:272 admin/_image.php:207 admin/_movetotop.php:203
-#: admin/_premium.php:255 admin/_publish.php:211 admin/_republish.php:289
+#: admin/_premium.php:255 admin/_publish.php:211 admin/_republish.php:290
 msgid "Default price is used"
 msgstr ""
 
 #: admin/_highlight.php:278 admin/_highlight.php:362 admin/_image.php:213
 #: admin/_image.php:298 admin/_movetotop.php:209 admin/_movetotop.php:292
 #: admin/_premium.php:261 admin/_premium.php:345 admin/_publish.php:217
-#: admin/_publish.php:302 admin/_republish.php:295 admin/_republish.php:379
+#: admin/_publish.php:302 admin/_republish.php:296 admin/_republish.php:380
 #: admin/tax.php:101 admin/tax.php:106 admin/tax.php:112 admin/tax.php:119
 #: admin/tax.php:125 admin/tax.php:131 admin/tax.php:138 admin/tax.php:144
 #: admin/tax.php:150
@@ -2782,46 +2787,46 @@ msgid "Click to unlock field"
 msgstr ""
 
 #: admin/_highlight.php:298 admin/_image.php:234 admin/_movetotop.php:228
-#: admin/_premium.php:281 admin/_publish.php:238 admin/_republish.php:315
+#: admin/_premium.php:281 admin/_publish.php:238 admin/_republish.php:316
 msgid "Location Prices"
 msgstr ""
 
 #: admin/_highlight.php:303 admin/_image.php:239 admin/_movetotop.php:233
-#: admin/_premium.php:286 admin/_publish.php:243 admin/_republish.php:320
+#: admin/_premium.php:286 admin/_publish.php:243 admin/_republish.php:321
 msgid ""
 "You can set there uplift of price per country or region in range -90% to "
 "+300%. If you set +100%, fee in selected location will be doubled."
 msgstr ""
 
 #: admin/_highlight.php:304 admin/_image.php:240 admin/_movetotop.php:234
-#: admin/_premium.php:287 admin/_publish.php:244 admin/_republish.php:321
+#: admin/_premium.php:287 admin/_publish.php:244 admin/_republish.php:322
 msgid ""
 "Note that to get final fee amount, there are 3 variables: category, "
 "location, user membership."
 msgstr ""
 
 #: admin/_highlight.php:305 admin/_image.php:241 admin/_movetotop.php:235
-#: admin/_premium.php:288 admin/_publish.php:245 admin/_republish.php:322
+#: admin/_premium.php:288 admin/_publish.php:245 admin/_republish.php:323
 msgid "Leave blank or set to 0 to disable."
 msgstr ""
 
 #: admin/_highlight.php:323 admin/_image.php:259 admin/_movetotop.php:253
-#: admin/_premium.php:306 admin/_publish.php:263 admin/_republish.php:340
+#: admin/_premium.php:306 admin/_publish.php:263 admin/_republish.php:341
 msgid "Location"
 msgstr ""
 
 #: admin/_highlight.php:324 admin/_image.php:260 admin/_movetotop.php:254
-#: admin/_premium.php:307 admin/_publish.php:264 admin/_republish.php:341
+#: admin/_premium.php:307 admin/_publish.php:264 admin/_republish.php:342
 msgid "Uplift percentage"
 msgstr ""
 
 #: admin/_highlight.php:330 admin/_image.php:266 admin/_movetotop.php:260
-#: admin/_premium.php:313 admin/_publish.php:270 admin/_republish.php:347
+#: admin/_premium.php:313 admin/_publish.php:270 admin/_republish.php:348
 msgid "No locations has been added yet"
 msgstr ""
 
 #: admin/_highlight.php:366 admin/_image.php:302 admin/_movetotop.php:296
-#: admin/_premium.php:349 admin/_publish.php:306 admin/_republish.php:383
+#: admin/_premium.php:349 admin/_publish.php:306 admin/_republish.php:384
 msgid ""
 "Enter integer values only! It can be negative or possitive in range from -90 "
 "to 300."
@@ -2911,7 +2916,7 @@ msgid ""
 msgstr ""
 
 #: admin/_highlight.php:419 admin/_movetotop.php:316 admin/_premium.php:370
-#: admin/_republish.php:403 admin/banner.php:355 admin/tax.php:175
+#: admin/_republish.php:404 admin/banner.php:355 admin/tax.php:175
 #, php-format
 msgid "When enabled, users can %s their listings."
 msgstr ""
@@ -2920,14 +2925,14 @@ msgstr ""
 msgid "highlight"
 msgstr ""
 
-#: admin/_highlight.php:420 admin/_premium.php:371 admin/_republish.php:404
+#: admin/_highlight.php:420 admin/_premium.php:371 admin/_republish.php:405
 #: admin/tax.php:176
 msgid ""
 "Set default fee per 24 hours. This fee will be used to calculate fee for "
 "other durations."
 msgstr ""
 
-#: admin/_highlight.php:421 admin/_premium.php:372 admin/_republish.php:405
+#: admin/_highlight.php:421 admin/_premium.php:372 admin/_republish.php:406
 #: admin/tax.php:177
 #, php-format
 msgid ""
@@ -3157,78 +3162,78 @@ msgid ""
 "been used."
 msgstr ""
 
-#: admin/_republish.php:138
+#: admin/_republish.php:139
 msgid ""
 "Republish functionality enables to users to renew/republish their listings "
 "in selected intervals multiple times."
 msgstr ""
 
-#: admin/_republish.php:139
+#: admin/_republish.php:140
 msgid ""
 "Listing that is republished behaves like newly published listing and will be "
 "in top on search page."
 msgstr ""
 
-#: admin/_republish.php:140
+#: admin/_republish.php:141
 msgid ""
 "When republish paid, listing is instaltnly renewed and then republished in "
 "selected intervals."
 msgstr ""
 
-#: admin/_republish.php:145
+#: admin/_republish.php:146
 msgid "Enable Pay per Republish"
 msgstr ""
 
-#: admin/_republish.php:148
+#: admin/_republish.php:149
 msgid "When enabled, users can pay to mark their listings as republish."
 msgstr ""
 
-#: admin/_republish.php:162
+#: admin/_republish.php:163
 msgid "Duration of republish"
 msgstr ""
 
-#: admin/_republish.php:171
+#: admin/_republish.php:172
 msgid ""
 "Select at least 1 duration to make Pay per Republish functional (Press CTRL "
 "to select multiple)."
 msgstr ""
 
-#: admin/_republish.php:175
+#: admin/_republish.php:176
 msgid "Available repeats of republish"
 msgstr ""
 
-#: admin/_republish.php:184
+#: admin/_republish.php:185
 msgid ""
 "Select at least 1 repeat to make Pay per Republish functional (Press CTRL to "
 "select multiple)."
 msgstr ""
 
-#: admin/_republish.php:188
+#: admin/_republish.php:189
 msgid "Discount for multi-republish purchase"
 msgstr ""
 
-#: admin/_republish.php:192
+#: admin/_republish.php:193
 msgid ""
 "Discount is applied to purchase for each extra republish. If 5 republish of "
 "listing is bought, discount is applied 5 times."
 msgstr ""
 
-#: admin/_republish.php:403
+#: admin/_republish.php:404
 msgid "republish"
 msgstr ""
 
-#: admin/_republish.php:405
+#: admin/_republish.php:406
 msgid "republishing"
 msgstr ""
 
-#: admin/_republish.php:406
+#: admin/_republish.php:407
 msgid ""
 "Select available repeats of republish. I.e. when user purchase republish 24 "
 "hours with 3 repeats, listing will be republished 3 times, first time after "
 "24 hours from purchase and then 2 more times each after 24 hours."
 msgstr ""
 
-#: admin/_republish.php:407
+#: admin/_republish.php:408
 msgid ""
 "Set discount in integer format. This can motivate users to buy multi-repeat "
 "republish option. Let's say you set discount to 5. If user purchase 1 "
@@ -3237,7 +3242,7 @@ msgid ""
 "applied (9.75%)."
 msgstr ""
 
-#: admin/_republish.php:410
+#: admin/_republish.php:411
 msgid "Duration means after how long will be listing republished."
 msgstr ""
 
@@ -3513,7 +3518,7 @@ msgstr ""
 msgid "Fee for 1 click"
 msgstr ""
 
-#: admin/banner.php:137 functions.php:1484 index.php:703 index.php:728
+#: admin/banner.php:137 functions.php:1501 index.php:703 index.php:728
 msgid "Banners"
 msgstr ""
 
@@ -3856,7 +3861,7 @@ msgstr ""
 msgid "Pay per Publish"
 msgstr ""
 
-#: admin/item.php:9 functions.php:1958
+#: admin/item.php:9 functions.php:1991
 msgid "Highlight"
 msgstr ""
 
@@ -3864,7 +3869,7 @@ msgstr ""
 msgid "Pay to Show Images"
 msgstr ""
 
-#: admin/item.php:11 functions.php:1212 functions.php:1385 functions.php:1972
+#: admin/item.php:11 functions.php:1229 functions.php:1402 functions.php:2005
 #: user/item_post.php:131
 msgid "Move to Top"
 msgstr ""
@@ -3901,7 +3906,7 @@ msgstr ""
 msgid "Not member of any group"
 msgstr ""
 
-#: admin/log.php:137 functions.php:3011 functions.php:3019 functions.php:3027
+#: admin/log.php:137 functions.php:3047 functions.php:3055 functions.php:3063
 msgid "Wallet"
 msgstr ""
 
@@ -4045,8 +4050,8 @@ msgstr ""
 msgid "User Settings"
 msgstr ""
 
-#: admin/user.php:7 functions.php:1476 index.php:695 index.php:720
-#: index.php:929
+#: admin/user.php:7 functions.php:1493 index.php:695 index.php:720
+#: index.php:934
 msgid "Wallet & Packs"
 msgstr ""
 
@@ -4079,93 +4084,93 @@ msgstr ""
 msgid "Total amount"
 msgstr ""
 
-#: functions.php:282
+#: functions.php:299
 msgid "Page:"
 msgstr ""
 
-#: functions.php:366
+#: functions.php:383
 msgid "All listings"
 msgstr ""
 
-#: functions.php:367
+#: functions.php:384
 msgid "\"Buy now\" listings"
 msgstr ""
 
-#: functions.php:368
+#: functions.php:385
 msgid "Other listings"
 msgstr ""
 
-#: functions.php:475
+#: functions.php:492
 msgid "Invalid code, no voucher has been found"
 msgstr ""
 
-#: functions.php:478
+#: functions.php:495
 msgid "Invalid voucher type, this type of voucher cannot be added into cart"
 msgstr ""
 
-#: functions.php:481
+#: functions.php:498
 msgid "Invalid voucher type, this type of voucher is not credit type"
 msgstr ""
 
-#: functions.php:484
+#: functions.php:501
 #, php-format
 msgid "Voucher is not valid yet, promotion starts on %s"
 msgstr ""
 
-#: functions.php:487
+#: functions.php:504
 #, php-format
 msgid "Voucher is not valid anymore, promotion has ended on %s"
 msgstr ""
 
-#: functions.php:490
+#: functions.php:507
 msgid "Voucher is not valid anymore, it has reached maximum usage already"
 msgstr ""
 
-#: functions.php:493
+#: functions.php:510
 msgid "Voucher is not valid anymore, promotion has been cancelled"
 msgstr ""
 
-#: functions.php:496
+#: functions.php:513
 msgid ""
 "Voucher is not available for you as it is restricted just to certain "
 "customers"
 msgstr ""
 
-#: functions.php:499
+#: functions.php:516
 msgid ""
 "Voucher is not available for you as it is restricted just to certain "
 "membership groups"
 msgstr ""
 
-#: functions.php:502
+#: functions.php:519
 #, php-format
 msgid "Voucher could not be used, minimum order amount for voucher is %s"
 msgstr ""
 
-#: functions.php:505
+#: functions.php:522
 #, php-format
 msgid ""
 "You have used voucher %dx already, that is maximum allowed usage per customer"
 msgstr ""
 
-#: functions.php:519
+#: functions.php:536
 #, php-format
 msgid ""
 "Voucher could not be used, as cart contains one or more restricted products "
 "for this voucher (%s)"
 msgstr ""
 
-#: functions.php:538
+#: functions.php:555
 #, php-format
 msgid "%s discount has been applied"
 msgstr ""
 
-#: functions.php:540
+#: functions.php:557
 #, php-format
 msgid "%s has been added into your wallet"
 msgstr ""
 
-#: functions.php:663
+#: functions.php:680
 #, php-format
 msgid ""
 "An account limit has been introduced where you can have up to %s ads live at "
@@ -4175,285 +4180,285 @@ msgid ""
 "(published in %s days)."
 msgstr ""
 
-#: functions.php:668
+#: functions.php:685
 msgid "Premium membership and account limit"
 msgstr ""
 
-#: functions.php:670
+#: functions.php:687
 msgid "Buy"
 msgstr ""
 
-#: functions.php:690
+#: functions.php:707
 #, php-format
 msgid "You have %s in your wallet. %s to promote your listings!"
 msgstr ""
 
-#: functions.php:690
+#: functions.php:707
 msgid "Click here"
 msgstr ""
 
-#: functions.php:737
+#: functions.php:754
 msgid "This is your product, you cannot buy it!"
 msgstr ""
 
-#: functions.php:740 functions.php:742 functions.php:1313 user/pack.php:164
+#: functions.php:757 functions.php:759 functions.php:1330 user/pack.php:164
 msgid "Add to cart"
 msgstr ""
 
-#: functions.php:747
+#: functions.php:764
 msgid "In stock"
 msgstr ""
 
-#: functions.php:749
+#: functions.php:766
 msgid "Sold out!"
 msgstr ""
 
-#: functions.php:795 user/banner.php:24
+#: functions.php:812 user/banner.php:24
 msgid "Advertise here!"
 msgstr ""
 
-#: functions.php:875 functions.php:915
+#: functions.php:892 functions.php:932
 msgid "Enable Sale"
 msgstr ""
 
-#: functions.php:881 functions.php:921
+#: functions.php:898 functions.php:938
 msgid "Enable online sales for this item. Payment goes to site owner account."
 msgstr ""
 
-#: functions.php:893 functions.php:933
+#: functions.php:910 functions.php:950
 msgid "Require shipping for this item."
 msgstr ""
 
-#: functions.php:893 functions.php:933
+#: functions.php:910 functions.php:950
 msgid "Manage my shipping options"
 msgstr ""
 
-#: functions.php:900 functions.php:940
+#: functions.php:917 functions.php:957
 msgid "Available Quantity"
 msgstr ""
 
-#: functions.php:903 functions.php:943
+#: functions.php:920 functions.php:960
 msgid "Enter how much quantity of this product is available."
 msgstr ""
 
-#: functions.php:998 functions.php:1006
+#: functions.php:1015 functions.php:1023
 msgid "Referral code"
 msgstr ""
 
-#: functions.php:1001 functions.php:1009
+#: functions.php:1018 functions.php:1026
 #, php-format
 msgid "Get %s for using referral code from your friend"
 msgstr ""
 
-#: functions.php:1064
+#: functions.php:1081
 #, php-format
 msgid "Credit for using referral code %s to user %s (%s) at %s"
 msgstr ""
 
-#: functions.php:1069
+#: functions.php:1086
 #, php-format
 msgid "Credit for providing referral code %s to user %s (%s) at %s"
 msgstr ""
 
-#: functions.php:1072
+#: functions.php:1089
 #, php-format
 msgid ""
 "Referral code %s successfully used. You and your friend got bonus %s to "
 "wallet"
 msgstr ""
 
-#: functions.php:1074
+#: functions.php:1091
 #, php-format
 msgid "Referral code %s was not recognized."
 msgstr ""
 
-#: functions.php:1120
+#: functions.php:1137
 msgid "Listing will not be visible until administrator approves it"
 msgstr ""
 
-#: functions.php:1177
+#: functions.php:1194
 #, php-format
 msgid ""
 "Item ID %s has not been paid yet, you cannot activate item until publish fee "
 "%s is paid. In order to show listing click on \"Pay Publish Fee\" link."
 msgstr ""
 
-#: functions.php:1199 user/item_post.php:82
+#: functions.php:1216 user/item_post.php:82
 msgid "In order to show your listing it is required to pay publish fee"
 msgstr ""
 
-#: functions.php:1199 user/item_post.php:81
+#: functions.php:1216 user/item_post.php:81
 msgid "Publish Fee"
 msgstr ""
 
-#: functions.php:1201 functions.php:1954
+#: functions.php:1218 functions.php:1987
 msgid "Publish fee"
 msgstr ""
 
-#: functions.php:1212 user/item_post.php:132
+#: functions.php:1229 user/item_post.php:132
 msgid "Your listings will be moved to top position in search results"
 msgstr ""
 
-#: functions.php:1214
+#: functions.php:1231
 msgid "Move to top fee"
 msgstr ""
 
-#: functions.php:1225 user/item_post.php:107
+#: functions.php:1242 user/item_post.php:107
 msgid "In order to show images on your listing it is required to pay fee"
 msgstr ""
 
-#: functions.php:1225 user/item_post.php:106
+#: functions.php:1242 user/item_post.php:106
 msgid "Show Images Fee"
 msgstr ""
 
-#: functions.php:1227
+#: functions.php:1244
 msgid "Show images fee"
 msgstr ""
 
-#: functions.php:1238 functions.php:1956
+#: functions.php:1255 functions.php:1989
 msgid "Make Premium"
 msgstr ""
 
-#: functions.php:1240
+#: functions.php:1257
 msgid "Extend Premium"
 msgstr ""
 
-#: functions.php:1243 user/item_post.php:167
+#: functions.php:1260 user/item_post.php:167
 msgid "Make your listing unique on home and search page!"
 msgstr ""
 
-#: functions.php:1249 user/item_post.php:218
+#: functions.php:1266 user/item_post.php:218
 msgid "Highlight Item"
 msgstr ""
 
-#: functions.php:1251
+#: functions.php:1268
 msgid "Extend Highlight"
 msgstr ""
 
-#: functions.php:1254 user/item_post.php:219
+#: functions.php:1271 user/item_post.php:219
 msgid "Make listing more visible and attract more people!"
 msgstr ""
 
-#: functions.php:1275
+#: functions.php:1292
 msgid "Automatically Republish Item"
 msgstr ""
 
-#: functions.php:1277
+#: functions.php:1294
 msgid "Extend Republish"
 msgstr ""
 
-#: functions.php:1286
+#: functions.php:1303
 msgid ""
 "Listing will be instantly renewed and then republished multiple times in "
 "selected intervals"
 msgstr ""
 
-#: functions.php:1288
+#: functions.php:1305
 msgid "How often republish item?"
 msgstr ""
 
-#: functions.php:1298
+#: functions.php:1315
 msgid "How many times?"
 msgstr ""
 
-#: functions.php:1301
+#: functions.php:1318
 msgid "Repeat"
 msgstr ""
 
-#: functions.php:1316
+#: functions.php:1333
 msgid "No promotion options available"
 msgstr ""
 
-#: functions.php:1355
+#: functions.php:1372
 msgid "Unpaid"
 msgstr ""
 
-#: functions.php:1361
+#: functions.php:1378
 msgid "Show image paid"
 msgstr ""
 
-#: functions.php:1361
+#: functions.php:1378
 msgid "Highlight paid"
 msgstr ""
 
-#: functions.php:1361
+#: functions.php:1378
 msgid "Republish paid"
 msgstr ""
 
-#: functions.php:1362
+#: functions.php:1379
 msgid "Show image not paid"
 msgstr ""
 
-#: functions.php:1362
+#: functions.php:1379
 msgid "Highlight pending payment"
 msgstr ""
 
-#: functions.php:1362
+#: functions.php:1379
 msgid "Republish pending payment"
 msgstr ""
 
-#: functions.php:1385
+#: functions.php:1402
 msgid "Pay Show Image"
 msgstr ""
 
-#: functions.php:1385
+#: functions.php:1402
 msgid "Pay Highlight"
 msgstr ""
 
-#: functions.php:1385
+#: functions.php:1402
 msgid "Pay Publish Fee"
 msgstr ""
 
-#: functions.php:1386
+#: functions.php:1403
 msgid "Disable Show Image"
 msgstr ""
 
-#: functions.php:1386
+#: functions.php:1403
 msgid "Unhighlight"
 msgstr ""
 
-#: functions.php:1387
+#: functions.php:1404
 msgid "Require Pay Show Image"
 msgstr ""
 
-#: functions.php:1387
+#: functions.php:1404
 msgid "Require Pay Publish Fee"
 msgstr ""
 
-#: functions.php:1446
+#: functions.php:1463
 #, php-format
 msgid "Credit for registration to user %s (%s) at %s"
 msgstr ""
 
-#: functions.php:1446
+#: functions.php:1463
 msgid "Registration bonus credits"
 msgstr ""
 
-#: functions.php:1447
+#: functions.php:1464
 #, php-format
 msgid ""
 "As a bonus for registration we have just boost your wallet with %s. Feel "
 "free to use them for promotion of your listings!"
 msgstr ""
 
-#: functions.php:1480 functions.php:1966 index.php:699 index.php:724
-#: index.php:930 model/ModelOSP.php:1400
+#: functions.php:1497 functions.php:1999 index.php:699 index.php:724
+#: index.php:935 model/ModelOSP.php:1415
 msgid "Membership"
 msgstr ""
 
-#: functions.php:1488 index.php:707 index.php:732 index.php:942 index.php:943
+#: functions.php:1505 index.php:707 index.php:732 index.php:947 index.php:948
 msgid "Orders & Sales"
 msgstr ""
 
-#: functions.php:1491 index.php:710 index.php:735
+#: functions.php:1508 index.php:710 index.php:735
 msgid "Cart"
 msgstr ""
 
-#: functions.php:1492
+#: functions.php:1509
 msgid "Payments"
 msgstr ""
 
-#: functions.php:1617
+#: functions.php:1634
 #, php-format
 msgid ""
 "Important! Osclass Pay plugin has restricted this category and it's content "
@@ -4462,526 +4467,531 @@ msgid ""
 "customers."
 msgstr ""
 
-#: functions.php:1748 functions.php:1752
+#: functions.php:1770 functions.php:1777
 #, php-format
 msgid "%d hours"
 msgstr ""
 
-#: functions.php:1750
+#: functions.php:1773
+#, php-format
+msgid "%d minutes"
+msgstr ""
+
+#: functions.php:1775
 #, php-format
 msgid "%d hour"
 msgstr ""
 
-#: functions.php:1754
+#: functions.php:1779
 #, php-format
 msgid "%d day"
 msgstr ""
 
-#: functions.php:1756
+#: functions.php:1781
 #, php-format
 msgid "%d days"
 msgstr ""
 
-#: functions.php:1758
+#: functions.php:1783
 #, php-format
 msgid "%d week"
 msgstr ""
 
-#: functions.php:1760
+#: functions.php:1785
 #, php-format
 msgid "%d weeks"
 msgstr ""
 
-#: functions.php:1762
+#: functions.php:1787
 #, php-format
 msgid "%d month"
 msgstr ""
 
-#: functions.php:1764
+#: functions.php:1789
 #, php-format
 msgid "%d months"
 msgstr ""
 
-#: functions.php:1766
+#: functions.php:1791
 #, php-format
 msgid "%d year"
 msgstr ""
 
-#: functions.php:1768
+#: functions.php:1793
 #, php-format
 msgid "%d years"
 msgstr ""
 
-#: functions.php:1960
+#: functions.php:1993
 msgid "Show Image"
 msgstr ""
 
-#: functions.php:1962
+#: functions.php:1995
 msgid "Credit Pack"
 msgstr ""
 
-#: functions.php:1964 functions.php:1970
+#: functions.php:1997 functions.php:2003
 msgid "Republish"
 msgstr ""
 
-#: functions.php:1968
+#: functions.php:2001
 msgid "Pay Items"
 msgstr ""
 
-#: functions.php:1974 index.php:444 index.php:523
+#: functions.php:2007 index.php:444 index.php:523
 msgid "Banner"
 msgstr ""
 
-#: functions.php:1980
+#: functions.php:2013
 msgid "Pay booking"
 msgstr ""
 
-#: functions.php:1982 user/pack.php:95
+#: functions.php:2015 user/pack.php:95
 msgid "Voucher"
 msgstr ""
 
-#: functions.php:2126
+#: functions.php:2162
 msgid ""
 "You have selected same or lower membership group, your remaining expiration "
 "days of group were transfered."
 msgstr ""
 
-#: functions.php:2128
+#: functions.php:2164
 msgid "Your remaining expiration days of group were transfered."
 msgstr ""
 
-#: functions.php:2135
+#: functions.php:2171
 msgid ""
 "You have selected same or higher membership group, we have moved remaining "
 "expiration days to your new group."
 msgstr ""
 
-#: functions.php:2362 functions.php:2463 user/products.php:120
+#: functions.php:2398 functions.php:2499 user/products.php:120
 msgid "Title"
 msgstr ""
 
-#: functions.php:2362 functions.php:2463 user/products.php:121
+#: functions.php:2398 functions.php:2499 user/products.php:121
 msgid "Price"
 msgstr ""
 
-#: functions.php:2368
+#: functions.php:2404
 #, php-format
 msgid "Item %s"
 msgstr ""
 
-#: functions.php:2371
+#: functions.php:2407
 #, php-format
 msgid "Item %s (%s)"
 msgstr ""
 
-#: functions.php:2374
+#: functions.php:2410
 #, php-format
 msgid "Item %s (%s, repeat %sx)"
 msgstr ""
 
-#: functions.php:2378
+#: functions.php:2414
 #, php-format
 msgid "Credit pack %s (get %s, pay %s)"
 msgstr ""
 
-#: functions.php:2390
+#: functions.php:2426
 #, php-format
 msgid "Membership in %s (%s days)"
 msgstr ""
 
-#: functions.php:2395
+#: functions.php:2431
 #, php-format
 msgid "Banner %s (budget %s)"
 msgstr ""
 
-#: functions.php:2410
+#: functions.php:2446
 msgid "Unknown seller"
 msgstr ""
 
-#: functions.php:2414
+#: functions.php:2450
 #, php-format
 msgid "Delivery by %s from %s"
 msgstr ""
 
-#: functions.php:2421
+#: functions.php:2457
 msgid "Change"
 msgstr ""
 
-#: functions.php:2423
+#: functions.php:2459
 msgid "Available delivery options"
 msgstr ""
 
-#: functions.php:2436 functions.php:2546
+#: functions.php:2472 functions.php:2582
 msgid "Unknown shipping"
 msgstr ""
 
-#: functions.php:2441 model/ModelOSP.php:3440
+#: functions.php:2477 model/ModelOSP.php:3455
 #, php-format
 msgid "Standard shipping from %s"
 msgstr ""
 
-#: functions.php:2453
+#: functions.php:2489
 #, php-format
 msgid "Voucher %s (-%s)"
 msgstr ""
 
-#: functions.php:2457
+#: functions.php:2493
 #, php-format
 msgid "Booking / Reservation #%s"
 msgstr ""
 
-#: functions.php:2466
+#: functions.php:2502
 #, php-format
 msgid "Purchase %s for %s"
 msgstr ""
 
-#: functions.php:2469 functions.php:2572
+#: functions.php:2505 functions.php:2608
 msgid "Pay cart items"
 msgstr ""
 
-#: functions.php:2472
+#: functions.php:2508
 msgid "Not recognized"
 msgstr ""
 
-#: functions.php:2501
+#: functions.php:2537
 #, php-format
 msgid "%sx Publish fee for item %s"
 msgstr ""
 
-#: functions.php:2503
+#: functions.php:2539
 #, php-format
 msgid "%sx Image fee for item %s"
 msgstr ""
 
-#: functions.php:2505
+#: functions.php:2541
 #, php-format
 msgid "%sx Move to top fee for item %s"
 msgstr ""
 
-#: functions.php:2507
+#: functions.php:2543
 #, php-format
 msgid "%sx Premium fee for item %s, expire in %s"
 msgstr ""
 
-#: functions.php:2509
+#: functions.php:2545
 #, php-format
 msgid "%sx Highlight fee for item %s, expire in %s"
 msgstr ""
 
-#: functions.php:2511
+#: functions.php:2547
 #, php-format
 msgid "%sx Republish fee for item %s, expire in %s, repeat %sx"
 msgstr ""
 
-#: functions.php:2515
+#: functions.php:2551
 #, php-format
 msgid "%sx Membership in group %s, expire in %s days"
 msgstr ""
 
-#: functions.php:2520
+#: functions.php:2556
 #, php-format
 msgid "%sx Credit pack %s (get %s, pay %s)"
 msgstr ""
 
-#: functions.php:2525
+#: functions.php:2561
 #, php-format
 msgid "%sx Banner %s (budget %s)"
 msgstr ""
 
-#: functions.php:2531
+#: functions.php:2567
 #, php-format
 msgid "%sx Shipping %s (%s)"
 msgstr ""
 
-#: functions.php:2533
+#: functions.php:2569
 #, php-format
 msgid "%sx Unknown shipping"
 msgstr ""
 
-#: functions.php:2544
+#: functions.php:2580
 #, php-format
 msgid "%sx Shipping %s (%s) from %s"
 msgstr ""
 
-#: functions.php:2551
+#: functions.php:2587
 #, php-format
 msgid "%sx Standard shipping from %s"
 msgstr ""
 
-#: functions.php:2563
+#: functions.php:2599
 #, php-format
 msgid "%sx Voucher %s (-%s)"
 msgstr ""
 
-#: functions.php:2567
+#: functions.php:2603
 #, php-format
 msgid "%sx Booking / Reservation %s"
 msgstr ""
 
-#: functions.php:2570
+#: functions.php:2606
 #, php-format
 msgid "%sx Purchase item %s, regular unit price %s"
 msgstr ""
 
-#: functions.php:2574
+#: functions.php:2610
 #, php-format
 msgid "Not recognized (%s)"
 msgstr ""
 
-#: functions.php:2589
+#: functions.php:2625
 msgid "In order to show your listing, it is required to pay publish fee."
 msgstr ""
 
-#: functions.php:2592
+#: functions.php:2628
 msgid "To show images on your listing, it is required to pay image fee."
 msgstr ""
 
-#: functions.php:2595
+#: functions.php:2631
 msgid ""
 "Your listing will be moved to top position and will look like newly "
 "published."
 msgstr ""
 
-#: functions.php:2598
+#: functions.php:2634
 msgid "Make your listing more visible on home and search page."
 msgstr ""
 
-#: functions.php:2601
+#: functions.php:2637
 msgid ""
 "Listing will be highlighted between other listings and attract more people."
 msgstr ""
 
-#: functions.php:2604
+#: functions.php:2640
 msgid ""
 "Your item will be instantly renewed and then automatically republished in "
 "selected period repeatedly."
 msgstr ""
 
-#: functions.php:2607
+#: functions.php:2643
 msgid "Save time with transaction and get credits on your account."
 msgstr ""
 
-#: functions.php:2610
+#: functions.php:2646
 msgid "Get access to unique content or use global discounts for promotions."
 msgstr ""
 
-#: functions.php:2613
+#: functions.php:2649
 msgid "Pay banner budget and advertise on our site."
 msgstr ""
 
-#: functions.php:2616
+#: functions.php:2652
 msgid "Pay shipping fee related to delivery of product."
 msgstr ""
 
-#: functions.php:2619
+#: functions.php:2655
 msgid "Purchase item."
 msgstr ""
 
-#: functions.php:2622
+#: functions.php:2658
 msgid "Pay cart items."
 msgstr ""
 
-#: functions.php:2625
+#: functions.php:2661
 msgid "Get discount on your order."
 msgstr ""
 
-#: functions.php:2628
+#: functions.php:2664
 msgid "Pay for reservation/booking."
 msgstr ""
 
-#: functions.php:2632
+#: functions.php:2668
 msgid "Not recognized."
 msgstr ""
 
-#: functions.php:2655
+#: functions.php:2691
 #, php-format
 msgid ""
 "Not enough products in stock, only %s pieces are available. This product has "
 "been removed from cart."
 msgstr ""
 
-#: functions.php:2677
+#: functions.php:2713
 msgid "Publish Paid"
 msgstr ""
 
-#: functions.php:2679
+#: functions.php:2715
 msgid "Image Paid"
 msgstr ""
 
-#: functions.php:2681
+#: functions.php:2717
 msgid "Premium Paid"
 msgstr ""
 
-#: functions.php:2681
+#: functions.php:2717
 #, php-format
 msgid "Premium mark will expire on %s"
 msgstr ""
 
-#: functions.php:2683
+#: functions.php:2719
 msgid "Highlight Paid"
 msgstr ""
 
-#: functions.php:2683
+#: functions.php:2719
 #, php-format
 msgid "Highlight will expire on %s"
 msgstr ""
 
-#: functions.php:2685
+#: functions.php:2721
 msgid "Republish Paid"
 msgstr ""
 
-#: functions.php:2685
+#: functions.php:2721
 #, php-format
 msgid "Replubish every %s, repeat %s more time(s). Next republish on %s"
 msgstr ""
 
-#: functions.php:2688
+#: functions.php:2724
 msgid "Moved to Top"
 msgstr ""
 
-#: functions.php:2688
+#: functions.php:2724
 #, php-format
 msgid "Last move to top on %s"
 msgstr ""
 
-#: functions.php:2785
+#: functions.php:2821
 #, php-format
 msgid ""
 "Membership in %s has been removed from cart and replaced with membership in "
 "%s."
 msgstr ""
 
-#: functions.php:2798
+#: functions.php:2834
 #, php-format
 msgid "Voucher %s has been removed from cart and replaced with %s."
 msgstr ""
 
-#: functions.php:2820
+#: functions.php:2856
 #, php-format
 msgid "Not enough products in stock, only %s products has been added to cart."
 msgstr ""
 
-#: functions.php:3008
+#: functions.php:3044
 msgid "Click to complete order"
 msgstr ""
 
-#: functions.php:3013
+#: functions.php:3049
 msgid "Complete order"
 msgstr ""
 
-#: functions.php:3016
+#: functions.php:3052
 msgid "Funds will be withdrawn from your wallet (credits)"
 msgstr ""
 
-#: functions.php:3021 functions.php:3029
+#: functions.php:3057 functions.php:3065
 msgid "Pay with credits"
 msgstr ""
 
-#: functions.php:3024
+#: functions.php:3060
 msgid "You do not have enough funds in your wallet"
 msgstr ""
 
-#: functions.php:3047
+#: functions.php:3083
 msgid ""
 "This button is visible just in case you are logged in as admin in browser."
 msgstr ""
 
-#: functions.php:3050
+#: functions.php:3086
 msgid "AdminPay"
 msgstr ""
 
-#: functions.php:3052
+#: functions.php:3088
 msgid "Pay as Admin"
 msgstr ""
 
-#: functions.php:3070
+#: functions.php:3106
 msgid ""
 "Payment will be accepted after administrator confirms funds delivered to our "
 "account."
 msgstr ""
 
-#: functions.php:3073 functions.php:3081
+#: functions.php:3109 functions.php:3117
 msgid "Transfer"
 msgstr ""
 
-#: functions.php:3075 functions.php:3083
+#: functions.php:3111 functions.php:3119
 msgid "Pay via Bank Transfer"
 msgstr ""
 
-#: functions.php:3078
+#: functions.php:3114
 #, php-format
 msgid "Minimum amount for Bank Transfer is %s."
 msgstr ""
 
-#: functions.php:3289
+#: functions.php:3325
 msgid ""
 "This category require to pay fee to show listing images. In order to show "
 "images to customers, go to your account and pay fee."
 msgstr ""
 
-#: functions.php:3375
+#: functions.php:3411
 msgid "Last 10 cron runs"
 msgstr ""
 
-#: functions.php:3382
+#: functions.php:3418
 msgid ""
 "Following expirations were checked: Premium, Highlight, Republish, User "
 "Membership."
 msgstr ""
 
-#: functions.php:3385
+#: functions.php:3421
 msgid ""
 "Hourly cron was not executed yet. If problem persist, check osclass "
 "documentation and contact your hosting provider."
 msgstr ""
 
-#: functions.php:3388
+#: functions.php:3424
 msgid "Last cron run"
 msgstr ""
 
-#: functions.php:3388
+#: functions.php:3424
 msgid "none"
 msgstr ""
 
-#: functions.php:3395
+#: functions.php:3431
 msgid "Last per. bonus issued"
 msgstr ""
 
-#: functions.php:3395 functions.php:3398
+#: functions.php:3431 functions.php:3434
 msgid "never"
 msgstr ""
 
-#: functions.php:3398
+#: functions.php:3434
 msgid "Last periodical bonus has been send to users on"
 msgstr ""
 
-#: functions.php:3400
+#: functions.php:3436
 msgid ""
 "Periodical bonus has not been sent yet, check your cron settings and ensure "
 "it is working properly."
 msgstr ""
 
-#: functions.php:3897
+#: functions.php:3933
 msgid "lowest"
 msgstr ""
 
-#: functions.php:3899
+#: functions.php:3935
 msgid "highest"
 msgstr ""
 
-#: functions.php:3921
+#: functions.php:3957
 msgid "Extend Membership"
 msgstr ""
 
-#: functions.php:3923
+#: functions.php:3959
 msgid "Downgrade Plan"
 msgstr ""
 
-#: functions.php:3925 functions.php:3932
+#: functions.php:3961 functions.php:3968
 msgid "Become Member"
 msgstr ""
 
-#: functions.php:3927
+#: functions.php:3963
 msgid "Upgrade Plan"
 msgstr ""
 
@@ -5074,99 +5084,99 @@ msgid ""
 "expiring"
 msgstr ""
 
-#: index.php:837
+#: index.php:842
 msgid "Pending bank transfer"
 msgstr ""
 
-#: index.php:837
+#: index.php:842
 msgid "Pending bank transfers"
 msgstr ""
 
-#: index.php:862
+#: index.php:867
 msgid "Pending banner"
 msgstr ""
 
-#: index.php:862
+#: index.php:867
 msgid "Pending banners"
 msgstr ""
 
-#: index.php:884
+#: index.php:889
 msgid "New order"
 msgstr ""
 
-#: index.php:884
+#: index.php:889
 msgid "New orders"
 msgstr ""
 
-#: index.php:920 index.php:921 index.php:924 index.php:925
+#: index.php:925 index.php:926 index.php:929 index.php:930
 msgid "Listings promotion"
 msgstr ""
 
-#: index.php:926 index.php:927 index.php:928
+#: index.php:931 index.php:932 index.php:933
 msgid "Shopping cart"
 msgstr ""
 
-#: index.php:931 index.php:932 user/banner_form.php:5
+#: index.php:936 index.php:937 user/banner_form.php:5
 msgid "Advertisement"
 msgstr ""
 
-#: index.php:936 index.php:937
+#: index.php:941 index.php:942
 msgid "Orders management"
 msgstr ""
 
-#: index.php:938 index.php:939
+#: index.php:943 index.php:944
 msgid "Products management"
 msgstr ""
 
-#: index.php:940 index.php:941 user/manager.php:72 user/order.php:26
+#: index.php:945 index.php:946 user/manager.php:72 user/order.php:26
 #: user/products.php:65 user/sales.php:32 user/shipping.php:93
 msgid "Sales"
 msgstr ""
 
-#: index.php:944
+#: index.php:949
 msgid "Payments history"
 msgstr ""
 
-#: index.php:945
+#: index.php:950
 msgid "Restricted access"
 msgstr ""
 
-#: model/ModelOSP.php:1321
+#: model/ModelOSP.php:1334
 msgid "Listings section"
 msgstr ""
 
-#: model/ModelOSP.php:1334
+#: model/ModelOSP.php:1347
 msgid "Remove premium mark"
 msgstr ""
 
-#: model/ModelOSP.php:1339
+#: model/ModelOSP.php:1352
 msgid "Remove highlight mark"
 msgstr ""
 
-#: model/ModelOSP.php:1345
+#: model/ModelOSP.php:1358
 msgid "Remove repblish options (all were used)"
 msgstr ""
 
-#: model/ModelOSP.php:1360
+#: model/ModelOSP.php:1375
 #, php-format
 msgid "Republish item, %d repeats left, next republish on %s."
 msgstr ""
 
-#: model/ModelOSP.php:1390
+#: model/ModelOSP.php:1405
 msgid "Users section"
 msgstr ""
 
-#: model/ModelOSP.php:1400
+#: model/ModelOSP.php:1415
 #, php-format
 msgid "Membership in %s expired"
 msgstr ""
 
-#: model/ModelOSP.php:3372
+#: model/ModelOSP.php:3387
 #, php-format
 msgid "Membership discount %s%% of user group %s has been applied."
 msgstr ""
 
-#: model/ModelOSP.php:3440
+#: model/ModelOSP.php:3455
 #, php-format
 msgid "Unknown (#%s)"
 msgstr ""
@@ -5541,7 +5551,8 @@ msgid "Pay with Instamojo"
 msgstr ""
 
 #: payments/instamojo/InstamojoPayment.php:73
-msgid "There is problem with payment button, please try again later."
+#, php-format
+msgid "There is problem with payment button, please try again later. (%s)"
 msgstr ""
 
 #: payments/instamojo/InstamojoPayment.php:131
@@ -6030,130 +6041,130 @@ msgstr ""
 msgid "Your cart is empty"
 msgstr ""
 
-#: user/cart.php:102 user/item_pay.php:84
+#: user/cart.php:104 user/item_pay.php:86
 msgid "Qty"
 msgstr ""
 
-#: user/cart.php:103 user/item_pay.php:85
+#: user/cart.php:105 user/item_pay.php:87
 msgid "Total Price"
 msgstr ""
 
-#: user/cart.php:122
+#: user/cart.php:124
 msgid "Some products has been removed from your cart due to incorrect price"
 msgstr ""
 
-#: user/cart.php:131
+#: user/cart.php:133
 msgid ""
 "Booking/Reservation has already been paid or it was removed. Booking/"
 "Reservation has been removed from cart."
 msgstr ""
 
-#: user/cart.php:159
+#: user/cart.php:161
 #, php-format
 msgid "Voucher %s removed from cart: %s"
 msgstr ""
 
-#: user/cart.php:182
+#: user/cart.php:184
 msgid "Click to update quantity"
 msgstr ""
 
-#: user/cart.php:183
+#: user/cart.php:185
 msgid "Unit price"
 msgstr ""
 
-#: user/cart.php:187
+#: user/cart.php:189
 msgid ""
 "Shipping is required and cannot be removed. If you remove all products those "
 "require shipping, shipping will be removed from cart automatically"
 msgstr ""
 
-#: user/cart.php:206 user/item_pay.php:142
+#: user/cart.php:208 user/item_pay.php:144
 msgid "Cart summary"
 msgstr ""
 
-#: user/cart.php:213
+#: user/cart.php:215
 msgid "No products in your cart"
 msgstr ""
 
-#: user/cart.php:225 user/cart.php:226
+#: user/cart.php:227 user/cart.php:228
 msgid "Add a promo code"
 msgstr ""
 
-#: user/cart.php:228 user/pack.php:104
+#: user/cart.php:230 user/pack.php:104
 msgid "Apply"
 msgstr ""
 
-#: user/cart.php:242
+#: user/cart.php:244
 msgid "City is missing"
 msgstr ""
 
-#: user/cart.php:244
+#: user/cart.php:246
 msgid "Address is missing"
 msgstr ""
 
-#: user/cart.php:250
+#: user/cart.php:252
 msgid ""
 "Phone number is missing, you must enter at least one phone number (mobile or "
 "land)"
 msgstr ""
 
-#: user/cart.php:258
+#: user/cart.php:260
 msgid ""
 "One or more products in your cart require shipping. In order to complete "
 "order, you must fill city, address and at least 1 phone number in your "
 "profile."
 msgstr ""
 
-#: user/cart.php:259
+#: user/cart.php:261
 msgid "Errors:"
 msgstr ""
 
-#: user/cart.php:260
+#: user/cart.php:262
 msgid "Update profile"
 msgstr ""
 
-#: user/cart.php:264
+#: user/cart.php:266
 msgid ""
 "One or more products in your cart require shipping, these will be shipped to:"
 msgstr ""
 
-#: user/cart.php:277
+#: user/cart.php:279
 msgid ""
 "You cannot pay with your credits as your cart contains Credit Pack. In order "
 "to pay with your credits, please remove Credit Pack from your cart."
 msgstr ""
 
-#: user/cart.php:281
+#: user/cart.php:283
 msgid ""
 "You cannot pay with your credits as your cart contains Product. Payments for "
 "products using credits are not allowed."
 msgstr ""
 
-#: user/cart.php:285
+#: user/cart.php:287
 msgid ""
 "You cannot pay with your credits as your cart contains Booking/Reservation. "
 "Payments for bookings/reservations using credits are not allowed."
 msgstr ""
 
-#: user/cart.php:291
+#: user/cart.php:296
 msgid "Click on preferred method to initiate payment"
 msgstr ""
 
-#: user/cart.php:294
+#: user/cart.php:301
 #, php-format
 msgid "Pay %s cart items for %s by admin"
 msgstr ""
 
-#: user/cart.php:298 user/cart.php:302 user/cart.php:305
+#: user/cart.php:305 user/cart.php:310 user/cart.php:314
 #, php-format
 msgid "Pay %s cart items for %s"
 msgstr ""
 
-#: user/cart.php:313
+#: user/cart.php:322
 msgid "Click on button to complete order"
 msgstr ""
 
-#: user/cart.php:314
+#: user/cart.php:323
 #, php-format
 msgid "Free checkout for %s cart items"
 msgstr ""
@@ -6351,34 +6362,34 @@ msgstr ""
 msgid "Open listing"
 msgstr ""
 
-#: user/item_pay.php:129
+#: user/item_pay.php:131
 msgid "You cannot remove this fee as it is required"
 msgstr ""
 
-#: user/item_pay.php:148
+#: user/item_pay.php:150
 msgid "No promotions has been selected"
 msgstr ""
 
-#: user/item_pay.php:155
+#: user/item_pay.php:159
 msgid "Click on method to initiate payment"
 msgstr ""
 
-#: user/item_pay.php:159
+#: user/item_pay.php:165
 #, php-format
 msgid "Pay fee %s for item %s by admin"
 msgstr ""
 
-#: user/item_pay.php:163 user/item_pay.php:167 user/item_pay.php:168
-#: user/item_pay.php:170
+#: user/item_pay.php:169 user/item_pay.php:174 user/item_pay.php:178
+#: user/item_pay.php:182
 #, php-format
 msgid "Pay fee %s for item %s"
 msgstr ""
 
-#: user/item_pay.php:177
+#: user/item_pay.php:192
 msgid "There was problem showing promote options"
 msgstr ""
 
-#: user/item_pay.php:178
+#: user/item_pay.php:193
 msgid "This is not your listing or it has not been activated yet."
 msgstr ""
 
@@ -6746,7 +6757,16 @@ msgstr ""
 msgid "Transaction ID"
 msgstr ""
 
-#: user/payments.php:45 user/transfer_pay.php:33
+#: user/payments.php:42
+msgid "Initiated bank transfer payments - AWAITING YOUR PAYMENT!"
+msgstr ""
+
+#: user/payments.php:43
+#, php-format
+msgid "Bank account / IBAN: %s"
+msgstr ""
+
+#: user/payments.php:48 user/transfer_pay.php:43
 #, php-format
 msgid ""
 "Payment in progress. We are awaiting your bank transfer to our account. <br/"
@@ -6755,7 +6775,21 @@ msgid ""
 "transfer can take up to 3 days."
 msgstr ""
 
-#: user/payments.php:83
+#: user/payments.php:52
+msgid "Awaiting"
+msgstr ""
+
+#: user/payments.php:64
+#, php-format
+msgid ""
+"Transfer amount <b>%s</b> to account <b>%s</b> with variable symbol <b>%s</b>"
+msgstr ""
+
+#: user/payments.php:73
+msgid "Completed payments"
+msgstr ""
+
+#: user/payments.php:94
 msgid "No payments has been found"
 msgstr ""
 
@@ -6925,7 +6959,16 @@ msgstr ""
 msgid "Add a new shipping"
 msgstr ""
 
-#: user/transfer_pay.php:40
+#: user/transfer_pay.php:17
+msgid "Data checksum has failed, payment was cancelled."
+msgstr ""
+
+#: user/transfer_pay.php:20
+msgid ""
+"Bank transfer data are related to different user, payment was cancelled."
+msgstr ""
+
+#: user/transfer_pay.php:50
 msgid ""
 "There was problem recognizing your product, please try bank transfer payment "
 "again from your cart."

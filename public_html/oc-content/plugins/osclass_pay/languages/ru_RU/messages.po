@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Osclass Pay Plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-10 00:37+0300\n"
-"PO-Revision-Date: 2022-06-10 01:11+0300\n"
+"POT-Creation-Date: 2022-06-23 18:54+0300\n"
+"PO-Revision-Date: 2022-07-13 23:43+0300\n"
 "Last-Translator: Miso <miso546@azet.sk>\n"
 "Language-Team: MB Themes <info@mb-themes.com>\n"
 "Language: ru\n"
@@ -25,9 +25,9 @@ msgstr "Продажа продукции"
 
 #: admin/_ecommerce_backup.php:18 admin/_ecommerce_orders.php:8
 #: admin/_ecommerce_settings.php:21 admin/_gateway_backup.php:161
-#: admin/_gateway_settings.php:164 admin/_group.php:23 admin/_highlight.php:85
+#: admin/_gateway_settings.php:165 admin/_group.php:23 admin/_highlight.php:85
 #: admin/_image.php:67 admin/_movetotop.php:67 admin/_premium.php:83
-#: admin/_publish.php:68 admin/_republish.php:96 admin/_wallet.php:22
+#: admin/_publish.php:68 admin/_republish.php:97 admin/_wallet.php:22
 #: admin/banner.php:54 admin/configure.php:23 admin/tax.php:39
 msgid "Settings were successfully saved"
 msgstr "Настройки успешно сохранены"
@@ -56,7 +56,7 @@ msgid ""
 "User %s successfully removed from seller's list. This user cannot sell items "
 "anymore."
 msgstr ""
-"Пользователь %s успешно удален из списка продавца. Этот пользователь больше "
+"Пользователь %s успешно удален из списка продавцов. Этот пользователь больше "
 "не может продавать предметы."
 
 #: admin/_ecommerce_backup.php:98 admin/_ecommerce_users.php:38
@@ -144,8 +144,7 @@ msgstr "Подать Заявку на Участие"
 
 #: admin/_ecommerce_backup.php:210 admin/_ecommerce_settings.php:95
 msgid "When enabled, user membership discount is applied on product as well."
-msgstr ""
-"Когда включено, скидка на членство пользователя применяется и к продукту."
+msgstr "Когда включено, скидка подписки пользователя применяется и к продукту."
 
 #: admin/_ecommerce_backup.php:215 admin/_ecommerce_settings.php:100
 msgid "Disable Order Status"
@@ -180,9 +179,9 @@ msgstr ""
 #: admin/_movetotop.php:127 admin/_movetotop.php:218 admin/_movetotop.php:303
 #: admin/_premium.php:161 admin/_premium.php:271 admin/_premium.php:356
 #: admin/_publish.php:135 admin/_publish.php:228 admin/_publish.php:313
-#: admin/_republish.php:196 admin/_republish.php:305 admin/_republish.php:390
+#: admin/_republish.php:197 admin/_republish.php:306 admin/_republish.php:391
 #: admin/_wallet.php:179 admin/_wallet.php:303 admin/_wallet.php:373
-#: admin/banner.php:128 admin/tax.php:160
+#: admin/banner.php:128 admin/tax.php:160 printpdf/conf.php:43
 msgid "Update"
 msgstr "Обновить"
 
@@ -248,14 +247,14 @@ msgid "Set User as Seller"
 msgstr "Установите Пользователя в качестве Продавца"
 
 #: admin/_ecommerce_backup.php:301 admin/_ecommerce_backup.php:450
-#: admin/_ecommerce_users.php:126 functions.php:878 functions.php:890
-#: functions.php:918 functions.php:930
+#: admin/_ecommerce_users.php:126 functions.php:895 functions.php:907
+#: functions.php:935 functions.php:947
 msgid "No"
 msgstr "Нет"
 
 #: admin/_ecommerce_backup.php:302 admin/_ecommerce_backup.php:449
-#: admin/_ecommerce_users.php:127 functions.php:879 functions.php:891
-#: functions.php:919 functions.php:931
+#: admin/_ecommerce_users.php:127 functions.php:896 functions.php:908
+#: functions.php:936 functions.php:948
 msgid "Yes"
 msgstr "Да"
 
@@ -274,9 +273,9 @@ msgstr "Список активных продавцов"
 #: admin/_highlight.php:322 admin/_image.php:169 admin/_image.php:258
 #: admin/_movetotop.php:166 admin/_movetotop.php:252 admin/_premium.php:214
 #: admin/_premium.php:305 admin/_publish.php:174 admin/_publish.php:262
-#: admin/_republish.php:248 admin/_republish.php:339 admin/_wallet.php:213
-#: admin/banner.php:146 admin/log.php:30 admin/log.php:94 functions.php:2362
-#: functions.php:2463 user/cart.php:100 user/item_pay.php:82 user/order.php:92
+#: admin/_republish.php:249 admin/_republish.php:340 admin/_wallet.php:213
+#: admin/banner.php:146 admin/log.php:30 admin/log.php:94 functions.php:2398
+#: functions.php:2499 user/cart.php:102 user/item_pay.php:84 user/order.php:92
 #: user/products.php:119 user/sales.php:46 user/shipping.php:198
 msgid "ID"
 msgstr "ID"
@@ -286,12 +285,12 @@ msgid "Seller"
 msgstr "Продавец"
 
 #: admin/_ecommerce_backup.php:316 admin/_ecommerce_users.php:141
-#: functions.php:1473 index.php:699 index.php:724
+#: functions.php:1490 index.php:694 index.php:719
 msgid "Items"
 msgstr "Предметы"
 
 #: admin/_ecommerce_backup.php:318 admin/_ecommerce_users.php:143
-#: admin/log.php:60 admin/log.php:103 functions.php:363
+#: admin/log.php:60 admin/log.php:103 functions.php:380
 msgid "Type"
 msgstr "Тип"
 
@@ -322,7 +321,7 @@ msgstr ""
 #: admin/_ecommerce_backup.php:333 admin/_ecommerce_backup.php:422
 #: admin/_ecommerce_products.php:122 admin/_ecommerce_users.php:158
 msgid "No listings has been found"
-msgstr "Нет списков"
+msgstr "Не найдено ни одно объявление"
 
 #: admin/_ecommerce_backup.php:348 admin/_ecommerce_users.php:173
 msgid "Company"
@@ -421,7 +420,7 @@ msgid "Full Price"
 msgstr "Полная Цена"
 
 #: admin/_ecommerce_backup.php:517 admin/_gateway_backup.php:1645
-#: admin/_gateway_transfer.php:188 admin/banner.php:206 functions.php:1353
+#: admin/_gateway_transfer.php:188 admin/banner.php:206 functions.php:1370
 #: user/manager.php:122
 msgid "Paid"
 msgstr "Оплаченный"
@@ -484,20 +483,20 @@ msgid "Not set!"
 msgstr "Не задано!"
 
 #: admin/_ecommerce_backup.php:600 admin/_ecommerce_orders.php:287
-#: functions.php:182 user/manager.php:101 user/manager.php:199
+#: functions.php:199 user/manager.php:101 user/manager.php:199
 #: user/order.php:70 user/order.php:175 user/sales.php:126
 msgid "Processing"
 msgstr "Обработка"
 
 #: admin/_ecommerce_backup.php:601 admin/_ecommerce_orders.php:129
-#: admin/_ecommerce_orders.php:288 functions.php:184 user/manager.php:102
+#: admin/_ecommerce_orders.php:288 functions.php:201 user/manager.php:102
 #: user/manager.php:200 user/order.php:76 user/order.php:178 user/sales.php:129
 msgid "Shipped"
 msgstr "Отправленный"
 
 #: admin/_ecommerce_backup.php:602 admin/_ecommerce_backup.php:606
 #: admin/_ecommerce_orders.php:130 admin/_ecommerce_orders.php:289
-#: admin/_ecommerce_orders.php:293 functions.php:186 user/manager.php:103
+#: admin/_ecommerce_orders.php:293 functions.php:203 user/manager.php:103
 #: user/manager.php:197 user/manager.php:201 user/order.php:82
 #: user/order.php:172 user/order.php:181 user/sales.php:123 user/sales.php:132
 msgid "Completed"
@@ -505,7 +504,7 @@ msgstr "Завершенный"
 
 #: admin/_ecommerce_backup.php:603 admin/_ecommerce_orders.php:131
 #: admin/_ecommerce_orders.php:290 admin/_gateway_backup.php:1647
-#: admin/_gateway_transfer.php:190 functions.php:188 user/manager.php:104
+#: admin/_gateway_transfer.php:190 functions.php:205 user/manager.php:104
 #: user/manager.php:202 user/order.php:184 user/sales.php:135
 msgid "Cancelled"
 msgstr "Отменен"
@@ -520,8 +519,8 @@ msgid ""
 "In order to make eCommerce functional, it is required to convert any price "
 "of item, to currency of plugin, if it is different."
 msgstr ""
-"Чтобы функция eCommerce была функциональной, требуется конвертировать любую "
-"цену товара в валюту плагина, если она отличается."
+"Чтобы функция eCommerce была рабочей, требуется конвертировать любую цену "
+"товара в валюту плагина, если она отличается."
 
 #: admin/_ecommerce_backup.php:638
 msgid ""
@@ -593,8 +592,8 @@ msgid ""
 "If you have not used hook to place \"Add to cart\" button on item page, you "
 "can do it manually by modifying theme files."
 msgstr ""
-"Если вы не использовали крючок, чтобы поместить кнопку \"Добавить в корзину"
-"\" на странице элемента, вы можете сделать это вручную, изменяя файлы темы."
+"Если вы не использовали хук, чтобы поместить кнопку \"Добавить в корзину\" "
+"на странице элемента, вы можете сделать это вручную, изменяя файлы темы."
 
 #: admin/_ecommerce_backup.php:710 admin/_ecommerce_settings.php:164
 msgid ""
@@ -607,8 +606,9 @@ msgstr ""
 #: admin/_ecommerce_backup.php:721 admin/_ecommerce_settings.php:175
 #: admin/_group.php:517 admin/_highlight.php:416 admin/_image.php:352
 #: admin/_movetotop.php:313 admin/_premium.php:367 admin/_publish.php:322
-#: admin/_republish.php:400 admin/_wallet.php:384 admin/banner.php:352
+#: admin/_republish.php:401 admin/_wallet.php:384 admin/banner.php:352
 #: admin/configure.php:178 admin/log.php:169 admin/tax.php:172
+#: printpdf/index.php:39
 msgid "Help"
 msgstr "Помощь"
 
@@ -657,13 +657,12 @@ msgid ""
 "Enable to hook \"Add to cart\" button into hook item_detail on item page. "
 "Then there are no modifications required in order to enable product selling."
 msgstr ""
-"Включить крючок\" Добавить в корзину \" кнопку в крючок item_detail на "
-"странице элемента. Тогда нет изменений, необходимых для того, чтобы "
-"продавать продукт."
+"Включить хук \"Добавить в корзину\" кнопку в крючок item_detail на странице "
+"элемента. Тогда нет изменений, необходимых для того, чтобы продавать продукт."
 
 #: admin/_ecommerce_backup.php:729 admin/_ecommerce_settings.php:183
 msgid "Enable to apply membership discount on price of selling items."
-msgstr "Включить применение скидки на членство по цене продажи товаров."
+msgstr "Включить применение скидки на подписку по цене продажи товаров."
 
 #: admin/_ecommerce_backup.php:730 admin/_ecommerce_settings.php:184
 msgid ""
@@ -714,8 +713,8 @@ msgstr ""
 msgid "Buyer/Seller"
 msgstr ""
 
-#: admin/_ecommerce_orders.php:85 functions.php:1978 user/cart.php:101
-#: user/item_pay.php:83
+#: admin/_ecommerce_orders.php:85 functions.php:2011 user/cart.php:103
+#: user/item_pay.php:85
 msgid "Product"
 msgstr "Продукт"
 
@@ -813,7 +812,7 @@ msgid "Item #%s"
 msgstr "Предмет %s"
 
 #: admin/_ecommerce_orders.php:266 admin/_ecommerce_shipping.php:133
-#: functions.php:2441 functions.php:2544 functions.php:2551
+#: functions.php:2477 functions.php:2580 functions.php:2587
 #: user/manager.php:140
 msgid "N/A"
 msgstr ""
@@ -828,7 +827,7 @@ msgstr ""
 
 #: admin/_ecommerce_products.php:59 admin/_ecommerce_shipping.php:87
 #: admin/_gateway_backup.php:1597 admin/_gateway_transfer.php:140
-#: admin/banner.php:147 admin/log.php:50 index.php:450 index.php:529
+#: admin/banner.php:147 admin/log.php:50 index.php:445 index.php:524
 msgid "User"
 msgstr "Пользователь"
 
@@ -848,8 +847,8 @@ msgstr ""
 msgid "Availability"
 msgstr ""
 
-#: admin/_ecommerce_products.php:113 admin/ecommerce.php:10 functions.php:887
-#: functions.php:927 functions.php:1976 index.php:940 index.php:941
+#: admin/_ecommerce_products.php:113 admin/ecommerce.php:10 functions.php:904
+#: functions.php:944 functions.php:2009 index.php:940 index.php:941
 #: index.php:942 user/manager.php:75 user/order.php:29 user/products.php:68
 #: user/products.php:97 user/products.php:123 user/sales.php:35
 #: user/shipping.php:96
@@ -978,7 +977,7 @@ msgid "Bank transfer accepted successfully"
 msgstr "Банковский перевод принят"
 
 #: admin/_gateway_backup.php:235 admin/_gateway_transfer.php:83
-#: functions.php:2183
+#: functions.php:2219
 #, php-format
 msgid ""
 "Insufficient quantity on stock for product %s! We have %s items on stock, "
@@ -996,15 +995,15 @@ msgid "Bank transfer removed successfully"
 msgstr "Банковский перевод удален успешно"
 
 #: admin/_gateway_backup.php:284 admin/_gateway_backup.php:1584
-#: admin/_gateway_settings.php:173 admin/_gateway_transfer.php:127
+#: admin/_gateway_settings.php:174 admin/_gateway_transfer.php:127
 msgid "Payment Methods"
 msgstr "Способы оплаты"
 
-#: admin/_gateway_backup.php:299 admin/_gateway_settings.php:189
+#: admin/_gateway_backup.php:299 admin/_gateway_settings.php:190
 msgid "Bank Transfer Payments"
 msgstr "Bank Transfer Платежи"
 
-#: admin/_gateway_backup.php:305 admin/_gateway_settings.php:195
+#: admin/_gateway_backup.php:305 admin/_gateway_settings.php:196
 msgid ""
 "Note that each payment must be accepted/approved by admin. After approval, "
 "promotions are executed."
@@ -1013,7 +1012,7 @@ msgstr ""
 "администратором. После одобрения проводятся рекламные акции."
 
 #: admin/_gateway_backup.php:306 admin/_gateway_backup.php:1590
-#: admin/_gateway_settings.php:196 admin/_gateway_transfer.php:133
+#: admin/_gateway_settings.php:197 admin/_gateway_transfer.php:133
 msgid ""
 "Approve transaction just in case you see it on your bank account, this "
 "action cannot be undone."
@@ -1021,24 +1020,24 @@ msgstr ""
 "Одобрите транзакцию на всякий случай, если вы ее увидите на своем банковском "
 "счете, это действие не может быть отменено."
 
-#: admin/_gateway_backup.php:310 admin/_gateway_settings.php:200
+#: admin/_gateway_backup.php:310 admin/_gateway_settings.php:201
 msgid "Enable Bank Transfer Payments"
 msgstr "Включить платежи Bank Transfer"
 
-#: admin/_gateway_backup.php:313 admin/_gateway_settings.php:203
+#: admin/_gateway_backup.php:313 admin/_gateway_settings.php:204
 msgid "Using bank transfer is possible to pay just for credit packs."
 msgstr ""
 "Использование банковского перевода возможно только для кредитных пакетов."
 
-#: admin/_gateway_backup.php:317 admin/_gateway_settings.php:207
+#: admin/_gateway_backup.php:317 admin/_gateway_settings.php:208
 msgid "Bank Transfer IBAN"
 msgstr "Банковский перевод IBAN"
 
-#: admin/_gateway_backup.php:322 admin/_gateway_settings.php:212
+#: admin/_gateway_backup.php:322 admin/_gateway_settings.php:213
 msgid "Minimum Value for Transfer"
 msgstr "Минимальное значение для перевода"
 
-#: admin/_gateway_backup.php:326 admin/_gateway_settings.php:216
+#: admin/_gateway_backup.php:326 admin/_gateway_settings.php:217
 msgid ""
 "Payments with amount less than minimum will not be possible to pay using "
 "Bank Transfer."
@@ -1046,15 +1045,15 @@ msgstr ""
 "Платежи с суммой, которая меньше минимальной, не смогут быть оплачены с "
 "использованием Банковского перевода."
 
-#: admin/_gateway_backup.php:330 admin/_gateway_settings.php:220
+#: admin/_gateway_backup.php:330 admin/_gateway_settings.php:221
 msgid "Show existing bank transfers"
 msgstr "Показывать существующие банковские переводы"
 
-#: admin/_gateway_backup.php:340 admin/_gateway_settings.php:230
+#: admin/_gateway_backup.php:340 admin/_gateway_settings.php:231
 msgid "PayPal Payments"
 msgstr "Платежи PayPal"
 
-#: admin/_gateway_backup.php:346 admin/_gateway_settings.php:236
+#: admin/_gateway_backup.php:346 admin/_gateway_settings.php:237
 msgid ""
 "It is preferred to use Digital Goods checkout if available, it is more user "
 "friendly."
@@ -1093,78 +1092,78 @@ msgstr ""
 #: admin/_gateway_backup.php:1449 admin/_gateway_backup.php:1487
 #: admin/_gateway_backup.php:1488 admin/_gateway_backup.php:1489
 #: admin/_gateway_backup.php:1521 admin/_gateway_backup.php:1522
-#: admin/_gateway_settings.php:240 admin/_gateway_settings.php:241
-#: admin/_gateway_settings.php:242 admin/_gateway_settings.php:301
-#: admin/_gateway_settings.php:302 admin/_gateway_settings.php:303
-#: admin/_gateway_settings.php:364 admin/_gateway_settings.php:365
-#: admin/_gateway_settings.php:366 admin/_gateway_settings.php:402
-#: admin/_gateway_settings.php:403 admin/_gateway_settings.php:404
-#: admin/_gateway_settings.php:455 admin/_gateway_settings.php:456
-#: admin/_gateway_settings.php:509 admin/_gateway_settings.php:510
-#: admin/_gateway_settings.php:511 admin/_gateway_settings.php:553
-#: admin/_gateway_settings.php:554 admin/_gateway_settings.php:555
-#: admin/_gateway_settings.php:588 admin/_gateway_settings.php:589
-#: admin/_gateway_settings.php:625 admin/_gateway_settings.php:626
-#: admin/_gateway_settings.php:627 admin/_gateway_settings.php:673
-#: admin/_gateway_settings.php:674 admin/_gateway_settings.php:675
-#: admin/_gateway_settings.php:760 admin/_gateway_settings.php:761
-#: admin/_gateway_settings.php:762 admin/_gateway_settings.php:837
-#: admin/_gateway_settings.php:838 admin/_gateway_settings.php:839
-#: admin/_gateway_settings.php:885 admin/_gateway_settings.php:886
-#: admin/_gateway_settings.php:887 admin/_gateway_settings.php:938
-#: admin/_gateway_settings.php:939 admin/_gateway_settings.php:940
-#: admin/_gateway_settings.php:992 admin/_gateway_settings.php:993
-#: admin/_gateway_settings.php:1056 admin/_gateway_settings.php:1057
-#: admin/_gateway_settings.php:1121 admin/_gateway_settings.php:1122
-#: admin/_gateway_settings.php:1179 admin/_gateway_settings.php:1180
-#: admin/_gateway_settings.php:1212 admin/_gateway_settings.php:1213
-#: admin/_gateway_settings.php:1253 admin/_gateway_settings.php:1254
-#: admin/_gateway_settings.php:1292 admin/_gateway_settings.php:1293
+#: admin/_gateway_settings.php:241 admin/_gateway_settings.php:242
+#: admin/_gateway_settings.php:243 admin/_gateway_settings.php:302
+#: admin/_gateway_settings.php:303 admin/_gateway_settings.php:304
+#: admin/_gateway_settings.php:365 admin/_gateway_settings.php:366
+#: admin/_gateway_settings.php:367 admin/_gateway_settings.php:403
+#: admin/_gateway_settings.php:404 admin/_gateway_settings.php:405
+#: admin/_gateway_settings.php:456 admin/_gateway_settings.php:457
+#: admin/_gateway_settings.php:510 admin/_gateway_settings.php:511
+#: admin/_gateway_settings.php:512 admin/_gateway_settings.php:554
+#: admin/_gateway_settings.php:555 admin/_gateway_settings.php:556
+#: admin/_gateway_settings.php:589 admin/_gateway_settings.php:590
+#: admin/_gateway_settings.php:626 admin/_gateway_settings.php:627
+#: admin/_gateway_settings.php:628 admin/_gateway_settings.php:674
+#: admin/_gateway_settings.php:675 admin/_gateway_settings.php:676
+#: admin/_gateway_settings.php:761 admin/_gateway_settings.php:762
+#: admin/_gateway_settings.php:763 admin/_gateway_settings.php:838
+#: admin/_gateway_settings.php:839 admin/_gateway_settings.php:840
+#: admin/_gateway_settings.php:886 admin/_gateway_settings.php:887
+#: admin/_gateway_settings.php:888 admin/_gateway_settings.php:939
+#: admin/_gateway_settings.php:940 admin/_gateway_settings.php:941
+#: admin/_gateway_settings.php:993 admin/_gateway_settings.php:994
+#: admin/_gateway_settings.php:1057 admin/_gateway_settings.php:1058
+#: admin/_gateway_settings.php:1122 admin/_gateway_settings.php:1123
+#: admin/_gateway_settings.php:1180 admin/_gateway_settings.php:1181
+#: admin/_gateway_settings.php:1213 admin/_gateway_settings.php:1214
+#: admin/_gateway_settings.php:1254 admin/_gateway_settings.php:1255
+#: admin/_gateway_settings.php:1293 admin/_gateway_settings.php:1294
 #: admin/_gateway_settings.php:1336 admin/_gateway_settings.php:1337
-#: admin/_gateway_settings.php:1381 admin/_gateway_settings.php:1382
-#: admin/_gateway_settings.php:1383 admin/_gateway_settings.php:1421
-#: admin/_gateway_settings.php:1422 admin/_gateway_settings.php:1423
-#: admin/_gateway_settings.php:1455 admin/_gateway_settings.php:1456
+#: admin/_gateway_settings.php:1382 admin/_gateway_settings.php:1383
+#: admin/_gateway_settings.php:1384 admin/_gateway_settings.php:1422
+#: admin/_gateway_settings.php:1423 admin/_gateway_settings.php:1424
+#: admin/_gateway_settings.php:1456 admin/_gateway_settings.php:1457
 msgid "Link will open in new window"
 msgstr "Ссылка появится в новом окне"
 
-#: admin/_gateway_backup.php:350 admin/_gateway_settings.php:240
+#: admin/_gateway_backup.php:350 admin/_gateway_settings.php:241
 msgid "Open Paypal Production"
 msgstr "Открытое производство Paypal"
 
-#: admin/_gateway_backup.php:351 admin/_gateway_settings.php:241
+#: admin/_gateway_backup.php:351 admin/_gateway_settings.php:242
 msgid "Open Paypal Sandbox"
 msgstr "Открытая песочница Paypal"
 
-#: admin/_gateway_backup.php:352 admin/_gateway_settings.php:242
+#: admin/_gateway_backup.php:352 admin/_gateway_settings.php:243
 msgid "Open Paypal Help"
 msgstr "Открыть справку в Paypal"
 
-#: admin/_gateway_backup.php:356 admin/_gateway_settings.php:246
+#: admin/_gateway_backup.php:356 admin/_gateway_settings.php:247
 msgid "Enable PayPal Payments"
 msgstr "Включить платежи PayPal"
 
-#: admin/_gateway_backup.php:361 admin/_gateway_settings.php:251
+#: admin/_gateway_backup.php:361 admin/_gateway_settings.php:252
 msgid "PayPal API Username"
 msgstr "PayPal API Username"
 
-#: admin/_gateway_backup.php:366 admin/_gateway_settings.php:256
+#: admin/_gateway_backup.php:366 admin/_gateway_settings.php:257
 msgid "PayPal API Signature"
 msgstr "PayPal API Signature"
 
-#: admin/_gateway_backup.php:371 admin/_gateway_settings.php:261
+#: admin/_gateway_backup.php:371 admin/_gateway_settings.php:262
 msgid "PayPal API Password"
 msgstr "PayPal API Password"
 
-#: admin/_gateway_backup.php:376 admin/_gateway_settings.php:266
+#: admin/_gateway_backup.php:376 admin/_gateway_settings.php:267
 msgid "PayPal Email"
 msgstr "PayPal Email"
 
-#: admin/_gateway_backup.php:381 admin/_gateway_settings.php:271
+#: admin/_gateway_backup.php:381 admin/_gateway_settings.php:272
 msgid "PayPal Standard Payments"
 msgstr "Стандартные платежи PayPal"
 
-#: admin/_gateway_backup.php:383 admin/_gateway_settings.php:273
+#: admin/_gateway_backup.php:383 admin/_gateway_settings.php:274
 msgid ""
 "Use \"Standard Payments\" if \"Digital Goods\" is not available in your "
 "country"
@@ -1172,15 +1171,15 @@ msgstr ""
 "Используйте «Стандартные платежи», если «Цифровые товары» недоступны в вашей "
 "стране"
 
-#: admin/_gateway_backup.php:387 admin/_gateway_settings.php:277
+#: admin/_gateway_backup.php:387 admin/_gateway_settings.php:278
 msgid "PayPal Sandbox Enabled"
 msgstr "Включена песочница PayPal"
 
-#: admin/_gateway_backup.php:399 admin/_gateway_settings.php:289
+#: admin/_gateway_backup.php:399 admin/_gateway_settings.php:290
 msgid "Przelewy24 Payments"
 msgstr "Przelewy24 Payments"
 
-#: admin/_gateway_backup.php:406 admin/_gateway_settings.php:296
+#: admin/_gateway_backup.php:406 admin/_gateway_settings.php:297
 msgid ""
 "Przelewy24 not available, currency must be set to PLN, EUR or CZK to be able "
 "to use this gateway."
@@ -1188,61 +1187,61 @@ msgstr ""
 "Przelewy24 недоступен, валюта должна быть установлена в PLN, EUR или CZK, "
 "чтобы иметь возможность использовать этот шлюз."
 
-#: admin/_gateway_backup.php:411 admin/_gateway_settings.php:301
+#: admin/_gateway_backup.php:411 admin/_gateway_settings.php:302
 msgid "Open Przelewy24 Production"
 msgstr "Open Przelewy24 Production"
 
-#: admin/_gateway_backup.php:412 admin/_gateway_settings.php:302
+#: admin/_gateway_backup.php:412 admin/_gateway_settings.php:303
 msgid "Open Przelewy24 Sandbox"
 msgstr "Open Przelewy24 Sandbox"
 
-#: admin/_gateway_backup.php:413 admin/_gateway_settings.php:303
+#: admin/_gateway_backup.php:413 admin/_gateway_settings.php:304
 msgid "Open Przelewy24 Help"
 msgstr "Open Przelewy24 Help"
 
-#: admin/_gateway_backup.php:417 admin/_gateway_settings.php:307
+#: admin/_gateway_backup.php:417 admin/_gateway_settings.php:308
 msgid "Enable Przelewy24 Payments"
 msgstr "Enable Przelewy24 Payments"
 
-#: admin/_gateway_backup.php:422 admin/_gateway_settings.php:312
+#: admin/_gateway_backup.php:422 admin/_gateway_settings.php:313
 msgid "Przelewy24 Merchant Id"
 msgstr "Przelewy24 Merchant Id"
 
-#: admin/_gateway_backup.php:427 admin/_gateway_settings.php:317
+#: admin/_gateway_backup.php:427 admin/_gateway_settings.php:318
 msgid "Przelewy24 Shop/POS Id"
 msgstr "Przelewy24 Shop/POS Id"
 
-#: admin/_gateway_backup.php:430 admin/_gateway_settings.php:320
+#: admin/_gateway_backup.php:430 admin/_gateway_settings.php:321
 msgid "Leave blank or enter Merchant ID if not applicable for you."
 msgstr ""
 "Оставьте пустым или введите идентификатор продавца, если он не подходит для "
 "вас."
 
-#: admin/_gateway_backup.php:434 admin/_gateway_settings.php:324
+#: admin/_gateway_backup.php:434 admin/_gateway_settings.php:325
 msgid "Przelewy24 CRC Key"
 msgstr "Przelewy24 CRC Key"
 
-#: admin/_gateway_backup.php:439 admin/_gateway_settings.php:329
+#: admin/_gateway_backup.php:439 admin/_gateway_settings.php:330
 msgid "Przelewy24 UI Language"
 msgstr "Przelewy24 UI Language"
 
-#: admin/_gateway_backup.php:441 admin/_gateway_settings.php:331
+#: admin/_gateway_backup.php:441 admin/_gateway_settings.php:332
 msgid "Poland"
 msgstr "Польский"
 
-#: admin/_gateway_backup.php:442 admin/_gateway_settings.php:332
+#: admin/_gateway_backup.php:442 admin/_gateway_settings.php:333
 msgid "English"
 msgstr "Английский"
 
-#: admin/_gateway_backup.php:443 admin/_gateway_settings.php:333
+#: admin/_gateway_backup.php:443 admin/_gateway_settings.php:334
 msgid "German"
 msgstr "Немецкий"
 
-#: admin/_gateway_backup.php:444 admin/_gateway_settings.php:334
+#: admin/_gateway_backup.php:444 admin/_gateway_settings.php:335
 msgid "Spanish"
 msgstr "Испанский"
 
-#: admin/_gateway_backup.php:445 admin/_gateway_settings.php:335
+#: admin/_gateway_backup.php:445 admin/_gateway_settings.php:336
 msgid "Italian"
 msgstr "Итальянский"
 
@@ -1252,91 +1251,91 @@ msgstr "Итальянский"
 #: admin/_gateway_backup.php:911 admin/_gateway_backup.php:968
 #: admin/_gateway_backup.php:1021 admin/_gateway_backup.php:1074
 #: admin/_gateway_backup.php:1138 admin/_gateway_backup.php:1201
-#: admin/_gateway_settings.php:341 admin/_gateway_settings.php:385
-#: admin/_gateway_settings.php:424 admin/_gateway_settings.php:531
-#: admin/_gateway_settings.php:656 admin/_gateway_settings.php:722
-#: admin/_gateway_settings.php:801 admin/_gateway_settings.php:858
-#: admin/_gateway_settings.php:911 admin/_gateway_settings.php:964
-#: admin/_gateway_settings.php:1028 admin/_gateway_settings.php:1091
+#: admin/_gateway_settings.php:342 admin/_gateway_settings.php:386
+#: admin/_gateway_settings.php:425 admin/_gateway_settings.php:532
+#: admin/_gateway_settings.php:657 admin/_gateway_settings.php:723
+#: admin/_gateway_settings.php:802 admin/_gateway_settings.php:859
+#: admin/_gateway_settings.php:912 admin/_gateway_settings.php:965
+#: admin/_gateway_settings.php:1029 admin/_gateway_settings.php:1092
 msgid "Enable Sandbox"
 msgstr "Включить Песочницу"
 
-#: admin/_gateway_backup.php:462 admin/_gateway_settings.php:352
+#: admin/_gateway_backup.php:462 admin/_gateway_settings.php:353
 msgid "Payhere.lk Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:469 admin/_gateway_settings.php:359
+#: admin/_gateway_backup.php:469 admin/_gateway_settings.php:360
 msgid ""
 "payherelk not available, currency must be set to USD or LKR to be able to "
 "use this gateway."
 msgstr ""
 
-#: admin/_gateway_backup.php:474 admin/_gateway_settings.php:364
+#: admin/_gateway_backup.php:474 admin/_gateway_settings.php:365
 msgid "Open Payhere.lk Production"
 msgstr ""
 
-#: admin/_gateway_backup.php:475 admin/_gateway_settings.php:365
+#: admin/_gateway_backup.php:475 admin/_gateway_settings.php:366
 msgid "Open Payhere.lk Sandbox"
 msgstr ""
 
-#: admin/_gateway_backup.php:476 admin/_gateway_settings.php:366
+#: admin/_gateway_backup.php:476 admin/_gateway_settings.php:367
 msgid "Open Payhere.lk Documentation"
 msgstr ""
 
-#: admin/_gateway_backup.php:480 admin/_gateway_settings.php:370
+#: admin/_gateway_backup.php:480 admin/_gateway_settings.php:371
 msgid "Enable Payhere.lk Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:485 admin/_gateway_settings.php:375
+#: admin/_gateway_backup.php:485 admin/_gateway_settings.php:376
 msgid "Payhere.lk Merchant Id"
 msgstr ""
 
-#: admin/_gateway_backup.php:490 admin/_gateway_settings.php:380
+#: admin/_gateway_backup.php:490 admin/_gateway_settings.php:381
 msgid "Payhere.lk Secret Key"
 msgstr ""
 
-#: admin/_gateway_backup.php:506 admin/_gateway_settings.php:396
+#: admin/_gateway_backup.php:506 admin/_gateway_settings.php:397
 msgid "Stripe Payments"
 msgstr "Платные платежи"
 
-#: admin/_gateway_backup.php:512 admin/_gateway_settings.php:402
+#: admin/_gateway_backup.php:512 admin/_gateway_settings.php:403
 msgid "Open Stripe Production"
 msgstr "Открытое производство полос"
 
-#: admin/_gateway_backup.php:513 admin/_gateway_settings.php:403
+#: admin/_gateway_backup.php:513 admin/_gateway_settings.php:404
 msgid "Open Stripe Sandbox"
 msgstr "Открытая Полосатая песочница"
 
 #: admin/_gateway_backup.php:514 admin/_gateway_backup.php:566
-#: admin/_gateway_settings.php:404 admin/_gateway_settings.php:456
+#: admin/_gateway_settings.php:405 admin/_gateway_settings.php:457
 msgid "Open Stripe Help"
 msgstr "Справка по Открытой Полосе"
 
-#: admin/_gateway_backup.php:518 admin/_gateway_settings.php:408
+#: admin/_gateway_backup.php:518 admin/_gateway_settings.php:409
 msgid "Enable Stripe Payments"
 msgstr "Включить платежи Stripe"
 
-#: admin/_gateway_backup.php:523 admin/_gateway_settings.php:413
+#: admin/_gateway_backup.php:523 admin/_gateway_settings.php:414
 msgid "Stripe Publishable Key"
 msgstr "Опубликованный Ключ Stripe"
 
-#: admin/_gateway_backup.php:528 admin/_gateway_settings.php:418
+#: admin/_gateway_backup.php:528 admin/_gateway_settings.php:419
 msgid "Stripe Secret Key"
 msgstr "Секретный Ключ Stripe"
 
-#: admin/_gateway_backup.php:539 admin/_gateway_settings.php:429
+#: admin/_gateway_backup.php:539 admin/_gateway_settings.php:430
 msgid "Stripe Test Publishable Key"
 msgstr "Опубликованный ключ Stripe"
 
-#: admin/_gateway_backup.php:544 admin/_gateway_settings.php:434
+#: admin/_gateway_backup.php:544 admin/_gateway_settings.php:435
 msgid "Stripe Test Secret Key"
 msgstr "Секретный ключ Stripe Test"
 
-#: admin/_gateway_backup.php:555 admin/_gateway_settings.php:445
+#: admin/_gateway_backup.php:555 admin/_gateway_settings.php:446
 msgid "Skrill Payments"
 msgstr "Платежи Skrill"
 
-#: admin/_gateway_backup.php:561 admin/_gateway_settings.php:451
+#: admin/_gateway_backup.php:561 admin/_gateway_settings.php:452
 msgid ""
 "Skrill does not have sandbox, in regard to test this gateway, contact their "
 "support to convert your account to testing one or look for testing "
@@ -1346,39 +1345,39 @@ msgstr ""
 "поддержки, чтобы преобразовать свою учетную запись в тестовую версию или "
 "искать проверки учетных данных в Google или в своих документах."
 
-#: admin/_gateway_backup.php:565 admin/_gateway_settings.php:455
+#: admin/_gateway_backup.php:565 admin/_gateway_settings.php:456
 msgid "Open Skrill Production"
 msgstr "Открытое производство Skrill"
 
-#: admin/_gateway_backup.php:570 admin/_gateway_settings.php:460
+#: admin/_gateway_backup.php:570 admin/_gateway_settings.php:461
 msgid "Enable Skrill Payments"
 msgstr "Включить платежи Skrill"
 
-#: admin/_gateway_backup.php:575 admin/_gateway_settings.php:465
+#: admin/_gateway_backup.php:575 admin/_gateway_settings.php:466
 msgid "Skrill Merchant ID"
 msgstr "ID продавца Skrill"
 
-#: admin/_gateway_backup.php:580 admin/_gateway_settings.php:470
+#: admin/_gateway_backup.php:580 admin/_gateway_settings.php:471
 msgid "Skrill Email"
 msgstr "Эл. почта Skrill"
 
-#: admin/_gateway_backup.php:585 admin/_gateway_settings.php:475
+#: admin/_gateway_backup.php:585 admin/_gateway_settings.php:476
 msgid "Skrill Secret Word"
 msgstr "Секретное слово Skrill"
 
-#: admin/_gateway_backup.php:590 admin/_gateway_settings.php:480
+#: admin/_gateway_backup.php:590 admin/_gateway_settings.php:481
 msgid "Send Payment Notifications"
 msgstr "Отправить оповещения об оплате"
 
-#: admin/_gateway_backup.php:592 admin/_gateway_settings.php:482
+#: admin/_gateway_backup.php:592 admin/_gateway_settings.php:483
 msgid "Admin will receive notifications regarding payments."
 msgstr "Администратор получит уведомления о платежах."
 
-#: admin/_gateway_backup.php:602 admin/_gateway_settings.php:492
+#: admin/_gateway_backup.php:602 admin/_gateway_settings.php:493
 msgid "Authorize.Net Payments"
 msgstr "Authorize.Net Платежи"
 
-#: admin/_gateway_backup.php:608 admin/_gateway_settings.php:498
+#: admin/_gateway_backup.php:608 admin/_gateway_settings.php:499
 msgid ""
 "Authorize.net operates in currency USD only, plugin must be set to this "
 "currency, otherwise payment will not be available."
@@ -1386,7 +1385,7 @@ msgstr ""
 "Authorize.net работает только в валюте USD, плагин должен быть установлен в "
 "эту валюту, иначе платеж будет недоступен."
 
-#: admin/_gateway_backup.php:609 admin/_gateway_settings.php:499
+#: admin/_gateway_backup.php:609 admin/_gateway_settings.php:500
 msgid ""
 "Make sure to perform your registration on correct site, otherwise you will "
 "have troubles to make gateway work."
@@ -1394,7 +1393,7 @@ msgstr ""
 "Обязательно выполните свою регистрацию на правильном сайте, иначе у вас "
 "возникнут проблемы с работой шлюза."
 
-#: admin/_gateway_backup.php:614 admin/_gateway_settings.php:504
+#: admin/_gateway_backup.php:614 admin/_gateway_settings.php:505
 msgid ""
 "Authorize.net not available, currency must be set to USD to be able to use "
 "this gateway."
@@ -1402,35 +1401,35 @@ msgstr ""
 "Authorize.net недоступно, для использования этого шлюза валюта должна быть "
 "установлена в долларах США."
 
-#: admin/_gateway_backup.php:619 admin/_gateway_settings.php:509
+#: admin/_gateway_backup.php:619 admin/_gateway_settings.php:510
 msgid "Open Authorize.net Production"
 msgstr "Open Authorize.net Производство"
 
-#: admin/_gateway_backup.php:620 admin/_gateway_settings.php:510
+#: admin/_gateway_backup.php:620 admin/_gateway_settings.php:511
 msgid "Open Authorize.net Sandbox"
 msgstr "Open Authorize.net Песочница"
 
-#: admin/_gateway_backup.php:621 admin/_gateway_settings.php:511
+#: admin/_gateway_backup.php:621 admin/_gateway_settings.php:512
 msgid "Open Authorize.net Help"
 msgstr "Открыть Authorize.net Помощь"
 
-#: admin/_gateway_backup.php:626 admin/_gateway_settings.php:516
+#: admin/_gateway_backup.php:626 admin/_gateway_settings.php:517
 msgid "Enable Authorize.Net Payments"
 msgstr "Включить Authorize.Net платежи"
 
-#: admin/_gateway_backup.php:631 admin/_gateway_settings.php:521
+#: admin/_gateway_backup.php:631 admin/_gateway_settings.php:522
 msgid "Authorize.Net Merchant Login ID"
 msgstr "Authorize.Net Купец Логин ID"
 
-#: admin/_gateway_backup.php:636 admin/_gateway_settings.php:526
+#: admin/_gateway_backup.php:636 admin/_gateway_settings.php:527
 msgid "Authorize.Net Merchant Transaction Key"
 msgstr "Authorize.Net Ключ торговой сделки"
 
-#: admin/_gateway_backup.php:652 admin/_gateway_settings.php:542
+#: admin/_gateway_backup.php:652 admin/_gateway_settings.php:543
 msgid "Payza Payments"
 msgstr "Payza Платежи"
 
-#: admin/_gateway_backup.php:658 admin/_gateway_settings.php:548
+#: admin/_gateway_backup.php:658 admin/_gateway_settings.php:549
 msgid ""
 "In order to make Payza fully functional, you need to enable IPN v2 in your "
 "Payza account. Otherwise payments will not be received."
@@ -1438,7 +1437,7 @@ msgstr ""
 "Чтобы сделать Payza полностью работоспособным, вам нужно включить IPN v2 в "
 "свою учетную запись Payza. В противном случае платежи не будут получены."
 
-#: admin/_gateway_backup.php:659 admin/_gateway_settings.php:549
+#: admin/_gateway_backup.php:659 admin/_gateway_settings.php:550
 msgid ""
 "Payza sandbox/test mode must be enabled/disabled in Payza account (IPN "
 "section)."
@@ -1446,37 +1445,37 @@ msgstr ""
 "В окне Payza (раздел IPN) должна быть включена / отключена песочница / "
 "тестовый режим Payza."
 
-#: admin/_gateway_backup.php:663 admin/_gateway_settings.php:553
+#: admin/_gateway_backup.php:663 admin/_gateway_settings.php:554
 msgid "Open Payza Production"
 msgstr "Open Payza Production"
 
-#: admin/_gateway_backup.php:664 admin/_gateway_settings.php:554
+#: admin/_gateway_backup.php:664 admin/_gateway_settings.php:555
 msgid "Open Payza Sandbox"
 msgstr "Open Payza Sandbox"
 
-#: admin/_gateway_backup.php:665 admin/_gateway_settings.php:555
+#: admin/_gateway_backup.php:665 admin/_gateway_settings.php:556
 msgid "Open Payza Help"
 msgstr "Open Payza Help"
 
-#: admin/_gateway_backup.php:669 admin/_gateway_settings.php:559
+#: admin/_gateway_backup.php:669 admin/_gateway_settings.php:560
 msgid "Enable Payza Payments"
 msgstr "Включить платежи Payza"
 
-#: admin/_gateway_backup.php:674 admin/_gateway_settings.php:564
+#: admin/_gateway_backup.php:674 admin/_gateway_settings.php:565
 msgid "Payza Email"
 msgstr "Payza Email"
 
-#: admin/_gateway_backup.php:685 admin/_gateway_settings.php:575
+#: admin/_gateway_backup.php:685 admin/_gateway_settings.php:576
 msgid "Blockchain Payments"
 msgstr "Blockchain Платежи"
 
-#: admin/_gateway_backup.php:691 admin/_gateway_settings.php:581
+#: admin/_gateway_backup.php:691 admin/_gateway_settings.php:582
 msgid "To get your address, click on \"Request\" button in Blockchain account."
 msgstr ""
 "Чтобы получить свой адрес, нажмите кнопку «Запрос» в учетной записи "
 "Blockchain."
 
-#: admin/_gateway_backup.php:692 admin/_gateway_settings.php:582
+#: admin/_gateway_backup.php:692 admin/_gateway_settings.php:583
 msgid ""
 "Blockchain does not have sandbox/test mode, in order to test your payments, "
 "you need to use live account and money."
@@ -1484,7 +1483,7 @@ msgstr ""
 "Blockchain не имеет режима песочницы / теста, чтобы проверить ваши платежи, "
 "вам нужно использовать активную учетную запись и деньги."
 
-#: admin/_gateway_backup.php:693 admin/_gateway_settings.php:583
+#: admin/_gateway_backup.php:693 admin/_gateway_settings.php:584
 msgid ""
 "Request API Key on following link, you will receive it to your mail: https://"
 "api.blockchain.info/v2/apikey/request/."
@@ -1492,7 +1491,7 @@ msgstr ""
 "Введите ключ API API по следующей ссылке, вы получите его на свой адрес: "
 "https://api.blockchain.info/v2/apikey/request/."
 
-#: admin/_gateway_backup.php:694 admin/_gateway_settings.php:584
+#: admin/_gateway_backup.php:694 admin/_gateway_settings.php:585
 msgid ""
 "Get xPub Key in your account: Settings > Addresses > Manage > More Options > "
 "Show xPub"
@@ -1500,83 +1499,83 @@ msgstr ""
 "Получите ключ xPub в своей учетной записи: Настройки> Адреса> Управление> "
 "Дополнительные параметры> Показать xPub"
 
-#: admin/_gateway_backup.php:698 admin/_gateway_settings.php:588
+#: admin/_gateway_backup.php:698 admin/_gateway_settings.php:589
 msgid "Open Blockchain Production"
 msgstr "Open Blockchain Production"
 
-#: admin/_gateway_backup.php:699 admin/_gateway_settings.php:589
+#: admin/_gateway_backup.php:699 admin/_gateway_settings.php:590
 msgid "Open Blockchain Help"
 msgstr "Open Blockchain Help"
 
-#: admin/_gateway_backup.php:703 admin/_gateway_settings.php:593
+#: admin/_gateway_backup.php:703 admin/_gateway_settings.php:594
 msgid "Enable Blockchain Payments"
 msgstr "Включить Blockchain Payments"
 
-#: admin/_gateway_backup.php:708 admin/_gateway_settings.php:598
+#: admin/_gateway_backup.php:708 admin/_gateway_settings.php:599
 msgid "Blockchain Address"
 msgstr "Blockchain Адрес"
 
-#: admin/_gateway_backup.php:713 admin/_gateway_settings.php:603
+#: admin/_gateway_backup.php:713 admin/_gateway_settings.php:604
 msgid "Blockchain API Key"
 msgstr "Blockchain API Ключ"
 
-#: admin/_gateway_backup.php:718 admin/_gateway_settings.php:608
+#: admin/_gateway_backup.php:718 admin/_gateway_settings.php:609
 msgid "Blockchain xPub Key"
 msgstr "Blockchain xPub Ключ"
 
-#: admin/_gateway_backup.php:729 admin/_gateway_settings.php:619
+#: admin/_gateway_backup.php:729 admin/_gateway_settings.php:620
 msgid "Braintree Payments"
 msgstr "Braintree Платежи"
 
-#: admin/_gateway_backup.php:735 admin/_gateway_settings.php:625
+#: admin/_gateway_backup.php:735 admin/_gateway_settings.php:626
 msgid "Open Braintree Production"
 msgstr "Открыть Производство Braintree"
 
-#: admin/_gateway_backup.php:736 admin/_gateway_settings.php:626
+#: admin/_gateway_backup.php:736 admin/_gateway_settings.php:627
 msgid "Open Braintree Sandbox"
 msgstr "Открыть песочницу Braintree"
 
-#: admin/_gateway_backup.php:737 admin/_gateway_settings.php:627
+#: admin/_gateway_backup.php:737 admin/_gateway_settings.php:628
 msgid "Open Braintree Help"
 msgstr "Открыть справку Braintree"
 
-#: admin/_gateway_backup.php:741 admin/_gateway_settings.php:631
+#: admin/_gateway_backup.php:741 admin/_gateway_settings.php:632
 msgid "Enable Braintree Payments"
 msgstr "Включить Платежи Braintree"
 
-#: admin/_gateway_backup.php:746 admin/_gateway_settings.php:636
+#: admin/_gateway_backup.php:746 admin/_gateway_settings.php:637
 msgid "Braintree Merchant ID"
 msgstr "Braintree Продавец ID"
 
-#: admin/_gateway_backup.php:751 admin/_gateway_settings.php:641
+#: admin/_gateway_backup.php:751 admin/_gateway_settings.php:642
 msgid "Braintree Public Key"
 msgstr "Открытый ключ Braintree"
 
-#: admin/_gateway_backup.php:756 admin/_gateway_settings.php:646
+#: admin/_gateway_backup.php:756 admin/_gateway_settings.php:647
 msgid "Braintree Private Key"
 msgstr "Личный ключ Braintree"
 
-#: admin/_gateway_backup.php:761 admin/_gateway_settings.php:651
+#: admin/_gateway_backup.php:761 admin/_gateway_settings.php:652
 msgid "Braintree Encryption Key"
 msgstr "Ключ шифрования Braintree"
 
-#: admin/_gateway_backup.php:777 admin/_gateway_settings.php:667
+#: admin/_gateway_backup.php:777 admin/_gateway_settings.php:668
 msgid "2Checkout Payments"
 msgstr "2Checkout Платежи"
 
-#: admin/_gateway_backup.php:783 admin/_gateway_settings.php:673
+#: admin/_gateway_backup.php:783 admin/_gateway_settings.php:674
 msgid "Open 2Checkout Production"
 msgstr "Открыть Производство 2Checkout"
 
-#: admin/_gateway_backup.php:784 admin/_gateway_settings.php:674
+#: admin/_gateway_backup.php:784 admin/_gateway_settings.php:675
 msgid "Open 2Checkout Sandbox"
 msgstr "Открыть Производство 2Checkout"
 
-#: admin/_gateway_backup.php:785 admin/_gateway_settings.php:675
+#: admin/_gateway_backup.php:785 admin/_gateway_settings.php:676
 msgid "Open 2Checkout Help"
 msgstr "Открыть справку 2Checkout"
 
-#: admin/_gateway_backup.php:789 admin/_gateway_settings.php:679
+#: admin/_gateway_backup.php:789 admin/_gateway_settings.php:680
 msgid ""
 "Once you select type INLINE, go to Account > Site Management, in Direct "
 "Return option select \"Header Redirect (Your URL) and into approved URL put "
@@ -1586,23 +1585,23 @@ msgstr ""
 "«Управление сайтом», в опции «Прямой возврат» выберите «Перенаправление "
 "заголовка (ваш URL)» и в утвержденный URL введите следующее:"
 
-#: admin/_gateway_backup.php:793 admin/_gateway_settings.php:683
+#: admin/_gateway_backup.php:793 admin/_gateway_settings.php:684
 msgid "Enable 2Checkout Payments"
 msgstr "Включить платежи 2Checkout"
 
-#: admin/_gateway_backup.php:798 admin/_gateway_settings.php:688
+#: admin/_gateway_backup.php:798 admin/_gateway_settings.php:689
 msgid "2Checkout Type"
 msgstr "2Checkout Type"
 
-#: admin/_gateway_backup.php:800 admin/_gateway_settings.php:690
+#: admin/_gateway_backup.php:800 admin/_gateway_settings.php:691
 msgid "OnSite Checkout"
 msgstr "OnSite Checkout"
 
-#: admin/_gateway_backup.php:801 admin/_gateway_settings.php:691
+#: admin/_gateway_backup.php:801 admin/_gateway_settings.php:692
 msgid "Standard Checkout (redirect)"
 msgstr "Standard Checkout (redirect)"
 
-#: admin/_gateway_backup.php:804 admin/_gateway_settings.php:694
+#: admin/_gateway_backup.php:804 admin/_gateway_settings.php:695
 msgid ""
 "OnSite checkout works without redirect, but allows payment with credit card. "
 "Standard will redirect user to 2Checkout."
@@ -1611,37 +1610,37 @@ msgstr ""
 "оплатить с помощью кредитной карты. Стандарт перенаправит пользователя на "
 "2Checkout."
 
-#: admin/_gateway_backup.php:808 admin/_gateway_settings.php:698
+#: admin/_gateway_backup.php:808 admin/_gateway_settings.php:699
 msgid "2Checkout Seller ID"
 msgstr "2Checkout ID продавца"
 
-#: admin/_gateway_backup.php:811 admin/_gateway_settings.php:701
+#: admin/_gateway_backup.php:811 admin/_gateway_settings.php:702
 msgid "You can get it in my account section: \"Account Number\"."
 msgstr "Вы можете получить его в разделе моего счета: \"Номер счета\"."
 
-#: admin/_gateway_backup.php:815 admin/_gateway_settings.php:705
+#: admin/_gateway_backup.php:815 admin/_gateway_settings.php:706
 msgid "2Checkout Secret Word"
 msgstr "2Checkout Secret Word"
 
-#: admin/_gateway_backup.php:818 admin/_gateway_settings.php:708
+#: admin/_gateway_backup.php:818 admin/_gateway_settings.php:709
 msgid "Secret word you have setup in your account, set in Site Management"
 msgstr ""
 "Секретное слово, которое вы настроили в своей учетной записи, установленное "
 "в Site Management"
 
-#: admin/_gateway_backup.php:822 admin/_gateway_settings.php:712
+#: admin/_gateway_backup.php:822 admin/_gateway_settings.php:713
 msgid "2Checkout Publishable Key"
 msgstr "2Checkout опубликованный ключ"
 
-#: admin/_gateway_backup.php:827 admin/_gateway_settings.php:717
+#: admin/_gateway_backup.php:827 admin/_gateway_settings.php:718
 msgid "2Checkout Private Key"
 msgstr "Закрытый ключ 2Checkout"
 
-#: admin/_gateway_backup.php:843 admin/_gateway_settings.php:733
+#: admin/_gateway_backup.php:843 admin/_gateway_settings.php:734
 msgid "PagSeguro Payments"
 msgstr "Pagseguro Платежи"
 
-#: admin/_gateway_backup.php:849 admin/_gateway_settings.php:739
+#: admin/_gateway_backup.php:849 admin/_gateway_settings.php:740
 msgid ""
 "PagSeguro operates in Brazil only, osclass pay plugin must be set to "
 "currency BRL, otherwise payment will not be available."
@@ -1649,13 +1648,13 @@ msgstr ""
 "PagSeguro работает только в Бразилии, плагин osclass pay должен быть "
 "установлен в валюту BRL, иначе оплата будет недоступна."
 
-#: admin/_gateway_backup.php:850 admin/_gateway_settings.php:740
+#: admin/_gateway_backup.php:850 admin/_gateway_settings.php:741
 msgid "Use lightbox if possible, it provides better user experience."
 msgstr ""
 "Используйте lightbox, если это возможно, оно обеспечивает лучший "
 "пользовательский интерфейс."
 
-#: admin/_gateway_backup.php:854 admin/_gateway_settings.php:744
+#: admin/_gateway_backup.php:854 admin/_gateway_settings.php:745
 msgid ""
 "PagSeguro require settings of your application on their site in Integration "
 "Profiles > Application. If you open bellow listed URLs and got error 404, "
@@ -1666,19 +1665,19 @@ msgstr ""
 "ошибку 404, обратитесь к своему хостинг-провайдеру, чтобы сделать эти файлы "
 "читабельными."
 
-#: admin/_gateway_backup.php:856 admin/_gateway_settings.php:746
+#: admin/_gateway_backup.php:856 admin/_gateway_settings.php:747
 msgid "Transaction notification URL:"
 msgstr "URL уведомления о транзакции:"
 
-#: admin/_gateway_backup.php:857 admin/_gateway_settings.php:747
+#: admin/_gateway_backup.php:857 admin/_gateway_settings.php:748
 msgid "Redirect page URL:"
 msgstr "URL страницы перенаправления:"
 
-#: admin/_gateway_backup.php:858 admin/_gateway_settings.php:748
+#: admin/_gateway_backup.php:858 admin/_gateway_settings.php:749
 msgid "Redirect with transaction code, name of parameter:"
 msgstr "Редирект с кодом транзакции, именем параметра:"
 
-#: admin/_gateway_backup.php:865 admin/_gateway_settings.php:755
+#: admin/_gateway_backup.php:865 admin/_gateway_settings.php:756
 msgid ""
 "PagSeguro is not available, currency must be set to BRL to be able to use "
 "this gateway."
@@ -1686,59 +1685,59 @@ msgstr ""
 "PagSeguro недоступен, валюта должна быть установлена в BRL, чтобы иметь "
 "возможность использовать этот шлюз."
 
-#: admin/_gateway_backup.php:870 admin/_gateway_settings.php:760
+#: admin/_gateway_backup.php:870 admin/_gateway_settings.php:761
 msgid "Open PagSeguro Production"
 msgstr "Открыть Производство PagSeguro"
 
-#: admin/_gateway_backup.php:871 admin/_gateway_settings.php:761
+#: admin/_gateway_backup.php:871 admin/_gateway_settings.php:762
 msgid "Open PagSeguro Sandbox"
 msgstr "Откройте Pagseguro в Песочнице"
 
-#: admin/_gateway_backup.php:872 admin/_gateway_settings.php:762
+#: admin/_gateway_backup.php:872 admin/_gateway_settings.php:763
 msgid "Open PagSeguro Help"
 msgstr "Откройте Pagseguro Помощь"
 
-#: admin/_gateway_backup.php:876 admin/_gateway_settings.php:766
+#: admin/_gateway_backup.php:876 admin/_gateway_settings.php:767
 msgid "Enable PagSeguro Payments"
 msgstr "Включить Pagseguro Платежи"
 
-#: admin/_gateway_backup.php:881 admin/_gateway_settings.php:771
+#: admin/_gateway_backup.php:881 admin/_gateway_settings.php:772
 msgid "PagSeguro Email"
 msgstr "PagSeguro Email"
 
-#: admin/_gateway_backup.php:886 admin/_gateway_settings.php:776
+#: admin/_gateway_backup.php:886 admin/_gateway_settings.php:777
 msgid "PagSeguro Token"
 msgstr "PagSeguro Token"
 
-#: admin/_gateway_backup.php:891 admin/_gateway_settings.php:781
+#: admin/_gateway_backup.php:891 admin/_gateway_settings.php:782
 msgid "PagSeguro Application ID"
 msgstr "PagSeguro Application ID"
 
-#: admin/_gateway_backup.php:896 admin/_gateway_settings.php:786
+#: admin/_gateway_backup.php:896 admin/_gateway_settings.php:787
 msgid "Sandbox Token"
 msgstr "Sandbox Token"
 
-#: admin/_gateway_backup.php:901 admin/_gateway_settings.php:791
+#: admin/_gateway_backup.php:901 admin/_gateway_settings.php:792
 msgid "Sandbox Application ID"
 msgstr "Sandbox Application ID"
 
-#: admin/_gateway_backup.php:906 admin/_gateway_settings.php:796
+#: admin/_gateway_backup.php:906 admin/_gateway_settings.php:797
 msgid "Sandbox Application Key"
 msgstr "Sandbox Application Key"
 
-#: admin/_gateway_backup.php:916 admin/_gateway_settings.php:806
+#: admin/_gateway_backup.php:916 admin/_gateway_settings.php:807
 msgid "Enable Lightbox"
 msgstr "Включить Lightbox"
 
-#: admin/_gateway_backup.php:919 admin/_gateway_settings.php:809
+#: admin/_gateway_backup.php:919 admin/_gateway_settings.php:810
 msgid "Lightbox can be slowly loading in sandbox mode."
 msgstr "Lightbox может медленно загружаться в режиме песочницы."
 
-#: admin/_gateway_backup.php:929 admin/_gateway_settings.php:819
+#: admin/_gateway_backup.php:929 admin/_gateway_settings.php:820
 msgid "PayUMoney Payments"
 msgstr "Платежи PayUMoney"
 
-#: admin/_gateway_backup.php:935 admin/_gateway_settings.php:825
+#: admin/_gateway_backup.php:935 admin/_gateway_settings.php:826
 msgid ""
 "PayUMoney operates in currency INR only, plugin must be set to this "
 "currency, otherwise payment will not be available."
@@ -1746,7 +1745,7 @@ msgstr ""
 "PayUMoney работает только в валюты индийских рупий, плагин должен быть "
 "установлен в этой валюте, в противном случае платеж не будет доступен."
 
-#: admin/_gateway_backup.php:936 admin/_gateway_settings.php:826
+#: admin/_gateway_backup.php:936 admin/_gateway_settings.php:827
 msgid ""
 "PayUMoney is India company, do not get into confusion it is PayU or "
 "PayULatam. Also PayUBiz is different API of PayUMoney."
@@ -1754,7 +1753,7 @@ msgstr ""
 "PayUMoney является индийская компания, не попасть в замешательство это PayU "
 "или PayULatam. Также PayUBiz отличается API PayUMoney."
 
-#: admin/_gateway_backup.php:937 admin/_gateway_settings.php:827
+#: admin/_gateway_backup.php:937 admin/_gateway_settings.php:828
 msgid ""
 "PayUMoney does not have sandbox. Use Testing credentials that can be found "
 "on \"Open PayUMoney Testing\" link."
@@ -1762,7 +1761,7 @@ msgstr ""
 "PayUMoney не имеет песочницы. Использовать тестирование учетных данных, "
 "которые можно найти на \"открытое тестирование ссылке PayUMoney\"."
 
-#: admin/_gateway_backup.php:942 admin/_gateway_settings.php:832
+#: admin/_gateway_backup.php:942 admin/_gateway_settings.php:833
 msgid ""
 "PayUMoney is not available, currency must be set to INR to be able to use "
 "this gateway."
@@ -1770,35 +1769,35 @@ msgstr ""
 "PayUMoney недоступен, валюта должна быть установлена в INR, чтобы иметь "
 "возможность использовать этот шлюз."
 
-#: admin/_gateway_backup.php:947 admin/_gateway_settings.php:837
+#: admin/_gateway_backup.php:947 admin/_gateway_settings.php:838
 msgid "Open PayUMoney Production"
 msgstr "Открытое производство PayUMoney"
 
-#: admin/_gateway_backup.php:948 admin/_gateway_settings.php:838
+#: admin/_gateway_backup.php:948 admin/_gateway_settings.php:839
 msgid "Open PayUMoney Testing"
 msgstr "Открытое тестирование PayUMoney"
 
-#: admin/_gateway_backup.php:949 admin/_gateway_settings.php:839
+#: admin/_gateway_backup.php:949 admin/_gateway_settings.php:840
 msgid "Open PayUMoney Help"
 msgstr "Открыть PayUMoney помощь"
 
-#: admin/_gateway_backup.php:953 admin/_gateway_settings.php:843
+#: admin/_gateway_backup.php:953 admin/_gateway_settings.php:844
 msgid "Enable PayUMoney Payments"
 msgstr "Включить платежи PayUMoney"
 
-#: admin/_gateway_backup.php:958 admin/_gateway_settings.php:848
+#: admin/_gateway_backup.php:958 admin/_gateway_settings.php:849
 msgid "PayUMoney Merchant Key"
 msgstr "PayUMoney Merchant Key"
 
-#: admin/_gateway_backup.php:963 admin/_gateway_settings.php:853
+#: admin/_gateway_backup.php:963 admin/_gateway_settings.php:854
 msgid "PayUMoney Salt"
 msgstr "PayUMoney Salt"
 
-#: admin/_gateway_backup.php:979 admin/_gateway_settings.php:869
+#: admin/_gateway_backup.php:979 admin/_gateway_settings.php:870
 msgid "Instamojo Payments"
 msgstr "Instamojo Payments"
 
-#: admin/_gateway_backup.php:985 admin/_gateway_settings.php:875
+#: admin/_gateway_backup.php:985 admin/_gateway_settings.php:876
 msgid ""
 "Instamojo operates in currency INR only, plugin must be set to this "
 "currency, otherwise payment will not be available."
@@ -1806,7 +1805,7 @@ msgstr ""
 "Instamojo работает только в валюте INR, плагин должен быть установлен в эту "
 "валюту, иначе оплата будет недоступна."
 
-#: admin/_gateway_backup.php:990 admin/_gateway_settings.php:880
+#: admin/_gateway_backup.php:990 admin/_gateway_settings.php:881
 msgid ""
 "Instamojo is not available, currency must be set to INR to be able to use "
 "this gateway."
@@ -1814,39 +1813,39 @@ msgstr ""
 "Instamojo недоступен, валюта должна быть установлена в INR, чтобы иметь "
 "возможность использовать этот шлюз."
 
-#: admin/_gateway_backup.php:995 admin/_gateway_settings.php:885
+#: admin/_gateway_backup.php:995 admin/_gateway_settings.php:886
 msgid "Open Instamojo Production"
 msgstr "Open Instamojo Production"
 
-#: admin/_gateway_backup.php:996 admin/_gateway_settings.php:886
+#: admin/_gateway_backup.php:996 admin/_gateway_settings.php:887
 msgid "Open Instamojo Sandbox"
 msgstr "Open Instamojo Sandbox"
 
-#: admin/_gateway_backup.php:997 admin/_gateway_settings.php:887
+#: admin/_gateway_backup.php:997 admin/_gateway_settings.php:888
 msgid "Open Instamojo Help"
 msgstr "Open Instamojo Help"
 
-#: admin/_gateway_backup.php:1001 admin/_gateway_settings.php:891
+#: admin/_gateway_backup.php:1001 admin/_gateway_settings.php:892
 msgid "Enable Instamojo Payments"
 msgstr "Enable Instamojo Payments"
 
-#: admin/_gateway_backup.php:1006 admin/_gateway_settings.php:896
+#: admin/_gateway_backup.php:1006 admin/_gateway_settings.php:897
 msgid "Instamojo API Key"
 msgstr "Instamojo API Key"
 
-#: admin/_gateway_backup.php:1011 admin/_gateway_settings.php:901
+#: admin/_gateway_backup.php:1011 admin/_gateway_settings.php:902
 msgid "Instamojo Auth Token"
 msgstr "Instamojo Auth Token"
 
-#: admin/_gateway_backup.php:1016 admin/_gateway_settings.php:906
+#: admin/_gateway_backup.php:1016 admin/_gateway_settings.php:907
 msgid "Instamojo Salt"
 msgstr "Instamojo Salt"
 
-#: admin/_gateway_backup.php:1032 admin/_gateway_settings.php:922
+#: admin/_gateway_backup.php:1032 admin/_gateway_settings.php:923
 msgid "PayULatam Payments"
 msgstr "PayULatam Payments"
 
-#: admin/_gateway_backup.php:1038 admin/_gateway_settings.php:928
+#: admin/_gateway_backup.php:1038 admin/_gateway_settings.php:929
 msgid ""
 "PayULatam operates in currencies ARS, BRL, CLP, COP, MXN, PEN, USD only, "
 "plugin must be set to one of listed currency, otherwise payment will not be "
@@ -1856,7 +1855,7 @@ msgstr ""
 "плагин должен быть установлен в одну из перечисленных валют, иначе оплата "
 "будет недоступна."
 
-#: admin/_gateway_backup.php:1043 admin/_gateway_settings.php:933
+#: admin/_gateway_backup.php:1043 admin/_gateway_settings.php:934
 msgid ""
 "PayULatam is not available, currency must be set to ARS, BRL, CLP, COP, MXN, "
 "PEN or USD to be able to use this gateway."
@@ -1864,39 +1863,39 @@ msgstr ""
 "PayULatam недоступен, для использования этого шлюза необходимо установить "
 "ARS, BRL, CLP, COP, MXN, PEN или USD."
 
-#: admin/_gateway_backup.php:1048 admin/_gateway_settings.php:938
+#: admin/_gateway_backup.php:1048 admin/_gateway_settings.php:939
 msgid "Open PayULatam Production"
 msgstr "Open PayULatam Production"
 
-#: admin/_gateway_backup.php:1049 admin/_gateway_settings.php:939
+#: admin/_gateway_backup.php:1049 admin/_gateway_settings.php:940
 msgid "Open PayULatam Sandbox"
 msgstr "Open PayULatam Sandbox"
 
-#: admin/_gateway_backup.php:1050 admin/_gateway_settings.php:940
+#: admin/_gateway_backup.php:1050 admin/_gateway_settings.php:941
 msgid "Open PayULatam Help"
 msgstr "Open PayULatam Help"
 
-#: admin/_gateway_backup.php:1054 admin/_gateway_settings.php:944
+#: admin/_gateway_backup.php:1054 admin/_gateway_settings.php:945
 msgid "Enable PayULatam Payments"
 msgstr "Включить платежи PayULatam"
 
-#: admin/_gateway_backup.php:1059 admin/_gateway_settings.php:949
+#: admin/_gateway_backup.php:1059 admin/_gateway_settings.php:950
 msgid "PayULatam Merchant ID"
 msgstr "PayULatam Merchant ID"
 
-#: admin/_gateway_backup.php:1064 admin/_gateway_settings.php:954
+#: admin/_gateway_backup.php:1064 admin/_gateway_settings.php:955
 msgid "PayULatam Account ID"
 msgstr "PayULatam Account ID"
 
-#: admin/_gateway_backup.php:1069 admin/_gateway_settings.php:959
+#: admin/_gateway_backup.php:1069 admin/_gateway_settings.php:960
 msgid "PayULatam API Key"
 msgstr "PayULatam API Key"
 
-#: admin/_gateway_backup.php:1085 admin/_gateway_settings.php:975
+#: admin/_gateway_backup.php:1085 admin/_gateway_settings.php:976
 msgid "CCAvenue Payments"
 msgstr "CCAvenue Payments"
 
-#: admin/_gateway_backup.php:1091 admin/_gateway_settings.php:981
+#: admin/_gateway_backup.php:1091 admin/_gateway_settings.php:982
 msgid ""
 "CCAvenue is very strict. If you get credentials, you can use it just on URL/"
 "domain it was registered for. Otherwise it will result in Authentication "
@@ -1906,7 +1905,7 @@ msgstr ""
 "использовать его только на URL/домен, на который он был зарегистрирован. В "
 "противном случае это приведет к ошибке проверки подлинности."
 
-#: admin/_gateway_backup.php:1092 admin/_gateway_settings.php:982
+#: admin/_gateway_backup.php:1092 admin/_gateway_settings.php:983
 msgid ""
 "CCAvenue operates in currencies INR, USD, SGD, GBP, EUR only, plugin must be "
 "set to one of listed currency, otherwise payment will not be available. Note "
@@ -1919,7 +1918,7 @@ msgstr ""
 "внимание, что другие, чем МНО валюты должен быть утвержден CCAvenue на Вашем "
 "счете, в противном случае проверки повлечет за код ошибки 115."
 
-#: admin/_gateway_backup.php:1097 admin/_gateway_settings.php:987
+#: admin/_gateway_backup.php:1097 admin/_gateway_settings.php:988
 msgid ""
 "CCAvenue is not available, currency must be set to INR, USD, SGD, GBP or EUR "
 "to be able to use this gateway."
@@ -1927,107 +1926,107 @@ msgstr ""
 "CCAvenue недоступен, валюта должна быть установлена в INR, USD, SGD, GBP или "
 "EUR, чтобы иметь возможность использовать этот шлюз."
 
-#: admin/_gateway_backup.php:1102 admin/_gateway_settings.php:992
+#: admin/_gateway_backup.php:1102 admin/_gateway_settings.php:993
 msgid "Open CCAvenue Production"
 msgstr "Open CCAvenue Production"
 
-#: admin/_gateway_backup.php:1103 admin/_gateway_settings.php:993
+#: admin/_gateway_backup.php:1103 admin/_gateway_settings.php:994
 msgid "Open CCAvenue Help"
 msgstr "Open CCAvenue Help"
 
-#: admin/_gateway_backup.php:1107 admin/_gateway_settings.php:997
+#: admin/_gateway_backup.php:1107 admin/_gateway_settings.php:998
 msgid "Enable CCAvenue Payments"
 msgstr "Enable CCAvenue Payments"
 
-#: admin/_gateway_backup.php:1112 admin/_gateway_settings.php:1002
+#: admin/_gateway_backup.php:1112 admin/_gateway_settings.php:1003
 msgid "Language on CCAvenue Checkout"
 msgstr "Language on CCAvenue Checkout"
 
-#: admin/_gateway_backup.php:1114 admin/_gateway_settings.php:1004
+#: admin/_gateway_backup.php:1114 admin/_gateway_settings.php:1005
 msgid "EN - English"
 msgstr "EN - English"
 
-#: admin/_gateway_backup.php:1115 admin/_gateway_settings.php:1005
+#: admin/_gateway_backup.php:1115 admin/_gateway_settings.php:1006
 msgid "HI - Hindi"
 msgstr "HI - Hindi"
 
-#: admin/_gateway_backup.php:1116 admin/_gateway_settings.php:1006
+#: admin/_gateway_backup.php:1116 admin/_gateway_settings.php:1007
 msgid "GU - Gujarati"
 msgstr "GU - Gujarati"
 
-#: admin/_gateway_backup.php:1117 admin/_gateway_settings.php:1007
+#: admin/_gateway_backup.php:1117 admin/_gateway_settings.php:1008
 msgid "MR - Marathi"
 msgstr "MR - Marathi"
 
-#: admin/_gateway_backup.php:1118 admin/_gateway_settings.php:1008
+#: admin/_gateway_backup.php:1118 admin/_gateway_settings.php:1009
 msgid "BN - Bengali"
 msgstr "BN - Bengali"
 
-#: admin/_gateway_backup.php:1123 admin/_gateway_settings.php:1013
+#: admin/_gateway_backup.php:1123 admin/_gateway_settings.php:1014
 msgid "CCAvenue Merchant ID"
 msgstr "CCAvenue Merchant ID"
 
-#: admin/_gateway_backup.php:1128 admin/_gateway_settings.php:1018
+#: admin/_gateway_backup.php:1128 admin/_gateway_settings.php:1019
 msgid "CCAvenue Access Code"
 msgstr "CCAvenue Access Code"
 
-#: admin/_gateway_backup.php:1133 admin/_gateway_settings.php:1023
+#: admin/_gateway_backup.php:1133 admin/_gateway_settings.php:1024
 msgid "CCAvenue Working Key"
 msgstr "CCAvenue Working Key"
 
-#: admin/_gateway_backup.php:1150 admin/_gateway_settings.php:1040
+#: admin/_gateway_backup.php:1150 admin/_gateway_settings.php:1041
 msgid "Paystack Payments"
 msgstr "Paystack Платежи"
 
-#: admin/_gateway_backup.php:1156 admin/_gateway_settings.php:1046
+#: admin/_gateway_backup.php:1156
 msgid ""
 "Paystack operates in USD, GHS & NGN currency only, plugin must be set to one "
 "of listed currency, otherwise payment will not be available."
 msgstr ""
 
-#: admin/_gateway_backup.php:1161 admin/_gateway_settings.php:1051
+#: admin/_gateway_backup.php:1161 admin/_gateway_settings.php:1052
 msgid ""
 "Paystack is not available, currency must be set to NGN, GHS or USD to be "
 "able to use this gateway."
 msgstr ""
 
-#: admin/_gateway_backup.php:1166 admin/_gateway_settings.php:1056
+#: admin/_gateway_backup.php:1166 admin/_gateway_settings.php:1057
 msgid "Open Paystack Production"
 msgstr "Open Paystack Production"
 
-#: admin/_gateway_backup.php:1167 admin/_gateway_settings.php:1057
+#: admin/_gateway_backup.php:1167 admin/_gateway_settings.php:1058
 msgid "Open Paystack API"
 msgstr "Open Paystack API"
 
-#: admin/_gateway_backup.php:1171 admin/_gateway_settings.php:1061
+#: admin/_gateway_backup.php:1171 admin/_gateway_settings.php:1062
 msgid "Enable Paystack Payments"
 msgstr "Enable Paystack Payments"
 
-#: admin/_gateway_backup.php:1176 admin/_gateway_settings.php:1066
+#: admin/_gateway_backup.php:1176 admin/_gateway_settings.php:1067
 msgid "Paystack Email"
 msgstr "Paystack Email"
 
-#: admin/_gateway_backup.php:1181 admin/_gateway_settings.php:1071
+#: admin/_gateway_backup.php:1181 admin/_gateway_settings.php:1072
 msgid "Paystack Public Key"
 msgstr "Paystack Public Key"
 
-#: admin/_gateway_backup.php:1186 admin/_gateway_settings.php:1076
+#: admin/_gateway_backup.php:1186 admin/_gateway_settings.php:1077
 msgid "Paystack Secret Key"
 msgstr "Paystack Secret Key"
 
-#: admin/_gateway_backup.php:1191 admin/_gateway_settings.php:1081
+#: admin/_gateway_backup.php:1191 admin/_gateway_settings.php:1082
 msgid "Paystack Test Public Key"
 msgstr "Paystack Test Public Key"
 
-#: admin/_gateway_backup.php:1196 admin/_gateway_settings.php:1086
+#: admin/_gateway_backup.php:1196 admin/_gateway_settings.php:1087
 msgid "Paystack Test Secret Key"
 msgstr "Paystack Test Secret Key"
 
-#: admin/_gateway_backup.php:1214 admin/_gateway_settings.php:1104
+#: admin/_gateway_backup.php:1214 admin/_gateway_settings.php:1105
 msgid "WeAccept Payments"
 msgstr "WeAccept Payments"
 
-#: admin/_gateway_backup.php:1220 admin/_gateway_settings.php:1110
+#: admin/_gateway_backup.php:1220 admin/_gateway_settings.php:1111
 msgid ""
 "Currency is selected on gateway side, ensure it is same as you have in "
 "Osclass Pay."
@@ -2035,7 +2034,7 @@ msgstr ""
 "Валюта выбирается на стороне шлюза, убедитесь, что она такая же, как у вас в "
 "Osclass Pay."
 
-#: admin/_gateway_backup.php:1225 admin/_gateway_settings.php:1115
+#: admin/_gateway_backup.php:1225 admin/_gateway_settings.php:1116
 msgid ""
 "This gateway require to setup correct return and notification url. Please go "
 "to Payment Integrations and in selected integration set Transaction "
@@ -2046,35 +2045,35 @@ msgstr ""
 "установите «Обработанный обратный вызов транзакции» и «Обратный ответ "
 "транзакции» на следующее:"
 
-#: admin/_gateway_backup.php:1231 admin/_gateway_settings.php:1121
+#: admin/_gateway_backup.php:1231 admin/_gateway_settings.php:1122
 msgid "Open WeAccept Production"
 msgstr "Open WeAccept Production"
 
-#: admin/_gateway_backup.php:1232 admin/_gateway_settings.php:1122
+#: admin/_gateway_backup.php:1232 admin/_gateway_settings.php:1123
 msgid "Open WeAccept API"
 msgstr "Open WeAccept API"
 
-#: admin/_gateway_backup.php:1236 admin/_gateway_settings.php:1126
+#: admin/_gateway_backup.php:1236 admin/_gateway_settings.php:1127
 msgid "Enable WeAccept Payments"
 msgstr "Включить WeAccept Payments"
 
-#: admin/_gateway_backup.php:1241 admin/_gateway_settings.php:1131
+#: admin/_gateway_backup.php:1241 admin/_gateway_settings.php:1132
 msgid "WeAccept Integration ID"
 msgstr "WeAccept ID интеграции"
 
-#: admin/_gateway_backup.php:1246 admin/_gateway_settings.php:1136
+#: admin/_gateway_backup.php:1246 admin/_gateway_settings.php:1137
 msgid "WeAccept Iframe ID"
 msgstr "WeAccept Iframe ID"
 
-#: admin/_gateway_backup.php:1251 admin/_gateway_settings.php:1141
+#: admin/_gateway_backup.php:1251 admin/_gateway_settings.php:1142
 msgid "WeAccept Api Key"
 msgstr "WeAccept Api Key"
 
-#: admin/_gateway_backup.php:1264 admin/_gateway_settings.php:1154
+#: admin/_gateway_backup.php:1264 admin/_gateway_settings.php:1155
 msgid "EuPlatesc.ro Payments"
 msgstr "EuPlatesc.ro Payments"
 
-#: admin/_gateway_backup.php:1270 admin/_gateway_settings.php:1160
+#: admin/_gateway_backup.php:1270 admin/_gateway_settings.php:1161
 msgid ""
 "EuPlatesc.ro operates in currencies RON, EUR and USD only, plugin must be "
 "set to one of listed currency, otherwise payment will not be available."
@@ -2083,7 +2082,7 @@ msgstr ""
 "установлен в одну из перечисленных валют, в противном случае оплата не будет "
 "доступна."
 
-#: admin/_gateway_backup.php:1275 admin/_gateway_settings.php:1165
+#: admin/_gateway_backup.php:1275 admin/_gateway_settings.php:1166
 msgid ""
 "EuPlatesc.ro is not available, currency must be set to RON, EUR or USD to be "
 "able to use this gateway."
@@ -2091,7 +2090,7 @@ msgstr ""
 "EuPlatesc.ro недоступен, валюта должна быть установлена в RON, EUR или USD, "
 "чтобы иметь возможность использовать этот шлюз."
 
-#: admin/_gateway_backup.php:1282 admin/_gateway_settings.php:1172
+#: admin/_gateway_backup.php:1282 admin/_gateway_settings.php:1173
 msgid ""
 "This gateway require to setup correct return and notification (silent) url. "
 "Please go to Admin > Gestionare Cont. At bottom click on Modifica cont and "
@@ -2102,247 +2101,247 @@ msgstr ""
 "щелкните Modifica cont и обновите URL возврата и Silent URL следующим "
 "образом:"
 
-#: admin/_gateway_backup.php:1283 admin/_gateway_settings.php:1173
+#: admin/_gateway_backup.php:1283 admin/_gateway_settings.php:1174
 msgid "Return URL"
 msgstr "URL возврата"
 
-#: admin/_gateway_backup.php:1284 admin/_gateway_settings.php:1174
+#: admin/_gateway_backup.php:1284 admin/_gateway_settings.php:1175
 msgid "Silent URL"
 msgstr "Тихий URL"
 
-#: admin/_gateway_backup.php:1289 admin/_gateway_settings.php:1179
+#: admin/_gateway_backup.php:1289 admin/_gateway_settings.php:1180
 msgid "Open EuPlatesc.ro"
 msgstr "Открыть EuPlatesc.ro"
 
 #: admin/_gateway_backup.php:1290 admin/_gateway_backup.php:1323
 #: admin/_gateway_backup.php:1364 admin/_gateway_backup.php:1403
-#: admin/_gateway_settings.php:1180 admin/_gateway_settings.php:1213
-#: admin/_gateway_settings.php:1254 admin/_gateway_settings.php:1293
+#: admin/_gateway_settings.php:1181 admin/_gateway_settings.php:1214
+#: admin/_gateway_settings.php:1255 admin/_gateway_settings.php:1294
 #: admin/_gateway_settings.php:1337
 msgid "Open Integration Guide"
 msgstr "Руководство по открытой интеграции"
 
-#: admin/_gateway_backup.php:1294 admin/_gateway_settings.php:1184
+#: admin/_gateway_backup.php:1294 admin/_gateway_settings.php:1185
 msgid "Enable EuPlatesc Payments"
 msgstr "Включить платежи EuPlatesc"
 
-#: admin/_gateway_backup.php:1299 admin/_gateway_settings.php:1189
+#: admin/_gateway_backup.php:1299 admin/_gateway_settings.php:1190
 msgid "EuPlatesc MID"
 msgstr "EuPlatesc MID"
 
-#: admin/_gateway_backup.php:1304 admin/_gateway_settings.php:1194
+#: admin/_gateway_backup.php:1304 admin/_gateway_settings.php:1195
 msgid "EuPlatesc Key"
 msgstr "Ключ EuPlatesc"
 
-#: admin/_gateway_backup.php:1316 admin/_gateway_settings.php:1206
+#: admin/_gateway_backup.php:1316 admin/_gateway_settings.php:1207
 msgid "Komfortkasse.eu Payments"
 msgstr "Komfortkasse.eu Payments"
 
-#: admin/_gateway_backup.php:1322 admin/_gateway_settings.php:1212
+#: admin/_gateway_backup.php:1322 admin/_gateway_settings.php:1213
 msgid "Open Komfortkasse.eu"
 msgstr "Open Komfortkasse.eu"
 
-#: admin/_gateway_backup.php:1327 admin/_gateway_settings.php:1217
+#: admin/_gateway_backup.php:1327 admin/_gateway_settings.php:1218
 msgid "Enable Komfortkasse Payments"
 msgstr "Enable Komfortkasse Payments"
 
-#: admin/_gateway_backup.php:1332 admin/_gateway_settings.php:1222
+#: admin/_gateway_backup.php:1332 admin/_gateway_settings.php:1223
 msgid "Komfortkasse Api Key"
 msgstr "Komfortkasse Api Key"
 
-#: admin/_gateway_backup.php:1344 admin/_gateway_settings.php:1234
+#: admin/_gateway_backup.php:1344 admin/_gateway_settings.php:1235
 msgid "Pays.cz Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1351 admin/_gateway_settings.php:1241
+#: admin/_gateway_backup.php:1351 admin/_gateway_settings.php:1242
 msgid ""
 "Pays.cz is not available, currency must be set to USD, EUR or CZK to be able "
 "to use this gateway."
 msgstr ""
 
-#: admin/_gateway_backup.php:1356 admin/_gateway_settings.php:1246
+#: admin/_gateway_backup.php:1356 admin/_gateway_settings.php:1247
 msgid "Pays.cz require to send following data to podpora@pays.cz:"
 msgstr ""
 
-#: admin/_gateway_backup.php:1357 admin/_gateway_settings.php:1247
+#: admin/_gateway_backup.php:1357 admin/_gateway_settings.php:1248
 msgid "Successful online/offline payment url:"
 msgstr ""
 
-#: admin/_gateway_backup.php:1358 admin/_gateway_settings.php:1248
+#: admin/_gateway_backup.php:1358 admin/_gateway_settings.php:1249
 msgid "Payment error url:"
 msgstr ""
 
-#: admin/_gateway_backup.php:1359 admin/_gateway_settings.php:1249
+#: admin/_gateway_backup.php:1359 admin/_gateway_settings.php:1250
 msgid "Payment confirm url:"
 msgstr ""
 
-#: admin/_gateway_backup.php:1363 admin/_gateway_settings.php:1253
+#: admin/_gateway_backup.php:1363 admin/_gateway_settings.php:1254
 msgid "Open Pays.cz"
 msgstr ""
 
-#: admin/_gateway_backup.php:1368 admin/_gateway_settings.php:1258
+#: admin/_gateway_backup.php:1368 admin/_gateway_settings.php:1259
 msgid "Enable Pays.cz Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1373 admin/_gateway_settings.php:1263
+#: admin/_gateway_backup.php:1373 admin/_gateway_settings.php:1264
 msgid "Pays.cz Merchant Id"
 msgstr ""
 
-#: admin/_gateway_backup.php:1378 admin/_gateway_settings.php:1268
+#: admin/_gateway_backup.php:1378 admin/_gateway_settings.php:1269
 msgid "Pays.cz Shop Id"
 msgstr ""
 
-#: admin/_gateway_backup.php:1383 admin/_gateway_settings.php:1273
+#: admin/_gateway_backup.php:1383 admin/_gateway_settings.php:1274
 msgid "Pays.cz API Password"
 msgstr ""
 
-#: admin/_gateway_backup.php:1396 admin/_gateway_settings.php:1286
+#: admin/_gateway_backup.php:1396 admin/_gateway_settings.php:1287
 msgid "Yandex Money Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1402 admin/_gateway_settings.php:1292
+#: admin/_gateway_backup.php:1402 admin/_gateway_settings.php:1293
 msgid "Open Yandex Money page"
 msgstr ""
 
-#: admin/_gateway_backup.php:1408 admin/_gateway_settings.php:1298
+#: admin/_gateway_backup.php:1408 admin/_gateway_settings.php:1299
 msgid ""
 "Yandex Money is not available, currency must be set to RUB to be able to use "
 "this gateway."
 msgstr ""
 
-#: admin/_gateway_backup.php:1413 admin/_gateway_settings.php:1303
+#: admin/_gateway_backup.php:1413 admin/_gateway_settings.php:1304
 msgid "In your Yandex account setup notification URL into following:"
 msgstr ""
 
-#: admin/_gateway_backup.php:1418 admin/_gateway_settings.php:1308
+#: admin/_gateway_backup.php:1418 admin/_gateway_settings.php:1309
 msgid "Enable Yandex Money Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1423 admin/_gateway_settings.php:1313
+#: admin/_gateway_backup.php:1423 admin/_gateway_settings.php:1314
 msgid "Yandex Shop ID (Account/Merchant)"
 msgstr ""
 
-#: admin/_gateway_backup.php:1428 admin/_gateway_settings.php:1318
+#: admin/_gateway_backup.php:1428 admin/_gateway_settings.php:1319
 msgid "Yandex Api Secret Key"
 msgstr ""
 
-#: admin/_gateway_backup.php:1441 admin/_gateway_settings.php:1375
+#: admin/_gateway_backup.php:1441 admin/_gateway_settings.php:1376
 msgid "Cardinity Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1447 admin/_gateway_settings.php:1381
+#: admin/_gateway_backup.php:1447 admin/_gateway_settings.php:1382
 msgid "Open Cardinity Dashboard"
 msgstr ""
 
 #: admin/_gateway_backup.php:1448 admin/_gateway_backup.php:1489
-#: admin/_gateway_settings.php:1382 admin/_gateway_settings.php:1423
+#: admin/_gateway_settings.php:1383 admin/_gateway_settings.php:1424
 msgid "Open API Details"
 msgstr ""
 
 #: admin/_gateway_backup.php:1449 admin/_gateway_backup.php:1522
-#: admin/_gateway_settings.php:1383 admin/_gateway_settings.php:1456
+#: admin/_gateway_settings.php:1384 admin/_gateway_settings.php:1457
 msgid "Open PHP SDK Github"
 msgstr ""
 
-#: admin/_gateway_backup.php:1454 admin/_gateway_settings.php:1388
+#: admin/_gateway_backup.php:1454 admin/_gateway_settings.php:1389
 msgid ""
 "Cardinity.com is not available, currency must be set to EUR, GBP or USD to "
 "be able to use this gateway."
 msgstr ""
 
-#: admin/_gateway_backup.php:1459 admin/_gateway_settings.php:1393
+#: admin/_gateway_backup.php:1459 admin/_gateway_settings.php:1394
 msgid "Enable Cardinity Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1464 admin/_gateway_settings.php:1398
+#: admin/_gateway_backup.php:1464 admin/_gateway_settings.php:1399
 msgid "Cardinity Project ID"
 msgstr ""
 
-#: admin/_gateway_backup.php:1469 admin/_gateway_settings.php:1403
+#: admin/_gateway_backup.php:1469 admin/_gateway_settings.php:1404
 msgid "Cardinity Project Secret"
 msgstr ""
 
-#: admin/_gateway_backup.php:1481 admin/_gateway_settings.php:1415
+#: admin/_gateway_backup.php:1481 admin/_gateway_settings.php:1416
 msgid "Securionpay Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1487 admin/_gateway_settings.php:1421
+#: admin/_gateway_backup.php:1487 admin/_gateway_settings.php:1422
 msgid "Open securionpay Dashboard"
 msgstr ""
 
-#: admin/_gateway_backup.php:1488 admin/_gateway_settings.php:1422
+#: admin/_gateway_backup.php:1488 admin/_gateway_settings.php:1423
 msgid "Open Docs"
 msgstr ""
 
-#: admin/_gateway_backup.php:1493 admin/_gateway_settings.php:1427
+#: admin/_gateway_backup.php:1493 admin/_gateway_settings.php:1428
 msgid "Enable Securionpay Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1498 admin/_gateway_settings.php:1432
+#: admin/_gateway_backup.php:1498 admin/_gateway_settings.php:1433
 msgid "Securionpay Public Key"
 msgstr ""
 
-#: admin/_gateway_backup.php:1503 admin/_gateway_settings.php:1437
+#: admin/_gateway_backup.php:1503 admin/_gateway_settings.php:1438
 msgid "Securionpay Secret Keyt"
 msgstr ""
 
-#: admin/_gateway_backup.php:1515 admin/_gateway_settings.php:1449
+#: admin/_gateway_backup.php:1515 admin/_gateway_settings.php:1450
 msgid "BeGateway Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1521 admin/_gateway_settings.php:1455
+#: admin/_gateway_backup.php:1521 admin/_gateway_settings.php:1456
 msgid "Open BeGateway Home"
 msgstr ""
 
-#: admin/_gateway_backup.php:1526 admin/_gateway_settings.php:1460
+#: admin/_gateway_backup.php:1526 admin/_gateway_settings.php:1461
 msgid "Enable BeGateway Payments"
 msgstr ""
 
-#: admin/_gateway_backup.php:1531 admin/_gateway_settings.php:1465
+#: admin/_gateway_backup.php:1531 admin/_gateway_settings.php:1466
 msgid "BeGateway Checkout Domain"
 msgstr ""
 
-#: admin/_gateway_backup.php:1534 admin/_gateway_settings.php:1468
+#: admin/_gateway_backup.php:1534 admin/_gateway_settings.php:1469
 msgid "Enter your payment provider checkout domain e.g. checkout.example.com"
 msgstr ""
 
-#: admin/_gateway_backup.php:1538 admin/_gateway_settings.php:1472
+#: admin/_gateway_backup.php:1538 admin/_gateway_settings.php:1473
 msgid "BeGateway Shop Id"
 msgstr ""
 
-#: admin/_gateway_backup.php:1541 admin/_gateway_settings.php:1475
+#: admin/_gateway_backup.php:1541 admin/_gateway_settings.php:1476
 msgid "Enter your shop id issued by your payment provider"
 msgstr ""
 
-#: admin/_gateway_backup.php:1545 admin/_gateway_settings.php:1479
+#: admin/_gateway_backup.php:1545 admin/_gateway_settings.php:1480
 msgid "BeGateway Shop Secret Key"
 msgstr ""
 
-#: admin/_gateway_backup.php:1548 admin/_gateway_settings.php:1482
+#: admin/_gateway_backup.php:1548 admin/_gateway_settings.php:1483
 msgid "Enter your shop secret key issued by your payment provider"
 msgstr ""
 
-#: admin/_gateway_backup.php:1552 admin/_gateway_settings.php:1486
+#: admin/_gateway_backup.php:1552 admin/_gateway_settings.php:1487
 msgid "BeGateway Shop Public Key"
 msgstr ""
 
-#: admin/_gateway_backup.php:1555 admin/_gateway_settings.php:1489
+#: admin/_gateway_backup.php:1555 admin/_gateway_settings.php:1490
 msgid "Enter your shop public issued by your payment provider"
 msgstr ""
 
-#: admin/_gateway_backup.php:1559 admin/_gateway_settings.php:1493
+#: admin/_gateway_backup.php:1559 admin/_gateway_settings.php:1494
 msgid "BeGateway Payment Timeout"
 msgstr ""
 
-#: admin/_gateway_backup.php:1562 admin/_gateway_settings.php:1496
+#: admin/_gateway_backup.php:1562 admin/_gateway_settings.php:1497
 msgid "Enter number of minutes to complete payment by customer"
 msgstr ""
 
-#: admin/_gateway_backup.php:1566 admin/_gateway_settings.php:1500
+#: admin/_gateway_backup.php:1566 admin/_gateway_settings.php:1501
 msgid "Enable Test Mode"
 msgstr ""
 
-#: admin/_gateway_backup.php:1573 admin/_gateway_settings.php:1507
+#: admin/_gateway_backup.php:1573 admin/_gateway_settings.php:1508
 #: admin/configure.php:145
 msgid "Save"
 msgstr "Сохранить"
@@ -2368,7 +2367,7 @@ msgid "No bank transfers has been found"
 msgstr "Банковских переводов не найдено"
 
 #: admin/_gateway_backup.php:1629 admin/_gateway_transfer.php:172
-#: functions.php:191 functions.php:1985 user/order.php:146
+#: functions.php:208 functions.php:2018 user/order.php:146
 msgid "Unknown"
 msgstr "Неизвестный"
 
@@ -2380,7 +2379,6 @@ msgstr ""
 "получили"
 
 #: admin/_gateway_backup.php:1643 admin/_gateway_transfer.php:186
-#: user/payments.php:49
 msgid "Pending"
 msgstr "В ожидании"
 
@@ -2401,6 +2399,18 @@ msgid "Are you sure you want to remove this transfer? Action cannot be undone."
 msgstr ""
 "Вы действительно хотите удалить эту передачу? Действие не может быть "
 "отменено."
+
+#: admin/_gateway_settings.php:1047
+#, fuzzy
+#| msgid ""
+#| "Paystack operates in currency NGN only, plugin must be set to one of "
+#| "listed currency, otherwise payment will not be available."
+msgid ""
+"Paystack operates in USD, GHS, ZAR & NGN currency only, plugin must be set "
+"to one of listed currency, otherwise payment will not be available."
+msgstr ""
+"Paystack работает только в валюте NGN, плагин должен быть установлен в одну "
+"из перечисленных валют, иначе оплата будет недоступна."
 
 #: admin/_gateway_settings.php:1330
 msgid "Robokassa Payments"
@@ -2489,7 +2499,7 @@ msgid ""
 "Enable user groups (memberships) and promote your regular users with extra "
 "benefits."
 msgstr ""
-"Включите группы пользователей (члены) и продвиньте своих обычных "
+"Включите группы пользователей (подписки) и продвиньте своих обычных "
 "пользователей с дополнительными преимуществами."
 
 #: admin/_group.php:173
@@ -2503,8 +2513,8 @@ msgid ""
 "for group members specified bellow!"
 msgstr ""
 "Ограничьте выбранные категории доступными только для членов группы. Обратите "
-"внимание, что выбранные категории и их списки будут доступны только и только "
-"для членов группы, указанных ниже!"
+"внимание, что выбранные категории и их объявления будут доступны только и "
+"только для членов группы, указанных ниже!"
 
 #: admin/_group.php:180
 msgid "Add new user to group"
@@ -2530,7 +2540,7 @@ msgid ""
 "limited. In order to increase this count, it is required to be member of "
 "group."
 msgstr ""
-"Когда включено, максимальное количество списков, которые может создать "
+"Когда включено, максимальное количество объявлений, которые может создать "
 "пользователь, будет ограничено. Чтобы увеличить это количество, необходимо "
 "быть членом группы."
 
@@ -2599,7 +2609,7 @@ msgid ""
 "You can define price for membership, membership discount and also that "
 "content of some categories is available just to members of specified group."
 msgstr ""
-"Вы можете определить цену членства, скидку на членство, а также то, что "
+"Вы можете определить цену подписки, скидку на подписку, а также то, что "
 "содержание некоторых категорий доступно только членам указанной группы."
 
 #: admin/_group.php:262
@@ -2664,7 +2674,7 @@ msgid ""
 msgstr ""
 "Max Items Days Expiration - введите период для расчета максимального "
 "количества предметов. Т.е. 10 штук за 30 дней. Когда пользователь хочет "
-"опубликовать больше, необходимо обновить членство"
+"опубликовать больше, необходимо обновить подписку"
 
 #: admin/_group.php:280
 msgid "Itm. Period"
@@ -2755,7 +2765,7 @@ msgstr "Нет группы"
 
 #: admin/_group.php:437
 msgid "Membership Expire on"
-msgstr "Членство истекает"
+msgstr "Подписка истекает"
 
 #: admin/_group.php:439
 msgid ""
@@ -2809,7 +2819,7 @@ msgid ""
 "When enabled, users can purchase membership in different groups. You can set "
 "privileges to groups or integrate them with different plugins."
 msgstr ""
-"Когда это разрешено, пользователи могут приобретать членство в разных "
+"Когда это разрешено, пользователи могут приобретать подписку в разных "
 "группах. Вы можете устанавливать привилегии для групп или интегрировать их с "
 "разными плагинами."
 
@@ -2867,17 +2877,17 @@ msgstr ""
 "продолжительность по умолчанию в 24 часа."
 
 #: admin/_highlight.php:49 admin/_image.php:31 admin/_movetotop.php:31
-#: admin/_premium.php:47 admin/_publish.php:32 admin/_republish.php:60
+#: admin/_premium.php:47 admin/_publish.php:32 admin/_republish.php:61
 msgid "Fees for categories were successfully saved"
 msgstr "Сборы за категории были успешно сэкономлены"
 
 #: admin/_highlight.php:75 admin/_image.php:57 admin/_movetotop.php:57
-#: admin/_premium.php:73 admin/_publish.php:58 admin/_republish.php:86
+#: admin/_premium.php:73 admin/_publish.php:58 admin/_republish.php:87
 msgid "Fees for locations were successfully saved"
 msgstr "Сборы за места были успешно сохранены"
 
 #: admin/_highlight.php:78 admin/_image.php:60 admin/_movetotop.php:60
-#: admin/_premium.php:76 admin/_publish.php:61 admin/_republish.php:89
+#: admin/_premium.php:76 admin/_publish.php:61 admin/_republish.php:90
 msgid ""
 "Some uplifts were not updated due to their format or range. Note that only "
 "integer values between -90 and 300 are accepted."
@@ -2886,8 +2896,8 @@ msgstr ""
 "внимание, что принимаются только целые значения от -90 до 300."
 
 #: admin/_highlight.php:110 admin/_image.php:91 admin/_movetotop.php:91
-#: admin/_premium.php:108 admin/_publish.php:92 admin/_republish.php:121
-#: admin/ecommerce.php:12 admin/gateway.php:8
+#: admin/_premium.php:108 admin/_publish.php:92 admin/_republish.php:122
+#: admin/ecommerce.php:12 admin/gateway.php:8 printpdf/index.php:38
 msgid "Settings"
 msgstr "Настройки"
 
@@ -2896,7 +2906,8 @@ msgid ""
 "Highlight functionality bring possibility to make listings more visible and "
 "attractive"
 msgstr ""
-"Выделение функций позволяет сделать списки более заметными и привлекательными"
+"Выделение функций позволяет сделать объявления более заметными и "
+"привлекательными"
 
 #: admin/_highlight.php:128
 msgid ""
@@ -2914,13 +2925,13 @@ msgstr "Включить оплату за выделение"
 msgid "When enabled, users can pay to mark their listings as highlight."
 msgstr ""
 "Когда это разрешено, пользователи могут заплатить, чтобы отметить свои "
-"списки как выделить."
+"объявления как выделенные."
 
-#: admin/_highlight.php:141 admin/_premium.php:139 admin/_republish.php:153
+#: admin/_highlight.php:141 admin/_premium.php:139 admin/_republish.php:154
 msgid "Default fee per 24 hours"
 msgstr "Стоимость по умолчанию в сутки"
 
-#: admin/_highlight.php:145 admin/_premium.php:143 admin/_republish.php:157
+#: admin/_highlight.php:145 admin/_premium.php:143 admin/_republish.php:158
 msgid ""
 "Define default fee per 24 hours of duration. Price for other durations is "
 "recalculated via formula."
@@ -2957,12 +2968,12 @@ msgid "Extra CSS styles. Example:"
 msgstr "Дополнительные стили CSS. Пример:"
 
 #: admin/_highlight.php:188 admin/_image.php:139 admin/_movetotop.php:137
-#: admin/_premium.php:171 admin/_publish.php:145 admin/_republish.php:206
+#: admin/_premium.php:171 admin/_publish.php:145 admin/_republish.php:207
 msgid "Category Prices"
 msgstr "Категория Цены"
 
 #: admin/_highlight.php:193 admin/_image.php:144 admin/_movetotop.php:142
-#: admin/_premium.php:176 admin/_publish.php:150 admin/_republish.php:211
+#: admin/_premium.php:176 admin/_publish.php:150 admin/_republish.php:212
 msgid ""
 "If you do not want to set different prices per category, skip this section. "
 "Prices will be then calculated based on default price."
@@ -2971,7 +2982,7 @@ msgstr ""
 "этот раздел. Цены будут затем рассчитаны на основе цены по умолчанию."
 
 #: admin/_highlight.php:194 admin/_image.php:145 admin/_movetotop.php:143
-#: admin/_premium.php:177 admin/_publish.php:151 admin/_republish.php:212
+#: admin/_premium.php:177 admin/_publish.php:151 admin/_republish.php:213
 msgid ""
 "If price on parent category is changed, this change is applied to all "
 "subcategories of this category."
@@ -2980,7 +2991,7 @@ msgstr ""
 "всем подкатегориям этой категории."
 
 #: admin/_highlight.php:195 admin/_image.php:146 admin/_movetotop.php:144
-#: admin/_premium.php:178 admin/_publish.php:152 admin/_republish.php:213
+#: admin/_premium.php:178 admin/_publish.php:152 admin/_republish.php:214
 msgid ""
 "If same price as default price is set, price is cleared (default is used). "
 "If price field is left blank, default price is used."
@@ -2990,12 +3001,12 @@ msgstr ""
 "цена по умолчанию."
 
 #: admin/_highlight.php:196 admin/_image.php:147 admin/_movetotop.php:145
-#: admin/_premium.php:179 admin/_publish.php:153 admin/_republish.php:214
+#: admin/_premium.php:179 admin/_publish.php:153 admin/_republish.php:215
 msgid "Do not modify too many categories at once."
 msgstr "Не изменяйте слишком много категорий одновременно."
 
 #: admin/_highlight.php:200 admin/_image.php:151 admin/_movetotop.php:149
-#: admin/_premium.php:183 admin/_publish.php:157 admin/_republish.php:218
+#: admin/_premium.php:183 admin/_publish.php:157 admin/_republish.php:219
 msgid ""
 "Set price to 0 (zero) to disable selection. Set price to blank (empty) to "
 "use default price."
@@ -3006,54 +3017,54 @@ msgstr ""
 #: admin/_highlight.php:212 admin/_highlight.php:316 admin/_image.php:163
 #: admin/_image.php:252 admin/_movetotop.php:160 admin/_movetotop.php:246
 #: admin/_premium.php:195 admin/_premium.php:299 admin/_publish.php:168
-#: admin/_publish.php:256 admin/_republish.php:229 admin/_republish.php:333
+#: admin/_publish.php:256 admin/_republish.php:230 admin/_republish.php:334
 msgid "Show only prices different to default"
 msgstr "Показывать только цены, отличающиеся по умолчанию"
 
 #: admin/_highlight.php:213 admin/_highlight.php:317 admin/_image.php:164
 #: admin/_image.php:253 admin/_movetotop.php:161 admin/_movetotop.php:247
 #: admin/_premium.php:196 admin/_premium.php:300 admin/_publish.php:169
-#: admin/_publish.php:257 admin/_republish.php:230 admin/_republish.php:334
+#: admin/_publish.php:257 admin/_republish.php:231 admin/_republish.php:335
 msgid "Show all prices"
 msgstr "Показать все цены"
 
 #: admin/_highlight.php:214 admin/_highlight.php:318 admin/_image.php:165
 #: admin/_image.php:254 admin/_movetotop.php:162 admin/_movetotop.php:248
 #: admin/_premium.php:197 admin/_premium.php:301 admin/_publish.php:170
-#: admin/_publish.php:258 admin/_republish.php:231 admin/_republish.php:335
+#: admin/_publish.php:258 admin/_republish.php:232 admin/_republish.php:336
 msgid "Clear prices"
 msgstr "Чистые цены"
 
 #: admin/_highlight.php:232 admin/_image.php:170 admin/_movetotop.php:167
-#: admin/_premium.php:215 admin/_publish.php:175 admin/_republish.php:249
+#: admin/_premium.php:215 admin/_publish.php:175 admin/_republish.php:250
 #: user/banner_form.php:54
 msgid "Category"
 msgstr "Категория"
 
 #: admin/_highlight.php:242 admin/_image.php:177 admin/_movetotop.php:174
-#: admin/_premium.php:225 admin/_publish.php:182 admin/_republish.php:259
+#: admin/_premium.php:225 admin/_publish.php:182 admin/_republish.php:260
 msgid "No categories has been added yet"
 msgstr "Ни одна категория не было добавлено"
 
 #: admin/_highlight.php:250 admin/_image.php:185 admin/_movetotop.php:182
-#: admin/_premium.php:233 admin/_publish.php:190 admin/_republish.php:267
+#: admin/_premium.php:233 admin/_publish.php:190 admin/_republish.php:268
 msgid "Main category"
 msgstr "Главная категория"
 
 #: admin/_highlight.php:262 admin/_image.php:196 admin/_movetotop.php:193
-#: admin/_premium.php:245 admin/_publish.php:201 admin/_republish.php:279
+#: admin/_premium.php:245 admin/_publish.php:201 admin/_republish.php:280
 msgid "This option is disabled"
 msgstr "Этот параметр отключен"
 
 #: admin/_highlight.php:272 admin/_image.php:207 admin/_movetotop.php:203
-#: admin/_premium.php:255 admin/_publish.php:211 admin/_republish.php:289
+#: admin/_premium.php:255 admin/_publish.php:211 admin/_republish.php:290
 msgid "Default price is used"
 msgstr "Используется цена по умолчанию"
 
 #: admin/_highlight.php:278 admin/_highlight.php:362 admin/_image.php:213
 #: admin/_image.php:298 admin/_movetotop.php:209 admin/_movetotop.php:292
 #: admin/_premium.php:261 admin/_premium.php:345 admin/_publish.php:217
-#: admin/_publish.php:302 admin/_republish.php:295 admin/_republish.php:379
+#: admin/_publish.php:302 admin/_republish.php:296 admin/_republish.php:380
 #: admin/tax.php:101 admin/tax.php:106 admin/tax.php:112 admin/tax.php:119
 #: admin/tax.php:125 admin/tax.php:131 admin/tax.php:138 admin/tax.php:144
 #: admin/tax.php:150
@@ -3061,12 +3072,12 @@ msgid "Click to unlock field"
 msgstr "Нажмите, чтобы разблокировать поле"
 
 #: admin/_highlight.php:298 admin/_image.php:234 admin/_movetotop.php:228
-#: admin/_premium.php:281 admin/_publish.php:238 admin/_republish.php:315
+#: admin/_premium.php:281 admin/_publish.php:238 admin/_republish.php:316
 msgid "Location Prices"
 msgstr "Цены на размещение"
 
 #: admin/_highlight.php:303 admin/_image.php:239 admin/_movetotop.php:233
-#: admin/_premium.php:286 admin/_publish.php:243 admin/_republish.php:320
+#: admin/_premium.php:286 admin/_publish.php:243 admin/_republish.php:321
 msgid ""
 "You can set there uplift of price per country or region in range -90% to "
 "+300%. If you set +100%, fee in selected location will be doubled."
@@ -3075,36 +3086,36 @@ msgstr ""
 "до + 300%. Если вы установите + 100%, плата в выбранном месте будет удвоена."
 
 #: admin/_highlight.php:304 admin/_image.php:240 admin/_movetotop.php:234
-#: admin/_premium.php:287 admin/_publish.php:244 admin/_republish.php:321
+#: admin/_premium.php:287 admin/_publish.php:244 admin/_republish.php:322
 msgid ""
 "Note that to get final fee amount, there are 3 variables: category, "
 "location, user membership."
 msgstr ""
 "Обратите внимание, что для получения окончательной суммы вознаграждения "
-"существуют 3 переменные: категория, местоположение, членство пользователя."
+"существуют 3 переменные: категория, местоположение, подписку пользователя."
 
 #: admin/_highlight.php:305 admin/_image.php:241 admin/_movetotop.php:235
-#: admin/_premium.php:288 admin/_publish.php:245 admin/_republish.php:322
+#: admin/_premium.php:288 admin/_publish.php:245 admin/_republish.php:323
 msgid "Leave blank or set to 0 to disable."
 msgstr "Оставьте пустым или установите на 0 для отключения."
 
 #: admin/_highlight.php:323 admin/_image.php:259 admin/_movetotop.php:253
-#: admin/_premium.php:306 admin/_publish.php:263 admin/_republish.php:340
+#: admin/_premium.php:306 admin/_publish.php:263 admin/_republish.php:341
 msgid "Location"
 msgstr "Местонахождение"
 
 #: admin/_highlight.php:324 admin/_image.php:260 admin/_movetotop.php:254
-#: admin/_premium.php:307 admin/_publish.php:264 admin/_republish.php:341
+#: admin/_premium.php:307 admin/_publish.php:264 admin/_republish.php:342
 msgid "Uplift percentage"
 msgstr "Процент повышения"
 
 #: admin/_highlight.php:330 admin/_image.php:266 admin/_movetotop.php:260
-#: admin/_premium.php:313 admin/_publish.php:270 admin/_republish.php:347
+#: admin/_premium.php:313 admin/_publish.php:270 admin/_republish.php:348
 msgid "No locations has been added yet"
 msgstr "Пока не добавлено ни одного местоположения"
 
 #: admin/_highlight.php:366 admin/_image.php:302 admin/_movetotop.php:296
-#: admin/_premium.php:349 admin/_publish.php:306 admin/_republish.php:383
+#: admin/_premium.php:349 admin/_publish.php:306 admin/_republish.php:384
 msgid ""
 "Enter integer values only! It can be negative or possitive in range from -90 "
 "to 300."
@@ -3217,16 +3228,16 @@ msgstr ""
 "Возможно"
 
 #: admin/_highlight.php:419 admin/_movetotop.php:316 admin/_premium.php:370
-#: admin/_republish.php:403 admin/banner.php:355 admin/tax.php:175
+#: admin/_republish.php:404 admin/banner.php:355 admin/tax.php:175
 #, php-format
 msgid "When enabled, users can %s their listings."
-msgstr "Когда включено, пользователи могут %s их списки."
+msgstr "Когда включено, пользователи могут %s их объявления."
 
 #: admin/_highlight.php:419
 msgid "highlight"
 msgstr "выделить"
 
-#: admin/_highlight.php:420 admin/_premium.php:371 admin/_republish.php:404
+#: admin/_highlight.php:420 admin/_premium.php:371 admin/_republish.php:405
 #: admin/tax.php:176
 msgid ""
 "Set default fee per 24 hours. This fee will be used to calculate fee for "
@@ -3235,7 +3246,7 @@ msgstr ""
 "Установите плату за по умолчанию за 24 часа. Эта плата будет использована "
 "для расчета платы за другие периоды."
 
-#: admin/_highlight.php:421 admin/_premium.php:372 admin/_republish.php:405
+#: admin/_highlight.php:421 admin/_premium.php:372 admin/_republish.php:406
 #: admin/tax.php:177
 #, php-format
 msgid ""
@@ -3280,21 +3291,20 @@ msgid ""
 "pictures on listings."
 msgstr ""
 "Функция «Платить за показы изображений» позволяет взимать плату с "
-"пользователей за показ фотографий в списках."
+"пользователей за показ фотографий в объявлениях."
 
 #: admin/_image.php:105
 msgid ""
 "When enabled, users are able to upload pictures to listings, however in "
 "order to show pictures it is required to pay fee."
 msgstr ""
-"Когда это разрешено, пользователи могут загружать фотографии в списки, "
+"Когда это разрешено, пользователи могут загружать фотографии в объявления, "
 "однако для того, чтобы показывать фотографии, вам необходимо внести плату."
 
 #: admin/_image.php:106
 msgid "When fee is not paid, in front listing behave like without pictures."
 msgstr ""
-"Когда гонорар не оплачивается, в переднем списке ведут себя, как без "
-"фотографий."
+"Когда платеж не внесен, в начале объявления ведут себя, как без фотографий."
 
 #: admin/_image.php:107
 msgid ""
@@ -3313,7 +3323,7 @@ msgstr "Включить оплату за изображение"
 msgid "When enabled, users must pay to show images on their listings."
 msgstr ""
 "Когда включено, пользователи должны оплачивать показы изображений в своих "
-"списках."
+"объявлениях."
 
 #: admin/_image.php:121 admin/_movetotop.php:119 admin/_publish.php:127
 msgid "Default fee"
@@ -3336,19 +3346,19 @@ msgid ""
 "When enabled, users must pay image fee in order to show images on their "
 "listings."
 msgstr ""
-"Когда включено, пользователи должны оплачивать плату за изображение, чтобы "
-"показывать изображения в своих списках."
+"Когда включено, пользователи должны вносить плату за изображение, чтобы "
+"показывать изображения в своих объявлениях."
 
 #: admin/_image.php:356
 msgid "Select default fee for showing images on listings."
-msgstr "Выберите стоимость по умолчанию для показа изображений в списках."
+msgstr "Выберите стоимость по умолчанию для показа изображений в объявлениях."
 
 #: admin/_movetotop.php:104
 msgid ""
 "Move to Top functionality bring possibility to move listings to top in "
 "search."
 msgstr ""
-"Функция «Переместить в верх» позволяет переносить списки вверх в поиске."
+"Функция «Переместить в верх» позволяет переносить объявления вверх в поиске."
 
 #: admin/_movetotop.php:105
 msgid "If listing is moved to top, it looks newly published."
@@ -3372,8 +3382,8 @@ msgid ""
 "When enabled, users can move their listings to top. Listing will behave like "
 "newly published."
 msgstr ""
-"Когда это разрешено, пользователи могут перемещать свои списки вверх. "
-"Листинг будет вести себя как новый."
+"Когда это разрешено, пользователи могут перемещать свои объявления вверх. "
+"Бартер будет вести себя как только опубликованный."
 
 #: admin/_movetotop.php:123
 msgid "Define default movetotop fee."
@@ -3385,11 +3395,11 @@ msgstr "перейти наверх"
 
 #: admin/_movetotop.php:317
 msgid "Set default fee for moving listing to top."
-msgstr "Установите плату по умолчанию для перемещения списка вверх."
+msgstr "Установите плату по умолчанию для перемещения объявления вверх."
 
 #: admin/_premium.php:125
 msgid "Make Premium functionality allows to mark listings as premium."
-msgstr "Функция Premium позволяет отмечать списки как премиальные."
+msgstr "Функция Premium позволяет отмечать объявления как премиальные."
 
 #: admin/_premium.php:126
 msgid ""
@@ -3398,8 +3408,8 @@ msgid ""
 "label that identifies listing as premium."
 msgstr ""
 "На основе темы премиум-бартер может быть показан в специальном блоке, где "
-"показаны только списки премий, имеет особый привлекательный цвет фона или "
-"ярлык, который идентифицирует бартер как премиум."
+"показаны только премиальные объявления, имеет особый привлекательный цвет "
+"фона или ярлык, который идентифицирует бартер как премиум."
 
 #: admin/_premium.php:131
 msgid "Enable Pay per Premium"
@@ -3409,7 +3419,7 @@ msgstr "Включить оплату за премию"
 msgid "When enabled, users can pay to mark their listings as premium."
 msgstr ""
 "Когда это разрешено, пользователи могут заплатить, чтобы отметить свои "
-"списки как премиальные."
+"объявления как премиальные."
 
 #: admin/_premium.php:148
 msgid "Duration of premiums"
@@ -3437,7 +3447,7 @@ msgid ""
 "listings."
 msgstr ""
 "Функция Pay per Publish позволяет взимать плату с пользователей за "
-"публикацию списков."
+"публикацию объявлений."
 
 #: admin/_publish.php:106
 msgid ""
@@ -3498,8 +3508,8 @@ msgid ""
 "When enabled, users must pay publish fee in order to show their listings in "
 "front."
 msgstr ""
-"Когда это разрешено, пользователи должны заплатить плату за публикацию, "
-"чтобы показать свои бартеры впереди."
+"Когда это разрешено, пользователи должны заплатить за публикацию, чтобы "
+"показать свои бартеры в начале."
 
 #: admin/_publish.php:326
 msgid ""
@@ -3518,7 +3528,7 @@ msgstr ""
 
 #: admin/_publish.php:327
 msgid "Select default fee for publishing listings."
-msgstr "Выберите пошлину за публикацию списков."
+msgstr "Выберите пошлину за публикацию объявлений."
 
 #: admin/_republish.php:32
 msgid ""
@@ -3528,15 +3538,15 @@ msgstr ""
 "Вы не выбрали никакого повтора, это невозможно. Использовался по умолчанию 1 "
 "повтор."
 
-#: admin/_republish.php:138
+#: admin/_republish.php:139
 msgid ""
 "Republish functionality enables to users to renew/republish their listings "
 "in selected intervals multiple times."
 msgstr ""
 "Функция повторной публикации позволяет пользователям повторно или повторно "
-"публиковать свои списки в выбранные интервалы несколько раз."
+"публиковать свои объявления в выбранные интервалы несколько раз."
 
-#: admin/_republish.php:139
+#: admin/_republish.php:140
 msgid ""
 "Listing that is republished behaves like newly published listing and will be "
 "in top on search page."
@@ -3544,7 +3554,7 @@ msgstr ""
 "Бартер, который переиздан, ведет себя как новый опубликованный бартер и "
 "будет в верхней части страницы поиска."
 
-#: admin/_republish.php:140
+#: admin/_republish.php:141
 msgid ""
 "When republish paid, listing is instaltnly renewed and then republished in "
 "selected intervals."
@@ -3552,21 +3562,21 @@ msgstr ""
 "Когда перепубликация оплачивается, бартер обновляется, а затем переиздается "
 "в определенные интервалы времени."
 
-#: admin/_republish.php:145
+#: admin/_republish.php:146
 msgid "Enable Pay per Republish"
 msgstr "Включить оплату за публикацию"
 
-#: admin/_republish.php:148
+#: admin/_republish.php:149
 msgid "When enabled, users can pay to mark their listings as republish."
 msgstr ""
 "Когда это разрешено, пользователи могут заплатить, чтобы пометить свои "
-"списки как повторно опубликованные."
+"объявления как повторно опубликованные."
 
-#: admin/_republish.php:162
+#: admin/_republish.php:163
 msgid "Duration of republish"
 msgstr "Продолжительность повторной публикации"
 
-#: admin/_republish.php:171
+#: admin/_republish.php:172
 msgid ""
 "Select at least 1 duration to make Pay per Republish functional (Press CTRL "
 "to select multiple)."
@@ -3574,11 +3584,11 @@ msgstr ""
 "Выберите не менее 1 продолжительности, чтобы сделать функцию оплаты за "
 "повторную публикацию (нажмите CTRL, чтобы выбрать несколько)."
 
-#: admin/_republish.php:175
+#: admin/_republish.php:176
 msgid "Available repeats of republish"
 msgstr "Доступные повторы публикации"
 
-#: admin/_republish.php:184
+#: admin/_republish.php:185
 msgid ""
 "Select at least 1 repeat to make Pay per Republish functional (Press CTRL to "
 "select multiple)."
@@ -3586,11 +3596,11 @@ msgstr ""
 "Выберите хотя бы 1 повтор, чтобы сделать функцию оплаты за повторную "
 "публикацию (нажмите CTRL, чтобы выбрать несколько)."
 
-#: admin/_republish.php:188
+#: admin/_republish.php:189
 msgid "Discount for multi-republish purchase"
 msgstr "Скидка при многополярной покупке"
 
-#: admin/_republish.php:192
+#: admin/_republish.php:193
 msgid ""
 "Discount is applied to purchase for each extra republish. If 5 republish of "
 "listing is bought, discount is applied 5 times."
@@ -3598,15 +3608,15 @@ msgstr ""
 "Скидка применяется для покупки за каждую дополнительную переиздание. Если "
 "продается 5 републикаций бартера, скидка применяется 5 раз."
 
-#: admin/_republish.php:403
+#: admin/_republish.php:404
 msgid "republish"
 msgstr "переиздать"
 
-#: admin/_republish.php:405
+#: admin/_republish.php:406
 msgid "republishing"
 msgstr "переиздание"
 
-#: admin/_republish.php:406
+#: admin/_republish.php:407
 msgid ""
 "Select available repeats of republish. I.e. when user purchase republish 24 "
 "hours with 3 repeats, listing will be republished 3 times, first time after "
@@ -3617,7 +3627,7 @@ msgstr ""
 "первый раз после 24 часов с момента покупки, а затем еще 2 раза каждый после "
 "24 часов."
 
-#: admin/_republish.php:407
+#: admin/_republish.php:408
 msgid ""
 "Set discount in integer format. This can motivate users to buy multi-repeat "
 "republish option. Let's say you set discount to 5. If user purchase 1 "
@@ -3631,7 +3641,7 @@ msgstr ""
 "не будет применяться. Для 2 повторов будет применена скидка 5%. Для 3 "
 "повторов будет применена скидка 1 - 0,95 * 0,95 (9,75%)."
 
-#: admin/_republish.php:410
+#: admin/_republish.php:411
 msgid "Duration means after how long will be listing republished."
 msgstr "Продолжительность означает, как долго будет переиздан бартер."
 
@@ -3949,7 +3959,7 @@ msgstr "Плата за 1 просмотр"
 msgid "Fee for 1 click"
 msgstr "Плата за 1 клик"
 
-#: admin/banner.php:137 functions.php:1484 index.php:710 index.php:735
+#: admin/banner.php:137 functions.php:1501 index.php:705 index.php:730
 msgid "Banners"
 msgstr "Баннеры"
 
@@ -4136,8 +4146,8 @@ msgstr ""
 "это может нарушить дизайн баннеров. Если это не работает для вас, проверьте "
 "руководство по установке."
 
-#: admin/configure.php:3 admin/configure.php:43 index.php:447 index.php:455
-#: index.php:526
+#: admin/configure.php:3 admin/configure.php:43 index.php:442 index.php:450
+#: index.php:521
 msgid "Configure"
 msgstr "Конфигурировать"
 
@@ -4323,7 +4333,7 @@ msgstr "Сделать премиум"
 msgid "Pay per Publish"
 msgstr "Платить за публикацию"
 
-#: admin/item.php:9 functions.php:1958
+#: admin/item.php:9 functions.php:1991
 msgid "Highlight"
 msgstr "Выделять"
 
@@ -4331,7 +4341,7 @@ msgstr "Выделять"
 msgid "Pay to Show Images"
 msgstr "Платить за просмотр изображений"
 
-#: admin/item.php:11 functions.php:1212 functions.php:1385 functions.php:1972
+#: admin/item.php:11 functions.php:1229 functions.php:1402 functions.php:2005
 #: user/item_post.php:131
 msgid "Move to Top"
 msgstr "Переместить наверх"
@@ -4362,13 +4372,13 @@ msgstr "Журналы платежей не найдены"
 
 #: admin/log.php:131
 msgid "Active membership in"
-msgstr "Активное членство в"
+msgstr "Активна подписка в"
 
 #: admin/log.php:133
 msgid "Not member of any group"
 msgstr "Не является членом какой-либо группы"
 
-#: admin/log.php:137 functions.php:3011 functions.php:3019 functions.php:3027
+#: admin/log.php:137 functions.php:3047 functions.php:3055 functions.php:3063
 msgid "Wallet"
 msgstr "Кошелёк"
 
@@ -4524,10 +4534,10 @@ msgstr "По умолчанию"
 msgid "User Settings"
 msgstr "Пользовательские настройки"
 
-#: admin/user.php:7 functions.php:1476 index.php:702 index.php:727
+#: admin/user.php:7 functions.php:1493 index.php:697 index.php:722
 #: index.php:936
 msgid "Wallet & Packs"
-msgstr "Кошелек & Пакеты"
+msgstr "Кошелек & Кредиты"
 
 #: email.php:79 email.php:168 email.php:228 email.php:272
 msgid "My account - Promotions section"
@@ -4558,61 +4568,61 @@ msgstr "Мой аккаунт - Раздел заказов"
 msgid "Total amount"
 msgstr "Общая сумма"
 
-#: functions.php:282
+#: functions.php:299
 #, fuzzy
 msgid "Page:"
 msgstr "Страница"
 
-#: functions.php:366
+#: functions.php:383
 #, fuzzy
 msgid "All listings"
 msgstr "Все"
 
-#: functions.php:367
+#: functions.php:384
 msgid "\"Buy now\" listings"
 msgstr ""
 
-#: functions.php:368
+#: functions.php:385
 #, fuzzy
 msgid "Other listings"
 msgstr ""
 "Если бартер выделен, он выглядит иначе, чем другие бартеры. Вы можете "
 "определить стили для выделенных бартеров ниже."
 
-#: functions.php:475
+#: functions.php:492
 msgid "Invalid code, no voucher has been found"
 msgstr "Неверный код, ваучер не найден"
 
-#: functions.php:478
+#: functions.php:495
 msgid "Invalid voucher type, this type of voucher cannot be added into cart"
 msgstr ""
 "Недействительный тип ваучера, этот тип ваучера не может быть добавлен в "
 "корзину"
 
-#: functions.php:481
+#: functions.php:498
 msgid "Invalid voucher type, this type of voucher is not credit type"
 msgstr "Недействительный тип ваучера, этот тип ваучера не является кредитным"
 
-#: functions.php:484
+#: functions.php:501
 #, php-format
 msgid "Voucher is not valid yet, promotion starts on %s"
 msgstr "Ваучер еще не действителен, акция начинается на %s"
 
-#: functions.php:487
+#: functions.php:504
 #, php-format
 msgid "Voucher is not valid anymore, promotion has ended on %s"
 msgstr "Ваучер больше не действителен, продвижение завершено на %s"
 
-#: functions.php:490
+#: functions.php:507
 msgid "Voucher is not valid anymore, it has reached maximum usage already"
 msgstr ""
 "Ваучер больше не действителен, он уже достиг максимального использования"
 
-#: functions.php:493
+#: functions.php:510
 msgid "Voucher is not valid anymore, promotion has been cancelled"
 msgstr "Ваучер больше не действителен, промоушен отменен"
 
-#: functions.php:496
+#: functions.php:513
 msgid ""
 "Voucher is not available for you as it is restricted just to certain "
 "customers"
@@ -4620,7 +4630,7 @@ msgstr ""
 "Ваучер недоступен для вас, так как он распространяется только на "
 "определенных клиентов"
 
-#: functions.php:499
+#: functions.php:516
 msgid ""
 "Voucher is not available for you as it is restricted just to certain "
 "membership groups"
@@ -4628,13 +4638,13 @@ msgstr ""
 "Ваучер недоступен для вас, так как он ограничен только определенными "
 "группами участников"
 
-#: functions.php:502
+#: functions.php:519
 #, php-format
 msgid "Voucher could not be used, minimum order amount for voucher is %s"
 msgstr ""
 "Ваучер не может быть использован, минимальная сумма заказа для ваучера %s"
 
-#: functions.php:505
+#: functions.php:522
 #, php-format
 msgid ""
 "You have used voucher %dx already, that is maximum allowed usage per customer"
@@ -4642,7 +4652,7 @@ msgstr ""
 "Вы уже использовали ваучер %dx, то есть максимально допустимое использование "
 "на клиента"
 
-#: functions.php:519
+#: functions.php:536
 #, php-format
 msgid ""
 "Voucher could not be used, as cart contains one or more restricted products "
@@ -4651,17 +4661,17 @@ msgstr ""
 "Ваучер не может быть использован, так как корзина содержит один или "
 "несколько товаров с ограниченным доступом для этого ваучера (%s)"
 
-#: functions.php:538
+#: functions.php:555
 #, php-format
 msgid "%s discount has been applied"
 msgstr "%s скидка была применена"
 
-#: functions.php:540
+#: functions.php:557
 #, php-format
 msgid "%s has been added into your wallet"
 msgstr "%s был добавлен в ваш кошелек"
 
-#: functions.php:663
+#: functions.php:680
 #, php-format
 msgid ""
 "An account limit has been introduced where you can have up to %s ads live at "
@@ -4670,98 +4680,97 @@ msgid ""
 "us. You have currently active %s listings out of your limit %s listings "
 "(published in %s days)."
 msgstr ""
-"Введен лимит аккаунта, при котором вы можете показывать до %s рекламы в "
-"любой момент. Если вам нужно больше, вы можете стать премиум-участником, "
-"чтобы получить дополнительные преимущества. Чтобы узнать больше об этом, "
-"посетите страницу часто задаваемых вопросов или свяжитесь с нами. В "
-"настоящее время у вас есть активные %s списки из вашего лимита %s "
-"(опубликовано в %s днях)."
+"Введены лимиты, при которых вы можете показывать до %s бартера в любой "
+"момент. Если вам нужно больше, вы можете оплатить подписку, чтобы получить "
+"дополнительные преимущества и предложения. Чтобы узнать больше об этом, "
+"посетите раздел Подписки или свяжитесь с нами. В настоящее %s бартер из "
+"вашего лимита %s (опубликовано на %s дней)."
 
-#: functions.php:668
+#: functions.php:685
 msgid "Premium membership and account limit"
-msgstr "Премиум-членство и лимит аккаунта"
+msgstr "Премиальная подписка и лимиты"
 
-#: functions.php:670
+#: functions.php:687
 msgid "Buy"
 msgstr "Купить"
 
-#: functions.php:690
+#: functions.php:707
 #, php-format
 msgid "You have %s in your wallet. %s to promote your listings!"
 msgstr "У вас есть %s в вашем кошельке. %s для продвижения ваших объявлений!"
 
-#: functions.php:690
+#: functions.php:707
 msgid "Click here"
 msgstr "Кликните сюда"
 
-#: functions.php:737
+#: functions.php:754
 msgid "This is your product, you cannot buy it!"
 msgstr "Это ваш продукт, Вы не можете его купить!"
 
-#: functions.php:740 functions.php:742 functions.php:1313 user/pack.php:164
+#: functions.php:757 functions.php:759 functions.php:1330 user/pack.php:164
 msgid "Add to cart"
 msgstr "Добавить в корзину"
 
-#: functions.php:747
+#: functions.php:764
 msgid "In stock"
 msgstr ""
 
-#: functions.php:749
+#: functions.php:766
 msgid "Sold out!"
 msgstr "Распроданный!"
 
-#: functions.php:795 user/banner.php:24
+#: functions.php:812 user/banner.php:24
 msgid "Advertise here!"
 msgstr "Реклама здесь!"
 
-#: functions.php:875 functions.php:915
+#: functions.php:892 functions.php:932
 msgid "Enable Sale"
 msgstr "Включить продажу"
 
-#: functions.php:881 functions.php:921
+#: functions.php:898 functions.php:938
 msgid "Enable online sales for this item. Payment goes to site owner account."
 msgstr ""
 "Включить онлайн - продажи для этого элемента. Оплата идет на счет владельца "
 "сайта."
 
-#: functions.php:893 functions.php:933
+#: functions.php:910 functions.php:950
 msgid "Require shipping for this item."
 msgstr ""
 
-#: functions.php:893 functions.php:933
+#: functions.php:910 functions.php:950
 msgid "Manage my shipping options"
 msgstr ""
 
-#: functions.php:900 functions.php:940
+#: functions.php:917 functions.php:957
 msgid "Available Quantity"
 msgstr "Имеющееся Количество"
 
-#: functions.php:903 functions.php:943
+#: functions.php:920 functions.php:960
 msgid "Enter how much quantity of this product is available."
 msgstr "Введите количество доступных продуктов."
 
-#: functions.php:998 functions.php:1006
+#: functions.php:1015 functions.php:1023
 msgid "Referral code"
 msgstr "Реферальный код"
 
-#: functions.php:1001 functions.php:1009
+#: functions.php:1018 functions.php:1026
 #, php-format
 msgid "Get %s for using referral code from your friend"
 msgstr "Получите %s для использования реферального кода от своего друга"
 
-#: functions.php:1064
+#: functions.php:1081
 #, php-format
 msgid "Credit for using referral code %s to user %s (%s) at %s"
 msgstr ""
 "Кредит для использования реферального кода %s для пользователя %s (%s) в %s"
 
-#: functions.php:1069
+#: functions.php:1086
 #, php-format
 msgid "Credit for providing referral code %s to user %s (%s) at %s"
 msgstr ""
 "Кредит за предоставление реферального кода %s пользователю %s (%s) в %s"
 
-#: functions.php:1072
+#: functions.php:1089
 #, php-format
 msgid ""
 "Referral code %s successfully used. You and your friend got bonus %s to "
@@ -4770,16 +4779,16 @@ msgstr ""
 "Код ссылки %s успешно используется. Вы и ваш друг получили бонус %s к "
 "кошельку"
 
-#: functions.php:1074
+#: functions.php:1091
 #, php-format
 msgid "Referral code %s was not recognized."
 msgstr "Код ссылки %s не был распознан."
 
-#: functions.php:1120
+#: functions.php:1137
 msgid "Listing will not be visible until administrator approves it"
 msgstr ""
 
-#: functions.php:1177
+#: functions.php:1194
 #, php-format
 msgid ""
 "Item ID %s has not been paid yet, you cannot activate item until publish fee "
@@ -4789,74 +4798,76 @@ msgstr ""
 "плата за публикацию %s не будет оплачена. Чтобы отобразить бартер, нажмите "
 "ссылку «Платить за публикацию»."
 
-#: functions.php:1199 user/item_post.php:82
+#: functions.php:1216 user/item_post.php:82
 msgid "In order to show your listing it is required to pay publish fee"
-msgstr "Чтобы показать свою бартер, необходимо заплатить плату за публикацию"
+msgstr ""
+"Чтобы разместить свой бартер, необходимо внести плату за публикацию (но "
+"дешевле оплатить подписку)"
 
-#: functions.php:1199 user/item_post.php:81
+#: functions.php:1216 user/item_post.php:81
 msgid "Publish Fee"
 msgstr "Опубликовать Сбор"
 
-#: functions.php:1201 functions.php:1954
+#: functions.php:1218 functions.php:1987
 msgid "Publish fee"
 msgstr "Опубликовать сбор"
 
-#: functions.php:1212 user/item_post.php:132
+#: functions.php:1229 user/item_post.php:132
 msgid "Your listings will be moved to top position in search results"
 msgstr "Ваше объявление будет перемещено наверх в результатах поиска"
 
-#: functions.php:1214
+#: functions.php:1231
 msgid "Move to top fee"
 msgstr "Переместить наверх"
 
-#: functions.php:1225 user/item_post.php:107
+#: functions.php:1242 user/item_post.php:107
 msgid "In order to show images on your listing it is required to pay fee"
 msgstr ""
-"Для того, чтобы показывать изображения в вашем списке, необходимо внести "
+"Для того, чтобы показывать изображения в вашем объявлении, необходимо внести "
 "плату"
 
-#: functions.php:1225 user/item_post.php:106
+#: functions.php:1242 user/item_post.php:106
 msgid "Show Images Fee"
 msgstr "Показывать изображения"
 
-#: functions.php:1227
+#: functions.php:1244
 msgid "Show images fee"
 msgstr "Показать картинку"
 
-#: functions.php:1238 functions.php:1956
+#: functions.php:1255 functions.php:1989
 msgid "Make Premium"
 msgstr "Сделать Премиум"
 
-#: functions.php:1240
+#: functions.php:1257
 msgid "Extend Premium"
 msgstr "Продлить Премиум"
 
-#: functions.php:1243 user/item_post.php:167
+#: functions.php:1260 user/item_post.php:167
 msgid "Make your listing unique on home and search page!"
 msgstr ""
 "Сделайте своё объявление уникальным на домашней странице и странице поиска!"
 
-#: functions.php:1249 user/item_post.php:218
+#: functions.php:1266 user/item_post.php:218
 msgid "Highlight Item"
 msgstr "Выделить объявление"
 
-#: functions.php:1251
+#: functions.php:1268
 msgid "Extend Highlight"
 msgstr "Расширение выделения"
 
-#: functions.php:1254 user/item_post.php:219
+#: functions.php:1271 user/item_post.php:219
 msgid "Make listing more visible and attract more people!"
 msgstr "Сделайте своё объявление более заметным и привлеките больше людей!"
 
-#: functions.php:1275
+#: functions.php:1292
 msgid "Automatically Republish Item"
 msgstr "Автоматически Публиковать Товар"
 
-#: functions.php:1277
+#: functions.php:1294
 msgid "Extend Republish"
 msgstr "Продлить Переиздание"
 
-#: functions.php:1286
+#: functions.php:1303
 msgid ""
 "Listing will be instantly renewed and then republished multiple times in "
 "selected intervals"
@@ -4864,88 +4875,88 @@ msgstr ""
 "Листинг будет немедленно обновлен, а затем повторно опубликован несколько "
 "раз в выбранные интервалы времени"
 
-#: functions.php:1288
+#: functions.php:1305
 msgid "How often republish item?"
 msgstr "Как часто переиздавать товар?"
 
-#: functions.php:1298
+#: functions.php:1315
 msgid "How many times?"
 msgstr "Сколько раз?"
 
-#: functions.php:1301
+#: functions.php:1318
 msgid "Repeat"
 msgstr "Повторение"
 
-#: functions.php:1316
+#: functions.php:1333
 msgid "No promotion options available"
 msgstr "Нет доступных вариантов продвижения"
 
-#: functions.php:1355
+#: functions.php:1372
 msgid "Unpaid"
 msgstr "Неоплаченный"
 
-#: functions.php:1361
+#: functions.php:1378
 msgid "Show image paid"
 msgstr "Показать изображение"
 
-#: functions.php:1361
+#: functions.php:1378
 msgid "Highlight paid"
 msgstr "Выделите оплаченный"
 
-#: functions.php:1361
+#: functions.php:1378
 msgid "Republish paid"
 msgstr "Перепубликация оплачена"
 
-#: functions.php:1362
+#: functions.php:1379
 msgid "Show image not paid"
 msgstr "Показать изображение не оплачено"
 
-#: functions.php:1362
+#: functions.php:1379
 msgid "Highlight pending payment"
 msgstr "Выделить ожидающий платеж"
 
-#: functions.php:1362
+#: functions.php:1379
 msgid "Republish pending payment"
 msgstr "Перепубликовать ожидающий платеж"
 
-#: functions.php:1385
+#: functions.php:1402
 msgid "Pay Show Image"
 msgstr "Платный показ изображения"
 
-#: functions.php:1385
+#: functions.php:1402
 msgid "Pay Highlight"
 msgstr "Оплатить"
 
-#: functions.php:1385
+#: functions.php:1402
 msgid "Pay Publish Fee"
 msgstr "Плата за публикацию"
 
-#: functions.php:1386
+#: functions.php:1403
 msgid "Disable Show Image"
 msgstr "Отключить отображение изображения"
 
-#: functions.php:1386
+#: functions.php:1403
 msgid "Unhighlight"
 msgstr "Снять выделение"
 
-#: functions.php:1387
+#: functions.php:1404
 msgid "Require Pay Show Image"
 msgstr "Требовать оплаты Показать изображение"
 
-#: functions.php:1387
+#: functions.php:1404
 msgid "Require Pay Publish Fee"
 msgstr "Требовать Оплатить Опубликовать Плата"
 
-#: functions.php:1446
+#: functions.php:1463
 #, php-format
 msgid "Credit for registration to user %s (%s) at %s"
 msgstr "Кредит на регистрацию пользователя %s (%s) в %s"
 
-#: functions.php:1446
+#: functions.php:1463
 msgid "Registration bonus credits"
 msgstr ""
 
-#: functions.php:1447
+#: functions.php:1464
 #, php-format
 msgid ""
 "As a bonus for registration we have just boost your wallet with %s. Feel "
@@ -4954,24 +4965,24 @@ msgstr ""
 "В качестве бонуса для регистрации мы просто повышаем ваш кошелек с  %s. Не "
 "стесняйтесь использовать их для продвижения ваших объявлений!"
 
-#: functions.php:1480 functions.php:1966 index.php:706 index.php:731
-#: index.php:937 model/ModelOSP.php:1406
+#: functions.php:1497 functions.php:1999 index.php:701 index.php:726
+#: index.php:937 model/ModelOSP.php:1415
 msgid "Membership"
-msgstr "Членство"
+msgstr "Подписка"
 
-#: functions.php:1488 index.php:714 index.php:739 index.php:949 index.php:950
+#: functions.php:1505 index.php:709 index.php:734 index.php:949 index.php:950
 msgid "Orders & Sales"
 msgstr ""
 
-#: functions.php:1491 index.php:717 index.php:742
+#: functions.php:1508 index.php:712 index.php:737
 msgid "Cart"
 msgstr "Корзина"
 
-#: functions.php:1492
+#: functions.php:1509
 msgid "Payments"
 msgstr "Платежи"
 
-#: functions.php:1617
+#: functions.php:1634
 #, php-format
 msgid ""
 "Important! Osclass Pay plugin has restricted this category and it's content "
@@ -4984,85 +4995,91 @@ msgstr ""
 "что вы вошли в систему как администратор в том же браузере. Это сообщение не "
 "отображается вашим клиентам."
 
-#: functions.php:1748 functions.php:1752
+#: functions.php:1770 functions.php:1777
 #, php-format
 msgid "%d hours"
 msgstr "%d часов"
 
-#: functions.php:1750
+#: functions.php:1773
+#, fuzzy, php-format
+#| msgid "%d months"
+msgid "%d minutes"
+msgstr "%d месяцев"
+
+#: functions.php:1775
 #, php-format
 msgid "%d hour"
 msgstr "%d час"
 
-#: functions.php:1754
+#: functions.php:1779
 #, php-format
 msgid "%d day"
 msgstr "%d день"
 
-#: functions.php:1756
+#: functions.php:1781
 #, php-format
 msgid "%d days"
 msgstr "%d дней"
 
-#: functions.php:1758
+#: functions.php:1783
 #, php-format
 msgid "%d week"
 msgstr "%d неделю"
 
-#: functions.php:1760
+#: functions.php:1785
 #, php-format
 msgid "%d weeks"
 msgstr "%d недель"
 
-#: functions.php:1762
+#: functions.php:1787
 #, php-format
 msgid "%d month"
 msgstr "%d месяц"
 
-#: functions.php:1764
+#: functions.php:1789
 #, php-format
 msgid "%d months"
 msgstr "%d месяцев"
 
-#: functions.php:1766
+#: functions.php:1791
 #, php-format
 msgid "%d year"
 msgstr "%d год"
 
-#: functions.php:1768
+#: functions.php:1793
 #, php-format
 msgid "%d years"
 msgstr "%d лет"
 
-#: functions.php:1960 payments/robokassa1/result.php:98
+#: functions.php:1993 payments/robokassa1/result.php:98
 msgid "Show Image"
 msgstr "Показать изображение"
 
-#: functions.php:1962
+#: functions.php:1995
 msgid "Credit Pack"
 msgstr "Кредитный пакет"
 
-#: functions.php:1964 functions.php:1970
+#: functions.php:1997 functions.php:2003
 msgid "Republish"
 msgstr "Переиздать"
 
-#: functions.php:1968
+#: functions.php:2001
 msgid "Pay Items"
 msgstr "Платные товары"
 
-#: functions.php:1974 index.php:451 index.php:530
+#: functions.php:2007 index.php:446 index.php:525
 msgid "Banner"
 msgstr "Баннер"
 
-#: functions.php:1980
+#: functions.php:2013
 msgid "Pay booking"
 msgstr ""
 
-#: functions.php:1982 user/pack.php:95
+#: functions.php:2015 user/pack.php:95
 msgid "Voucher"
 msgstr "Ваучер"
 
-#: functions.php:2126
+#: functions.php:2162
 msgid ""
 "You have selected same or lower membership group, your remaining expiration "
 "days of group were transfered."
@@ -5070,11 +5087,11 @@ msgstr ""
 "Вы выбрали ту же или более низкую группу, оставшиеся дни истечения группы "
 "были перенесены."
 
-#: functions.php:2128
+#: functions.php:2164
 msgid "Your remaining expiration days of group were transfered."
 msgstr "Ваши оставшиеся дни истечения группы были перенесены."
 
-#: functions.php:2135
+#: functions.php:2171
 msgid ""
 "You have selected same or higher membership group, we have moved remaining "
 "expiration days to your new group."
@@ -5082,189 +5099,189 @@ msgstr ""
 "Вы выбрали ту же или более высокую группу, мы перенесли оставшиеся дни "
 "истечения в вашу новую группу."
 
-#: functions.php:2362 functions.php:2463 user/products.php:120
+#: functions.php:2398 functions.php:2499 user/products.php:120
 msgid "Title"
 msgstr "Заглавие"
 
-#: functions.php:2362 functions.php:2463 user/products.php:121
+#: functions.php:2398 functions.php:2499 user/products.php:121
 msgid "Price"
 msgstr "Цена"
 
-#: functions.php:2368
+#: functions.php:2404
 #, php-format
 msgid "Item %s"
 msgstr "Предмет %s"
 
-#: functions.php:2371
+#: functions.php:2407
 #, php-format
 msgid "Item %s (%s)"
 msgstr "Предмет %s (%s)"
 
-#: functions.php:2374
+#: functions.php:2410
 #, php-format
 msgid "Item %s (%s, repeat %sx)"
 msgstr "Предмет %s (%s, повторение %sx)"
 
-#: functions.php:2378
+#: functions.php:2414
 #, php-format
 msgid "Credit pack %s (get %s, pay %s)"
 msgstr "Кредитный пакет %s (получить %s, оплатить %s)"
 
-#: functions.php:2390
+#: functions.php:2426
 #, php-format
 msgid "Membership in %s (%s days)"
-msgstr "Членство в %s (%s дней)"
+msgstr "Подписка на %s (%s дней)"
 
-#: functions.php:2395
+#: functions.php:2431
 #, php-format
 msgid "Banner %s (budget %s)"
 msgstr "Баннер %s (бюджет %s)"
 
-#: functions.php:2410
+#: functions.php:2446
 msgid "Unknown seller"
 msgstr ""
 
-#: functions.php:2414
+#: functions.php:2450
 #, php-format
 msgid "Delivery by %s from %s"
 msgstr ""
 
-#: functions.php:2421
+#: functions.php:2457
 msgid "Change"
 msgstr "Изменить"
 
-#: functions.php:2423
+#: functions.php:2459
 msgid "Available delivery options"
 msgstr ""
 
-#: functions.php:2436 functions.php:2546
+#: functions.php:2472 functions.php:2582
 msgid "Unknown shipping"
 msgstr ""
 
-#: functions.php:2441 model/ModelOSP.php:3446
+#: functions.php:2477 model/ModelOSP.php:3455
 #, php-format
 msgid "Standard shipping from %s"
 msgstr ""
 
-#: functions.php:2453
+#: functions.php:2489
 #, php-format
 msgid "Voucher %s (-%s)"
 msgstr "Ваучер %s (-%s)"
 
-#: functions.php:2457
+#: functions.php:2493
 #, php-format
 msgid "Booking / Reservation #%s"
 msgstr ""
 
-#: functions.php:2466
+#: functions.php:2502
 #, php-format
 msgid "Purchase %s for %s"
 msgstr "Покупка %s для %s"
 
-#: functions.php:2469 functions.php:2572
+#: functions.php:2505 functions.php:2608
 msgid "Pay cart items"
 msgstr "Товары для покупок"
 
-#: functions.php:2472
+#: functions.php:2508
 msgid "Not recognized"
 msgstr "Не опознано"
 
-#: functions.php:2501
+#: functions.php:2537
 #, php-format
 msgid "%sx Publish fee for item %s"
 msgstr "%sx Опубликовать плату за товар %s"
 
-#: functions.php:2503
+#: functions.php:2539
 #, php-format
 msgid "%sx Image fee for item %s"
 msgstr "%sx Плата за изображение для элемента %s"
 
-#: functions.php:2505
+#: functions.php:2541
 #, php-format
 msgid "%sx Move to top fee for item %s"
 msgstr "%sx Переход на верхнюю плату за элемент %s"
 
-#: functions.php:2507
+#: functions.php:2543
 #, php-format
 msgid "%sx Premium fee for item %s, expire in %s"
 msgstr "%sx Премиум-комиссия за товар %s, истекает в %s"
 
-#: functions.php:2509
+#: functions.php:2545
 #, php-format
 msgid "%sx Highlight fee for item %s, expire in %s"
 msgstr "%sx Выделите плату за элемент %s, истечь в %s"
 
-#: functions.php:2511
+#: functions.php:2547
 #, php-format
 msgid "%sx Republish fee for item %s, expire in %s, repeat %sx"
 msgstr "%sx Плата за переиздание товара %s, истекает в %s, повторить %sx"
 
-#: functions.php:2515
+#: functions.php:2551
 #, php-format
 msgid "%sx Membership in group %s, expire in %s days"
-msgstr "%sx Членство в группе %s, истекает через %s дней"
+msgstr "%sx Подписка в группе %s, истекает через %s дней"
 
-#: functions.php:2520
+#: functions.php:2556
 #, php-format
 msgid "%sx Credit pack %s (get %s, pay %s)"
 msgstr "%sx Кредитный пакет %s (получить %s, оплатить %s)"
 
-#: functions.php:2525
+#: functions.php:2561
 #, php-format
 msgid "%sx Banner %s (budget %s)"
 msgstr "%sx Баннер %s (бюджет %s)"
 
-#: functions.php:2531
+#: functions.php:2567
 #, php-format
 msgid "%sx Shipping %s (%s)"
 msgstr ""
 
-#: functions.php:2533
+#: functions.php:2569
 #, php-format
 msgid "%sx Unknown shipping"
 msgstr ""
 
-#: functions.php:2544
+#: functions.php:2580
 #, php-format
 msgid "%sx Shipping %s (%s) from %s"
 msgstr ""
 
-#: functions.php:2551
+#: functions.php:2587
 #, php-format
 msgid "%sx Standard shipping from %s"
 msgstr ""
 
-#: functions.php:2563
+#: functions.php:2599
 #, php-format
 msgid "%sx Voucher %s (-%s)"
 msgstr "%sx Ваучер %s (-%s)"
 
-#: functions.php:2567
+#: functions.php:2603
 #, php-format
 msgid "%sx Booking / Reservation %s"
 msgstr ""
 
-#: functions.php:2570
+#: functions.php:2606
 #, php-format
 msgid "%sx Purchase item %s, regular unit price %s"
 msgstr "%sx Элемент покупки %s, нормальная цена единицы товара %s"
 
-#: functions.php:2574
+#: functions.php:2610
 #, php-format
 msgid "Not recognized (%s)"
 msgstr "Не распознано (%s)"
 
-#: functions.php:2589
+#: functions.php:2625
 msgid "In order to show your listing, it is required to pay publish fee."
-msgstr "Чтобы показать свою бартер, необходимо заплатить плату за публикацию."
+msgstr "Чтобы показать свой бартер, необходимо внести плату за публикацию."
 
-#: functions.php:2592
+#: functions.php:2628
 msgid "To show images on your listing, it is required to pay image fee."
 msgstr ""
-"Чтобы показывать изображения в своем списке, необходимо заплатить плату за "
-"изображение."
+"Чтобы показывать изображения в своем объявлении, необходимо заплатить плату "
+"за изображение."
 
-#: functions.php:2595
+#: functions.php:2631
 msgid ""
 "Your listing will be moved to top position and will look like newly "
 "published."
@@ -5272,20 +5289,20 @@ msgstr ""
 "Ваше объявление будет перенесено на верхнюю позицию и будет выглядеть как "
 "новая публикация."
 
-#: functions.php:2598
+#: functions.php:2634
 msgid "Make your listing more visible on home and search page."
 msgstr ""
 "Сделайте своё объявление более заметным на домашней странице и странице "
 "поиска."
 
-#: functions.php:2601
+#: functions.php:2637
 msgid ""
 "Listing will be highlighted between other listings and attract more people."
 msgstr ""
 "Объявление будет выделено цветом между другими объявлениями и привлечёт "
 "больше людей."
 
-#: functions.php:2604
+#: functions.php:2640
 msgid ""
 "Your item will be instantly renewed and then automatically republished in "
 "selected period repeatedly."
@@ -5293,45 +5310,45 @@ msgstr ""
 "Ваш товар будет немедленно обновлен, а затем автоматически повторно "
 "опубликован в выбранный период."
 
-#: functions.php:2607
+#: functions.php:2643
 msgid "Save time with transaction and get credits on your account."
 msgstr "Сэкономьте время на транзакцию и получите кредиты на свой счет."
 
-#: functions.php:2610
+#: functions.php:2646
 msgid "Get access to unique content or use global discounts for promotions."
 msgstr ""
 "Получите доступ к уникальному контенту или используйте глобальные скидки для "
 "рекламных акций."
 
-#: functions.php:2613
+#: functions.php:2649
 msgid "Pay banner budget and advertise on our site."
 msgstr "Оплатите баннер и рекламируйте на нашем сайте."
 
-#: functions.php:2616
+#: functions.php:2652
 msgid "Pay shipping fee related to delivery of product."
 msgstr ""
 
-#: functions.php:2619
+#: functions.php:2655
 msgid "Purchase item."
 msgstr "Покупка товара."
 
-#: functions.php:2622
+#: functions.php:2658
 msgid "Pay cart items."
 msgstr "Оплатить корзину."
 
-#: functions.php:2625
+#: functions.php:2661
 msgid "Get discount on your order."
 msgstr "Получи скидку на свой заказ."
 
-#: functions.php:2628
+#: functions.php:2664
 msgid "Pay for reservation/booking."
 msgstr ""
 
-#: functions.php:2632
+#: functions.php:2668
 msgid "Not recognized."
 msgstr "Не опознано."
 
-#: functions.php:2655
+#: functions.php:2691
 #, php-format
 msgid ""
 "Not enough products in stock, only %s pieces are available. This product has "
@@ -5340,104 +5357,104 @@ msgstr ""
 "Недостаточно продуктов на складе, доступно только %s штук. Этот продукт "
 "удален из корзины."
 
-#: functions.php:2677
+#: functions.php:2713
 msgid "Publish Paid"
 msgstr "Опубликовать Оплаченный"
 
-#: functions.php:2679
+#: functions.php:2715
 msgid "Image Paid"
 msgstr "Изображение оплачено"
 
-#: functions.php:2681
+#: functions.php:2717
 msgid "Premium Paid"
 msgstr "Премиум Платный"
 
-#: functions.php:2681
+#: functions.php:2717
 #, php-format
 msgid "Premium mark will expire on %s"
 msgstr "Премиум-марка истекает на %s"
 
-#: functions.php:2683
+#: functions.php:2719
 msgid "Highlight Paid"
 msgstr "Выделить оплаченный"
 
-#: functions.php:2683
+#: functions.php:2719
 #, php-format
 msgid "Highlight will expire on %s"
 msgstr "Выделение истекает через %s"
 
-#: functions.php:2685
+#: functions.php:2721
 msgid "Republish Paid"
 msgstr "Перепубликация платных"
 
-#: functions.php:2685
+#: functions.php:2721
 #, php-format
 msgid "Replubish every %s, repeat %s more time(s). Next republish on %s"
 msgstr ""
 "Повторите каждую %s, повторите %s больше времени. Следующая публикация на %s"
 
-#: functions.php:2688
+#: functions.php:2724
 msgid "Moved to Top"
 msgstr "Поднять вверх"
 
-#: functions.php:2688
+#: functions.php:2724
 #, php-format
 msgid "Last move to top on %s"
 msgstr "Последнее перемещение вверх на %s"
 
-#: functions.php:2785
+#: functions.php:2821
 #, php-format
 msgid ""
 "Membership in %s has been removed from cart and replaced with membership in "
 "%s."
-msgstr "Членство в %s было удалено из корзины и заменено на членство в %s."
+msgstr "Подписка в %s было удалено из корзины и заменено на подписку в %s."
 
-#: functions.php:2798
+#: functions.php:2834
 #, php-format
 msgid "Voucher %s has been removed from cart and replaced with %s."
 msgstr "Ваучер %s был удален из корзины и заменен на %s."
 
-#: functions.php:2820
+#: functions.php:2856
 #, php-format
 msgid "Not enough products in stock, only %s products has been added to cart."
 msgstr "Недостаточно товаров на складе, только товары %s добавлены в корзину."
 
-#: functions.php:3008
+#: functions.php:3044
 msgid "Click to complete order"
 msgstr "Нажмите, чтобы завершить заказ"
 
-#: functions.php:3013
+#: functions.php:3049
 msgid "Complete order"
 msgstr "Завершить заказ"
 
-#: functions.php:3016
+#: functions.php:3052
 msgid "Funds will be withdrawn from your wallet (credits)"
 msgstr "Средства будут выведены из вашего кошелька (кредиты)"
 
-#: functions.php:3021 functions.php:3029
+#: functions.php:3057 functions.php:3065
 msgid "Pay with credits"
 msgstr "Оплатить с кредитами"
 
-#: functions.php:3024
+#: functions.php:3060
 msgid "You do not have enough funds in your wallet"
 msgstr "У вас недостаточно средств в кошельке"
 
-#: functions.php:3047
+#: functions.php:3083
 msgid ""
 "This button is visible just in case you are logged in as admin in browser."
 msgstr ""
 "Эта кнопка видна на всякий случай, если вы вошли в систему как администратор "
 "в браузере."
 
-#: functions.php:3050
+#: functions.php:3086
 msgid "AdminPay"
 msgstr ""
 
-#: functions.php:3052
+#: functions.php:3088
 msgid "Pay as Admin"
 msgstr "Оплатить как администратор"
 
-#: functions.php:3070
+#: functions.php:3106
 msgid ""
 "Payment will be accepted after administrator confirms funds delivered to our "
 "account."
@@ -5445,21 +5462,21 @@ msgstr ""
 "Оплата будет приниматься после подтверждения администратором денежных "
 "средств, поступивших на наш счет."
 
-#: functions.php:3073 functions.php:3081
+#: functions.php:3109 functions.php:3117
 #, fuzzy
 msgid "Transfer"
 msgstr "Банковский перевод принят"
 
-#: functions.php:3075 functions.php:3083
+#: functions.php:3111 functions.php:3119
 msgid "Pay via Bank Transfer"
 msgstr ""
 
-#: functions.php:3078
+#: functions.php:3114
 #, php-format
 msgid "Minimum amount for Bank Transfer is %s."
 msgstr "Минимальная сумма для Bank Transfer %s."
 
-#: functions.php:3292
+#: functions.php:3327
 msgid ""
 "This category require to pay fee to show listing images. In order to show "
 "images to customers, go to your account and pay fee."
@@ -5468,11 +5485,11 @@ msgstr ""
 "показывать изображения клиентам, перейдите на свою учетную запись и оплатите "
 "сбор."
 
-#: functions.php:3378
+#: functions.php:3413
 msgid "Last 10 cron runs"
 msgstr "Последние 10 хрон работает"
 
-#: functions.php:3385
+#: functions.php:3420
 msgid ""
 "Following expirations were checked: Premium, Highlight, Republish, User "
 "Membership."
@@ -5480,7 +5497,7 @@ msgstr ""
 "Были проверены следующие истечения: Premium, Highlight, Republish, User "
 "Membership."
 
-#: functions.php:3388
+#: functions.php:3423
 msgid ""
 "Hourly cron was not executed yet. If problem persist, check osclass "
 "documentation and contact your hosting provider."
@@ -5488,27 +5505,27 @@ msgstr ""
 "Часовая cron еще не была выполнена. Если проблема не устранена, проверьте "
 "документацию osclass и обратитесь к своему провайдеру хостинга."
 
-#: functions.php:3391
+#: functions.php:3426
 msgid "Last cron run"
 msgstr "Последний запуск cron"
 
-#: functions.php:3391
+#: functions.php:3426
 msgid "none"
 msgstr "никто"
 
-#: functions.php:3398
+#: functions.php:3433
 msgid "Last per. bonus issued"
 msgstr "Последний пер. бонус выдан"
 
-#: functions.php:3398 functions.php:3401
+#: functions.php:3433 functions.php:3436
 msgid "never"
 msgstr "никогда"
 
-#: functions.php:3401
+#: functions.php:3436
 msgid "Last periodical bonus has been send to users on"
 msgstr "Последний периодический бонус был отправлен пользователям на"
 
-#: functions.php:3403
+#: functions.php:3438
 msgid ""
 "Periodical bonus has not been sent yet, check your cron settings and ensure "
 "it is working properly."
@@ -5516,91 +5533,91 @@ msgstr ""
 "Периодический бонус еще не отправлен, проверьте настройки крона и убедитесь, "
 "что он работает правильно."
 
-#: functions.php:3900
+#: functions.php:3935
 msgid "lowest"
 msgstr "минимально"
 
-#: functions.php:3902
+#: functions.php:3937
 msgid "highest"
 msgstr "наибольший"
 
-#: functions.php:3924
+#: functions.php:3959
 msgid "Extend Membership"
-msgstr "Расширить Членство"
+msgstr "Расширить подписку"
 
-#: functions.php:3926
+#: functions.php:3961
 msgid "Downgrade Plan"
 msgstr "План понижения"
 
-#: functions.php:3928 functions.php:3935
+#: functions.php:3963 functions.php:3970
 msgid "Become Member"
 msgstr "Стать участником"
 
-#: functions.php:3930
+#: functions.php:3965
 msgid "Upgrade Plan"
 msgstr "План обновления"
 
-#: index.php:236
+#: index.php:231
 msgid "Success! Go to cart"
 msgstr "Успех! Перейти в корзину"
 
-#: index.php:237
+#: index.php:232
 msgid "Select promotions"
 msgstr "Выберите рекламные акции"
 
-#: index.php:303
+#: index.php:298
 #, php-format
 msgid ""
 "You have reached maximum number of listings you can publish (%s items in %s "
 "days). Please upgrade your membership in order to increase your limits."
 msgstr ""
-"Вы достигли максимального количества списков, которые вы можете опубликовать "
-"( %s элементов за %s дней). Пожалуйста, обновите ваше членство, чтобы "
-"увеличить ваши лимиты."
+"Вы достигли максимального количества объявлений, которые вы можете "
+"опубликовать ( %s элементов за %s дней). Пожалуйста, обновите вашу подписку, "
+"чтобы увеличить ваши лимиты."
 
-#: index.php:370
+#: index.php:365
 msgid ""
 "Publish fee for listing has not been paid. Please pay publish fee in order "
 "to enable it and make visible to other users."
 msgstr ""
-"Опубликовать плату за бартер не было выплачено. Пожалуйста, оплатите плату "
-"за публикацию, чтобы включить ее и сделать видимой для других пользователей."
+"Плата за размещение бартера не внесена. Пожалуйста, внесите плату за "
+"публикацию, чтобы включить ее и сделать видимой для других пользователей."
 
-#: index.php:374
+#: index.php:369
 msgid ""
 "Show image fee for listing has not been paid. Please pay this fee in order "
 "to show images on your listings."
 msgstr ""
-"Показывать стоимость изображения для бартера не было. Пожалуйста, оплатите "
-"эту плату, чтобы показывать изображения в ваших списках."
+"Оплаты за показ изображения для бартера не было. Пожалуйста, оплатите эту "
+"плату, чтобы показывать изображения в ваших объявлениях."
 
-#: index.php:405
+#: index.php:400
 #, php-format
 msgid "Periodical credits to user %s (%s) at %s"
 msgstr "Периодические кредиты для пользователя %s (%s) в %s"
 
-#: index.php:421
+#: index.php:416
 #, php-format
 msgid "Create a new account and get bonus %s!"
 msgstr "Создайте новую учетную запись и получите бонус %s!"
 
-#: index.php:448 index.php:527
+#: index.php:443 index.php:522
 msgid "Gateways"
 msgstr "Шлюзы"
 
-#: index.php:449 index.php:528
+#: index.php:444 index.php:523
 msgid "Item"
 msgstr "Пункт"
 
-#: index.php:452 index.php:531
+#: index.php:447 index.php:526
 msgid "eCommerce"
 msgstr "eCommerce"
 
-#: index.php:453
+#: index.php:448
 msgid "Logs"
 msgstr "Журналы"
 
-#: index.php:500
+#: index.php:495
 msgid ""
 "This is demo site, you may not be able to change settings and update / "
 "remove elements."
@@ -5608,31 +5625,31 @@ msgstr ""
 "Это демонстрационный сайт, вы не сможете изменять настройки и обновлять / "
 "удалять элементы."
 
-#: index.php:512
+#: index.php:507
 msgid "Report Bug"
 msgstr "Сообщить об ошибке"
 
-#: index.php:513
+#: index.php:508
 msgid "Support Forums"
 msgstr "Форумы поддержки"
 
-#: index.php:514
+#: index.php:509
 msgid "Contact Us"
 msgstr "Свяжитесь с нами"
 
-#: index.php:532
+#: index.php:527
 msgid "Log"
 msgstr "Журнал"
 
-#: index.php:696 index.php:721
+#: index.php:691 index.php:716
 msgid "Promotions"
 msgstr "Акции"
 
-#: index.php:757
+#: index.php:752
 msgid "Listing has been unmarked as premium in Osclass Pay plugin as well."
 msgstr "Листинг также не был отмечен как премиум в плагине Osclass Pay."
 
-#: index.php:764
+#: index.php:759
 msgid ""
 "Listing has been marked as premium in Osclass Pay plugin as well as non-"
 "expiring"
@@ -5698,47 +5715,48 @@ msgstr ""
 msgid "Restricted access"
 msgstr ""
 
-#: model/ModelOSP.php:1327
+#: model/ModelOSP.php:1334
 msgid "Listings section"
 msgstr "Раздел объявлений"
 
-#: model/ModelOSP.php:1340
+#: model/ModelOSP.php:1347
 msgid "Remove premium mark"
 msgstr "Удалить премиум отметку"
 
-#: model/ModelOSP.php:1345
+#: model/ModelOSP.php:1352
 msgid "Remove highlight mark"
 msgstr "Удалить выделение"
 
-#: model/ModelOSP.php:1351
+#: model/ModelOSP.php:1358
 msgid "Remove repblish options (all were used)"
 msgstr "Удалить параметры переиздания (все использовались)"
 
-#: model/ModelOSP.php:1366
+#: model/ModelOSP.php:1375
 #, php-format
 msgid "Republish item, %d repeats left, next republish on %s."
 msgstr ""
 "Повторная публикация,%d повторяется влево, следующая повторная публикация на "
 "%s."
 
-#: model/ModelOSP.php:1396
+#: model/ModelOSP.php:1405
 msgid "Users section"
 msgstr "Раздел пользователей"
 
-#: model/ModelOSP.php:1406
+#: model/ModelOSP.php:1415
 #, php-format
 msgid "Membership in %s expired"
 msgstr "Членство в %s истекло"
 
-#: model/ModelOSP.php:3378
+#: model/ModelOSP.php:3387
 #, php-format
 msgid "Membership discount %s%% of user group %s has been applied."
 msgstr "Была применена скидка участника %s%% группы пользователей %s."
 
-#: model/ModelOSP.php:3446
-#, php-format
+#: model/ModelOSP.php:3455
+#, fuzzy, php-format
+#| msgid "Unknown"
 msgid "Unknown (#%s)"
-msgstr ""
+msgstr "Неизвестный"
 
 #: payments/2checkout/TwoCheckoutInlinePayment.php:56
 msgid "You will be redirected to 2Checkout"
@@ -5852,6 +5870,7 @@ msgstr "Обработка платежа, пожалуйста, подожди�
 #: payments/pagseguro/return.php:21 payments/paypl/return.php:25
 #: payments/payscz/confirm.php:14 payments/paystack/PaystackPayment.php:48
 #: payments/payulatam/response.php:12 payments/payumoney/success.php:35
+#: payments/robokassa/return.php:13 payments/robokassa2/success.php:20
 #: payments/securionpay/return.php:12 payments/skrill/status.php:13
 #: payments/stripe/_old/StripePayment _old.php:99
 #: payments/stripe/success.php:13 payments/weaccept/return.php:13
@@ -5884,9 +5903,9 @@ msgstr "Предупреждение! Этот платеж уже был опл
 #: payments/pagseguro/PagseguroPayment.php:61 payments/pagseguro/return.php:28
 #: payments/payscz/confirm.php:18 payments/paystack/PaystackPayment.php:54
 #: payments/payulatam/response.php:16 payments/payumoney/success.php:39
-#: payments/securionpay/return.php:16 payments/skrill/status.php:17
-#: payments/stripe/_old/StripePayment _old.php:103
-#: payments/stripe/success.php:17 payments/weaccept/return.php:17
+#: payments/robokassa/return.php:17 payments/securionpay/return.php:16
+#: payments/skrill/status.php:17 payments/stripe/_old/StripePayment
+#: _old.php:103 payments/stripe/success.php:17 payments/weaccept/return.php:17
 #: payments/worldpay/WorldpayPayment.php:234 payments/yandex/return.php:17
 msgid "You are trying to pay zero amount."
 msgstr "Вы пытаетесь выплатить нулевую сумму."
@@ -5909,18 +5928,18 @@ msgstr ""
 #: payments/pagseguro/return.php:33 payments/paypl/notify_url.php:59
 #: payments/payscz/confirm.php:22 payments/paystack/PaystackPayment.php:56
 #: payments/payulatam/response.php:20 payments/payza/ipn.php:93
-#: payments/securionpay/return.php:20 payments/skrill/status.php:19
-#: payments/stripe/_old/StripePayment _old.php:107
-#: payments/stripe/success.php:21 payments/weaccept/return.php:21
+#: payments/robokassa/return.php:21 payments/securionpay/return.php:20
+#: payments/skrill/status.php:19 payments/stripe/_old/StripePayment
+#: _old.php:107 payments/stripe/success.php:21 payments/weaccept/return.php:21
 #: payments/worldpay/WorldpayPayment.php:238 payments/yandex/return.php:21
 msgid "There were an error processing your payment."
 msgstr "Произошла ошибка при обработке вашего платежа."
 
 #: payments/2checkout/return.php:19 payments/cardinity/return.php:19
 #: payments/ccavenue/response.php:19 payments/euplatesc/return.php:18
-#: payments/payscz/confirm.php:20 payments/securionpay/return.php:18
-#: payments/stripe/success.php:19 payments/weaccept/return.php:19
-#: payments/yandex/return.php:19
+#: payments/payscz/confirm.php:20 payments/robokassa/return.php:19
+#: payments/securionpay/return.php:18 payments/stripe/success.php:19
+#: payments/weaccept/return.php:19 payments/yandex/return.php:19
 msgid "Invalid payment."
 msgstr "Недействительный платеж."
 
@@ -5965,8 +5984,11 @@ msgstr ""
 #: payments/przelewy24/Przelewy24Payment.php:214
 #: payments/robokassa/RobokassaPayment.php:83
 #: payments/robokassa/RobokassaPayment.php:155
-#: payments/robokassa/RobokassaPayment1.php:67
-#: payments/robokassa/RobokassaPayment1.php:137
+#: payments/robokassa/success.php:28
+#: payments/robokassa2/RobokassaPayment.php:84
+#: payments/robokassa2/RobokassaPayment.php:156
+#: payments/robokassa2/RobokassaPayment1.php:67
+#: payments/robokassa2/RobokassaPayment1.php:137
 #: payments/securionpay/SecurionpayPayment.php:152
 #: payments/stripe/StripePayment.php:126
 #: payments/weaccept/WeacceptPayment.php:100
@@ -5992,8 +6014,10 @@ msgstr "Мы обрабатываем ваш платеж!"
 #: payments/payherelk/cancel.php:11 payments/paypl/cancel.php:26
 #: payments/paypl/cancel.php:33 payments/paypl/cancel.php:35
 #: payments/payscz/cancel.php:14 payments/payza/cancel.php:8
-#: payments/payza/cancel.php:19 payments/robokassa/notification.php:24
-#: payments/skrill/cancel.php:18 payments/stripe/cancel.php:14
+#: payments/payza/cancel.php:19 payments/robokassa/fail.php:24
+#: payments/robokassa2/fail.php:14 payments/robokassa2/notification.php:22
+#: payments/robokassa2/result.php:26 payments/skrill/cancel.php:18
+#: payments/stripe/cancel.php:14
 msgid ""
 "You cancel the payment process or there was an error. If the error continue, "
 "please contact the administrator"
@@ -6125,7 +6149,9 @@ msgid "Pay with Instamojo"
 msgstr ""
 
 #: payments/instamojo/InstamojoPayment.php:73
-msgid "There is problem with payment button, please try again later."
+#, fuzzy, php-format
+#| msgid "There is problem with payment button, please try again later."
+msgid "There is problem with payment button, please try again later. (%s)"
 msgstr "Проблема с кнопкой оплаты, повторите попытку позже."
 
 #: payments/instamojo/InstamojoPayment.php:131
@@ -6284,7 +6310,7 @@ msgstr ""
 msgid "Payment status from gateway has not COMPLETED state"
 msgstr ""
 
-#: payments/payscz/success.php:14
+#: payments/payscz/success.php:14 payments/robokassa/success.php:82
 msgid ""
 "Your payment was successfully processed and will be finished in few moments."
 msgstr ""
@@ -6307,8 +6333,10 @@ msgid "Form to enter your personal details will pop-up"
 msgstr "Появится форма для ввода ваших личных данных"
 
 #: payments/payumoney/PayumoneyPayment.php:13
+#, fuzzy
+#| msgid "PayUMoney"
 msgid "Pay with PayUMoney"
-msgstr ""
+msgstr "PayUMoney"
 
 #: payments/payumoney/PayumoneyPayment.php:82
 msgid "PayUMoney"
@@ -6385,19 +6413,22 @@ msgstr ""
 "заказ будет выполнен."
 
 #: payments/robokassa/RobokassaPayment.php:60
-#: payments/robokassa/RobokassaPayment1.php:44
+#: payments/robokassa2/RobokassaPayment.php:60
+#: payments/robokassa2/RobokassaPayment1.php:44
 msgid "You will be redirected to robokassa.ru"
 msgstr ""
 
 #: payments/robokassa/RobokassaPayment.php:62
-#: payments/robokassa/RobokassaPayment1.php:46
+#: payments/robokassa2/RobokassaPayment.php:62
+#: payments/robokassa2/RobokassaPayment1.php:46
 msgid "Pay with Robokassa"
 msgstr "Оплатить с Робокассой"
 
 #: payments/robokassa/RobokassaPayment.php:176
-#: payments/robokassa/RobokassaPayment1.php:158
-#: payments/robokassa/notification.php:18
-#: payments/robokassa/notification1.php:13
+#: payments/robokassa/notification.php:13 payments/robokassa/result.php:11
+#: payments/robokassa2/RobokassaPayment.php:177
+#: payments/robokassa2/RobokassaPayment1.php:158
+#: payments/robokassa2/notification1.php:13 payments/robokassa2/result.php:20
 #: payments/yandex/YandexPayment.php:121
 #, php-format
 msgid ""
@@ -6595,12 +6626,16 @@ msgid "There was problem on gateway side"
 msgstr "Была проблема на стороне шлюза"
 
 #: payments/worldpay/WorldpayPayment.php:14
+#, fuzzy
+#| msgid "Payza Payments"
 msgid "WorldPay Payment"
-msgstr ""
+msgstr "Payza Платежи"
 
 #: payments/worldpay/WorldpayPayment.php:14
+#, fuzzy
+#| msgid "Pay with credits"
 msgid "Pay with WorldPay"
-msgstr ""
+msgstr "Оплатить с кредитами"
 
 #: payments/yandex/YandexPayment.php:72
 msgid "You will be redirected to money.yandex.ru"
@@ -6609,6 +6644,159 @@ msgstr ""
 #: payments/yandex/YandexPayment.php:74
 msgid "Pay with Yandex"
 msgstr ""
+
+#: printpdf/conf.php:24
+msgid "Congratulations. The plugin is now configured"
+msgstr ""
+
+#: printpdf/conf.php:32
+#, fuzzy
+#| msgid "User Settings"
+msgid "Print PDF Settings"
+msgstr "Пользовательские настройки"
+
+#: printpdf/conf.php:39
+msgid "Upload path"
+msgstr ""
+
+#: printpdf/help.php:26
+msgid "Print PDF Help"
+msgstr ""
+
+#: printpdf/help.php:27
+msgid "What does Print PDF plugin do?"
+msgstr ""
+
+#: printpdf/help.php:28
+msgid ""
+"It display a button to view/download a printable PDF with the information of "
+"the ad. Useful to quick share items with other people, print it and place "
+"anywhere."
+msgstr ""
+
+#: printpdf/help.php:30
+msgid "IMPORTANT"
+msgstr ""
+
+#: printpdf/help.php:31
+msgid ""
+"In order to work, you will need to place the following lines whereever you "
+"want to display the button."
+msgstr ""
+
+#: printpdf/help.php:34
+msgid ""
+"It will also display a QR Code in the PDF if the QR Code plugin is installed."
+msgstr ""
+
+#: printpdf/index.php:43
+#, fuzzy
+#| msgid "User Settings"
+msgid "PrintPDF Settings"
+msgstr "Пользовательские настройки"
+
+#: printpdf/index.php:44
+msgid "PrintPDF Help"
+msgstr ""
+
+#: printpdf/index.php:72
+#, fuzzy
+#| msgid "Downgrade Plan"
+msgid "Download PDF"
+msgstr "План понижения"
+
+#: printpdf/osclassmail/help.php:5
+msgid "OSClass Почта Помощь"
+msgstr ""
+
+#: printpdf/osclassmail/help.php:7
+msgid ""
+"OSClass почта предназначена, чтобы позволить администратору, чтобы уведомить "
+"всех пользователей с новостей письма, обновления статуса веб-сайта, или даже "
+"сделки дня."
+msgstr ""
+
+#: printpdf/osclassmail/help.php:10
+msgid ""
+"Чтобы использовать OSClass почту просто нажмите на ссылку Создать почту и "
+"добавить тему, добавьте некоторое содержимое, и нажмите кнопку Отправить."
+msgstr ""
+
+#: printpdf/osclassmail/help.php:13
+msgid "Создано Randy Hough."
+msgstr ""
+
+#: printpdf/osclassmail/index.php:17
+msgid "OsclassMail"
+msgstr ""
+
+#: printpdf/osclassmail/osclassmail.php:61
+#, fuzzy
+#| msgid "No promotions has been selected"
+msgid "Your email has been sent"
+msgstr "Никаких рекламных акций не было выбрано"
+
+#: printpdf/osclassmail/osclassmail.php:99 printpdf/osclassmail/settings.php:88
+msgid "OSClass Mail Sender"
+msgstr ""
+
+#: printpdf/osclassmail/osclassmail.php:106
+#, fuzzy
+#| msgid "Reject"
+msgid "Subject"
+msgstr "Отклонять"
+
+#: printpdf/osclassmail/osclassmail.php:111
+msgid "Send Mail"
+msgstr ""
+
+#: printpdf/osclassmail/osclassmail.php:115
+msgid ""
+"Keep your users informed and up to date with a News letter, updates, website "
+"status, or even a deal of the day. So add your content, click Send and enjoy."
+msgstr ""
+
+#: printpdf/osclassmail/settings.php:50
+msgid "Ваше сообщение было отправлено"
+msgstr ""
+
+#: printpdf/osclassmail/settings.php:95
+msgid "Тема"
+msgstr ""
+
+#: printpdf/osclassmail/settings.php:100
+msgid "отправить"
+msgstr ""
+
+#: printpdf/osclassmail/settings.php:104
+msgid ""
+"С помощью этого плагина Вы сможете отправить пользователям новость, акцию и "
+"любую другую информацию."
+msgstr ""
+
+#: printpdf/template.php:60
+#, fuzzy, php-format
+#| msgid "Contact Us"
+msgid "Contact: %s"
+msgstr "Свяжитесь с нами"
+
+#: printpdf/template.php:67
+#, fuzzy, php-format
+#| msgid "Email"
+msgid "Email: %s"
+msgstr "Email"
+
+#: printpdf/template.php:108
+#, fuzzy
+#| msgid "Address"
+msgid "Address:"
+msgstr "Адрес"
+
+#: printpdf/template.php:115
+#, fuzzy
+#| msgid "Price"
+msgid "Price:"
+msgstr "Цена"
 
 #: user/admin_pay.php:49 user/wallet_pay.php:54
 msgid ""
@@ -6775,97 +6963,99 @@ msgstr "У вас есть %s продуктов в вашей корзине"
 msgid "Your cart is empty"
 msgstr "Ваша корзина пуста"
 
-#: user/cart.php:102 user/item_pay.php:84
+#: user/cart.php:104 user/item_pay.php:86
 msgid "Qty"
 msgstr "Кол-во"
 
-#: user/cart.php:103 user/item_pay.php:85
+#: user/cart.php:105 user/item_pay.php:87
 msgid "Total Price"
 msgstr "Итоговая цена"
 
-#: user/cart.php:122
+#: user/cart.php:124
+#, fuzzy
+#| msgid "Voucher %s has been removed from cart and replaced with %s."
 msgid "Some products has been removed from your cart due to incorrect price"
-msgstr ""
+msgstr "Ваучер %s был удален из корзины и заменен на %s."
 
-#: user/cart.php:131
+#: user/cart.php:133
 msgid ""
 "Booking/Reservation has already been paid or it was removed. Booking/"
 "Reservation has been removed from cart."
 msgstr ""
 
-#: user/cart.php:159
+#: user/cart.php:161
 #, php-format
 msgid "Voucher %s removed from cart: %s"
 msgstr "Ваучер %s удален из корзины: %s"
 
-#: user/cart.php:182
+#: user/cart.php:184
 msgid "Click to update quantity"
 msgstr "Нажмите, чтобы обновить количество"
 
-#: user/cart.php:183
+#: user/cart.php:185
 msgid "Unit price"
 msgstr "Цена за единицу"
 
-#: user/cart.php:187
+#: user/cart.php:189
 msgid ""
 "Shipping is required and cannot be removed. If you remove all products those "
 "require shipping, shipping will be removed from cart automatically"
 msgstr ""
 
-#: user/cart.php:206 user/item_pay.php:142
+#: user/cart.php:208 user/item_pay.php:144
 msgid "Cart summary"
 msgstr "Корзина сводка"
 
-#: user/cart.php:213
+#: user/cart.php:215
 msgid "No products in your cart"
 msgstr "В вашей корзине нет товаров"
 
-#: user/cart.php:225 user/cart.php:226
+#: user/cart.php:227 user/cart.php:228
 msgid "Add a promo code"
 msgstr ""
 
-#: user/cart.php:228 user/pack.php:104
+#: user/cart.php:230 user/pack.php:104
 msgid "Apply"
 msgstr "Применить"
 
-#: user/cart.php:242
+#: user/cart.php:244
 msgid "City is missing"
 msgstr ""
 
-#: user/cart.php:244
+#: user/cart.php:246
 msgid "Address is missing"
 msgstr ""
 
-#: user/cart.php:250
+#: user/cart.php:252
 msgid ""
 "Phone number is missing, you must enter at least one phone number (mobile or "
 "land)"
 msgstr ""
 
-#: user/cart.php:258
+#: user/cart.php:260
 msgid ""
 "One or more products in your cart require shipping. In order to complete "
 "order, you must fill city, address and at least 1 phone number in your "
 "profile."
 msgstr ""
 
-#: user/cart.php:259
+#: user/cart.php:261
 #, fuzzy
 msgid "Errors:"
 msgstr ""
 "Кошелёк не пополнен (возникла ошибка), пожалуйста, повторите попытку позже "
 "или свяжитесь с администратором"
 
-#: user/cart.php:260
+#: user/cart.php:262
 msgid "Update profile"
-msgstr ""
+msgstr "Обновить профиль"
 
-#: user/cart.php:264
+#: user/cart.php:266
 msgid ""
 "One or more products in your cart require shipping, these will be shipped to:"
 msgstr ""
 
-#: user/cart.php:277
+#: user/cart.php:279
 msgid ""
 "You cannot pay with your credits as your cart contains Credit Pack. In order "
 "to pay with your credits, please remove Credit Pack from your cart."
@@ -6874,7 +7064,7 @@ msgstr ""
 "Кредитный Пакет. Чтобы оплатить ваши кредиты, удалите Кредитный Пакет из "
 "своей корзины."
 
-#: user/cart.php:281
+#: user/cart.php:283
 msgid ""
 "You cannot pay with your credits as your cart contains Product. Payments for "
 "products using credits are not allowed."
@@ -6882,38 +7072,44 @@ msgstr ""
 "Вы не можете оплачивать свои кредиты, так как ваша корзина содержит Продукт. "
 "Платежи за продукты с использованием кредитов не допускаются."
 
-#: user/cart.php:285
+#: user/cart.php:287
+#, fuzzy
+#| msgid ""
+#| "You cannot pay with your credits as your cart contains Product. Payments "
+#| "for products using credits are not allowed."
 msgid ""
 "You cannot pay with your credits as your cart contains Booking/Reservation. "
 "Payments for bookings/reservations using credits are not allowed."
 msgstr ""
+"Вы не можете оплачивать свои кредиты, так как ваша корзина содержит Продукт. "
+"Платежи за продукты с использованием кредитов не допускаются."
 
-#: user/cart.php:291
+#: user/cart.php:296
 msgid "Click on preferred method to initiate payment"
-msgstr ""
+msgstr "Выберите метод, чтобы начать платеж"
 
-#: user/cart.php:294
+#: user/cart.php:301
 #, php-format
 msgid "Pay %s cart items for %s by admin"
 msgstr "Оплатить %s корзину для %s от администратора"
 
-#: user/cart.php:298 user/cart.php:302 user/cart.php:305
+#: user/cart.php:305 user/cart.php:310 user/cart.php:314
 #, php-format
 msgid "Pay %s cart items for %s"
 msgstr "Оплатить %s товаров для %s"
 
-#: user/cart.php:313
+#: user/cart.php:322
 msgid "Click on button to complete order"
 msgstr "Нажмите на кнопку, чтобы завершить заказ"
 
-#: user/cart.php:314
+#: user/cart.php:323
 #, php-format
 msgid "Free checkout for %s cart items"
 msgstr "Бесплатная оплата для %s товаров в корзине"
 
 #: user/group.php:41
 msgid "You are not member of any group"
-msgstr "Вы не являетесь членом какой-либо группы"
+msgstr "У вас нет подписок, вы можете разместить только 1 бартер"
 
 #: user/group.php:44
 msgid "with no expiration"
@@ -6989,8 +7185,8 @@ msgid ""
 "Members of %s group can publish %s listings in %s days. By default you can "
 "only publish %s items in %s days."
 msgstr ""
-"Члены %s группы могут публиковать%s списки в %s днях. По умолчанию вы можете "
-"публиковать только элементы %s в %s днях."
+"Члены %s группы могут публиковать%s объявления на %s дней. По умолчанию вы "
+"можете публиковать только элементы %s на %s дней."
 
 #: user/group.php:138
 msgid "Premium listings are not counted"
@@ -7058,16 +7254,16 @@ msgstr "Плата за изображение не оплачивается"
 #: user/item.php:93
 msgid "Images on this listing will not be visible until Image Fee is paid!"
 msgstr ""
-"Изображения в этом списке не будут видны до тех пор, пока плата за "
+"Изображения в этом объявлении не будут видны до тех пор, пока плата за "
 "изображение не будет оплачена!"
 
 #: user/item.php:102
 msgid "No promotions"
-msgstr "Нет рекламных акций"
+msgstr "Не продвигается"
 
 #: user/item.php:108
 msgid "Promote"
-msgstr "Продвижение"
+msgstr "Промо"
 
 #: user/item_pay.php:25
 msgid "Promotion removed"
@@ -7092,7 +7288,7 @@ msgid ""
 "visible."
 msgstr ""
 "Ваш бартер был успешно опубликован, однако, чтобы сделать его видимым, вы "
-"должны заплатить за публикацию. Вы также можете продвигать этот список и "
+"должны заплатить за публикацию. Вы также можете продвигать это объявление и "
 "сделать его более заметным."
 
 #: user/item_pay.php:62
@@ -7105,7 +7301,7 @@ msgid ""
 "promote your listing and make it more visible."
 msgstr ""
 "Эта категория является платной и требуется для оплаты публикации, вы также "
-"можете рекламировать свой список и сделать его более заметным."
+"можете рекламировать свой бартер и сделать его более заметным."
 
 #: user/item_pay.php:68
 #, php-format
@@ -7125,34 +7321,36 @@ msgstr "Раздел рекламных акций"
 msgid "Open listing"
 msgstr "Открыть объявление"
 
-#: user/item_pay.php:129
+#: user/item_pay.php:131
 msgid "You cannot remove this fee as it is required"
 msgstr "Вы не можете удалить этот сбор, как требуется"
 
-#: user/item_pay.php:148
+#: user/item_pay.php:150
+#, fuzzy
+#| msgid "No locations has been added yet"
 msgid "No promotions has been selected"
-msgstr "Никаких рекламных акций не было выбрано"
+msgstr "Пока не добавлено ни одного местоположения"
 
-#: user/item_pay.php:155
+#: user/item_pay.php:159
 msgid "Click on method to initiate payment"
 msgstr "Нажмите метод, чтобы начать платеж"
 
-#: user/item_pay.php:159
+#: user/item_pay.php:165
 #, php-format
 msgid "Pay fee %s for item %s by admin"
 msgstr "Плата за платеж %s за элемент %s от администратора"
 
-#: user/item_pay.php:163 user/item_pay.php:167 user/item_pay.php:168
-#: user/item_pay.php:170
+#: user/item_pay.php:169 user/item_pay.php:174 user/item_pay.php:178
+#: user/item_pay.php:182
 #, php-format
 msgid "Pay fee %s for item %s"
 msgstr "Плата за платеж %s за товар%s"
 
-#: user/item_pay.php:177
+#: user/item_pay.php:192
 msgid "There was problem showing promote options"
 msgstr "Возникла проблема, показывающая варианты продвижения"
 
-#: user/item_pay.php:178
+#: user/item_pay.php:193
 msgid "This is not your listing or it has not been activated yet."
 msgstr "Это не ваше объявление или оно еще не активировано."
 
@@ -7162,11 +7360,12 @@ msgstr "Продвигайте свой бартер, чтобы сделать 
 
 #: user/item_post.php:39
 msgid "This section is visible only to owner of this listing and admins"
-msgstr "Этот раздел доступен только владельцу этого списка и администратору"
+msgstr ""
+"Этот раздел доступен только владельцу этого объявления и администратору"
 
 #: user/item_post.php:41
 msgid "Click to show promotion options for your listing"
-msgstr "Нажмите, чтобы показать варианты продвижения для вашего списка"
+msgstr "Нажмите, чтобы показать варианты продвижения для вашего объявления"
 
 #: user/item_post.php:58
 msgid ""
@@ -7207,13 +7406,17 @@ msgid "Process promotions"
 msgstr "Продвигать бартер"
 
 #: user/manager.php:33
+#, fuzzy
+#| msgid "Item data were successfully updated"
 msgid "Orders has been successfully updated"
-msgstr ""
+msgstr "Данные позиции были успешно обновлены"
 
 #: user/manager.php:61 user/products.php:54 user/sales.php:21
 #: user/shipping.php:82
+#, fuzzy
+#| msgid "This option is disabled"
 msgid "This section is not available for you"
-msgstr ""
+msgstr "Этот параметр отключен"
 
 #: user/manager.php:69 user/order.php:23 user/products.php:62 user/sales.php:29
 #: user/shipping.php:90
@@ -7223,13 +7426,17 @@ msgstr "Ваши покупки"
 
 #: user/manager.php:73 user/order.php:27 user/products.php:66 user/sales.php:33
 #: user/shipping.php:94
+#, fuzzy
+#| msgid "Products"
 msgid "Products mng."
-msgstr ""
+msgstr "Средства"
 
 #: user/manager.php:74 user/order.php:28 user/products.php:67 user/sales.php:34
 #: user/shipping.php:95
+#, fuzzy
+#| msgid "Orders"
 msgid "Orders mng."
-msgstr ""
+msgstr "Заказы"
 
 #: user/manager.php:81
 msgid ""
@@ -7248,16 +7455,22 @@ msgid "Customer name, email, item title, ..."
 msgstr ""
 
 #: user/manager.php:118
+#, fuzzy
+#| msgid "Order status"
 msgid "Order details"
-msgstr ""
+msgstr "Статус заказа"
 
 #: user/manager.php:120
+#, fuzzy
+#| msgid "Qty"
 msgid "Qt"
-msgstr ""
+msgstr "Кол-во"
 
 #: user/manager.php:150
+#, fuzzy
+#| msgid "Unknown"
 msgid "Unknown address"
-msgstr ""
+msgstr "Неизвестный"
 
 #: user/manager.php:156
 #, php-format
@@ -7265,9 +7478,10 @@ msgid "%s from %s"
 msgstr ""
 
 #: user/manager.php:156
-#, php-format
+#, fuzzy, php-format
+#| msgid "Orders"
 msgid "Order #%s"
-msgstr ""
+msgstr "Заказы"
 
 #: user/manager.php:162
 #, php-format
@@ -7289,12 +7503,16 @@ msgid "Status cannot be updated."
 msgstr ""
 
 #: user/manager.php:224
+#, fuzzy
+#| msgid "New orders"
 msgid "Update orders"
-msgstr ""
+msgstr "Новые заказы"
 
 #: user/manager.php:229
+#, fuzzy
+#| msgid "New orders"
 msgid "No orders found"
-msgstr ""
+msgstr "Новые заказы"
 
 #: user/order.php:35
 msgid ""
@@ -7333,13 +7551,16 @@ msgid "You have not entered your address!"
 msgstr "Вы не указали свой адрес!"
 
 #: user/order.php:55
-#, php-format
+#, fuzzy, php-format
+#| msgid "Your current delivery address: %s"
 msgid "Your current phone number: %s"
-msgstr ""
+msgstr "Ваш текущий адрес доставки: %s"
 
 #: user/order.php:57
+#, fuzzy
+#| msgid "You have not entered your address!"
 msgid "You have not entered any phone number!"
-msgstr ""
+msgstr "Вы не указали свой адрес!"
 
 #: user/order.php:65
 msgid "Order status"
@@ -7370,9 +7591,10 @@ msgid "Provider"
 msgstr ""
 
 #: user/order.php:126 user/sales.php:86
-#, php-format
+#, fuzzy, php-format
+#| msgid "Clear prices"
 msgid "Regular price: %s"
-msgstr ""
+msgstr "Чистые цены"
 
 #: user/order.php:146
 #, php-format
@@ -7392,8 +7614,10 @@ msgid "We have shipped products to buyer's address"
 msgstr "Мы отправили товары по адресу покупателя"
 
 #: user/order.php:200
+#, fuzzy
+#| msgid "You have no orders"
 msgid "You have no orders yet."
-msgstr ""
+msgstr "У вас нет заказов"
 
 #: user/pack.php:19 user/pack.php:24
 #, php-format
@@ -7536,7 +7760,16 @@ msgstr ""
 msgid "Transaction ID"
 msgstr "ID транзакции"
 
-#: user/payments.php:45 user/transfer_pay.php:33
+#: user/payments.php:42
+msgid "Initiated bank transfer payments - AWAITING YOUR PAYMENT!"
+msgstr ""
+
+#: user/payments.php:43
+#, php-format
+msgid "Bank account / IBAN: %s"
+msgstr ""
+
+#: user/payments.php:48 user/transfer_pay.php:43
 #, php-format
 msgid ""
 "Payment in progress. We are awaiting your bank transfer to our account. <br/"
@@ -7549,13 +7782,34 @@ msgstr ""
 "<br/>После того, как средства находятся в нашем аккаунте, мы завершим "
 "платеж. Обратите внимание, что банковский перевод может занять до 3 дней."
 
-#: user/payments.php:83
-msgid "No payments has been found"
+#: user/payments.php:52
+#, fuzzy
+msgid "Awaiting"
+msgstr "Все"
+
+#: user/payments.php:64
+#, php-format
+msgid ""
+"Transfer amount <b>%s</b> to account <b>%s</b> with variable symbol <b>%s</b>"
 msgstr ""
 
+#: user/payments.php:73
+#, fuzzy
+#| msgid "Completed"
+msgid "Completed payments"
+msgstr "Завершенный"
+
+#: user/payments.php:94
+#, fuzzy
+#| msgid "No payment logs has been found"
+msgid "No payments has been found"
+msgstr "Журналы платежей не найдены"
+
 #: user/products.php:33
+#, fuzzy
+#| msgid "Groups successfully updated"
 msgid "Products has been successfully updated"
-msgstr ""
+msgstr "Группы успешно обновлены"
 
 #: user/products.php:74
 msgid ""
@@ -7585,8 +7839,10 @@ msgid "Not available"
 msgstr "Доступный"
 
 #: user/products.php:179
+#, fuzzy
+#| msgid "Update promotions"
 msgid "Update products"
-msgstr ""
+msgstr "Обновить акции"
 
 #: user/products.php:184
 #, fuzzy
@@ -7610,16 +7866,22 @@ msgid "Become a premium member"
 msgstr "Стать участником премиум"
 
 #: user/sales.php:41
+#, fuzzy
+#| msgid "List of all your products that has been sold."
 msgid "List of all your product sales."
-msgstr ""
+msgstr "Список всех ваших продуктов, которые были проданы."
 
 #: user/sales.php:151
+#, fuzzy
+#| msgid "You have no sold products"
 msgid "You have not sold products yet"
-msgstr ""
+msgstr "У вас нет проданных товаров"
 
 #: user/shipping.php:21
+#, fuzzy
+#| msgid "Settings were successfully saved"
 msgid "Shipping has been successfully removed"
-msgstr ""
+msgstr "Настройки успешно сохранены"
 
 #: user/shipping.php:32
 msgid ""
@@ -7633,44 +7895,60 @@ msgid "Standard"
 msgstr "Стандартные платежи PayPal"
 
 #: user/shipping.php:54
+#, fuzzy
+#| msgid "Item data were successfully updated"
 msgid "Shipping option has been successfully updated"
-msgstr ""
+msgstr "Данные позиции были успешно обновлены"
 
 #: user/shipping.php:57
+#, fuzzy
+#| msgid "Settings were successfully saved"
 msgid "Shipping option has been successfully created"
-msgstr ""
+msgstr "Настройки успешно сохранены"
 
 #: user/shipping.php:111
 msgid "Edit shipping option"
 msgstr ""
 
 #: user/shipping.php:113
+#, fuzzy
+#| msgid "Create new group"
 msgid "Create a new shipping option"
-msgstr ""
+msgstr "Создать новую группу"
 
 #: user/shipping.php:119
+#, fuzzy
+#| msgid "Your name"
 msgid "Currier name"
-msgstr ""
+msgstr "Ваше имя"
 
 #: user/shipping.php:129
+#, fuzzy
+#| msgid "Delivery Address"
 msgid "Delivery time"
-msgstr ""
+msgstr "Адрес Доставки"
 
 #: user/shipping.php:130
+#, fuzzy
+#| msgid "%d days"
 msgid "2-4 days"
-msgstr ""
+msgstr "%d дней"
 
 #: user/shipping.php:134
+#, fuzzy
+#| msgid "Fee for 1 view"
 msgid "Fee for shipping"
-msgstr ""
+msgstr "Плата за 1 просмотр"
 
 #: user/shipping.php:142
 msgid "Country restriction"
 msgstr ""
 
 #: user/shipping.php:147
+#, fuzzy
+#| msgid "All categories"
 msgid "All countries"
-msgstr ""
+msgstr "Все категории"
 
 #: user/shipping.php:159
 msgid "Speed index"
@@ -7681,12 +7959,16 @@ msgid "Fastest"
 msgstr ""
 
 #: user/shipping.php:164
+#, fuzzy
+#| msgid "lowest"
 msgid "Slowest"
-msgstr ""
+msgstr "минимально"
 
 #: user/shipping.php:175
+#, fuzzy
+#| msgid "Enable Sandbox"
 msgid "Enabled"
-msgstr ""
+msgstr "Включить Песочницу"
 
 #: user/shipping.php:176
 #, fuzzy
@@ -7694,8 +7976,10 @@ msgid "Disabled"
 msgstr "Отключено"
 
 #: user/shipping.php:183
+#, fuzzy
+#| msgid "Update promotions"
 msgid "Update shipping option"
-msgstr ""
+msgstr "Обновить акции"
 
 #: user/shipping.php:185
 msgid "Add shipping option"
@@ -7719,27 +8003,30 @@ msgid "Edit"
 msgstr "Редактировать"
 
 #: user/shipping.php:251
+#, fuzzy
 msgid "You have shipping options"
-msgstr ""
+msgstr "У вас есть %s продуктов в вашей корзине"
 
 #: user/shipping.php:257
 msgid "Add a new shipping"
 msgstr ""
 
-#: user/transfer_pay.php:40
+#: user/transfer_pay.php:17
+msgid "Data checksum has failed, payment was cancelled."
+msgstr ""
+
+#: user/transfer_pay.php:20
+msgid ""
+"Bank transfer data are related to different user, payment was cancelled."
+msgstr ""
+
+#: user/transfer_pay.php:50
 msgid ""
 "There was problem recognizing your product, please try bank transfer payment "
 "again from your cart."
 msgstr ""
 "Была проблема с распознаванием вашего продукта, пожалуйста, попробуйте "
 "повторно оплатить банковский перевод с вашей корзины."
-
-#~ msgid ""
-#~ "Paystack operates in currency NGN only, plugin must be set to one of "
-#~ "listed currency, otherwise payment will not be available."
-#~ msgstr ""
-#~ "Paystack работает только в валюте NGN, плагин должен быть установлен в "
-#~ "одну из перечисленных валют, иначе оплата будет недоступна."
 
 #~ msgid ""
 #~ "Paystack is not available, currency must be set to NGN to be able to use "
@@ -7792,15 +8079,6 @@ msgstr ""
 
 #~ msgid "We have shipped products to your address"
 #~ msgstr "Мы отправили товары на ваш адрес"
-
-#~ msgid "You have no orders"
-#~ msgstr "У вас нет заказов"
-
-#~ msgid "List of all your products that has been sold."
-#~ msgstr "Список всех ваших продуктов, которые были проданы."
-
-#~ msgid "You have no sold products"
-#~ msgstr "У вас нет проданных товаров"
 
 #~ msgid "Share on Google Plus"
 #~ msgstr "Поделиться на Google Plus"

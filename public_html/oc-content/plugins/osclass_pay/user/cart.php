@@ -95,6 +95,8 @@
     <?php } ?>
   </div>
 
+  <?php osc_run_hook('osp_cart_before_cart_items'); ?>
+
   <div class="osp-cart">
     <div class="osp-cart-head-row">
       <div class="osp-cart-col code"><?php _e('ID', 'osclass_pay'); ?></div>
@@ -286,26 +288,33 @@
 <?php } ?>
 
 
+<?php osc_run_hook('osp_cart_before_pay_buttons'); ?>
+
+
 <?php if($total > 0 && !$phone_missing && !$address_missing) { ?>
   <ul class="osp-pay-button">
     <label><?php _e('Click on preferred method to initiate payment', 'osclass_pay'); ?></label>
     <?php 
-      if(osc_is_admin_user_logged_in()) {
+      $checksum = osp_create_checksum(@$user['pk_i_id'], @$user['pk_i_id'], @$user['s_email'], round($total, 2));
+
+      if(osc_is_admin_user_logged_in() && osc_apply_filter('osp_cart_payment_admin', true) !== false) {
         osp_admin_button(round($total, 2), sprintf(__('Pay %s cart items for %s by admin', 'osclass_pay'), $count, osp_format_price($total, 2)), '901x1x'.$user_id, array('user' => @$user['pk_i_id'], 'itemid' => @$user['pk_i_id'], 'email' => @$user['s_email'], 'amount' => round($total, 2)));
       }
 
-      if(!$contains_pack && !$contains_product && !$contains_booking) {
+      if(!$contains_pack && !$contains_product && !$contains_booking && osc_apply_filter('osp_cart_payment_wallet', true) !== false) {
         osp_wallet_button(round($total, 2), sprintf(__('Pay %s cart items for %s', 'osclass_pay'), $count, osp_format_price($total, 2)), '901x1x'.$user_id, array('user' => @$user['pk_i_id'], 'itemid' => @$user['pk_i_id'], 'email' => @$user['s_email'], 'amount' => round($total, 2)));
       } 
 
-      if(osp_param('bt_enabled') == 1) {
-        osp_transfer_button(round($total, 2), sprintf(__('Pay %s cart items for %s', 'osclass_pay'), $count, osp_format_price($total, 2)), '901x1x'.$user_id, array('user' => @$user['pk_i_id'], 'itemid' => @$user['pk_i_id'], 'email' => @$user['s_email'], 'name' => @$user['s_name'], 'amount' => round($total, 2)));
+
+      if(osp_param('bt_enabled') == 1 && osc_apply_filter('osp_cart_payment_transfer', true) !== false) {
+        osp_transfer_button(round($total, 2), sprintf(__('Pay %s cart items for %s', 'osclass_pay'), $count, osp_format_price($total, 2)), '901x1x'.$user_id, array('user' => @$user['pk_i_id'], 'itemid' => @$user['pk_i_id'], 'email' => @$user['s_email'], 'name' => @$user['s_name'], 'amount' => round($total, 2), 'checksum' => $checksum));
       }
 
-      osp_buttons(round($total, 2), sprintf(__('Pay %s cart items for %s', 'osclass_pay'), $count, osp_format_price($total, 2)), '901x1x'.$user_id, array('user' => @$user['pk_i_id'], 'itemid' => @$user['pk_i_id'], 'email' => @$user['s_email'], 'amount' => round($total, 2)));
+      if(osc_apply_filter('osp_cart_payment_money', true) !== false) {
+        osp_buttons(round($total, 2), sprintf(__('Pay %s cart items for %s', 'osclass_pay'), $count, osp_format_price($total, 2)), '901x1x'.$user_id, array('user' => @$user['pk_i_id'], 'itemid' => @$user['pk_i_id'], 'email' => @$user['s_email'], 'amount' => round($total, 2)));
+      }
     ?>
   </ul>
-
 
   <?php osp_buttons_js(); ?>
 <?php } else if($total <= 0 && $count > 0) { ?>
@@ -314,3 +323,5 @@
     <?php osp_wallet_button(round($total, 2), sprintf(__('Free checkout for %s cart items', 'osclass_pay'), $count), '901x1x'.$user_id, array('user' => @$user['pk_i_id'], 'itemid' => @$user['pk_i_id'], 'email' => @$user['s_email'], 'amount' => round($total, 2))); ?>
   </ul>
 <?php } ?>
+
+<?php osc_run_hook('osp_cart_after_pay_buttons'); ?>

@@ -141,6 +141,7 @@
   $yandex_enabled = osp_param_update( 'yandex_enabled', 'plugin_action', 'check', 'plugin-osclass_pay' );
   $yandex_shop_id = osp_param_update( 'yandex_shop_id', 'plugin_action', 'value', 'plugin-osclass_pay' );
   $yandex_api_secret = osp_param_update( 'yandex_api_secret', 'plugin_action', 'value_crypt', 'plugin-osclass_pay' );
+
   $robokassa_enabled = osp_param_update( 'robokassa_enabled', 'plugin_action', 'check', 'plugin-osclass_pay' );
   $robokassa_shop_login = osp_param_update( 'robokassa_shop_login', 'plugin_action', 'value', 'plugin-osclass_pay' );
   $robokassa_password_1 = osp_param_update( 'robokassa_password_1', 'plugin_action', 'value_crypt', 'plugin-osclass_pay' );
@@ -1043,10 +1044,10 @@
 
           <div class="mb-method-body">
             <div class="mb-row mb-notes">
-              <div class="mb-line"><?php _e('Paystack operates in USD, GHS & NGN currency only, plugin must be set to one of listed currency, otherwise payment will not be available.', 'osclass_pay'); ?></div>
+              <div class="mb-line"><?php _e('Paystack operates in USD, GHS, ZAR & NGN currency only, plugin must be set to one of listed currency, otherwise payment will not be available.', 'osclass_pay'); ?></div>
             </div>
 
-            <?php if(!in_array(osp_currency(), array('NGN', 'GHS', 'USD'))) { ?>
+            <?php if(!in_array(osp_currency(), array('NGN', 'GHS', 'USD', 'ZAR'))) { ?>
               <div class="mb-row mb-errors">
                 <div class="mb-line"><?php _e('Paystack is not available, currency must be set to NGN, GHS or USD to be able to use this gateway.', 'osclass_pay'); ?></div>
               </div>
@@ -1322,8 +1323,7 @@
           </div>
         </div>
         
-  
-      <!-- robokassa MONEY -->
+       <!-- robokassa MONEY -->
         <div class="mb-method mb-robokassa <?php if($robokassa_enabled == 1) { ?>enabled<?php } ?>">
           <div class="mb-method-name">
             <i class="mb-method-status fa fa-<?php if($robokassa_enabled == 1) { ?>check<?php } else { ?>times<?php } ?>"></i>
@@ -1367,7 +1367,8 @@
             </div>
 
           </div>
-        </div>
+        </div> 
+
         <!-- CARDINITY.com -->
         <div class="mb-method mb-cardinity <?php if($cardinity_enabled == 1) { ?>enabled<?php } ?>">
           <div class="mb-method-name">

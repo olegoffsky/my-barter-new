@@ -491,6 +491,10 @@
 .osp-table-payments .osp-row {display: block;width: 100%;line-height:16px;clear: both; float: left; background: #FCFDFE; font-size: 12px; border-bottom: 1px solid #EAEDEF;height:34px;}
 .osp-table-payments .osp-row:nth-child(odd) { background: #fff; }
 .osp-table-payments .osp-row:hover { background: #f4f8fb; }
+.osp-table-payments .osp-row.osp-row-title {height:auto;background:#e4ecf3;border:1px solid rgba(0,0,0,0.15);border-top:none;font-style:italic;font-weight:600;color:#666;padding:8px 8px;text-align:center;}
+.osp-table-payments .osp-row.osp-row-title.osp-title-alt {border:1px solid rgba(0,0,0,0.15);margin-top:25px;}
+.osp-table-payments .osp-row.osp-row-title-iban {height:auto;background:#fff;border:1px solid rgba(0,0,0,0.15);border-top:none;font-size:15px;line-height:17px;font-weight:bold;color:#111;padding:13px 8px;text-align:center;}
+.osp-table-payments .osp-row.osp-row-title-iban > strong {background:#f4f9d5;}
 .osp-row.osp-row-empty {text-align:center;padding:30px 25px 20px 25px;}
 .osp-row.osp-row-empty i {color: #dedede; display: block; clear: both; font-size: 80px; text-shadow: #fff 1px 1px 0;}
 .osp-row.osp-row-empty span {margin:6px 0;text-align: center; display: block; color: #999;font-size:14px;}
@@ -499,7 +503,7 @@
 .osp-table-payments .osp-col.code {width:23%;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap: break-word; word-break: break-all;}
 .osp-table-payments .osp-col.concept {width:37%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap: break-word; word-break: break-all;}
 .osp-table-payments .osp-col.amount {width:15%;text-align:center;}
-.osp-table-payments .osp-row .osp-col.amount {font-weight:bold;color:#000;}
+.osp-table-payments .osp-row .osp-col.amount {font-weight:bold;color:#000;text-align:right;}
 .osp-table-payments .osp-col.date {width:10%;}
 .osp-table-payments .osp-col.details {width:5%;text-align:right;}
 .osp-table-payments .osp-col.details i {cursor:pointer;width:22px;height:22px;line-height:22px;text-align:center;margin:-3px 0;display:inline-block;border-radius:3px;color: #3586AE; background-color: #edf7fb; border: none; border-bottom: solid 1px #D8EDF7;}
@@ -529,6 +533,9 @@
 .osp-table-payments .osp-row.osp-empty {text-align:center;padding:30px 25px 20px 25px;height:auto;}
 .osp-table-payments .osp-row.osp-empty i {color: #dedede; display: block; clear: both; font-size: 80px; text-shadow: #fff 1px 1px 0;}
 .osp-table-payments .osp-row.osp-empty span {text-align: center; display: block; color: #999;font-size:14px;margin-top:4px;}
+.osp-table-payments.osp-table-transfers .osp-row {height:auto;}
+.osp-table-payments.osp-table-transfers .osp-row .osp-transfer-detail {float:left;clear:both;text-align:center;width:100%;background:#d0d0d0;color:#000;font-weight:500;margin-bottom:12px;padding:4px 8px;font-size:12px;line-height:14px;}
+.osp-table-payments.osp-table-transfers .osp-row .osp-transfer-detail b {font-weight:600;}
 
 
 /* 2CHECKOUT DIALOG */
@@ -1068,12 +1075,15 @@ ul.osp-um-inside li:last-child a {border-top-right-radius:4px;}
   .osp-group, .osp-restrict-category .osp-group {width:100%;margin-right:0!important;clear:both;}
   .osp-pack.gallery {width:100%;margin-right:0!important;}
 
-  .osp-table-payments .osp-head-row, .osp-table-payments .osp-col.code {display:none;}
-  .osp-table-payments .osp-row {position:relative;padding-left:27%;height:49px;line-height:18px;}
-  .osp-table-payments .osp-row .osp-col.source {width:26%;height:50px;left:0;top:0;position:absolute;line-height:16px;padding:17px 3px;}
-  .osp-table-payments .osp-col.concept {width:100%;padding-top:5px;padding-bottom:1px;}
-  .osp-table-payments .osp-col.amount {width:50%;text-align:left;padding-top:1px;padding-bottom:5px;}
-  .osp-table-payments .osp-col.date {width:50%;text-align:right;padding-top:1px;padding-bottom:5px;}
+
+  .osp-table-payments {overflow-x:auto;}
+  .osp-table-payments .osp-row {min-width:540px;}
+  !.osp-table-payments .osp-head-row, .osp-table-payments .osp-col.code {display:none;}
+  !.osp-table-payments .osp-row {position:relative;padding-left:27%;height:49px;line-height:18px;}
+  !.osp-table-payments .osp-row .osp-col.source {width:26%;height:50px;left:0;top:0;position:absolute;line-height:16px;padding:17px 3px;}
+  !.osp-table-payments .osp-col.concept {width:100%;padding-top:5px;padding-bottom:1px;}
+  !.osp-table-payments .osp-col.amount {width:50%;text-align:left;padding-top:1px;padding-bottom:5px;}
+  !.osp-table-payments .osp-col.date {width:50%;text-align:right;padding-top:1px;padding-bottom:5px;}
 
   .osp-cart-col.code, .osp-cart-col.qty {display:none;}
   .osp-cart-row .osp-cart-col.delt {width:12%;border-left:none;}

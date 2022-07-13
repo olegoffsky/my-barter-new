@@ -3,16 +3,18 @@
   Plugin Name: Osclass Pay Plugin
   Plugin URI: https://osclasspoint.com/osclass-plugins/payments-and-shopping/osclass-pay-payment-plugin-i46
   Description: Ultimate payment and monetization solution for osclass classifieds
-  Version: 3.4.5
+  Version: 3.5.1
   Author: MB Themes
   Author URI: https://osclasspoint.com
   Author Email: info@osclasspoint.com
   Short Name: osclass_pay
   Plugin update URI: osclass-pay-plugin
   Support URI: https://forums.osclasspoint.com/osclass-pay-plugin/
-  Product Key: 0yNxpeRQtrJ1P40QfCn1
+  Product Key: 
 */
 
+// DEBUG MODE
+define('OSP_DEBUG', true);
 
 // PAYMENT STATUS
 define('OSP_STATUS_FAILED', 0);
@@ -48,8 +50,6 @@ define('OSP_ORDER_REFUNDED', 8);
 define('OSP_ORDER_CANCELLED', 9);
 
 
-// DEBUG MODE
-define('OSP_DEBUG', false);
 define('OSP_URL_DIR', 'payments');  // 'osclasspay'
 
 // SVG
@@ -117,7 +117,7 @@ if(osp_param('komfortkasse_enabled') == 1) {
   require_once osc_plugins_path() . osc_plugin_folder(__FILE__) . 'payments/komfortkasse/KomfortkassePayment.php';
 }
 
-if(osp_param('paystack_enabled') == 1) {
+if(osp_param('paystack_enabled') == 1 && in_array(osp_currency(), array('GHS', 'NGN', 'USD', 'ZAR'))) {
   require_once osc_plugins_path() . osc_plugin_folder(__FILE__) . 'payments/paystack/PaystackPayment.php';
   osc_add_hook('ajax_paystack', array('PaystackPayment', 'processPayment'));
 }
@@ -189,13 +189,11 @@ if(osp_param('euplatesc_enabled') == 1 && in_array(osp_currency(), array('EUR', 
 if(osp_param('yandex_enabled') == 1 && osp_currency() == 'RUB') {
   require_once osc_plugins_path() . osc_plugin_folder(__FILE__) . 'payments/yandex/YandexPayment.php';
 }
-
-if(osp_param('cardinity_enabled') == 1 && in_array(osp_currency(), array('EUR', 'GBP', 'USD'))) {
-  require_once osc_plugins_path() . osc_plugin_folder(__FILE__) . 'payments/cardinity/CardinityPayment.php';
-}
-
 if(osp_param('robokassa_enabled') == 1 && osp_currency() == 'RUB') {
   require_once osc_plugins_path() . osc_plugin_folder(__FILE__) . 'payments/robokassa/RobokassaPayment.php';
+}
+if(osp_param('cardinity_enabled') == 1 && in_array(osp_currency(), array('EUR', 'GBP', 'USD'))) {
+  require_once osc_plugins_path() . osc_plugin_folder(__FILE__) . 'payments/cardinity/CardinityPayment.php';
 }
 
 if(osp_param('securionpay_enabled') == 1) {
@@ -204,9 +202,6 @@ if(osp_param('securionpay_enabled') == 1) {
 
 if(osp_param('begateway_enabled') == 1) {
   require_once osc_plugins_path() . osc_plugin_folder(__FILE__) . 'payments/begateway/BeGatewayPayment.php';
-}
-if(osp_param('robokassa_enabled') == 1 && osp_currency() == 'RUB') {
-  require_once osc_plugins_path() . osc_plugin_folder(__FILE__) . 'payments/robokassa/RobokassaPayment.php';
 }
 
 
@@ -808,13 +803,18 @@ function osp_show_item($item) {
   }
 
   if(osp_param('image_allow') == 1 && !osp_fee_is_paid(OSP_TYPE_IMAGE, $item['pk_i_id']) && osp_fee_exists(OSP_TYPE_IMAGE, $item['pk_i_id']) ) {
-    $redirect = true;
+    if($item['fk_i_user_id'] == osc_logged_user_id() && osc_is_web_user_logged_in()) {
+      $redirect = true;
+    }
   }
 
   if($redirect) {
     osp_redirect(osc_route_url('osp-item-pay', array('itemId' => $item['pk_i_id'])));
   }
 }
+
+osc_add_hook('show_item', 'osp_show_item');
+
 
 
 // SHOW PROMOTION OPTIONS ON ITEM DETAIL PAGE
@@ -973,7 +973,6 @@ osc_add_hook('item_premium_off', 'osp_premium_off');
 osc_add_hook('item_premium_on', 'osp_premium_on');
 osc_add_hook('before-content', 'osp_prevent_category');
 osc_add_hook('before_item_edit', 'osp_prevent_category');
-osc_add_hook('show_item', 'osp_show_item');
 osc_add_hook('item_detail', 'osp_show_item_promote');
 osc_add_hook('delete_item', 'osp_delete_item');
 

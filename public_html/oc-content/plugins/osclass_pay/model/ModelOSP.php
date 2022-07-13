@@ -137,7 +137,7 @@ public function install($version = '') {
   if($version == '') {
     $this->import('osclass_pay/model/struct.sql');
 
-    osc_set_preference('version', 111, 'plugin-osclass_pay', 'INTEGER');
+    osc_set_preference('version', 113, 'plugin-osclass_pay', 'INTEGER');
     
     if(osc_get_preference('crypt_key', 'plugin-osclass_pay') == '') {
       osc_set_preference('crypt_key', mb_generate_rand_string(32), 'plugin-osclass_pay', 'STRING');
@@ -291,12 +291,6 @@ public function install($version = '') {
     osc_set_preference('begateway_public_key', '', 'plugin-osclass_pay', 'STRING');
     osc_set_preference('begateway_timeout', '60', 'plugin-osclass_pay', 'STRING');
     osc_set_preference('begateway_test_mode', '1', 'plugin-osclass_pay', 'BOOLEAN');
-
-    osc_set_preference('robokassa_enabled', '0', 'plugin-osclass_pay', 'BOOLEAN');
-    osc_set_preference('robokassa_shop_login', '', 'plugin-osclass_pay', 'STRING');
-    osc_set_preference('robokassa_password_1', '', 'plugin-osclass_pay', 'STRING');
-    osc_set_preference('robokassa_password_2', osp_crypt(''), 'plugin-osclass_pay', 'STRING');
-
   }
 
 
@@ -382,7 +376,6 @@ public function install($version = '') {
       $this->import('osclass_pay/model/struct_update_111.sql');
     }
   }
-
 
 
 
@@ -704,6 +697,17 @@ public function versionUpdate() {
     osc_set_preference('version', 111, 'plugin-osclass_pay', 'INTEGER');
   }
 
+  if($version < 112) { 
+    $this->dao->query(sprintf("ALTER TABLE %st_osp_item MODIFY i_hours FLOAT;", DB_TABLE_PREFIX));
+    osc_set_preference('version', 112, 'plugin-osclass_pay', 'INTEGER');
+  }
+
+  if($version < 113) { 
+    $this->dao->query(sprintf("ALTER TABLE %st_osp_price_category MODIFY i_hours VARCHAR(10) NULL;", DB_TABLE_PREFIX));
+    $this->dao->query(sprintf("ALTER TABLE %st_osp_item MODIFY i_hours VARCHAR(10) NULL;", DB_TABLE_PREFIX));
+    osc_set_preference('version', 113, 'plugin-osclass_pay', 'INTEGER');
+  }
+
   osc_reset_preferences();
 }
 
@@ -905,6 +909,7 @@ public function itemsToCartString($item_id) {
 public function createItem($type, $item_id, $paid = -1, $date = NULL, $payment = NULL, $expire = NULL, $hours = NULL, $repeat = NULL) {
   $item = $this->getItem($type, $item_id);
   $was_paid = isset($item['i_paid']) ? $item['i_paid'] : 0;
+  $minutes = round($hours*60);
 
   if($date == '') { 
     $date = date("Y-m-d H:i:s"); 
@@ -926,8 +931,8 @@ public function createItem($type, $item_id, $paid = -1, $date = NULL, $payment =
   $curr_date = date('Y-m-d H:i:s');
 
 
-  if($expire == '' && $hours > 0) {
-    $expire = date('Y-m-d H:i:s', strtotime(" + " . $hours . " hours", strtotime($curr_date)));
+  if($expire == '' && $minutes > 0) {
+    $expire = date('Y-m-d H:i:s', strtotime(" + " . $minutes . " minutes", strtotime($curr_date)));
   }
 
   if(empty($item) || $was_paid == 0 || @$item['pk_i_id'] <= 0) {
@@ -944,12 +949,12 @@ public function createItem($type, $item_id, $paid = -1, $date = NULL, $payment =
       //$diff = abs($curr_date - $orig_date);
       //$hours_diff = $diff / ( 60 * 60 );
       //$date = date('Y-m-d H:i:s', strtotime(" + " . $hours_diff . " hours", strtotime($new_date)));
-
+      
       if($type <> OSP_TYPE_REPUBLISH) {
-        $value['dt_expire'] = date('Y-m-d H:i:s', strtotime(" + " . $hours . " hours", strtotime($orig_date)));
+        $value['dt_expire'] = date('Y-m-d H:i:s', strtotime(" + " . $minutes . " minutes", strtotime($orig_date)));
 
       } else {   // Set next republish datetime
-        $value['dt_expire'] = date('Y-m-d H:i:s', strtotime(" + " . $hours . " hours", strtotime($curr_date)));
+        $value['dt_expire'] = date('Y-m-d H:i:s', strtotime(" + " . $minutes . " minutes", strtotime($curr_date)));
       }
     }      
   }
@@ -1201,21 +1206,21 @@ public function updateCategoryFee($type, $category, $fee, $hours = NULL) {
   $default_fee = osp_category_default_fee($type, $hours); 
 
   if($fee < 0) {
-    $fee = '0';
+    $fee = 0;
   }
 
-  if(($fee == 0 && $fee <> '') || ($fee <> '' && $fee <> $default_fee)) {
+
+  //if(($fee == 0 && $fee <> '') || ($fee <> '' && $fee <> $default_fee)) {
+  if(($fee === 0 && $fee <> '') || ($fee > 0 && $fee <> $default_fee || $type == OSP_TYPE_REPUBLISH)) {
     $this->dao->select('*');
     $this->dao->from($this->getTable_price_category());
-    $this->dao->where('fk_i_category_id', $category);
+    $this->dao->where('fk_i_category_id', (int)$category);
     $this->dao->where('s_type', $type);
   
     if($hours <> '') {
       $this->dao->where('i_hours', $hours);
     }
   
-    $result = $this->dao->get();
-
     if($hours <> '') {
       $value = array('fk_i_category_id' => $category, 's_type' => $type, 'i_hours' => $hours, 'f_fee' => $fee);
       $where = array('fk_i_category_id' => $category, 's_type' => $type, 'i_hours' => $hours);
@@ -1223,6 +1228,8 @@ public function updateCategoryFee($type, $category, $fee, $hours = NULL) {
       $value = array('fk_i_category_id' => $category, 's_type' => $type, 'f_fee' => $fee);
       $where = array('fk_i_category_id' => $category, 's_type' => $type);
     }
+
+    $result = $this->dao->get();
 
     if($result) {
       if($result->row()) {
@@ -1235,7 +1242,7 @@ public function updateCategoryFee($type, $category, $fee, $hours = NULL) {
     }
 
     // Remove existing payment request as fee was set to 0 (zero)
-    if($fee == 0 && $fee <> '') {
+    if($fee === 0 && $fee <> '') {
       if($type == OSP_TYPE_PUBLISH || $type == OSP_TYPE_IMAGE) {
         $this->deleteUnpaidItems($type); 
       }
@@ -1353,7 +1360,9 @@ public function purgeExpired() {
           } else {
             $curr_date = date('Y-m-d H:i:s');
             if($item['i_hours'] > 0) {
-              $expire = date('Y-m-d H:i:s', strtotime(" + " . $item['i_hours'] . " hours", strtotime($curr_date)));
+              $minutes = round($item['i_hours']*60);
+              
+              $expire = date('Y-m-d H:i:s', strtotime(" + " . $minutes . " minutes", strtotime($curr_date)));
               $repeat = $item['i_repeat'] - 1;
 
               $value = array('i_repeat' => $repeat, 'dt_expire' => $expire);

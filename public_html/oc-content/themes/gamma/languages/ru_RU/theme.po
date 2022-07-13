@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: MyGamma\n"
-"POT-Creation-Date: 2022-06-06 23:19+0300\n"
+"Project-Id-Version: Gamma\n"
+"POT-Creation-Date: 2022-07-13 23:45+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Olego\n"
@@ -11,12 +11,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 2.0.1\n"
 "X-Poedit-Basepath: ../..\n"
-"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: maintenance.php\n"
 "X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: 404.php\n"
+"X-Poedit-SearchPath-3: ajax.php\n"
+"X-Poedit-SearchPath-4: alert-form.php\n"
+"X-Poedit-SearchPath-5: contact.php\n"
+"X-Poedit-SearchPath-6: custom.php\n"
+"X-Poedit-SearchPath-7: footer.php\n"
+"X-Poedit-SearchPath-8: functions.php\n"
+"X-Poedit-SearchPath-9: head.php\n"
+"X-Poedit-SearchPath-10: head-color.php\n"
+"X-Poedit-SearchPath-11: header.php\n"
+"X-Poedit-SearchPath-12: head-favicon.php\n"
+"X-Poedit-SearchPath-13: inc.category.php\n"
+"X-Poedit-SearchPath-14: inc.search.php\n"
+"X-Poedit-SearchPath-15: index.php\n"
+"X-Poedit-SearchPath-16: item.php\n"
+"X-Poedit-SearchPath-17: item-contact.php\n"
+"X-Poedit-SearchPath-18: item-edit.php\n"
+"X-Poedit-SearchPath-19: item-post.php\n"
+"X-Poedit-SearchPath-20: item-post-gamma.php\n"
+"X-Poedit-SearchPath-21: item-send-friend.php\n"
+"X-Poedit-SearchPath-22: loop-single.php\n"
+"X-Poedit-SearchPath-23: loop-single-premium.php\n"
+"X-Poedit-SearchPath-24: main.php\n"
+"X-Poedit-SearchPath-25: maintenance.php\n"
+"X-Poedit-SearchPath-26: page.php\n"
+"X-Poedit-SearchPath-27: read_me_first.txt\n"
+"X-Poedit-SearchPath-28: screenshot.png\n"
+"X-Poedit-SearchPath-29: search.php\n"
+"X-Poedit-SearchPath-30: search_gallery.php\n"
+"X-Poedit-SearchPath-31: search_list.php\n"
+"X-Poedit-SearchPath-32: user-alerts.php\n"
+"X-Poedit-SearchPath-33: user-change_email.php\n"
+"X-Poedit-SearchPath-34: user-change_password.php\n"
+"X-Poedit-SearchPath-35: user-custom.php\n"
+"X-Poedit-SearchPath-36: user-dashboard.php\n"
+"X-Poedit-SearchPath-37: user-forgot_password.php\n"
+"X-Poedit-SearchPath-38: user-items.php\n"
+"X-Poedit-SearchPath-39: user-login.php\n"
+"X-Poedit-SearchPath-40: user-profile.php\n"
+"X-Poedit-SearchPath-41: user-public-profile.php\n"
+"X-Poedit-SearchPath-42: user-recover.php\n"
+"X-Poedit-SearchPath-43: user-register.php\n"
 
 #: 404.php:16
 msgid "404"
@@ -34,6 +76,29 @@ msgstr "Либо что-то не так, либо страница больше
 msgid "Take me home"
 msgstr "На главную"
 
+#: alert-form.php:4 contact.php:48
+msgid "Email"
+msgstr ""
+
+#: alert-form.php:10
+msgid "Please enter your email address!"
+msgstr "Пожалуйста, введите свой адрес электронной почты!"
+
+#: alert-form.php:26
+msgid "You have successfully subscribed to alert!"
+msgstr "Вы успешно подписались на оповещение!"
+
+#: alert-form.php:29
+msgid ""
+"There was error during subscription process - incorrect email address format!"
+msgstr ""
+"Во время подписки произошла ошибка - неверный формат адреса электронной "
+"почты!"
+
+#: alert-form.php:32
+msgid "You have already subscribed to this search!"
+msgstr "Вы уже подписались на этот поиск!"
+
 #: alert-form.php:55 alert-form.php:62
 msgid "Subscribe to this search"
 msgstr "Подписаться на этот поиск"
@@ -50,10 +115,6 @@ msgstr "Связаться с нами"
 msgid "Your name"
 msgstr "Ваше имя"
 
-#: contact.php:48
-msgid "Email"
-msgstr ""
-
 #: contact.php:56
 msgid "Subject"
 msgstr "Тема"
@@ -67,7 +128,7 @@ msgstr "Сообщение"
 msgid "Choose a file"
 msgstr "Выберите файл"
 
-#: contact.php:70
+#: contact.php:70 head.php:26
 msgid "No file selected"
 msgstr "Файл не выбран"
 
@@ -83,7 +144,7 @@ msgstr "Создать бартер"
 msgid "Navigation"
 msgstr "Навигация"
 
-#: footer.php:21 footer.php:143
+#: footer.php:21 footer.php:143 header.php:229
 msgid "Home"
 msgstr "Главная"
 
@@ -104,7 +165,7 @@ msgstr "Мой аккаунт"
 msgid "Add a new listing"
 msgstr "Создать бартер"
 
-#: footer.php:33 header.php:12
+#: footer.php:33 header.php:12 main.php:229
 msgid "Categories"
 msgstr "Категории"
 
@@ -144,11 +205,12 @@ msgstr "Войти"
 msgid "Register a new account"
 msgstr "Зарегистрироватся"
 
-#: footer.php:153 header.php:24
+#: footer.php:153 functions.php:969 functions.php:1033 functions.php:1059
+#: header.php:24
 msgid "My listings"
 msgstr "Мои объявления"
 
-#: footer.php:154
+#: footer.php:154 functions.php:975 functions.php:1039
 msgid "My profile"
 msgstr "Мой профиль"
 
@@ -160,13 +222,491 @@ msgstr "Мои оповещения"
 msgid "Log out"
 msgstr "Выйти"
 
+#: footer.php:172
+msgid "Select country first to get list of regions"
+msgstr "Сначала выберите страну, чтобы получить список регионов"
+
+#: footer.php:173
+msgid "Select region first to get list of regions"
+msgstr "Сначала выберите регион"
+
+#: footer.php:174
+msgid "Select main category first to get list of subcategories"
+msgstr "Сначала выберите основную категорию"
+
+#: footer.php:316
+msgid "No location match to your criteria"
+msgstr "Нет местоположения, соответствующего вашим критериям"
+
+#: footer.php:326
+msgid "Enter at least"
+msgstr "Введите хотя бы"
+
+#: footer.php:326
+msgid "more letter(s)"
+msgstr "больше букв"
+
+#: functions.php:58
+msgid "User is online"
+msgstr "Пользователь онлайн"
+
+#: functions.php:61
+msgid "User is offline"
+msgstr "Пользователь офлайн"
+
+#: functions.php:71 functions.php:75 functions.php:78 functions.php:81
+msgid "Chat unavailable"
+msgstr "Чат недоступен"
+
+#: functions.php:72
+msgid "User is not registered"
+msgstr "Пользователь не зарегистрирован"
+
+#: functions.php:76
+msgid "It's your ad"
+msgstr "Это ваше объявление"
+
+#: functions.php:79
+msgid "User has blocked you"
+msgstr "Пользователь заблокировал вас"
+
+#: functions.php:82
+msgid "Start chat"
+msgstr "Начать чат (онлайн)"
+
+#: functions.php:192
+msgid "You may also like ..."
+msgstr "Вам также может понравиться ..."
+
+#: functions.php:340 functions.php:343
+msgid "Yes"
+msgstr "Да"
+
+#: functions.php:340 functions.php:343
+msgid "No"
+msgstr "Нет"
+
+#: functions.php:352 functions.php:1186 functions.php:1424 functions.php:1678
+#: item-post-gamma.php:266 item-post.php:235 search.php:189
+msgid "Transaction"
+msgstr "Сделка"
+
+#: functions.php:355 functions.php:1191 functions.php:1480 functions.php:1706
+#: item-post-gamma.php:271 item-post.php:240 search.php:177
+msgid "Condition"
+msgstr "Состояние"
+
+#: functions.php:358
+msgid "User"
+msgstr "Пользователь"
+
+#: functions.php:361 functions.php:1273 item-post-gamma.php:93
+#: item-post-gamma.php:109 item-post-gamma.php:116 item-post-gamma.php:127
+#: item-post.php:101 item-post.php:117 item-post.php:124 item-post.php:135
+#: search.php:122 search.php:126
+msgid "Category"
+msgstr "Категория"
+
+#: functions.php:364 functions.php:1608 functions.php:1650
+msgid "Age"
+msgstr "Возраст"
+
+#: functions.php:367
+msgid "Country"
+msgstr "Страна"
+
+#: functions.php:370
+msgid "Region"
+msgstr "Регион"
+
+#: functions.php:373
+msgid "City"
+msgstr "Город"
+
+#: functions.php:376
+msgid "Picture"
+msgstr "Изображение"
+
+#: functions.php:379 loop-single-premium.php:16 loop-single.php:16
+#: user-alerts.php:184 user-items.php:106
+msgid "Premium"
+msgstr "Премиум"
+
+#: functions.php:382 search.php:161
+msgid "Min"
+msgstr "Мин"
+
+#: functions.php:385 search.php:166
+msgid "Max"
+msgstr "Макс"
+
+#: functions.php:388 search.php:87
+msgid "Keyword"
+msgstr "Ключевое слово"
+
+#: functions.php:402
+msgid "New"
+msgstr "Новое"
+
+#: functions.php:403
+msgid "Used"
+msgstr "Б/У"
+
+#: functions.php:407
+msgid "Sell"
+msgstr "Меняю"
+
+#: functions.php:408
+msgid "Buy"
+msgstr "Ищу"
+
+#: functions.php:413 functions.php:421 functions.php:1278 functions.php:1381
+msgid "All"
+msgstr "Все"
+
+#: functions.php:414
+msgid "Yesterday"
+msgstr "Вчера"
+
+#: functions.php:415
+msgid "Last week"
+msgstr "Неделю назад"
+
+#: functions.php:417
+msgid "Last month"
+msgstr "Прошлый месяц"
+
+#: functions.php:422 functions.php:1383 functions.php:1395 search.php:303
+msgid "Personal"
+msgstr "Частное лицо"
+
+#: functions.php:423 functions.php:1384 functions.php:1396 search.php:304
+msgid "Company"
+msgstr "Компания"
+
+#: functions.php:451
+msgid "region"
+msgstr "бласть, край"
+
+#: functions.php:451
+msgid "city"
+msgstr "город"
+
+#: functions.php:477
+#, php-format
+msgid "... and %d more %s, enter your %s name to refine results"
+msgstr ""
+"... а также %d далее %s, введите ваше %s имя, чтобы уточнить результаты"
+
+#: functions.php:756
+msgid "minute ago"
+msgstr "минуту назад"
+
+#: functions.php:758
+#, php-format
+msgid "%d minutes ago"
+msgstr "%d минут назад"
+
+#: functions.php:760
+#, php-format
+msgid "%d hour ago"
+msgstr "%d час назад"
+
+#: functions.php:762
+#, php-format
+msgid "%d hours ago"
+msgstr "%d часов назад"
+
+#: functions.php:764
+#, php-format
+msgid "%d day ago"
+msgstr "%d день назад"
+
+#: functions.php:766
+#, php-format
+msgid "%d days ago"
+msgstr "%d дней назад"
+
+#: functions.php:768
+#, php-format
+msgid "%d week ago"
+msgstr "%d неделю назад"
+
+#: functions.php:770
+#, php-format
+msgid "%d weeks ago"
+msgstr "%d недели назад"
+
+#: functions.php:772
+#, php-format
+msgid "%d month ago"
+msgstr "%d месяц назад"
+
+#: functions.php:774
+#, php-format
+msgid "%d months ago"
+msgstr "%d месяцев назад"
+
+#: functions.php:776
+#, php-format
+msgid "%d year ago"
+msgstr "%d год назад"
+
+#: functions.php:778
+#, php-format
+msgid "%d years ago"
+msgstr "%d лет назад"
+
+#: functions.php:796
+#, php-format
+msgid "%d+ days"
+msgstr "%d+ дней"
+
+#: functions.php:798
+#, php-format
+msgid "%d+ week"
+msgstr "%d+ неделю"
+
+#: functions.php:800
+#, php-format
+msgid "%d+ weeks"
+msgstr "%d+ недели"
+
+#: functions.php:802
+#, php-format
+msgid "%d+ month"
+msgstr "%d+ месяц"
+
+#: functions.php:804
+#, php-format
+msgid "%d+ months"
+msgstr "%d+ месяца"
+
+#: functions.php:806
+#, php-format
+msgid "%d+ year"
+msgstr "%d+ год"
+
+#: functions.php:808
+#, php-format
+msgid "%d+ years"
+msgstr "%d+ лет"
+
+#: functions.php:873
+msgid "Select category"
+msgstr "Выберите категорию"
+
+#: functions.php:873
+msgid "Back"
+msgstr "Назад"
+
+#: functions.php:974 functions.php:1038 header.php:26
+msgid "Alerts"
+msgstr "Оповещения"
+
+#: functions.php:976 functions.php:1040 item.php:254 item.php:350
+#: user-public-profile.php:73 user-public-profile.php:128
+msgid "Public profile"
+msgstr "Общедоступный профиль"
+
+#: functions.php:977 functions.php:1041
+msgid "Logout"
+msgstr "Выйти"
+
+#: functions.php:1050
+#, php-format
+msgid "Hi %s!"
+msgstr "Привет %s!"
+
+#: functions.php:1053
+msgid "Update"
+msgstr "Обновить"
+
+#: functions.php:1084 header.php:54
+msgid "My account"
+msgstr "Мой аккаунт"
+
+#: functions.php:1196 item-send-friend.php:188
+msgid "Phone"
+msgstr "Телефон"
+
+#: functions.php:1201
+msgid "Item Sold"
+msgstr "Завершено"
+
+#: functions.php:1275
+msgid "Choose one category"
+msgstr "Выберите одну категорию"
+
+#: functions.php:1324 inc.category.php:94
+msgid "All categories"
+msgstr "Все категории"
+
+#: functions.php:1372
+msgid "Seller type"
+msgstr "Тип пользователя"
+
+#: functions.php:1380
+msgid "Choose seller type"
+msgstr "Выберите тип пользователя"
+
+#: functions.php:1394
+msgid "All sellers"
+msgstr "Все пользователи"
+
+#: functions.php:1434
+msgid "Choose transaction type"
+msgstr "Выберите тип транзакции"
+
+#: functions.php:1490
+msgid "Choose condition of item"
+msgstr "Выберите состояние"
+
+#: functions.php:1549
+msgid "Currency"
+msgstr "Валюта"
+
+#: functions.php:1571 functions.php:1583 functions.php:1592
+msgid "Enter price"
+msgstr "Введите цену"
+
+#: functions.php:1574 functions.php:1593 functions.php:2154 functions.php:2169
+#: item-post-gamma.php:255 item-post.php:224
+msgid "Free"
+msgstr "Бесплатно"
+
+#: functions.php:1577 functions.php:1594 functions.php:2153 functions.php:2168
+#: item-post-gamma.php:256 item-post.php:225
+msgid "Check with seller"
+msgstr "Уточнить у продавца"
+
+#: functions.php:1590
+msgid "Choose price type"
+msgstr "Выберите тип цены"
+
+#: functions.php:1618
+msgid "Choose period"
+msgstr "Выберите период"
+
+#: functions.php:1892 functions.php:1898 functions.php:1906
+msgid "in"
+msgstr "в"
+
+#: functions.php:1914
+msgid "Location not entered"
+msgstr "Место не введено"
+
+#: functions.php:2175
+msgid "Theme Setting"
+msgstr "Настройка темы"
+
+#: functions.php:2176
+msgid "Theme Settings"
+msgstr "Настройки темы"
+
+#: functions.php:2177
+msgid "Configure"
+msgstr "Конфигурация"
+
+#: functions.php:2178
+msgid "Advertisement"
+msgstr "Рекламное объявление"
+
+#: functions.php:2179
+msgid "Category Icons"
+msgstr "Значки категорий"
+
+#: functions.php:2180
+msgid "Logo"
+msgstr "Логотип"
+
+#: functions.php:2181
+msgid "Plugins"
+msgstr "Плагины"
+
+#: functions.php:2683
+msgid "You can define your own banner code from theme settings"
+msgstr "Вы можете определить свой собственный код баннера из настроек темы"
+
+#: functions.php:2692
+msgid "Banner"
+msgstr ""
+
+#: functions.php:2706
+#, fuzzy
+#| msgid "Top of item page"
+msgid "Top of home page"
+msgstr "Начало страницы товара"
+
+#: functions.php:2707
+#, fuzzy
+#| msgid "Bottom of item page"
+msgid "Bottom of home page"
+msgstr "Нижняя часть страницы товара"
+
+#: functions.php:2708
+#, fuzzy
+#| msgid "Bottom of item sidebar"
+msgid "Bottom of search sidebar"
+msgstr "Нижняя часть боковой панели"
+
+#: functions.php:2709
+#, fuzzy
+#| msgid "Bottom of search page"
+msgid "Top of search page"
+msgstr "Середина боковой панели"
+
+#: functions.php:2710
+msgid "Bottom of search page"
+msgstr "Середина боковой панели"
+
+#: functions.php:2711
+#, fuzzy
+#| msgid "Featured listings"
+msgid "Between listings"
+msgstr "Премиум-бартеры от наших друзей"
+
+#: functions.php:2712
+msgid "Top of item page"
+msgstr "Начало страницы товара"
+
+#: functions.php:2713
+msgid "Bottom of item page"
+msgstr "Нижняя часть страницы товара"
+
+#: functions.php:2714
+msgid "Middle of item sidebar"
+msgstr "Середина боковой панели"
+
+#: functions.php:2715
+msgid "Bottom of item sidebar"
+msgstr "Нижняя часть боковой панели"
+
+#: functions.php:2716
+msgid "Under item description"
+msgstr "Под описанием товара"
+
+#: functions.php:2717
+#, fuzzy
+#| msgid "Public profile"
+msgid "Public profile sidebar"
+msgstr "Общедоступный профиль"
+
+#: functions.php:2718
+msgid "Public profile under items"
+msgstr "Публичный профиль под объявлениями"
+
+#: head.php:27
+msgid "Choose File"
+msgstr "Выберите файл"
+
+#: head.php:42
+msgid "Parent category cannot be selected"
+msgstr "Родительская категория не может быть выбрана"
+
 #: header.php:25 user-profile.php:22
 msgid "Profile"
 msgstr "Ваш профиль"
-
-#: header.php:26
-msgid "Alerts"
-msgstr "Оповещения"
 
 #: header.php:29
 msgid "Favorite items"
@@ -175,10 +715,6 @@ msgstr "Избранное"
 #: header.php:33 header.php:107
 msgid "Messages"
 msgstr "Сообщения"
-
-#: header.php:54
-msgid "My account"
-msgstr "Мой аккаунт"
 
 #: header.php:72
 msgid "Blog"
@@ -196,17 +732,17 @@ msgstr "Форум"
 msgid "Favorite"
 msgstr "Избранное"
 
+#: header.php:198 inc.search.php:23 inc.search.php:82 search.php:90
+msgid "What are you looking for?"
+msgstr "Что ищете?"
+
 #: inc.category.php:33
 msgid "Discover our categories"
 msgstr "Темы для обменов и сделок"
 
-#: inc.category.php:94
-msgid "All categories"
-msgstr "Все категории"
-
-#: inc.search.php:23 inc.search.php:82 search.php:90
-msgid "What are you looking for?"
-msgstr "Что ищете?"
+#: inc.category.php:141
+msgid "Show all"
+msgstr "Показать все"
 
 #: inc.search.php:37 inc.search.php:99
 msgid "Everywhere"
@@ -220,14 +756,17 @@ msgstr "Обмены просто и выгодно для бизнесов и �
 msgid "Choose location"
 msgstr "Выберите местоположение"
 
-#: item-post-gamma.php:93 item-post-gamma.php:109 item-post-gamma.php:116
-#: item-post-gamma.php:127 item-post.php:101 item-post.php:117
-#: item-post.php:124 item-post.php:135 search.php:122 search.php:126
-msgid "Category"
-msgstr "Категория"
+#: item-post-gamma.php:77 item-post.php:85
+msgid "Publish a new listing"
+msgstr "Опубликовать новый бартер"
 
-#: item-post-gamma.php:102 item-post-gamma.php:124 item-post.php:110
-#: item-post.php:132
+#: item-post-gamma.php:77 item-post.php:85
+msgid "Edit listing"
+msgstr "Изменить бартер"
+
+#: item-post-gamma.php:102 item-post-gamma.php:110 item-post-gamma.php:117
+#: item-post-gamma.php:124 item-post.php:110 item-post.php:118
+#: item-post.php:125 item-post.php:132
 msgid "Select a category"
 msgstr "Выбрать категорию"
 
@@ -307,7 +846,8 @@ msgstr "Зарегистрироваться"
 msgid "and publish listings faster"
 msgstr "и публиковать объявление быстро"
 
-#: item-post-gamma.php:241 item-post.php:207 search.php:157
+#: item-post-gamma.php:241 item-post-gamma.php:387 item-post.php:207
+#: item-post.php:403 search.php:157
 msgid "Price"
 msgstr "Ценность"
 
@@ -316,28 +856,20 @@ msgid "or"
 msgstr "или"
 
 #: item-post-gamma.php:255 item-post.php:224
-msgid "Free"
-msgstr "Бесплатно"
+msgid "Item is offered for free"
+msgstr "Предлагаю бесплатно"
 
 #: item-post-gamma.php:255 item-post.php:224
 msgid "Item for free"
 msgstr "Бесплатно"
 
 #: item-post-gamma.php:256 item-post.php:225
-msgid "Deal"
-msgstr "Договорная"
+msgid "Based on agreement with seller"
+msgstr "По договоренности"
 
 #: item-post-gamma.php:256 item-post.php:225
-msgid "Check with seller"
-msgstr "Уточнить у продавца"
-
-#: item-post-gamma.php:266 item-post.php:235 search.php:189
-msgid "Transaction"
-msgstr "Сделка"
-
-#: item-post-gamma.php:271 item-post.php:240 search.php:177
-msgid "Condition"
-msgstr "Состояние"
+msgid "Deal"
+msgstr "Договорная"
 
 #: item-post-gamma.php:280 item-post.php:249 item.php:166
 msgid "Description"
@@ -347,9 +879,106 @@ msgstr "Описание"
 msgid "Photos"
 msgstr "Фото"
 
+#: item-post-gamma.php:305 item-post.php:321
+#, php-format
+msgid "You can upload up to %d pictures per listing"
+msgstr "Вы можете загрузить до %d фотографий"
+
 #: item-post-gamma.php:321 item-post.php:337
 msgid "Listing details & attributes"
 msgstr "Подробное описание объявления"
+
+#: item-post-gamma.php:345 item-post.php:361
+msgid "Publish item"
+msgstr "Опубликовать"
+
+#: item-post-gamma.php:345 item-post.php:361 user-profile.php:132
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: item-post-gamma.php:470 item-post.php:486
+msgid "Please enter a value with a valid extension."
+msgstr "Пожалуйста, введите значение с допустимым расширением."
+
+#: item-post-gamma.php:591 item-post.php:607
+msgid "Title: this field is required."
+msgstr "Заголовок: это поле обязательно для заполнения."
+
+#: item-post-gamma.php:592 item-post.php:608
+msgid "Title: enter at least 5 characters."
+msgstr "Название: введите не менее 5 символов."
+
+#: item-post-gamma.php:596 item-post.php:612
+msgid "Description: this field is required."
+msgstr "Описание: это поле обязательно для заполнения."
+
+#: item-post-gamma.php:597 item-post.php:613
+msgid "Description: enter at least 10 characters."
+msgstr "Описание: введите не менее 10 символов."
+
+#: item-post-gamma.php:602 item-post.php:618
+msgid "Location: select country, region or city."
+msgstr "Расположение: выберите регион или город."
+
+#: item-post-gamma.php:603 item-post.php:619
+msgid "Location: enter at least 3 characters to get list."
+msgstr "Расположение: введите не менее 3 символов, чтобы получить список."
+
+#: item-post-gamma.php:609 item-post.php:625
+msgid "Location: select country from location field."
+msgstr "Местоположение: выберите страну из поля местоположения."
+
+#: item-post-gamma.php:615 item-post.php:631
+msgid "Location: select region from location field."
+msgstr "Местоположение: выберите регион из поля местоположения."
+
+#: item-post-gamma.php:621 item-post.php:637
+msgid "Location: select city from location field."
+msgstr "Местоположение: выберите город из поля местоположения."
+
+#: item-post-gamma.php:627 item-post.php:643
+msgid "Pictures: you need to upload pictures."
+msgstr "Фото: вам нужно загрузить фотографии."
+
+#: item-post-gamma.php:628 item-post.php:644
+msgid "Pictures: upload at least."
+msgstr "Фотографии: загрузить по крайней мере 1."
+
+#: item-post-gamma.php:628 item-post.php:644
+msgid "picture(s)."
+msgstr "фотографию(й)."
+
+#: item-post-gamma.php:632 item-post.php:648
+msgid "Category: this field is required."
+msgstr "Категория: это поле обязательно для заполнения."
+
+#: item-post-gamma.php:635 item-post.php:651
+msgid "Photo: must be png,gif,jpg,jpeg."
+msgstr "Фото: должно быть PNG, GIF, JPG, JPEG."
+
+#: item-post-gamma.php:640 item-post.php:656
+msgid "Phone: this field is required."
+msgstr "Телефон: это поле обязательно для заполнения."
+
+#: item-post-gamma.php:641 item-post.php:657
+msgid "Phone: enter at least 6 characters."
+msgstr "Телефон: введите не менее 6 символов."
+
+#: item-post-gamma.php:647 item-post.php:663
+msgid "Your Name: this field is required."
+msgstr "Ваше имя: это поле обязательно для заполнения."
+
+#: item-post-gamma.php:648 item-post.php:664
+msgid "Your Name: enter at least 3 characters."
+msgstr "Ваше имя: введите не менее 3 символов."
+
+#: item-post-gamma.php:653 item-post.php:669
+msgid "Email: this field is required."
+msgstr "Email: this field is required."
+
+#: item-post-gamma.php:654 item-post.php:670
+msgid "Email: invalid format of email address."
+msgstr "Email: неверный формат адреса электронной почты."
 
 #: item-post.php:163
 msgid "Показывать Email"
@@ -416,10 +1045,6 @@ msgid ""
 msgstr ""
 "Вы должны войти или зарегистрироваться, чтобы связаться с рекламодателем."
 
-#: item-send-friend.php:188
-msgid "Phone"
-msgstr "Телефон"
-
 #: item-send-friend.php:231
 msgid "This is your own profile!"
 msgstr "Это ваш собственный профиль!"
@@ -428,13 +1053,30 @@ msgstr "Это ваш собственный профиль!"
 msgid "Phone number"
 msgstr "Номер телефона"
 
+#: item.php:39 user-public-profile.php:15
+msgid "No phone number"
+msgstr "Нет номера телефона"
+
 #: item.php:90
 msgid "This listing is expired!"
 msgstr "У этого объявления истек срок размещения!"
 
+#: item.php:96
+msgid "Seller has marked this listing as <strong>SOLD</strong>"
+msgstr "Продавец отметил это объявление как <strong>ПРОДАНО</strong>"
+
+#: item.php:96
+msgid "Seller has marked this listing as <strong>RESERVED</strong>"
+msgstr "Продавец отметил это объявление как <strong>ЗАРЕЗЕРВИРОВАНО</strong>"
+
 #: item.php:120
 msgid "Seller has not uploaded any pictures"
 msgstr "Продавец не загрузил ни одной фотографии"
+
+#: item.php:135
+#, php-format
+msgid "Posted: %s"
+msgstr "Размещено: %s"
 
 #: item.php:146
 msgid "Unkown location"
@@ -475,10 +1117,30 @@ msgstr "Распечатать"
 msgid "Recommend"
 msgstr "Рекомендовать"
 
-#: item.php:254 item.php:350 user-public-profile.php:73
-#: user-public-profile.php:128
-msgid "Public profile"
-msgstr "Общедоступный профиль"
+#: item.php:219 user-public-profile.php:151
+msgid "Share on Facebook"
+msgstr "Поделиться в Facebook"
+
+#: item.php:220 user-public-profile.php:152
+msgid "Share on Twitter"
+msgstr "Поделиться в Twitter"
+
+#: item.php:221 user-public-profile.php:153
+msgid "Share on Pinterest"
+msgstr "Поделиться в Pinterest"
+
+#: item.php:239 user-public-profile.php:24 user-public-profile.php:115
+#, php-format
+msgid "Posting for %s"
+msgstr "На сайте %s"
+
+#: item.php:242 user-public-profile.php:27 user-public-profile.php:118
+msgid "Registered user"
+msgstr "Зарегистрированный пользователь"
+
+#: item.php:244 user-public-profile.php:29
+msgid "Unregistered user"
+msgstr "Незарегистрированный пользователь"
 
 #: item.php:259 item.php:355 user-public-profile.php:78
 #: user-public-profile.php:133
@@ -489,7 +1151,7 @@ msgstr "Все объявления продавца"
 msgid "Edit"
 msgstr "Редактировать"
 
-#: item.php:278
+#: item.php:278 user-items.php:164
 msgid ""
 "Are you sure you want to delete this listing? This action cannot be undone."
 msgstr ""
@@ -532,17 +1194,74 @@ msgstr "Угрозы"
 msgid "Seller"
 msgstr "Продавец"
 
+#: item.php:368 user-public-profile.php:91
+msgid "Click to show number"
+msgstr "Нажмите, чтобы показать номер"
+
+#: item.php:375
+msgid "Click to show email"
+msgstr "Нажмите, чтобы показать email"
+
 #: item.php:391
 msgid "Comments"
 msgstr "Комментарии"
 
 #: item.php:406
+msgid "Comment"
+msgstr "Комментарий"
+
+#: item.php:406
 msgid "by"
 msgstr "по"
+
+#: item.php:406
+msgid "Anonymous"
+msgstr "Анонимно"
+
+#: item.php:415
+msgid "Delete your comment"
+msgstr "Удалить свой комментарий"
 
 #: item.php:426
 msgid "No comments has been added yet"
 msgstr "Пока не было добавлено ни одного комментария"
+
+#: item.php:463
+#, php-format
+msgid "Call %s"
+msgstr "Вызов %s"
+
+#: item.php:464
+msgid "Send SMS"
+msgstr "Отправить смс"
+
+#: item.php:465
+msgid "Copied to clipboard!"
+msgstr "Скопировано в буфер обмена!"
+
+#: item.php:465
+msgid "Copy number"
+msgstr "Копировать номер"
+
+#: item.php:481 user-public-profile.php:196
+msgid "Click to call"
+msgstr "Нажмите, чтобы позвонить"
+
+#: item.php:494
+msgid "Click to send mail"
+msgstr "Нажмите, чтобы отправить почту"
+
+#: loop-single-premium.php:6 loop-single.php:6 user-items.php:145
+msgid "Sold"
+msgstr "Сделка"
+
+#: loop-single-premium.php:11 loop-single.php:11
+msgid "Reserved"
+msgstr "Резерв"
+
+#: loop-single-premium.php:36 loop-single.php:36
+msgid "Preview"
+msgstr "Предварительный просмотр"
 
 #: main.php:21
 msgid "promo_about"
@@ -572,7 +1291,7 @@ msgstr ""
 "</ul></strong></i>\n"
 "</p>"
 
-#: main.php:41
+#: main.php:40 main.php:41
 msgid "Добавить объявление"
 msgstr ""
 
@@ -580,13 +1299,19 @@ msgstr ""
 msgid "Это займет всего 1 минуту!"
 msgstr ""
 
-#: main.php:47
+#: main.php:46 main.php:47
 msgid "Продвигайте"
 msgstr ""
 
 #: main.php:48
 msgid "Чтобы сделать его более привлекательным"
 msgstr ""
+
+#: main.php:52
+#, fuzzy
+#| msgid "Города"
+msgid "Продано"
+msgstr "Города"
 
 #: main.php:53
 msgid "Бартер"
@@ -624,6 +1349,12 @@ msgstr "Наши партнеры"
 msgid "promo_stats"
 msgstr "Статистика"
 
+#: main.php:223
+#, fuzzy
+#| msgid "All listings"
+msgid "Active listings"
+msgstr "Все"
+
 #: main.php:225
 msgid "Активные объявления"
 msgstr ""
@@ -632,13 +1363,25 @@ msgstr ""
 msgid "Категории"
 msgstr "Категории"
 
+#: main.php:235
+msgid "Regions"
+msgstr "Регион"
+
 #: main.php:237
 msgid "Регионы"
 msgstr "Регионы"
 
+#: main.php:241
+msgid "Cities"
+msgstr "Город"
+
 #: main.php:243
 msgid "Города"
 msgstr "Города"
+
+#: main.php:247
+msgid "Users registred"
+msgstr "Новые пользователи"
 
 #: main.php:249
 msgid "Пользователи"
@@ -650,7 +1393,7 @@ msgstr "Обслуживание"
 
 #: maintenance.php:25
 msgid "OOOPS! We are sorry, page is undergoing maintenance."
-msgstr "OOOPS! К сожалению, страница находится на обслуживании."
+msgstr "ОЙ! К сожалению, страница находится на обслуживании."
 
 #: maintenance.php:26
 msgid "Please come back in few minutes. Thank you."
@@ -663,10 +1406,6 @@ msgstr "У вас еще есть вопросы?"
 #: page.php:22
 msgid "Other articles"
 msgstr "Другие статьи"
-
-#: search.php:87
-msgid "Keyword"
-msgstr "Ключевое слово"
 
 #: search.php:111
 msgid "Ok"
@@ -688,17 +1427,41 @@ msgstr "Последние Премиум-бартеры"
 msgid "Additional parameters"
 msgstr "Дополнительные параметры"
 
+#: search.php:266 user-items.php:173
+msgid "No listings found"
+msgstr "Не найдено ни одного объявления"
+
+#: search.php:270
+#, php-format
+msgid "%s in %s"
+msgstr ""
+
+#: search.php:272 search.php:276 user-alerts.php:100 user-alerts.php:102
+#, php-format
+msgid "%s results"
+msgstr "Вам подойдёт в %s"
+
+#: search.php:278
+msgid "Results"
+msgstr "Вам подойдёт"
+
+#: search.php:285 user-alerts.php:125 user-items.php:47 user-items.php:52
+#: user-items.php:57 user-items.php:62
+#, php-format
+msgid "%s listings"
+msgstr "%s объявления"
+
 #: search.php:302
 msgid "All listings"
 msgstr "Все"
 
-#: search.php:303
-msgid "Personal"
-msgstr "Частное лицо"
+#: search.php:310
+msgid "List view"
+msgstr "В Виде списока"
 
-#: search.php:304
-msgid "Company"
-msgstr "Компания"
+#: search.php:311
+msgid "Grid view"
+msgstr "Вид сетки"
 
 #: search.php:323
 msgid "Sort by"
@@ -732,9 +1495,31 @@ msgstr "Уменьшите фильтры, используйте их мень�
 msgid "Reset filter"
 msgstr "Сбросить фильтр"
 
+#: search_gallery.php:15
+msgid "Premium listings"
+msgstr "Премиальные бартеры"
+
+#: user-alerts.php:98
+#, php-format
+msgid "Alert #%s"
+msgstr "Оповещение #%s"
+
+#: user-alerts.php:104
+#, php-format
+msgid "%s - %s"
+msgstr ""
+
 #: user-alerts.php:119
 msgid "No alerts found"
 msgstr "Не найдено ни одного оповещения"
+
+#: user-alerts.php:127
+msgid "Unsubscribe"
+msgstr "Отказаться от подписки"
+
+#: user-alerts.php:127
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr "Это действие не может быть отменено. Вы уверены что хотите продолжить?"
 
 #: user-alerts.php:180 user-items.php:102
 msgid "Inactive"
@@ -743,10 +1528,6 @@ msgstr "Неактивный"
 #: user-alerts.php:184 user-items.php:106
 msgid "This listing is premium"
 msgstr "Это объявление Премиум"
-
-#: user-alerts.php:184 user-items.php:106
-msgid "Premium"
-msgstr "Премиум"
 
 #: user-alerts.php:196
 msgid "No listings match to this alert"
@@ -792,6 +1573,18 @@ msgstr "Ожидают модерации"
 msgid "Expired items"
 msgstr "Истекшие объявления"
 
+#: user-items.php:145
+msgid "Not sold"
+msgstr "Не продан"
+
+#: user-items.php:148
+msgid "Not reserved"
+msgstr "Не защищены"
+
+#: user-items.php:148
+msgid "Reserve"
+msgstr "Резерв"
+
 #: user-items.php:159
 msgid "Republish"
 msgstr "Опубликовать повторно"
@@ -799,10 +1592,6 @@ msgstr "Опубликовать повторно"
 #: user-items.php:164
 msgid "Delete"
 msgstr "Удалить"
-
-#: user-items.php:173
-msgid "No listings found"
-msgstr "Не найдено ни одного объявления"
 
 #: user-profile.php:23
 msgid "Your personal data"
@@ -848,10 +1637,6 @@ msgstr "Тип пользователя"
 msgid "Website"
 msgstr "Веб-сайт"
 
-#: user-profile.php:132
-msgid "Save changes"
-msgstr "Сохранить изменения"
-
 #: user-profile.php:148
 msgid "Current e-mail"
 msgstr "Текущий e-mail"
@@ -859,6 +1644,10 @@ msgstr "Текущий e-mail"
 #: user-profile.php:153
 msgid "New e-mail"
 msgstr "Новый e-mail"
+
+#: user-profile.php:159 user-profile.php:194
+msgid "You cannot do this on demo site"
+msgstr "Вы не можете сделать это на демонстрационном сайте"
 
 #: user-profile.php:177
 msgid "Current password"
@@ -869,8 +1658,20 @@ msgid "Repeat new password"
 msgstr "Повторите новый пароль"
 
 #: user-profile.php:204
+msgid ""
+"Are you sure you want to delete your account? This action cannot be undone"
+msgstr ""
+"Вы уверены, что хотите удалить свой аккаунт? Это действие не может быть "
+"отменено"
+
+#: user-profile.php:204
 msgid "Delete account"
 msgstr "Удалить аккаунт"
+
+#: user-public-profile.php:106
+#, php-format
+msgid "%s profile"
+msgstr "%s профиль"
 
 #: user-public-profile.php:164
 msgid "Latest items of seller"
@@ -880,15 +1681,27 @@ msgstr "Последние объявления продавца"
 msgid "This seller has no active listings"
 msgstr "У этого продавца нет активных объявлений"
 
+#: user-register.php:19
+msgid "Back to home page"
+msgstr "Вернуться на главную страницу"
+
 #: user-register.php:27 user-register.php:139 user-register.php:171
 msgid "Login"
 msgstr "Вход"
+
+#: user-register.php:35 user-register.php:98
+msgid "Connect with Facebook"
+msgstr "Вход через Facebook"
 
 #: user-register.php:37 user-register.php:100
 #, fuzzy
 #| msgid "Connect with Facebook"
 msgid "Continue with Facebook"
 msgstr "Вход через Facebook"
+
+#: user-register.php:42 user-register.php:105
+msgid "Connect with Google"
+msgstr "Вход через Google"
 
 #: user-register.php:44 user-register.php:107
 #, fuzzy
@@ -923,529 +1736,6 @@ msgstr "Регистрация"
 #: user-register.php:164
 msgid "Send a new password"
 msgstr "Отправить новый пароль"
-
-#~ msgid "Please enter your email address!"
-#~ msgstr "Пожалуйста, введите свой адрес электронной почты!"
-
-#~ msgid "You have successfully subscribed to alert!"
-#~ msgstr "Вы успешно подписались на оповещение!"
-
-#~ msgid ""
-#~ "There was error during subscription process - incorrect email address "
-#~ "format!"
-#~ msgstr ""
-#~ "Во время подписки произошла ошибка - неверный формат адреса электронной "
-#~ "почты!"
-
-#~ msgid "You have already subscribed to this search!"
-#~ msgstr "Вы уже подписались на этот поиск!"
-
-#~ msgid "Select country first to get list of regions"
-#~ msgstr "Сначала выберите страну, чтобы получить список регионов"
-
-#~ msgid "Select region first to get list of regions"
-#~ msgstr "Сначала выберите регион"
-
-#~ msgid "Select main category first to get list of subcategories"
-#~ msgstr "Сначала выберите основную категорию"
-
-#~ msgid "No location match to your criteria"
-#~ msgstr "Нет местоположения, соответствующего вашим критериям"
-
-#~ msgid "Enter at least"
-#~ msgstr "Введите хотя бы"
-
-#~ msgid "more letter(s)"
-#~ msgstr "больше букв"
-
-#~ msgid "User is online"
-#~ msgstr "Пользователь онлайн"
-
-#~ msgid "User is offline"
-#~ msgstr "Пользователь офлайн"
-
-#~ msgid "Chat unavailable"
-#~ msgstr "Чат недоступен"
-
-#~ msgid "User is not registered"
-#~ msgstr "Пользователь не зарегистрирован"
-
-#~ msgid "It's your ad"
-#~ msgstr "Это ваше объявление"
-
-#~ msgid "User has blocked you"
-#~ msgstr "Пользователь заблокировал вас"
-
-#~ msgid "Start chat"
-#~ msgstr "Начать чат (онлайн)"
-
-#~ msgid "You may also like ..."
-#~ msgstr "Вам также может понравиться ..."
-
-#~ msgid "Yes"
-#~ msgstr "Да"
-
-#~ msgid "No"
-#~ msgstr "Нет"
-
-#~ msgid "User"
-#~ msgstr "Пользователь"
-
-#~ msgid "Age"
-#~ msgstr "Возраст"
-
-#~ msgid "Country"
-#~ msgstr "Страна"
-
-#~ msgid "Region"
-#~ msgstr "Регион"
-
-#~ msgid "City"
-#~ msgstr "Город"
-
-#~ msgid "Picture"
-#~ msgstr "Изображение"
-
-#~ msgid "Min"
-#~ msgstr "Мин"
-
-#~ msgid "Max"
-#~ msgstr "Макс"
-
-#~ msgid "All"
-#~ msgstr "Все"
-
-#~ msgid "New"
-#~ msgstr "Новое"
-
-#~ msgid "Used"
-#~ msgstr "Б/У"
-
-#~ msgid "Sell"
-#~ msgstr "Меняю"
-
-#~ msgid "Buy"
-#~ msgstr "Ищу"
-
-#~ msgid "Yesterday"
-#~ msgstr "Вчера"
-
-#~ msgid "Last week"
-#~ msgstr "Неделю назад"
-
-#~ msgid "Last month"
-#~ msgstr "Прошлый месяц"
-
-#~ msgid "region"
-#~ msgstr "бласть, край"
-
-#~ msgid "city"
-#~ msgstr "город"
-
-#, php-format
-#~ msgid "... and %d more %s, enter your %s name to refine results"
-#~ msgstr ""
-#~ "... а также %d далее %s, введите ваше %s имя, чтобы уточнить результаты"
-
-#~ msgid "minute ago"
-#~ msgstr "минуту назад"
-
-#, php-format
-#~ msgid "%d minutes ago"
-#~ msgstr "%d минут назад"
-
-#, php-format
-#~ msgid "%d hour ago"
-#~ msgstr "%d час назад"
-
-#, php-format
-#~ msgid "%d hours ago"
-#~ msgstr "%d часов назад"
-
-#, php-format
-#~ msgid "%d day ago"
-#~ msgstr "%d день назад"
-
-#, php-format
-#~ msgid "%d days ago"
-#~ msgstr "%d дней назад"
-
-#, php-format
-#~ msgid "%d week ago"
-#~ msgstr "%d неделю назад"
-
-#, php-format
-#~ msgid "%d weeks ago"
-#~ msgstr "%d недели назад"
-
-#, php-format
-#~ msgid "%d month ago"
-#~ msgstr "%d месяц назад"
-
-#, php-format
-#~ msgid "%d months ago"
-#~ msgstr "%d месяцев назад"
-
-#, php-format
-#~ msgid "%d year ago"
-#~ msgstr "%d год назад"
-
-#, php-format
-#~ msgid "%d years ago"
-#~ msgstr "%d лет назад"
-
-#, php-format
-#~ msgid "%d+ days"
-#~ msgstr "%d+ дней"
-
-#, php-format
-#~ msgid "%d+ week"
-#~ msgstr "%d+ неделю"
-
-#, php-format
-#~ msgid "%d+ weeks"
-#~ msgstr "%d+ недели"
-
-#, php-format
-#~ msgid "%d+ month"
-#~ msgstr "%d+ месяц"
-
-#, php-format
-#~ msgid "%d+ months"
-#~ msgstr "%d+ месяца"
-
-#, php-format
-#~ msgid "%d+ year"
-#~ msgstr "%d+ год"
-
-#, php-format
-#~ msgid "%d+ years"
-#~ msgstr "%d+ лет"
-
-#~ msgid "Select category"
-#~ msgstr "Выберите категорию"
-
-#~ msgid "Back"
-#~ msgstr "Назад"
-
-#~ msgid "Logout"
-#~ msgstr "Выйти"
-
-#, php-format
-#~ msgid "Hi %s!"
-#~ msgstr "Привет %s!"
-
-#~ msgid "Update"
-#~ msgstr "Обновить"
-
-#~ msgid "Item Sold"
-#~ msgstr "Завершено"
-
-#~ msgid "Choose one category"
-#~ msgstr "Выберите одну категорию"
-
-#~ msgid "Seller type"
-#~ msgstr "Тип пользователя"
-
-#~ msgid "Choose seller type"
-#~ msgstr "Выберите тип пользователя"
-
-#~ msgid "All sellers"
-#~ msgstr "Все пользователи"
-
-#~ msgid "Choose transaction type"
-#~ msgstr "Выберите тип транзакции"
-
-#~ msgid "Choose condition of item"
-#~ msgstr "Выберите состояние"
-
-#~ msgid "Currency"
-#~ msgstr "Валюта"
-
-#~ msgid "Enter price"
-#~ msgstr "Введите цену"
-
-#~ msgid "Choose price type"
-#~ msgstr "Выберите тип цены"
-
-#~ msgid "Choose period"
-#~ msgstr "Выберите период"
-
-#~ msgid "in"
-#~ msgstr "в"
-
-#~ msgid "Location not entered"
-#~ msgstr "Место не введено"
-
-#~ msgid "Theme Setting"
-#~ msgstr "Настройка темы"
-
-#~ msgid "Theme Settings"
-#~ msgstr "Настройки темы"
-
-#~ msgid "Configure"
-#~ msgstr "Конфигурация"
-
-#~ msgid "Advertisement"
-#~ msgstr "Рекламное объявление"
-
-#~ msgid "Category Icons"
-#~ msgstr "Значки категорий"
-
-#~ msgid "Logo"
-#~ msgstr "Логотип"
-
-#~ msgid "Plugins"
-#~ msgstr "Плагины"
-
-#~ msgid "You can define your own banner code from theme settings"
-#~ msgstr "Вы можете определить свой собственный код баннера из настроек темы"
-
-#~ msgid "Bottom of search page"
-#~ msgstr "Середина боковой панели"
-
-#~ msgid "Top of item page"
-#~ msgstr "Начало страницы товара"
-
-#~ msgid "Bottom of item page"
-#~ msgstr "Нижняя часть страницы товара"
-
-#~ msgid "Middle of item sidebar"
-#~ msgstr "Середина боковой панели"
-
-#~ msgid "Bottom of item sidebar"
-#~ msgstr "Нижняя часть боковой панели"
-
-#~ msgid "Under item description"
-#~ msgstr "Под описанием товара"
-
-#~ msgid "Public profile under items"
-#~ msgstr "Публичный профиль под объявлениями"
-
-#~ msgid "Choose File"
-#~ msgstr "Выберите файл"
-
-#~ msgid "Parent category cannot be selected"
-#~ msgstr "Родительская категория не может быть выбрана"
-
-#~ msgid "Show all"
-#~ msgstr "Показать все"
-
-#~ msgid "Publish a new listing"
-#~ msgstr "Опубликовать новый бартер"
-
-#~ msgid "Edit listing"
-#~ msgstr "Изменить бартер"
-
-#~ msgid "Item is offered for free"
-#~ msgstr "Предлагаю бесплатно"
-
-#~ msgid "Based on agreement with seller"
-#~ msgstr "По договоренности"
-
-#, php-format
-#~ msgid "You can upload up to %d pictures per listing"
-#~ msgstr "Вы можете загрузить до %d фотографий"
-
-#~ msgid "Publish item"
-#~ msgstr "Опубликовать"
-
-#~ msgid "Please enter a value with a valid extension."
-#~ msgstr "Пожалуйста, введите значение с допустимым расширением."
-
-#~ msgid "Title: this field is required."
-#~ msgstr "Заголовок: это поле обязательно для заполнения."
-
-#~ msgid "Title: enter at least 5 characters."
-#~ msgstr "Название: введите не менее 5 символов."
-
-#~ msgid "Description: this field is required."
-#~ msgstr "Описание: это поле обязательно для заполнения."
-
-#~ msgid "Description: enter at least 10 characters."
-#~ msgstr "Описание: введите не менее 10 символов."
-
-#~ msgid "Location: select country, region or city."
-#~ msgstr "Расположение: выберите регион или город."
-
-#~ msgid "Location: enter at least 3 characters to get list."
-#~ msgstr "Расположение: введите не менее 3 символов, чтобы получить список."
-
-#~ msgid "Location: select country from location field."
-#~ msgstr "Местоположение: выберите страну из поля местоположения."
-
-#~ msgid "Location: select region from location field."
-#~ msgstr "Местоположение: выберите регион из поля местоположения."
-
-#~ msgid "Location: select city from location field."
-#~ msgstr "Местоположение: выберите город из поля местоположения."
-
-#~ msgid "Pictures: you need to upload pictures."
-#~ msgstr "Фото: вам нужно загрузить фотографии."
-
-#~ msgid "Pictures: upload at least."
-#~ msgstr "Фотографии: загрузить по крайней мере 1."
-
-#~ msgid "picture(s)."
-#~ msgstr "фотографию(й)."
-
-#~ msgid "Category: this field is required."
-#~ msgstr "Категория: это поле обязательно для заполнения."
-
-#~ msgid "Photo: must be png,gif,jpg,jpeg."
-#~ msgstr "Фото: должно быть PNG, GIF, JPG, JPEG."
-
-#~ msgid "Phone: this field is required."
-#~ msgstr "Телефон: это поле обязательно для заполнения."
-
-#~ msgid "Phone: enter at least 6 characters."
-#~ msgstr "Телефон: введите не менее 6 символов."
-
-#~ msgid "Your Name: this field is required."
-#~ msgstr "Ваше имя: это поле обязательно для заполнения."
-
-#~ msgid "Your Name: enter at least 3 characters."
-#~ msgstr "Ваше имя: введите не менее 3 символов."
-
-#~ msgid "Email: this field is required."
-#~ msgstr "Email: this field is required."
-
-#~ msgid "Email: invalid format of email address."
-#~ msgstr "Email: неверный формат адреса электронной почты."
-
-#~ msgid "No phone number"
-#~ msgstr "Нет номера телефона"
-
-#~ msgid "Seller has marked this listing as <strong>SOLD</strong>"
-#~ msgstr "Продавец отметил это объявление как <strong>ПРОДАНО</strong>"
-
-#~ msgid "Seller has marked this listing as <strong>RESERVED</strong>"
-#~ msgstr ""
-#~ "Продавец отметил это объявление как <strong>ЗАРЕЗЕРВИРОВАНО</strong>"
-
-#, php-format
-#~ msgid "Posted: %s"
-#~ msgstr "Размещено: %s"
-
-#~ msgid "Click to show number"
-#~ msgstr "Нажмите, чтобы показать номер"
-
-#~ msgid "Click to show email"
-#~ msgstr "Нажмите, чтобы показать email"
-
-#~ msgid "Share on Facebook"
-#~ msgstr "Поделиться в Facebook"
-
-#~ msgid "Share on Twitter"
-#~ msgstr "Поделиться в Twitter"
-
-#~ msgid "Share on Pinterest"
-#~ msgstr "Поделиться в Pinterest"
-
-#, php-format
-#~ msgid "Posting for %s"
-#~ msgstr "На сайте %s"
-
-#~ msgid "Registered user"
-#~ msgstr "Зарегистрированный пользователь"
-
-#~ msgid "Unregistered user"
-#~ msgstr "Незарегистрированный пользователь"
-
-#~ msgid "Comment"
-#~ msgstr "Комментарий"
-
-#~ msgid "Anonymous"
-#~ msgstr "Анонимно"
-
-#~ msgid "Delete your comment"
-#~ msgstr "Удалить свой комментарий"
-
-#, php-format
-#~ msgid "Call %s"
-#~ msgstr "Вызов %s"
-
-#~ msgid "Send SMS"
-#~ msgstr "Отправить смс"
-
-#~ msgid "Copied to clipboard!"
-#~ msgstr "Скопировано в буфер обмена!"
-
-#~ msgid "Copy number"
-#~ msgstr "Копировать номер"
-
-#~ msgid "Click to call"
-#~ msgstr "Нажмите, чтобы позвонить"
-
-#~ msgid "Click to send mail"
-#~ msgstr "Нажмите, чтобы отправить почту"
-
-#~ msgid "Sold"
-#~ msgstr "Сделка"
-
-#~ msgid "Reserved"
-#~ msgstr "Резерв"
-
-#~ msgid "Preview"
-#~ msgstr "Предварительный просмотр"
-
-#~ msgid "Results"
-#~ msgstr "Вам подойдёт"
-
-#, php-format
-#~ msgid "%s listings"
-#~ msgstr "%s объявления"
-
-#~ msgid "List view"
-#~ msgstr "В Виде списока"
-
-#~ msgid "Grid view"
-#~ msgstr "Вид сетки"
-
-#~ msgid "Premium listings"
-#~ msgstr "Премиальные бартеры"
-
-#, php-format
-#~ msgid "Alert #%s"
-#~ msgstr "Оповещение #%s"
-
-#~ msgid "Unsubscribe"
-#~ msgstr "Отказаться от подписки"
-
-#~ msgid "This action can't be undone. Are you sure you want to continue?"
-#~ msgstr ""
-#~ "Это действие не может быть отменено. Вы уверены что хотите продолжить?"
-
-#~ msgid "Not sold"
-#~ msgstr "Не продан"
-
-#~ msgid "Not reserved"
-#~ msgstr "Не защищены"
-
-#~ msgid "Reserve"
-#~ msgstr "Резерв"
-
-#~ msgid "You cannot do this on demo site"
-#~ msgstr "Вы не можете сделать это на демонстрационном сайте"
-
-#~ msgid ""
-#~ "Are you sure you want to delete your account? This action cannot be undone"
-#~ msgstr ""
-#~ "Вы уверены, что хотите удалить свой аккаунт? Это действие не может быть "
-#~ "отменено"
-
-#, php-format
-#~ msgid "%s profile"
-#~ msgstr "%s профиль"
-
-#~ msgid "Back to home page"
-#~ msgstr "Вернуться на главную страницу"
-
-#~ msgid "Connect with Facebook"
-#~ msgstr "Вход через Facebook"
-
-#~ msgid "Connect with Google"
-#~ msgstr "Вход через Google"
 
 #~ msgid "Settings were successfully saved"
 #~ msgstr "Настройки успешно сохранены"
@@ -1566,12 +1856,6 @@ msgstr "Отправить новый пароль"
 
 #~ msgid "Location Box Content"
 #~ msgstr "Содержимое окна местоположения"
-
-#~ msgid "Regions"
-#~ msgstr "Регион"
-
-#~ msgid "Cities"
-#~ msgstr "Город"
 
 #~ msgid ""
 #~ "Select default content for location box. For cities only first 200 values "
@@ -1910,7 +2194,6 @@ msgstr "Отправить новый пароль"
 #~ msgid "Upload"
 #~ msgstr "Загрузить"
 
-#, php-format
 #~ msgid "The images folder <strong>%s</strong> is not writable on your server"
 #~ msgstr ""
 #~ "Папка с изображениями <strong>%s</strong> недоступно для записи на вашем "
@@ -2154,9 +2437,6 @@ msgstr "Отправить новый пароль"
 #~ msgid "Active ads"
 #~ msgstr "Активные объявления"
 
-#~ msgid "Users registred"
-#~ msgstr "Новые пользователи"
-
 #~ msgid "Users registered"
 #~ msgstr "Новые пользователи"
 
@@ -2166,7 +2446,6 @@ msgstr "Отправить новый пароль"
 #~ msgid "No listing favorited yet"
 #~ msgstr "Объявление не добавлено в избранное"
 
-#, php-format
 #~ msgid "Showing %s - %s of %s results"
 #~ msgstr "Показано %s - %s из %s результатов"
 
@@ -2207,7 +2486,6 @@ msgstr "Отправить новый пароль"
 #~ msgid "Location missing"
 #~ msgstr "Местоположение отсутствует"
 
-#, php-format
 #~ msgid "Published on %s"
 #~ msgstr "Опубликовано в %s"
 

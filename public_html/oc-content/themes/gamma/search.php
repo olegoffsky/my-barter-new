@@ -275,7 +275,7 @@
                 if($loc <> '') {
                   echo sprintf(__('%s results', 'gamma'), $loc);
                 } else {
-                  echo __('Results', 'gamma');
+                  echo _e('Results', 'gamma');
                 }
               }
             ?>

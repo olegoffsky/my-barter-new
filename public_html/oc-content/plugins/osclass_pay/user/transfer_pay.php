@@ -5,11 +5,22 @@
 
   $user_id = @$data['user'];
   $item_id = @$data['itemid'];
+  $email = @$data['email'];
   $product_type = explode('x', @$data['product']);
   $amount = round(@$data['amount'], 2);
-
   $min = (osp_param('bt_min') > 0 ? osp_param('bt_min') : 0);
+  $url = osp_pay_url_redirect($product_type);
 
+  $checksum = osp_create_checksum($item_id, $user_id, $email, $amount);
+
+  if($checksum != @$data['checksum']) {
+    osc_add_flash_error_message(__('Data checksum has failed, payment was cancelled.', 'osclass_pay'));
+    osp_redirect($url);
+  } else if(osc_logged_user_id() != $user_id) {
+    osc_add_flash_error_message(__('Bank transfer data are related to different user, payment was cancelled.', 'osclass_pay'));
+    osp_redirect($url);
+  }
+  
   if($product_type[0] == OSP_TYPE_MULTIPLE && $amount >= $min) {
 
     $description = @$data['concept'];
@@ -29,7 +40,6 @@
 
     osp_cart_drop($user_id);
 
-    $url = osp_pay_url_redirect($product_type);
     osc_add_flash_info_message(sprintf(__('Payment in progress. We are awaiting your bank transfer to our account. <br/>Transaction ID: %s <br/>IBAN: %s <br/>Variable Symbol: %s <br/> Amount: %s <br/>Once funds are on our account, we complete your payment. Note that bank transfer can take up to 3 days.', 'osclass_pay'), $transaction_id, $account, $variable_symbol, osp_format_price($amount)));
     //osp_js_redirect_to($url);
     osp_redirect($url);

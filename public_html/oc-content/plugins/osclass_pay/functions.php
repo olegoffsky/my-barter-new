@@ -10,10 +10,28 @@ function osp_include_mailer() {
 }
 
 
+// CREATE CHECKSUM
+function osp_create_checksum($item_id, $user_id, $email, $amount) {
+  $arr = array(
+    'item_id' => ($item_id > 0 ? $item_id : 0),
+    'user_id' => ($user_id > 0 ? $user_id : 0),
+    'email' => $email,
+    'amount' => number_format($amount, 2),
+    'crypt' => osp_param('crypt_key')
+  );
+  
+  $data = md5(json_encode($arr, JSON_NUMERIC_CHECK));
+
+  return $data;
+}
+
+
 // FIX CART AMOUNTS WITH SHIPPING
 function osp_cart_shipping_amounts_fix() {
   if(osc_get_osclass_section() == 'osp-cart') {
-    $cart = osp_cart_content(osc_logged_user_id());
+    $user_id = osc_logged_user_id();
+    $user = User::newInstance()->findByPrimaryKey($user_id);
+    $cart = osp_cart_content($user_id);
    
     // CHECK SHIPPING OPTIONS
     $req_shippings = array();
@@ -114,7 +132,6 @@ function osp_cart_shipping_amounts_fix() {
         }
       }
     }
-
   }
   
 }
@@ -1144,8 +1161,8 @@ function osp_format_price($price, $use_symbol = 1, $custom_symbol = '', $custom_
     $symbol = osp_currency();
   }
 
-  $decimals = ($custom_decimals <> -1 ? $custom_decimals : osp_param('price_decimals'));
-  $position = osp_param('price_position');  // 0 - after price, 1 - before price
+  $decimals = (int)($custom_decimals <> -1 ? $custom_decimals : osp_param('price_decimals'));
+  $position = (int)osp_param('price_position');  // 0 - after price, 1 - before price
   $space = osp_param('price_space'); // space between price and sybmol, true or false
   $decimal_symbol = osp_param('price_decimal_symbol');
   $thousands = osp_param('price_thousand_symbol');
@@ -1710,6 +1727,7 @@ function osp_user_group_discount($user_id = -1) {
 
 
 // GET USER GROUP
+// Returns ID of group, not group record
 function osp_get_user_group($user_id = -1) {
   if($user_id == -1) {
     $user_id = osc_logged_user_id();
@@ -1731,21 +1749,28 @@ function osp_user_group_update($user_id, $group_id, $expire = NULL) {
 
 
 // LIST OF AVAILABLE DURATION HOURS
-function osp_available_duration() {
+function osp_available_duration($is_republish = false) {
+  if($is_republish) {  // not activated yet
+    return '0.0833,0.1666,0.25,0.333,0.5,0.75,1,2,3,4,6,12,24,48,72,168,360,720,1464,2184,4368,8760';
+  }
+  
   return '1,2,3,4,6,12,24,48,72,168,360,720,1464,2184,4368,8760';
 }
 
 
 // LIST OF AVAILABLE REPEATS
 function osp_available_repeat() {
-  return '1,2,3,4,5,10,20,30';
+  return '1,2,3,4,5,10,20,30,50,100,200,500';
 }
 
 
 // NAME OF HOURS
 function osp_duration_name($hours) {
-  if ($hours < 1) {
+  if ($hours <= 0) {
     return sprintf(__('%d hours', 'osclass_pay'), round($hours));   // in case of negative
+  } else if($hours > 0 && $hours < 1) {  // minutes
+    $minutes = round($hours*60);
+    return sprintf(__('%d minutes', 'osclass_pay'), $minutes);
   } else if($hours == 1) {
     return sprintf(__('%d hour', 'osclass_pay'), round($hours));
   } else if($hours < 24) {
@@ -1789,26 +1814,29 @@ function osp_get_fee($type, $quantity, $item_id = NULL, $hours = NULL, $repeat =
   // ITEM FEES
   if($type == OSP_TYPE_PUBLISH || $type == OSP_TYPE_PREMIUM || $type == OSP_TYPE_HIGHLIGHT || $type == OSP_TYPE_IMAGE || $type == OSP_TYPE_REPUBLISH || $type == OSP_TYPE_TOP) {
     if(osp_fee_is_allowed($type) && $item_id <> '' && $item_id > 0) {
-      $repeat_discount = osp_param('republish_repeat_discount')/100;
       $item = Item::newInstance()->findByPrimaryKey($item_id);
-      $fee = ModelOSP::newInstance()->getFee($type, $item['fk_i_category_id'], $item['fk_c_country_code'], $item['fk_i_region_id'], $hours);
 
-      if($repeat == '' || $repeat <= 0) {
-        $repeat = 1;
-      }
+      if(isset($item['pk_i_id'])) {
+        $repeat_discount = osp_param('republish_repeat_discount')/100;
+        $fee = ModelOSP::newInstance()->getFee($type, $item['fk_i_category_id'], $item['fk_c_country_code'], $item['fk_i_region_id'], $hours);
 
-      if($repeat_discount == '' || $repeat_discount > 1 || $repeat_discount < 0) {
-        $repeat_discount = 1;
-      } else {
-        $repeat_discount = 1 - $repeat_discount;
-      }
-      
-      if($hours <> '' && $hours > 0) {
-        if($type == OSP_TYPE_REPUBLISH && $repeat > 1) {
-          // if there is 5% repeat discount (0.05) and repeat times is set to 3, then final discount is (1 - 0.95^3) = (1 - 0.857) = 14%
-          $fee = $fee * $repeat *(pow($repeat_discount, ($repeat - 1)));
+        if($repeat == '' || $repeat <= 0) {
+          $repeat = 1;
         }
-      }      
+
+        if($repeat_discount == '' || $repeat_discount > 1 || $repeat_discount < 0) {
+          $repeat_discount = 1;
+        } else {
+          $repeat_discount = 1 - $repeat_discount;
+        }
+        
+        if($hours <> '' && $hours > 0) {
+          if($type == OSP_TYPE_REPUBLISH && $repeat > 1) {
+            // if there is 5% repeat discount (0.05) and repeat times is set to 3, then final discount is (1 - 0.95^3) = (1 - 0.857) = 14%
+            $fee = $fee * $repeat *(pow($repeat_discount, ($repeat - 1)));
+          }
+        }
+      }
     }
 
   } else if($type == OSP_TYPE_PACK) {
@@ -1837,8 +1865,13 @@ function osp_get_fee($type, $quantity, $item_id = NULL, $hours = NULL, $repeat =
     
   } else if($type == OSP_TYPE_PRODUCT) {
     $item = Item::newInstance()->findByPrimaryKey($item_id);
-    $fee = round(osp_convert($item['i_price']/1000000, $item['fk_c_currency_code']), 2);
-
+    
+    if($item === false || !isset($item['pk_i_id'])) {
+      $fee = 0;
+    } else {
+      $fee = round(osp_convert($item['i_price']/1000000, $item['fk_c_currency_code']), 2);
+    }
+    
   } else if($type == OSP_TYPE_VOUCHER) {
     $voucher = ModelOSP::newInstance()->getVoucher($item_id);
     $cart = osp_cart_price(osc_logged_user_id(), 1); 
@@ -2035,10 +2068,12 @@ function osp_hours_uplift($fee, $hours = NULL) {
   if($hours <> '' && $hours > 0) {
     $days = $hours / 24;
 
-    if($days <= 1) {
+    if($days < 1) {
       $price = $fee * pow($days, 1/4);
-    } else {
+    } else if($days > 1) {
       $price = $fee * pow($days, 1/2);
+    } else {
+      $price = $fee;
     }
   }
 
@@ -2056,6 +2091,7 @@ function osp_pay_fee($details) {
   $payment_id = @$details['payment_id'];
 
   $hours = @$details['hours'];
+  $minutes = ($hours > 0 ? round($hours*60) : 0);
   $repeat = @$details['repeat'];
   $pack_user_id = @$details['pack_user_id'];
   $pack_value = @$details['pack_value'];
@@ -2083,19 +2119,19 @@ function osp_pay_fee($details) {
     Item::newInstance()->dao->query(sprintf('UPDATE %st_item SET b_premium = %d WHERE pk_i_id = %d', DB_TABLE_PREFIX, 1, $item_id));
 
     $curr_date = date('Y-m-d H:i:s');
-    $expire = date('Y-m-d H:i:s', strtotime(" + " . $hours . " hours", strtotime($curr_date)));
+    $expire = date('Y-m-d H:i:s', strtotime(" + " . $minutes . " minutes", strtotime($curr_date)));
 
     return ModelOSP::newInstance()->payFee($type, $item_id, $payment_id, $expire, $hours);
 
   } else if($type == OSP_TYPE_HIGHLIGHT) {
     $curr_date = date('Y-m-d H:i:s');
-    $expire = date('Y-m-d H:i:s', strtotime(" + " . $hours . " hours", strtotime($curr_date)));
+    $expire = date('Y-m-d H:i:s', strtotime(" + " . $minutes . " minutes", strtotime($curr_date)));
 
     return ModelOSP::newInstance()->payFee($type, $item_id, $payment_id, $expire, $hours);
 
   } else if($type == OSP_TYPE_REPUBLISH) {
     $curr_date = date('Y-m-d H:i:s');
-    $expire = date('Y-m-d H:i:s', strtotime(" + " . $hours . " hours", strtotime($curr_date)));
+    $expire = date('Y-m-d H:i:s', strtotime(" + " . $minutes . " minutes", strtotime($curr_date)));
     Item::newInstance()->dao->query(sprintf('UPDATE %st_item SET dt_pub_date = NOW() WHERE pk_i_id = %d', DB_TABLE_PREFIX, $item_id));
 
     return ModelOSP::newInstance()->payFee($type, $item_id, $payment_id, $expire, $hours, $repeat);
@@ -3001,11 +3037,11 @@ function osp_wallet_button($amount = '0.00', $description = '', $itemnumber = ''
   $extra .= 'concept,'.$description.'|';
   $extra .= 'product,'.$itemnumber.'|';
   $wallet = osp_get_wallet($user_id);
-  
+  $html = '';
 
   if(osp_param('wallet_enabled') == 1) {
     if($amount <= 0) {
-      $html  = '<li><a class="osp-btn-wallet osp-has-tooltip" href="' . osc_route_url('osp-wallet', array('a' => round($amount, 2), 'desc' => $description, 'extra' => $extra)) . '" title="' . osc_esc_html(__('Click to complete order', 'osclass_pay')) . '">';
+      $html .= '<li><a class="osp-btn-wallet osp-has-tooltip" href="' . osc_route_url('osp-wallet', array('a' => round($amount, 2), 'desc' => $description, 'extra' => $extra)) . '" title="' . osc_esc_html(__('Click to complete order', 'osclass_pay')) . '">';
       $html .= '<span class="osp-i2">';
       $html .= '<svg x="0px" y="0px" width="48" height="48" viewBox="0 0 469.341 469.341" style="enable-background:new 0 0 469.341 469.341;" xml:space="preserve"> <g> <g> <g> <path d="M437.337,384.007H362.67c-47.052,0-85.333-38.281-85.333-85.333c0-47.052,38.281-85.333,85.333-85.333h74.667 c5.896,0,10.667-4.771,10.667-10.667v-32c0-22.368-17.35-40.559-39.271-42.323l-61.26-107 c-5.677-9.896-14.844-16.969-25.813-19.906c-10.917-2.917-22.333-1.385-32.104,4.302L79.553,128.007H42.67 c-23.531,0-42.667,19.135-42.667,42.667v256c0,23.531,19.135,42.667,42.667,42.667h362.667c23.531,0,42.667-19.135,42.667-42.667 v-32C448.004,388.778,443.233,384.007,437.337,384.007z M360.702,87.411l23.242,40.596h-92.971L360.702,87.411z M121.953,128.007 L300.295,24.184c4.823-2.823,10.458-3.573,15.844-2.135c5.448,1.458,9.99,4.979,12.813,9.906l0.022,0.039l-164.91,96.013H121.953 z"/> <path d="M437.337,234.674H362.67c-35.292,0-64,28.708-64,64c0,35.292,28.708,64,64,64h74.667c17.646,0,32-14.354,32-32v-64 C469.337,249.028,454.983,234.674,437.337,234.674z M362.67,320.007c-11.76,0-21.333-9.573-21.333-21.333 c0-11.76,9.573-21.333,21.333-21.333c11.76,0,21.333,9.573,21.333,21.333C384.004,310.434,374.431,320.007,362.67,320.007z"/> </g> </g> </g> </svg>';
       $html .= '<em>' . __('Wallet', 'osclass_pay') . '</em>';
@@ -3013,7 +3049,7 @@ function osp_wallet_button($amount = '0.00', $description = '', $itemnumber = ''
       $html .= '<strong>' . __('Complete order', 'osclass_pay') . '</strong>';
       $html .= '</a></li>'; 
     } else if(isset($wallet['formatted_amount']) && $wallet['formatted_amount'] >= $amount) {
-      $html  = '<li><a class="osp-btn-wallet osp-has-tooltip" href="' . osc_route_url('osp-wallet', array('a' => round($amount, 2), 'desc' => $description, 'extra' => $extra)) . '" title="' . osc_esc_html(__('Funds will be withdrawn from your wallet (credits)', 'osclass_pay')) . '">';
+      $html .= '<li><a class="osp-btn-wallet osp-has-tooltip" href="' . osc_route_url('osp-wallet', array('a' => round($amount, 2), 'desc' => $description, 'extra' => $extra)) . '" title="' . osc_esc_html(__('Funds will be withdrawn from your wallet (credits)', 'osclass_pay')) . '">';
       $html .= '<span class="osp-i2">';
       $html .= '<svg x="0px" y="0px" width="48" height="48" viewBox="0 0 469.341 469.341" style="enable-background:new 0 0 469.341 469.341;" xml:space="preserve"> <g> <g> <g> <path d="M437.337,384.007H362.67c-47.052,0-85.333-38.281-85.333-85.333c0-47.052,38.281-85.333,85.333-85.333h74.667 c5.896,0,10.667-4.771,10.667-10.667v-32c0-22.368-17.35-40.559-39.271-42.323l-61.26-107 c-5.677-9.896-14.844-16.969-25.813-19.906c-10.917-2.917-22.333-1.385-32.104,4.302L79.553,128.007H42.67 c-23.531,0-42.667,19.135-42.667,42.667v256c0,23.531,19.135,42.667,42.667,42.667h362.667c23.531,0,42.667-19.135,42.667-42.667 v-32C448.004,388.778,443.233,384.007,437.337,384.007z M360.702,87.411l23.242,40.596h-92.971L360.702,87.411z M121.953,128.007 L300.295,24.184c4.823-2.823,10.458-3.573,15.844-2.135c5.448,1.458,9.99,4.979,12.813,9.906l0.022,0.039l-164.91,96.013H121.953 z"/> <path d="M437.337,234.674H362.67c-35.292,0-64,28.708-64,64c0,35.292,28.708,64,64,64h74.667c17.646,0,32-14.354,32-32v-64 C469.337,249.028,454.983,234.674,437.337,234.674z M362.67,320.007c-11.76,0-21.333-9.573-21.333-21.333 c0-11.76,9.573-21.333,21.333-21.333c11.76,0,21.333,9.573,21.333,21.333C384.004,310.434,374.431,320.007,362.67,320.007z"/> </g> </g> </g> </svg>';
       $html .= '<em>' . __('Wallet', 'osclass_pay') . '</em>';
@@ -3021,7 +3057,7 @@ function osp_wallet_button($amount = '0.00', $description = '', $itemnumber = ''
       $html .= '<strong>' . __('Pay with credits', 'osclass_pay') . ' (' . osp_format_price(osp_get_wallet_amount($user_id)) . ')</strong>';
       $html .= '</a></li>';
     } else {
-      $html  = '<li><a class="osp-btn-wallet osp-has-tooltip osp-disabled" href="#" title="' . osc_esc_html(__('You do not have enough funds in your wallet', 'osclass_pay')) . '">';
+      $html .= '<li><a class="osp-btn-wallet osp-has-tooltip osp-disabled" href="#" title="' . osc_esc_html(__('You do not have enough funds in your wallet', 'osclass_pay')) . '">';
       $html .= '<span class="osp-i2">';
       $html .= '<svg x="0px" y="0px" width="48" height="48" viewBox="0 0 469.341 469.341" style="enable-background:new 0 0 469.341 469.341;" xml:space="preserve"> <g> <g> <g> <path d="M437.337,384.007H362.67c-47.052,0-85.333-38.281-85.333-85.333c0-47.052,38.281-85.333,85.333-85.333h74.667 c5.896,0,10.667-4.771,10.667-10.667v-32c0-22.368-17.35-40.559-39.271-42.323l-61.26-107 c-5.677-9.896-14.844-16.969-25.813-19.906c-10.917-2.917-22.333-1.385-32.104,4.302L79.553,128.007H42.67 c-23.531,0-42.667,19.135-42.667,42.667v256c0,23.531,19.135,42.667,42.667,42.667h362.667c23.531,0,42.667-19.135,42.667-42.667 v-32C448.004,388.778,443.233,384.007,437.337,384.007z M360.702,87.411l23.242,40.596h-92.971L360.702,87.411z M121.953,128.007 L300.295,24.184c4.823-2.823,10.458-3.573,15.844-2.135c5.448,1.458,9.99,4.979,12.813,9.906l0.022,0.039l-164.91,96.013H121.953 z"/> <path d="M437.337,234.674H362.67c-35.292,0-64,28.708-64,64c0,35.292,28.708,64,64,64h74.667c17.646,0,32-14.354,32-32v-64 C469.337,249.028,454.983,234.674,437.337,234.674z M362.67,320.007c-11.76,0-21.333-9.573-21.333-21.333 c0-11.76,9.573-21.333,21.333-21.333c11.76,0,21.333,9.573,21.333,21.333C384.004,310.434,374.431,320.007,362.67,320.007z"/> </g> </g> </g> </svg>';
       $html .= '<em>' . __('Wallet', 'osclass_pay') . '</em>';
@@ -3146,7 +3182,7 @@ function osp_buttons($amount = '0.00', $description = '', $itemnumber = '', $ext
     CcavenuePayment::button($amount, $description, $itemnumber, $extra_array);
   }
 
-  if(osp_param('paystack_enabled') == 1 && in_array(osp_currency(), array('GHS', 'NGN', 'USD'))) {
+  if(osp_param('paystack_enabled') == 1 && in_array(osp_currency(), array('GHS', 'NGN', 'USD', 'ZAR'))) {
     PaystackPayment::button($amount, $description, $itemnumber, $extra_array);
   }
     
@@ -3201,7 +3237,9 @@ function osp_buttons($amount = '0.00', $description = '', $itemnumber = '', $ext
   if(osp_param('yandex_enabled') == 1 && osp_currency() == 'RUB') {
     YandexPayment::button($amount, $description, $itemnumber, $extra_array);
   }
-  
+  if(osp_param('robokassa_enabled') == 1 && osp_currency() == 'RUB') {
+    RobokassaPayment::button($amount, $description, $itemnumber, $extra_array);
+  }
   if(osp_param('cardinity_enabled') == 1 && in_array(osp_currency(), array('EUR', 'GBP', 'USD'))) {
     CardinityPayment::button($amount, $description, $itemnumber, $extra_array);
   }
@@ -3216,9 +3254,6 @@ function osp_buttons($amount = '0.00', $description = '', $itemnumber = '', $ext
   
   if(class_exists('ExpresspayPayment') && osp_param('expresspay_enabled') == 1) {
     ExpresspayPayment::button($amount, $description, $itemnumber, $extra_array);
-  }
-if(osp_param('robokassa_enabled') == 1 && osp_currency() == 'RUB') {
-    RobokassaPayment::button($amount, $description, $itemnumber, $extra_array);
   }
 }
 

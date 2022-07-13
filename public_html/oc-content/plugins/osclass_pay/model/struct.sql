@@ -36,7 +36,7 @@ CREATE TABLE /*TABLE_PREFIX*/t_osp_item (
   i_item_id INT UNSIGNED NOT NULL,
   s_type VARCHAR(3),
   i_paid SMALLINT NOT NULL,
-  i_hours INT,
+  i_hours VARCHAR(10),
   i_repeat INT,
   dt_date DATETIME NOT NULL,
   dt_expire DATETIME,
@@ -54,7 +54,7 @@ CREATE TABLE /*TABLE_PREFIX*/t_osp_price_category (
   pk_i_id INT NOT NULL AUTO_INCREMENT,
   fk_i_category_id INT UNSIGNED NOT NULL,
   s_type VARCHAR(3),
-  i_hours SMALLINT NULL,
+  i_hours VARCHAR(10) NULL,
   f_fee FLOAT NULL,
 
   PRIMARY KEY (pk_i_id),

@@ -76,6 +76,8 @@
     
     <?php osp_show_itempay_promote($item); ?>
 
+    <?php osc_run_hook('osp_itempay_before_cart_items'); ?>
+
 
     <div class="osp-cart">
       <div class="osp-cart-head-row">
@@ -150,28 +152,41 @@
       <?php } ?>
     </div>
 
+    <?php osc_run_hook('osp_itempay_before_pay_buttons'); ?>
+
 
     <?php if($total > 0) { ?>
       <label class="osp-pay-label"><?php _e('Click on method to initiate payment', 'osclass_pay'); ?></label>
       <ul class="osp-pay-button">
         <?php 
-          if(osc_is_admin_user_logged_in()) {
+          $checksum = osp_create_checksum($item_id, @$user['pk_i_id'], @$user['s_email'], round($total, 2));
+        
+          if(osc_is_admin_user_logged_in() && osc_apply_filter('osp_itempay_payment_admin', true) !== false) {
             osp_admin_button(round($total, 2), sprintf(__('Pay fee %s for item %s by admin', 'osclass_pay'), osp_format_price($total, 2), $item_id), '901x2x'.$item_id.'x'.round($total, 2), array('user' => @$user['pk_i_id'], 'itemid' => $item_id, 'email' => @$user['s_email'], 'amount' => round($total, 2)));
           }
 
-          if(osp_param('bt_enabled') == 1) {
+          if(osp_param('bt_enabled') == 1 && osc_apply_filter('osp_itempay_payment_transfer', true) !== false) {
             osp_transfer_button(round($total, 2), sprintf(__('Pay fee %s for item %s', 'osclass_pay'), osp_format_price($total, 2), $item_id), '901x2x'.$item_id.'x'.round($total, 2), array('user' => @$user['pk_i_id'], 'itemid' => $item_id, 'name' => @$user['s_name'], 'email' => @$user['s_email'], 'amount' => round($total, 2)));
           }
 
           if(osc_is_web_user_logged_in()) {
-            osp_wallet_button(round($total, 2), sprintf(__('Pay fee %s for item %s', 'osclass_pay'), osp_format_price($total, 2), $item_id), '901x2x'.$item_id.'x'.round($total, 2), array('user' => @$user['pk_i_id'], 'itemid' => $item_id, 'email' => @$user['s_email'], 'amount' => round($total, 2)));
-            osp_buttons(round($total, 2), sprintf(__('Pay fee %s for item %s', 'osclass_pay'), osp_format_price($total, 2), $item_id), '901x2x'.$item_id, array('user' => @$user['pk_i_id'], 'itemid' => $item_id, 'email' => @$user['s_email'], 'amount' => round($total, 2)));
+            if(osc_apply_filter('osp_itempay_payment_wallet', true) !== false) {
+              osp_wallet_button(round($total, 2), sprintf(__('Pay fee %s for item %s', 'osclass_pay'), osp_format_price($total, 2), $item_id), '901x2x'.$item_id.'x'.round($total, 2), array('user' => @$user['pk_i_id'], 'itemid' => $item_id, 'email' => @$user['s_email'], 'amount' => round($total, 2)));
+            }
+            
+            if(osc_apply_filter('osp_itempay_payment_money', true) !== false) {
+              osp_buttons(round($total, 2), sprintf(__('Pay fee %s for item %s', 'osclass_pay'), osp_format_price($total, 2), $item_id), '901x2x'.$item_id, array('user' => @$user['pk_i_id'], 'itemid' => $item_id, 'email' => @$user['s_email'], 'amount' => round($total, 2)));
+            }
           } else {
-            osp_buttons(round($total, 2), sprintf(__('Pay fee %s for item %s', 'osclass_pay'), osp_format_price($total, 2), $item_id), '901x2x'.$item_id, array('user' => $item['fk_i_user_id'], 'itemid' => $item_id, 'email' => $item['s_contact_email'], 'amount' => round($total, 2)));
+            if(osc_apply_filter('osp_itempay_payment_money', true) !== false) {
+              osp_buttons(round($total, 2), sprintf(__('Pay fee %s for item %s', 'osclass_pay'), osp_format_price($total, 2), $item_id), '901x2x'.$item_id, array('user' => $item['fk_i_user_id'], 'itemid' => $item_id, 'email' => $item['s_contact_email'], 'amount' => round($total, 2)));
+            }
           }
         ?>
       </ul>
     <?php } ?>
+
+    <?php osc_run_hook('osp_itempay_after_pay_buttons'); ?>
 
   <?php } else { ?>
     <div class="osp-h1"><?php _e('There was problem showing promote options', 'osclass_pay'); ?></div>

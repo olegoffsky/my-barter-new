@@ -70,7 +70,7 @@ class InstamojoPayment {
       exit();
 
     } catch (Exception $e) {
-      osc_add_flash_error_message(__('There is problem with payment button, please try again later.', 'osclass_pay'));
+      osc_add_flash_error_message(sprintf(__('There is problem with payment button, please try again later. (%s)', 'osclass_pay'), $e->getMessage()));
 
       $data = osp_get_custom(Params::getParam('purpose'));
       $product_type = explode('x', $data['p']);

@@ -26,7 +26,7 @@
     ?>
   </div>
 
-  <div class="osp-table-payments">
+  <div class="osp-table-payments osp-table-transfers">
     <div class="osp-head-row">
       <div class="osp-col source"><?php _e('Source', 'osclass_pay'); ?></div>
       <div class="osp-col code"><?php _e('Transaction ID', 'osclass_pay'); ?></div>
@@ -39,6 +39,9 @@
     <?php if(count($payments) > 0 || count($transfers) > 0) { ?>
       <div class="osp-table-wrap">
         <?php if(count($transfers) > 0) { ?>
+          <div class="osp-row osp-row-title"><?php _e('Initiated bank transfer payments - AWAITING YOUR PAYMENT!', 'osclass_pay'); ?></div>
+          <div class="osp-row osp-row-title-iban"><?php echo sprintf(__('Bank account / IBAN: %s', 'osclass_pay'), '<strong>' . osp_param('bt_iban') . '</strong>'); ?></div>
+
           <?php foreach($transfers as $t) { ?>
             <?php 
               $account = osp_param('bt_iban');
@@ -46,7 +49,7 @@
             ?>
 
             <div class="osp-row">
-              <div class="osp-col source bt-pending osp-has-tooltip" title="<?php echo osc_esc_html($bt_tooltip); ?>"><i class="fa fa-hourglass-o"></i> <?php echo __('Pending', 'osclass_pay'); ?></div>
+              <div class="osp-col source bt-pending osp-has-tooltip" title="<?php echo osc_esc_html($bt_tooltip); ?>"><i class="fa fa-hourglass-o"></i> <?php echo __('Awaiting', 'osclass_pay'); ?></div>
               <div class="osp-col code osp-has-tooltip" title="<?php echo osc_esc_html($t['s_transaction']); ?>"><?php echo $t['s_transaction']; ?></div>
               <div class="osp-col concept osp-has-tooltip" title="<?php echo osc_esc_html($t['s_description']); ?>"><?php echo $t['s_description']; ?></div>
               <div class="osp-col amount"><?php echo osp_format_price($t['f_price'], 9, osp_currency()); ?></div>
@@ -56,12 +59,20 @@
                   <i class="fa fa-search osp-has-tooltip-right" title="<?php echo osc_esc_html(osp_cart_string_to_title($t['s_cart'])); ?>"></i>
                 <?php } ?>
               </div>
+              
+              <div class="osp-transfer-detail">
+                <?php echo sprintf(__('Transfer amount <b>%s</b> to account <b>%s</b> with variable symbol <b>%s</b>', 'osclass_pay'), osp_format_price($t['f_price'], 9, osp_currency()), osp_param('bt_iban'), $t['s_variable']); ?>
+              </div>
             </div>
           <?php } ?>
         <?php } ?>
 
 
         <?php if(count($payments) > 0) { ?>
+          <?php if(count($transfers) > 0) { ?>
+            <div class="osp-row osp-row-title osp-title-alt"><?php _e('Completed payments', 'osclass_pay'); ?></div>
+          <?php } ?>
+
           <?php foreach($payments as $p) { ?>
             <div class="osp-row">
               <div class="osp-col source <?php echo osc_esc_html(strtolower($p['s_source'])); ?>"><?php echo $p['s_source']; ?></div>
